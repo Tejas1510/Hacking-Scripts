@@ -1,0 +1,23 @@
+.heading{
+    text-align: center;
+    color: blueviolet;
+
+
+}
+
+form{
+    width: 500px;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 750px;
+    width: 100px;
+}
+#finalAns{
+    padding-top: 30px;
+    text-align: center;
+    color: blueviolet;
+}

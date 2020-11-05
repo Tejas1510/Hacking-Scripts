@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Counting Days</title>
+</head>
+<body>
+    <h1 class="heading">Counting Days</h1>
+    <!-- Material form login -->
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Year</label>
+          <input type="text" class="form-control" id="Year"  placeholder="Enter Year">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Month</label>
+          <input type="text" class="form-control" id="month" placeholder="Enter month">
+        </div>
+        <div class="form-check">
+            <label for="exampleInputPassword1">Day</label>
+            <input type="text" class="form-control" id="day" placeholder="Enter Day">
+        </div>
+      </form>
+      <button  class="btn btn-primary"  onclick="display()">Submit</button>
+
+      <h1 id="finalAns"></h1>
+
+      <script>
+          function display(){
+          const Year = document.getElementById("Year").value;
+          const month = document.getElementById("month").value;
+          const day = document.getElementById("day").value;
+          const finalAns =  document.getElementById("finalAns");
+          today=new Date();
+          var newdate=new Date(Year,month,day);
+          var one_day=1000*60*60*24;
+            finalAns.innerHTML=(Math.ceil((newdate.getTime()-today.getTime())/(one_day))+
+            " days left until required date");
+          }
+      </script>
+
+      
+</body>
+</html>
