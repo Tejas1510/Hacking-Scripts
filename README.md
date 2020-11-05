@@ -43,7 +43,7 @@ You can refer to the following articles on the basics of Git and Github and also
 - Read the [Code of Conduct](https://github.com/Tejas1510/Hacking-Scripts/blob/main/CODE_OF_CONDUCT.md)
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
-- Having difficulty in contributing? Read the [Contribution Guide]() for a detailed explanation.
+
 
 ## ⭐ Contribution:
 **1.** Fork [this](https://github.com/Tejas1510/Hacking-Scripts/) repository.
