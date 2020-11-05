@@ -40,7 +40,7 @@ You can refer to the following articles on the basics of Git and Github and also
 - Take a look at the Existing [Issues](https://github.com/Tejas1510/Hacking-Scripts/issues) or create your own Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
 - Fork the Repo and create a Branch for any Issue that you are working upon.
-- Read the [Code of Conduct](https://github.com/HarshCasper/Rotten-Scripts/blob/master/CODE_OF_CONDUCT.md)
+- Read the [Code of Conduct](https://github.com/Tejas1510/Hacking-Scripts/blob/main/CODE_OF_CONDUCT.md)
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
 - Having difficulty in contributing? Read the [Contribution Guide](https://github.com/HarshCasper/Rotten-Scripts/blob/master/CONTRIBUTING.md) for a detailed explanation.
