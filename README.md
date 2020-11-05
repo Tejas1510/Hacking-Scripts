@@ -20,7 +20,7 @@
 
 ## 📌 Introduction
 
-Hacking Scripts contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs and more. Consider this repository as your personal space to find or add any new script that can make life easier for us and the Open Source community too, as a Developer, and find a utility of coding to burst out of boredom. Get started with coding exhilarating scripts that you can use to download PDFs from an Online Source or just to randomly like accept bulk linkedin request.
+Hacking Scripts contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs and more. The main aim of the repository will be provide utility scripts which might make everyday life easy. Get started with coding exhilarating scripts that you can use to download PDFs from an Online Source or just to randomly like accept bulk linkedin request.
 
 ## ⭐ How to get started?
 
