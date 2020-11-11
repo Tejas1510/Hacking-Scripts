@@ -1,0 +1,17 @@
+#myimg{
+    width: 500px;
+    height:400px;
+}
+.mybtn{
+    margin-top: 20px;
+    font-size: 30px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+#myinput{
+    margin-top: 20px;
+    width: 500px;
+    padding: 10px;
+}

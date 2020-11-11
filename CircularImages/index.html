@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Images</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><h1>Welcome to Circular Image Maker</h1></center>
+    <center> <img id = "myimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxrnS7Uh-CuCKnxsud8Emx7IkDhKwFbXWpLA&usqp=CAU" class="img-fluid"
+        alt="example placeholder"></center>
+        <center><input id="myinput" type = "number" placeholder="Please Enter how much circular the image should be (in Percentage)"></center>    
+      <center><button onclick="convert()" class="mybtn">Convert</button></center>
+      <script>
+          function convert(){
+          var y = document.getElementById("myimg");
+          var x = document.getElementById("myimg").src;
+          var myinput = document.getElementById("myinput").value;
+          console.log(x)
+          console.log(y)
+          y.style.borderRadius=myinput+"%";
+          y.src = x;
+          }
+      </script>
+</body>
+</html>
