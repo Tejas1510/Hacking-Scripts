@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <a href="https://py-contributors.github.io/awesomeScripts/"><img src="https://capsule-render.vercel.app/api?type=rect&color=009ACD&height=100&section=header&text=Awesome-Hacking-Scripts&fontSize=60%&fontColor=ffffff" alt="website title image"></a>
+  <a href="#"><img src="https://capsule-render.vercel.app/api?type=rect&color=009ACD&height=100&section=header&text=Awesome-Hacking-Scripts&fontSize=60%&fontColor=ffffff" alt="website title image"></a>
   <h2 align="center">👉 A Collection of Awesome Problem Solving Scripts in Python.👈</h2>
 </p>
 
