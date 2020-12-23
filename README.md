@@ -22,7 +22,7 @@
 
 Hacking Scripts contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs and more. The main aim of the repository will be provide utility scripts which might make everyday life easy. Get started with coding exhilarating scripts that you can use to download PDFs from an Online Source or just to randomly like accept bulk linkedin request.
 
-## ⭐ How to get started?
+## ⭐ Getting Started
 
 You can refer to the following articles on the basics of Git and Github and also contact the Project Mentors, in case you are stuck:
 
@@ -32,7 +32,7 @@ You can refer to the following articles on the basics of Git and Github and also
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
-## 💥 How to Contribute?
+## 💥 Contribution
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
