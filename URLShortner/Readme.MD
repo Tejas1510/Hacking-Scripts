@@ -14,7 +14,7 @@ Sending those long links to somebody looks so tiresome task, doesn't it? Try out
 ### Output
 Below you can see its implementation.
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/password/Python/PasswordStrenght/images/image1.png)
+![endpoint](https://github.com/smriti1313/Hacking-Scripts/blob/main/URLShortner/images/input_with_output.png)
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
 
