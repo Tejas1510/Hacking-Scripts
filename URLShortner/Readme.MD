@@ -4,7 +4,7 @@
 ```
 Sending those long links to somebody looks so tiresome task, doesn't it? 
 Try out this URL shortener code to shorten your links before you share it with someone. 
-The code is easy to understand as well as to implement.TinyURL API has been used. 
+The code is easy to understand as well as to implement. TinyURL API has been used to make it work.
 I hope you have fun trying this out.
 ```
 ## How to use it :
