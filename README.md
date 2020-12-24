@@ -10,7 +10,7 @@
   <a href = https://www.java.com/en/ ><img src="https://img.shields.io/badge/language-Java-blue?style=for-the-badge"></a>
   <a href = https://nodejs.org/en/ ><img src="https://img.shields.io/badge/language-Nodejs-blue?style=for-the-badge"></a>
  </p>
- 
+
  <p align="center">
 <img src="https://img.shields.io/github/stars/Tejas1510/Hacking-Scripts?style=for-the-badge" >
 <img src="https://img.shields.io/github/forks/Tejas1510/Hacking-Scripts?style=for-the-badge" >  
@@ -20,11 +20,11 @@
 
 ## 📌 Introduction
 
-Hacking Scripts contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs and more. The main aim of the repository will be provide utility scripts which might make everyday life easy. Get started with coding exhilarating scripts that you can use to download PDFs from an Online Source or just to randomly like accept bulk linkedin request.
+<b>Hacking Scripts</b> contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs and many more. The main aim of this repository is to provide utility scripts that could make everyday life easy. Get started with coding exhilarating scripts that can be useful to download PDFs from an Online Source or just to randomly accept bulk linkedin request.
 
 ## ⭐ Getting Started
 
-You can refer to the following articles on the basics of Git and Github and also contact the Project Mentors, in case you are stuck:
+Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
 
 - [Watch this video to get started, if you have no clue about open source](https://youtu.be/SL5KKdmvJ1U)
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
@@ -76,7 +76,7 @@ git commit -m "<your_commit_message>"
 **7.** Push your local commits to the remote repo.
 
 ```bash
-git push 
+git push
 ```
 
 **8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
@@ -84,16 +84,13 @@ git push
 **9.** **Congratulations!** Sit and relax, you've made your contribution to [Hacking-Scripts](https://github.com/Tejas1510/Hacking-Scripts) project.
 
 ## ⭐ Issues:
-For major changes, you are welcome to open an issue to discuss what you would like to change. Enhancements will be appreciated.
+For major changes, you are welcomed to open an issue and discuss what you would like to contribute. Enhancements will be appreciated.
 
 <p align = "center">
-  
+
 <a href="https://github.com/Tejas1510"><img src="http://ForTheBadge.com/images/badges/built-by-developers.svg" alt="built by developers"></a>
 [![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Tejas1510/Awesome-Javascript-and-React-Project)
 
 </p>
 
 Check out my Github profile [Tejas1510!](https://github.com/Tejas1510)
-
-
-
