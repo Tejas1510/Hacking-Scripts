@@ -1,38 +1,38 @@
-# Online Python compiler (interpreter) to run Python online.
-# Write Python 3 code in this online editor and run it.
-import re
-p = input("Please enter a passowrd for checking its Strenght : ")
+def password_check(password):
+    """
+    This function verifys the strength of 'password'
+    Returns a dict indicating the wrong criteria
+    A password is considered strong if it contains:
+        at least 8 characters long
+        at least 1 number,
+        at least 1 symbol,
+        at least 1 uppercase letter,
+        at least 1 lowercase letter.
+    """
 
-def password_strength_check(p):
-    length=len(p)
-    count=0
-    if length < 6:
-        return 1
-    else:
-        if length <8:
-            pass
-        elif 8<length <10:
-            count+=1
-        elif length <12:
-            count+=2
-        elif length <14:
-            count+=3
-        else:
-            count+=4
+    # calculating the length
+    length_check = len(password) < 8
 
-        if(re.search("[a-z]",p)):
-            count=count+1
-        if(re.search("[A-Z]",p)):
-            count=count+1
-        if(re.search("[$#@]",p)):
-            count=count+1
-        if(re.search("[0-9]",p)):
-            count=count+1
-    return count
+    # searching for number
+    num_check = re.search(r"\d", password) is None
 
-pass_strength = {1:"very weak", 2:"weak", 3:"fair", 4:"strong"}
-count=password_strength_check(p)
-try:
-    print("Your password is", pass_strength[count])
-except:
-    print("Your password is very strong")
+    # searching for uppercase
+    uppercase_check = re.search(r"[A-Z]", password) is None
+
+    # searching for lowercase
+    lowercase_check = re.search(r"[a-z]", password) is None
+
+    # searching for symbols
+    symbol_check = re.search(r"[ !#$%&'()*+,-./[\\\]^_`{|}~"+r'"]', password) is None
+
+    # overall result
+    strong = not ( length_check or num_check or uppercase_check or lowercase_check or symbol_check )
+
+    return {
+        'Password is Strong' : strong,
+        'Password is short' : length_check,
+        'Password does not have number' : digit_check,
+        'Password does not use uppercase alphabets' : uppercase_check,
+        'Password does not use lowecase alphabets' : lowercase_check,
+        'Password does not contain spacial character' : symbol_check,
+    }
