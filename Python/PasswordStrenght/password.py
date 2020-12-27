@@ -1,3 +1,7 @@
+import re
+
+password = input("Enter password to check strength: ")
+
 def password_check(password):
     """
     This function verifys the strength of 'password'
@@ -31,8 +35,14 @@ def password_check(password):
     return {
         'Password is Strong' : strong,
         'Password is short' : length_check,
-        'Password does not have number' : digit_check,
+        'Password does not have number' : num_check,
         'Password does not use uppercase alphabets' : uppercase_check,
         'Password does not use lowecase alphabets' : lowercase_check,
-        'Password does not contain spacial character' : symbol_check,
+        'Password does not contain special character' : symbol_check,
     }
+
+dict = password_check(password)
+
+for statement, condition in dict.items():
+	if condition:
+		print(statement)
