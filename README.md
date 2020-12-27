@@ -1,4 +1,6 @@
-﻿<p align="center">
+![Hacking-Scripts](https://socialify.git.ci/Tejas1510/Hacking-Scripts/image?description=1&descriptionEditable=Hacking%20Scripts%20contains%20amazing%20and%20awesome%20scripts%20written%20in%20Python%2C%20JavaScript%2C%20Java%2C%20Nodejs%2C%20and%20more.&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Light)
+
+<p align="center">
   <a href="#"><img src="https://capsule-render.vercel.app/api?type=rect&color=009ACD&height=100&section=header&text=Awesome-Hacking-Scripts&fontSize=60%&fontColor=ffffff" alt="website title image"></a>
   <h2 align="center">👉 A Collection of Awesome Problem Solving Scripts in Python.👈</h2>
 </p>
