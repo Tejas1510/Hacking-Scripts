@@ -1,13 +1,17 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
 import re
 p = input("Please enter a passowrd for checking its Strenght : ")
 
-password_strength_check(p):
+def password_strength_check(p):
     length=len(p)
     count=0
     if length < 6:
         return 1
     else:
-        if 8<length <10:
+        if length <8:
+            pass
+        elif 8<length <10:
             count+=1
         elif length <12:
             count+=2
@@ -27,7 +31,7 @@ password_strength_check(p):
     return count
 
 pass_strength = {1:"very weak", 2:"weak", 3:"fair", 4:"strong"}
-
+count=password_strength_check(p)
 try:
     print("Your password is", pass_strength[count])
 except:
