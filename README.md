@@ -20,6 +20,8 @@
 <img src="https://img.shields.io/github/issues-pr-closed-raw/Tejas1510/Hacking-Scripts?style=for-the-badge" >
 </p>
 
+📢 Join Discord channel for Discussion about the project : [Hacking-Scripts](https://swoc-workspace.slack.com/archives/C01HV9LADSQ)
+
 ## 📌 Introduction
 
 <b>Hacking Scripts</b> contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs and many more. The main aim of this repository is to provide utility scripts that could make everyday life easy. Get started with coding exhilarating scripts that can be useful to download PDFs from an Online Source or just to randomly accept bulk linkedin request.
