@@ -20,7 +20,7 @@
 <img src="https://img.shields.io/github/issues-pr-closed-raw/Tejas1510/Hacking-Scripts?style=for-the-badge" >
 </p>
 
-📢 Join Discord channel for Discussion about the project : [Hacking-Scripts](https://swoc-workspace.slack.com/archives/C01HV9LADSQ)
+## 📢 Join Discord channel for Discussion about the project : [Hacking-Scripts](https://swoc-workspace.slack.com/archives/C01HV9LADSQ)
 
 ## 📌 Introduction
 
