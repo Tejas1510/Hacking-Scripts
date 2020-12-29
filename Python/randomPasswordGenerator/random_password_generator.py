@@ -11,7 +11,8 @@ import secrets
 
 print("We reccomend using password that is more than 8 character long")
 
-n = int(input("Enter password length: "))
+n = input("Enter password length (Default = 16): ") or 16
+n = int(n)
 
 # Checkes if char is special charecter.
 special_chars = "!@#$%^&*()"
