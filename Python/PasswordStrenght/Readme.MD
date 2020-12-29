@@ -1,16 +1,15 @@
-# Password Strength Checer
+# Password Strength Checker
 
-## Inroduction
-```
-It is a simple Password Strength checker which gives the strength of your password.
+## Introduction
+'''
+It is a simple Password Strength checker.
 Here I have used the re(regular expression) module.
-```
+'''
 ## How to use it :
 1. Download or clone the repository
 2. Install Required Libraries
 3. Run password.py
 4. Enter you Password
-5. The Strength of your password will be shown
 
 ### Output
 Here I have explained all the output in the below image
