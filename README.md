@@ -87,6 +87,13 @@ git push
 
 **9.** **Congratulations!** Sit and relax, you've made your contribution to [Hacking-Scripts](https://github.com/Tejas1510/Hacking-Scripts) project.
 
+
+## 📢  Open Source Program
+
+### This Project is a part of the following Open Source Program
+
+<img src ="https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/scriptcode.jfif" alt ="Script Winter of Code"></img>
+
 ## ⭐ Issues:
 For major changes, you are welcomed to open an issue and discuss what you would like to contribute. Enhancements will be appreciated.
 
