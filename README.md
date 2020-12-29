@@ -92,7 +92,10 @@ git push
 
 ### This Project is a part of the following Open Source Program
 
+<p align="center">
 <img src ="https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/scriptcode.jfif" alt ="Script Winter of Code"></img>
+<img src ="https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/script.jfif" alt ="Script Winter of Code"></img>
+</p>
 
 ## ⭐ Issues:
 For major changes, you are welcomed to open an issue and discuss what you would like to contribute. Enhancements will be appreciated.
