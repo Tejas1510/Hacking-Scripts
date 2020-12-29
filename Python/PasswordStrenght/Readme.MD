@@ -1,6 +1,6 @@
 # Password Strength Checker
 
-## Inroduction
+## Introduction
 '''
 It is a simple Password Strength checker.
 Here I have used the re(regular expression) module.
