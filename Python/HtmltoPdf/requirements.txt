@@ -1,2 +1,1 @@
 pdfkit==0.6.1
-Also download WKHTMLTOPDF from https://wkhtmltopdf.org/downloads.html
