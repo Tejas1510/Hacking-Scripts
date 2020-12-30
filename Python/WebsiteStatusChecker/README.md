@@ -16,9 +16,11 @@ pip install -r requirements.txt
 Checking https://www.google.com/
 
 ![Project Image](images/input-1.JPG)
+
 ![Project Image](images/output-1.JPG)
 
 Checking https://www.python.abc/
 
 ![Project Image](images/input-2.JPG)
+
 ![Project Image](images/output-2.JPG)
