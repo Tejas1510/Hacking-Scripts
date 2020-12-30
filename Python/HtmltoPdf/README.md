@@ -20,3 +20,5 @@ pip install -r requirements.txt
 ## Output
 
 ![Project Image](images/output.JPG)
+
+![Project Image](images/bing_output.JPG)
