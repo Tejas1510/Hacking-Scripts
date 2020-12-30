@@ -1,4 +1,4 @@
-#Website Status Checker
+# Website Status Checker
 
 This script returns the status of a given website or webpage based on response code.
 
