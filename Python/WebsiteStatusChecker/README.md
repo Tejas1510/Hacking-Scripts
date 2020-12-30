@@ -1,6 +1,6 @@
 # Website Status Checker
 
-This script returns the status of a given website or webpage based on response code.
+This script returns the status of a given website or webpage based on response status code.
 
 ## Steps to make it run
 
