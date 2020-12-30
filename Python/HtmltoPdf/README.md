@@ -13,3 +13,10 @@ pip install -r requirements.txt
 4. Change the url in the python file to the url of your choice and run the file
 5. Make sure the path of the executable file is same as in the script.If not change it as per your path.
 6. You'll get the output file on the same folder as your repository
+
+## Input 
+![Project Image](images/input.JPG)
+
+## Output
+
+![Project Image](images/output.JPG)
