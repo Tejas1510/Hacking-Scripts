@@ -19,11 +19,11 @@ Each time when you run the program the data file will get updated to the live CO
 
 ## Output
 
-> COVID stats for India
+### COVID stats for India
 ![Project Image](images/india_output.JPG)
 
-> COVID stats for USA
+### COVID stats for USA
 ![Project Image](images/usa_output.JPG)
 
-> COVID stats for Norway
-![Project Image](images/norway_output.JPG)
+### COVID stats for Norway
+![Project Image](images/norway_ouput.JPG)
