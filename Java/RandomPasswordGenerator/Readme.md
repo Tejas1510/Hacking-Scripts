@@ -15,7 +15,7 @@ It is a simple java code which help to generate a Long and Secure Password.
 ```
 ## Output
 
-![endpoint](https://github.com/KamalAres/Hacking-Scripts/tree/main/Java/RandomPasswordGenerator/images/image1.png)
+![endpoint](https://github.com/KamalAres/Hacking-Scripts/blob/main/Java/RandomPasswordGenerator/images/image1.PNG)
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
 
