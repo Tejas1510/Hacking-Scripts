@@ -18,8 +18,8 @@ I hope you have fun trying this out.
 ### Output
 Below you can see its implementation.
 
-![endpoint](https://github.com/Jayaram18/Hacking-Scripts/tree/main/Python/URLShortner/images/image1.PNG)
-![endpoint](https://github.com/Jayaram18/Hacking-Scripts/tree/main/Python/URLShortner/images/image2.PNG)
+![endpoint](https://github.com/Jayaram18/Hacking-Scripts/blob/main/Python/URLShortner/images/image1.PNG)
+![endpoint](https://github.com/Jayaram18/Hacking-Scripts/blob/main/Python/URLShortner/images/image2.PNG)
 
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
