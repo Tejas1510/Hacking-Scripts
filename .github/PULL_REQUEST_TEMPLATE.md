@@ -15,7 +15,7 @@ Fixes #
 <!-- - Feature 1 -->
 <!-- - Feature 2 -->
 
-#### Fixed:
+### Fixed:
 <!-- Edit these points below to describe the bug fixes made with this PR -->
 <!-- - Bug 1 -->
 
