@@ -21,4 +21,4 @@ Fixes #
 <!-- - Bug 1 -->
 
 ### Snapshot:
-<!-- If you can then please provide the screenshot of the issue you are facing -->
+<!-- If you can then please provide the screenshot of the changes you have made -->
