@@ -16,8 +16,8 @@ The module uses Python Requests, BeautifulSoup4 and goslate as dependencies.
 *   Enter the word you want to find the meaning of and you're done.
 *   Some Input/Output examples:
 
-<img src="https://github.com/adviksinghania/Hacking-Scripts/raw/patch-e-dict/Python/E-Dictionary/exampletenet.jpg" width="553" height="293">
-<img src="https://github.com/adviksinghania/Hacking-Scripts/raw/patch-e-dict/Python/E-Dictionary/exampleyellow.jpg" width="649" height="275">
+<img src="https://github.com/adviksinghania/Hacking-Scripts/raw/patch-e-dict/Python/E-Dictionary/exampletenet.jpg">
+<img src="https://github.com/adviksinghania/Hacking-Scripts/raw/patch-e-dict/Python/E-Dictionary/exampleyellow.jpg">
 
 *   NOTE: The script will show error and exit, if no meaning of the word is found.
 
