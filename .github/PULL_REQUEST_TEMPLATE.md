@@ -3,20 +3,19 @@
 
 Fixes #
 
-### Checklist
+### Checklist:
 - [ ] My branch is up-to-date with upstream/master branch.
 
-### Description
+### Description:
 <!-- Describe about what this PR does, previous state and new state of the output -->
 
-### Change logs
-
+### Change logs:
 <!-- #### Added -->
 <!-- Edit these points below to describe the new features added with this PR -->
 <!-- - Feature 1 -->
 <!-- - Feature 2 -->
 
-#### Fixed
+#### Fixed:
 <!-- Edit these points below to describe the bug fixes made with this PR -->
 <!-- - Bug 1 -->
 
