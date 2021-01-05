@@ -11,5 +11,8 @@
 ### Steps to reproduce:
 <!-- If you can then please provide the steps to reproduce the bug -->
 
+### Snapshot:
+<!-- If you can then please provide the screenshot of the issue you are facing -->
+
 ### Do you want to work on this issue?
 <!-- yes/no -->
