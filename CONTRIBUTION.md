@@ -34,7 +34,7 @@ Below you will find the process and workflow used to review and merge your chang
 - Take a look at the Existing Issues or create your **own** Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
 - Note : Every change in this project should/must have an associated issue.
-![issue](https://github.com/adviksinghania/Hacking-Scripts/blob/main/assets/findissue.jpg)
+![issue](https://github.com/adviksinghania/Hacking-Scripts/blob/patch-contrib/assets/findissue.jpg)
 
 ### Step 1 : Fork the Project 🍴
 - Fork this Repository. This will create a Local Copy of this Repository on your Github Profile. Keep a reference to the original project in `upstream` remote.
@@ -44,8 +44,7 @@ $ git clone https://github.com/<your-username>/Hacking-Scripts
 $ cd Hacking-Scripts
 $ git remote add upstream https://github.com/Tejas1510/Hacking-Scripts
 ```
-![fork](https://github.com/adviksinghania/Hacking-Scripts/blob/main/assets/fork.jpg)
-
+![fork](https://github.com/adviksinghania/Hacking-Scripts/blob/patch-contrib/assets/fork.jpg)
 - If you have already forked the project, update your copy before working.
 ```
 $ git remote update
@@ -90,11 +89,11 @@ $ git commit -m "message"
 $ git push -u origin Branch_Name
 ```
 - Here is how your branch will look.
-![br](https://github.com/adviksinghania/Hacking-Scripts/blob/main/assets/branch.jpg)
+![br](https://github.com/adviksinghania/Hacking-Scripts/blob/patch-contrib/assets/branch.jpg)
 
 ### Step 6 : Pull Request  🎣
 - Go to your repository in browser and click on compare and pull requests. Then add a title and description to your pull request that explains your contribution.
-![pullrequest](https://github.com/adviksinghania/Hacking-Scripts/blob/main/assets/pull.jpg)
+![pullrequest](https://github.com/adviksinghania/Hacking-Scripts/blob/patch-contrib/assets/pull.jpg)
 - Voila! Your Pull Request has been submitted and will be reviewed by the moderators and merged.🥳
 
 ## Need more help?🤔
