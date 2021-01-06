@@ -14,7 +14,7 @@ It is a simple java code which is used to take the screenshot of the present scr
 ```
 ## Output
 
-![endpoint](https://github.com/KamalAres/Hacking-Scripts/blob/main/Java/ScreensotTaker/Screenshot.jpg)
+![endpoint](https://github.com/Tejas1510/Hacking-Scripts/Java/ScreensotTaker/Screenshot.jpg)
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
 
