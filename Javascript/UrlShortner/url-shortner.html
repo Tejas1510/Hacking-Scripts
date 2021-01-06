@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortner</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+        *,
+        *::after,
+        *:before{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html{
+            font:normal 20px/1.5 sans-serif;
+        }
+        h1{
+            margin: 1rem 2rem;
+        }
+        form, div{
+            margin: 2rem;
+            width: 800px;
+        }
+        .form-box{
+            padding: 1rem;
+            clear: both;
+            width: 100%;
+            position: relative;
+        }
+        .form-box label{
+            font-size: 1rem;
+            float: left;
+            width: 100px;
+            margin-right: 20px;
+        }
+        .form-box input{
+            font-size: 1rem;
+            width: 450px;
+            padding: 0.25rem 1rem;
+        }
+        .form-box select{
+            font-size: 1rem;
+            width: 300px;
+            padding: 0.25rem 1rem;
+        }
+        .form-box option{
+            font-size: 1rem;
+            width: 300px;
+            padding: 0.25rem 1rem;
+        }
+       
+        .form-box button{
+            font-size: 1rem;
+            border: none;
+            padding: 0.25rem 2rem;
+            margin-right: 1rem;
+            color: white;
+            background-color: cornflowerblue;
+            cursor: pointer;
+        }
+        
+        .error::after{
+            background-color: hsl(10, 60%, 50%);
+            color: papayawhip;
+            font-size: 1rem;
+            line-height: 1.8;
+            width: 350px;
+            padding-left: 1rem;
+            position:absolute;
+            right: 0;
+            content: attr(data-errormsg);
+        }
+    </style>
+</head>
+<body>
+    <h1>Get Shortened URL using TinyURL</h1>
+    
+    <form id="form-user" action="#" method="post">
+        <div class="form-box error" data-errormsg="">
+            <label for="input-first">Long URL</label>
+            <input type="text" id="input-longurl" autofocus required placeholder="Long URL" tabindex="1"/>
+        </div>
+       
+        <div class="form-box">
+            <button id="button-send">Send</button>
+        </div>
+    </form>
+
+    
+    <div id="div1">
+        <p id="msg1"></p>
+        <h2><a id="longurl" target="_blank"></a></h2>
+        <p id="msg2"></p>
+        <h2><a id="shorturl" target = "_blank"></a></h2>
+      </div>
+    <script src="index.js"></script>
+</body>
+</html>
