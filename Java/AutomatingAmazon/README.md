@@ -10,13 +10,15 @@ In this example, the ordered item is the book, "Wings Of Fire: An autobiography 
 
 ## How to use the code
 ```
-1. Download the complete project through this [link](https://drive.google.com/drive/folders/1U_Zgy6txCTprBa1pIC9fUB0ykcNMt4lh?usp=sharing).
+1. Download the complete project through the link given below.
 2. Enter the item you need to order in the file.
 3. Run the automateamazon.java file.
 4. The item entered gets added to the cart.
 ```
+[link](https://drive.google.com/drive/folders/1U_Zgy6txCTprBa1pIC9fUB0ykcNMt4lh?usp=sharing)
+
 ## Output
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/directory/Java/AutomatingAmazon/AutomatingAmazon.mp4)
+![endpoint](https://github.com/Tejas1510/Hacking-Scripts/Java/AutomatingAmazon/AutomatingAmazon.mp4)
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
