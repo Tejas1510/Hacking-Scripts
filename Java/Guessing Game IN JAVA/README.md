@@ -15,11 +15,7 @@ It is a simple Number Guessing Game User V/S CPU using JAVA.
 ```
 ## Output
 The Repo has the xesc format screen recording run it via VLC Media Player to Understand execution of code.
-### Sreenshots
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/size/Java/Guessing%20Game%20IN%20JAVA/Scshots/Screenshot(1999).png)
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/size/Java/Guessing%20Game%20IN%20JAVA/Scshots/Screenshot(2000).png)
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/size/Java/Guessing%20Game%20IN%20JAVA/Scshots/Screenshot(2001).png)
-
+<br>
 <a href = https://www.java.com/en/ ><img src="https://img.shields.io/badge/language-Java-blue?style=for-the-badge"></a>
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
 
