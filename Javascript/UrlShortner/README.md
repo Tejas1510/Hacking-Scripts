@@ -1,7 +1,16 @@
-URL Shortner using TinyURL
+# URL Shortner using TinyURL
+URL shortener in Javascript using TinyUrl.
+
+## Steps to make it run
+
+1. Clone/Download this repository
+```
+git clone clone_path
+```
+2. Get the UrlShortner folder
+
+3. Run url-shortner.html file.
 
 Input : Long Url 
 
 Output : Short Url in formate https://tinyurl.com/.....
-
-To use it get UrlShortner folder from this repository and run url-shortner.html file.
