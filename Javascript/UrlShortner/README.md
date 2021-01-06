@@ -14,3 +14,7 @@ git clone clone_path
 Input : Long Url 
 
 Output : Short Url in formate https://tinyurl.com/.....
+
+
+## Input One 
+![](Javascript/UrlShortner/Images/Input-one.PNG)
