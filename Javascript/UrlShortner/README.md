@@ -17,4 +17,14 @@ Output : Short Url in formate https://tinyurl.com/.....
 
 
 ## Input One 
-![](Javascript/UrlShortner/Images/Input-one.PNG)
+<img src = "https://github.com/chitranshu11/Hacking-Scripts/blob/main/Javascript/UrlShortner/Images/Input-one.PNG">
+
+## Output One
+<img src = "https://github.com/chitranshu11/Hacking-Scripts/blob/main/Javascript/UrlShortner/Images/Output-one.PNG">
+
+## Input Two
+<img src = "https://github.com/chitranshu11/Hacking-Scripts/blob/main/Javascript/UrlShortner/Images/Input-two.PNG">
+
+## Output Two
+<img src = "https://github.com/chitranshu11/Hacking-Scripts/blob/main/Javascript/UrlShortner/Images/Output-two.PNG">
+
