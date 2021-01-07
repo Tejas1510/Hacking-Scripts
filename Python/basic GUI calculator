@@ -1,29 +1,34 @@
 from tkinter import *
 
-def compute_handler():
+def Addition():
     a=int(temp.get())
     b=int(tem.get())
     f=a+b
     result.set(f)
 
 
-def compute_handler2():
+def Subtraction():
     a=int(temp.get())
     b=int(tem.get())
-    f=b-a
+    f=a-b
     result.set(f)
 
-def compute_handler3():
+def Multiplication():
     a=int(temp.get())
     b=int(tem.get())
     f=a*b
     result.set(f)
 
-def compute_handler4():
+def Division():
     a=int(temp.get())
     b=int(tem.get())
-    f=b/a
-    result.set(f)
+    try:
+        f=a/b
+        result.set(f)
+    except ZeroDivisionError:
+        result.set("Error")
+
+
 
 def clear_handler():
     result.set(" ")
@@ -58,20 +63,20 @@ ent_result=Entry(window,textvariable=result, width=20,fg='blue')
 ent_result.place(x=150, y=150)
 
 btn=Button(window,text="ADD", width=10, height=3, font=("Helvetica","5"),
-bg='yellow',fg='blue',command=compute_handler)
+bg='yellow',fg='blue',command=Addition)
 btn.place(x=70, y=200)
 
 btn2=Button(window,text="SUB", width=10, height=3, font=("Helvetica","5"),
-bg='yellow',fg='blue',command=compute_handler2)
+bg='yellow',fg='blue',command=Subtraction)
 btn2.place(x=110, y=200)
 
 btn3=Button(window,text="MUL", width=10, height=3, font=("Helvetica","5"),
-bg='yellow',fg='blue',command=compute_handler3)
+bg='yellow',fg='blue',command=Multiplication)
 btn3.place(x=150, y=200)
 
 
 btn4=Button(window,text="DIV", width=10, height=3, font=("Helvetica","5"),
-bg='yellow',fg='blue',command=compute_handler4)
+bg='yellow',fg='blue',command=Division)
 btn4.place(x=190, y=200)
 
 btn_clear=Button(window, text="Clear", width=10, height=3,
