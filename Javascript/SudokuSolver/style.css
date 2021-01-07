@@ -1,0 +1,47 @@
+.container {
+    width: 90%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    appearance: none;
+    font-size: large;
+    text-align: center;
+}
+
+table {
+    border: solid thick;
+  border-collapse: collapse;
+  font-family: Calibri, sans-serif;
+}
+
+
+td {
+  border: solid thin;
+  text-align: center;
+  padding: 0;
+}
+
+td:nth-child(3n) {
+    border-right: solid thick;
+}
+
+tr:nth-child(3n) {
+    border-bottom: solid thick;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    text-align: center;
+}

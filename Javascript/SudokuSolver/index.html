@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <tbody>
+                <tr>
+                    <td class="z-z"><input type="text"></td>
+                    <td class="z-o"><input type="text"></td>
+                    <td class="z-t"><input type="text"></td>
+                    <td class="z-th"><input type="text"></td>
+                    <td class="z-f"><input type="text"></td>
+                    <td class="z-fi"><input type="text"></td>
+                    <td class="z-s"><input type="text"></td>
+                    <td class="z-se"><input type="text"></td>
+                    <td class="z-e"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="o-z"><input type="text"></td>
+                    <td class="o-o"><input type="text"></td>
+                    <td class="o-t"><input type="text"></td>
+                    <td class="o-th"><input type="text"></td>
+                    <td class="o-f"><input type="text"></td>
+                    <td class="o-fi"><input type="text"></td>
+                    <td class="o-s"><input type="text"></td>
+                    <td class="o-se"><input type="text"></td>
+                    <td class="o-e"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="t-z"><input type="text"></td>
+                    <td class="t-o"><input type="text"></td>
+                    <td class="t-t"><input type="text"></td>
+                    <td class="t-th"><input type="text"></td>
+                    <td class="t-f"><input type="text"></td>
+                    <td class="t-fi"><input type="text"></td>
+                    <td class="t-s"><input type="text"></td>
+                    <td class="t-se"><input type="text"></td>
+                    <td class="t-e"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="th-z"><input type="text"></td>
+                    <td class="th-o"><input type="text"></td>
+                    <td class="th-t"><input type="text"></td>
+                    <td class="th-th"><input type="text"></td>
+                    <td class="th-f"><input type="text"></td>
+                    <td class="th-fi"><input type="text"></td>
+                    <td class="th-s"><input type="text"></td>
+                    <td class="th-se"><input type="text"></td>
+                    <td class="th-e"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="f-z"><input type="text"></td>
+                    <td class="f-o"><input type="text"></td>
+                    <td class="f-t"><input type="text"></td>
+                    <td class="f-th"><input type="text"></td>
+                    <td class="f-f"><input type="text"></td>
+                    <td class="f-fi"><input type="text"></td>
+                    <td class="f-s"><input type="text"></td>
+                    <td class="f-se"><input type="text"></td>
+                    <td class="f-e"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="fi-z"><input type="text"></td>
+                    <td class="fi-o"><input type="text"></td>
+                    <td class="fi-t"><input type="text"></td>
+                    <td class="fi-th"><input type="text"></td>
+                    <td class="fi-f"><input type="text"></td>
+                    <td class="fi-fi"><input type="text"></td>
+                    <td class="fi-s"><input type="text"></td>
+                    <td class="fi-se"><input type="text"></td>
+                    <td class="fi-e"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="s-z"><input type="text"></td>
+                    <td class="s-o"><input type="text"></td>
+                    <td class="s-t"><input type="text"></td>
+                    <td class="s-th"><input type="text"></td>
+                    <td class="s-f"><input type="text"></td>
+                    <td class="s-fi"><input type="text"></td>
+                    <td class="s-s"><input type="text"></td>
+                    <td class="s-se"><input type="text"></td>
+                    <td class="s-e"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="se-z"><input type="text"></td>
+                    <td class="se-o"><input type="text"></td>
+                    <td class="se-t"><input type="text"></td>
+                    <td class="se-th"><input type="text"></td>
+                    <td class="se-f"><input type="text"></td>
+                    <td class="se-fi"><input type="text"></td>
+                    <td class="se-s"><input type="text"></td>
+                    <td class="se-se"><input type="text"></td>
+                    <td class="se-e"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td class="e-z"><input type="text"></td>
+                    <td class="e-o"><input type="text"></td>
+                    <td class="e-t"><input type="text"></td>
+                    <td class="e-th"><input type="text"></td>
+                    <td class="e-f"><input type="text"></td>
+                    <td class="e-fi"><input type="text"></td>
+                    <td class="e-s"><input type="text"></td>
+                    <td class="e-se"><input type="text"></td>
+                    <td class="e-e"><input type="text"></td>
+                </tr>
+        </table>
+    </div>
+    <footer>
+        <p>Provide input by entering any number from 1 to 9 in the cell by clicking on it<br>Keep it blank for empty cell</p> 
+        <button type="submit" onclick="solver()">Solve</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
