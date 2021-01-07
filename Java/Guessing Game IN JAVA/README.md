@@ -15,7 +15,9 @@ It is a simple Number Guessing Game User V/S CPU using JAVA.
 ```
 ## Output
 The Repo has the xesc format screen recording run it via VLC Media Player to Understand execution of code.
-<br>
+![](Scshot/Screenshot%20(1999).png)
+![](Scshot/Screenshot%20(2000).png)
+![](Scshot/Screenshot%20(2001).png)
 <a href = https://www.java.com/en/ ><img src="https://img.shields.io/badge/language-Java-blue?style=for-the-badge"></a>
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
 
