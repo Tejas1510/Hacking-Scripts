@@ -22,4 +22,6 @@ SDK Version 24
 ```
 ## Output
 
-![](images/image1.jpg) ![](images/image2.jpg=16X9) ![](images/image3.jpg=16x9)
+![](images/image1.jpg) ![](images/image2.jpg) ![](images/image3.jpg)
+<a href = https://www.java.com/en/ ><img src="https://img.shields.io/badge/language-Java-blue?style=for-the-badge"></a>
+![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
