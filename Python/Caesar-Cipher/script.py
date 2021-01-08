@@ -33,11 +33,14 @@ def decrypt(s):  # Function for decrypting the text
             var -= n
             if var > 90:
                 var -= 26
+
             if var < 65:
                 var += 26
+
             print(chr(var), end='')  # And print the shifted character
         else:
             print(x, end='')  # Else print the character as it is
+
     print('\n')
 
 
@@ -61,8 +64,10 @@ while True:  # Running as long as the user wants
                     print('[!] Invalid Input. Enter a number between -25 to 25\n')
                 else:
                     encrypt(text)  # Calling the encryption function
+
             except ValueError:  # If the shift value is not an integer, throw error
                 print('[!] Invalid Input.\n')
+
         elif ch == 2:
             text = input('[+] Input text : ')  # Input string/text
             text = text.upper()  # Converting the text to uppercase
@@ -72,10 +77,13 @@ while True:  # Running as long as the user wants
                     print('[!] Invalid Input. Enter a number between -25 to 25\n')
                 else:
                     decrypt(text)  # Calling the decryption function
+
             except ValueError:  # If the shift value is not an integer, throw error
                 print('[!] Invalid Input.\n')
+
         else:
             print('[!] Invalid choice.\n')
+
     except (EOFError, KeyboardInterrupt):  # If the user presses Ctrl+C (keyboard interruption)
         print('\n[!] Exiting...')  # Exit the loop
         break
