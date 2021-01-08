@@ -1,0 +1,27 @@
+com/example/simplecalculatorbuttonformat/BuildConfig.java
+ com.example.simplecalculatorbuttonformat.BuildConfig
+com/example/simplecalculatorbuttonformat/MainActivity.java
+ com.example.simplecalculatorbuttonformat.MainActivity
+ com.example.simplecalculatorbuttonformat.MainActivity$1
+ com.example.simplecalculatorbuttonformat.MainActivity$10
+ com.example.simplecalculatorbuttonformat.MainActivity$11
+ com.example.simplecalculatorbuttonformat.MainActivity$12
+ com.example.simplecalculatorbuttonformat.MainActivity$13
+ com.example.simplecalculatorbuttonformat.MainActivity$14
+ com.example.simplecalculatorbuttonformat.MainActivity$14$1
+ com.example.simplecalculatorbuttonformat.MainActivity$15
+ com.example.simplecalculatorbuttonformat.MainActivity$15$1
+ com.example.simplecalculatorbuttonformat.MainActivity$16
+ com.example.simplecalculatorbuttonformat.MainActivity$16$1
+ com.example.simplecalculatorbuttonformat.MainActivity$17
+ com.example.simplecalculatorbuttonformat.MainActivity$17$1
+ com.example.simplecalculatorbuttonformat.MainActivity$18
+ com.example.simplecalculatorbuttonformat.MainActivity$18$1
+ com.example.simplecalculatorbuttonformat.MainActivity$2
+ com.example.simplecalculatorbuttonformat.MainActivity$3
+ com.example.simplecalculatorbuttonformat.MainActivity$4
+ com.example.simplecalculatorbuttonformat.MainActivity$5
+ com.example.simplecalculatorbuttonformat.MainActivity$6
+ com.example.simplecalculatorbuttonformat.MainActivity$7
+ com.example.simplecalculatorbuttonformat.MainActivity$8
+ com.example.simplecalculatorbuttonformat.MainActivity$9
