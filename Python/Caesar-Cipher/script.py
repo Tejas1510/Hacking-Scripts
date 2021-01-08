@@ -1,8 +1,8 @@
 # !/bin/python3
-# caeser.py
+# script.py
 # Author: Advik Singhania
 # Date: 8th Jan, 2021
-''' Caesar Cipher'''
+'''Caesar-Cipher'''
 '''A Python script to encrypt or decrypt text according to a shift value'''
 
 
