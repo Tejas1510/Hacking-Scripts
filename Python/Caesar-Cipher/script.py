@@ -7,7 +7,7 @@
 
 
 def encrypt(s):  # Function for encrypting the text
-    print('\nEncrypted text output :', end=' ')
+    print('\n[#] Encrypted text output :', end=' ')
     for x in s:  # Repeating the loop for each character in the string
         if x.isalpha():  # Check if the chracter is an alphabet (irrespective of the case)
             var = ord(x)  # If True, then process the ASCII value of the shifted character
@@ -26,7 +26,7 @@ def encrypt(s):  # Function for encrypting the text
 
 
 def decrypt(s):  # Function for decrypting the text
-    print('\nDecrypted text output :', end=' ')
+    print('\n[#] Decrypted text output :', end=' ')
     for x in s:  # Repeating the loop for each character in the string
         if x.isalpha():  # Check if the chracter is an alphabet (irrespective of the case)
             var = ord(x)  # If True, then process the ASCII value of the shifted character
