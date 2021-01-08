@@ -22,4 +22,4 @@ SDK Version 24
 ```
 ## Output
 
-![](images/image1.jpg =100x45) ![](images/image2.jpg=16x9) ![](images/image3.jpg=16x9)
+![](images/image1.jpg) ![](images/image2.jpg=16X9) ![](images/image3.jpg=16x9)
