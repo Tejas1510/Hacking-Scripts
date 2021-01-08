@@ -1,0 +1,58 @@
+.App{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+ margin: 0;
+ 
+}
+
+.result{
+text-align: center;
+justify-content: center;
+color: white;
+}
+
+.navbar{
+  padding: 20px;
+  display: flex;
+  /* justify-content: center; */
+  background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
+  font-weight: 500;
+  
+  /* text-align: center; */
+}
+
+
+
+.navbar > h2 {
+  color:#374045;
+}
+
+.search > h2 {
+  /* color: rgb(233, 224, 222); */
+  flex: 0.2;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  
+  text-align: center;
+  padding: 20px 0;
+  /* background-color:#968c83;  */
+  
+} 
+
+.card{
+  display: flex;
+  justify-content: center;
+ /* background-color:#968c83;  */
+ /* height: 70vh; */
+ box-shadow: 10px 5px 5px black;
+
+}
+
+.spn{
+  font-weight: bolder;
+  color: #495464;
+}
