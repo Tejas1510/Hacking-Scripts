@@ -1,1 +1,1 @@
-[Drawing App](https://github.com/Ayush7614/50Days50Projects/tree/main/drawing-app)                                     | [Live Demo](https://github.com/Ayush7614/50Days50Projects/tree/main/drawing-app)                   |
+[Drawing App](https://github.com/Ayush7614/50Days50Projects/tree/main/drawing-app)                                     | [Live Demo](https://50projects50days.com/projects/drawing-app/)                   |
