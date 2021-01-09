@@ -1,8 +1,8 @@
 # Find-Github-accounts informations 
-App is bult using react-js
+App is bult using react-js and GitHub  API
 # modules used
-*react
-*semantic-ui
+1. react
+2. semantic-ui
 # How to  start the app
--->npm install
---> npm start
+1. npm install
+2.  npm start
