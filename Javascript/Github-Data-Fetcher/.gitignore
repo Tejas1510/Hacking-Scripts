@@ -1,0 +1,14 @@
+
+package-lock.json 
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Output of 'npm pack'
+*.tgz
+
+
+
