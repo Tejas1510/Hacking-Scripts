@@ -4,5 +4,6 @@ App is bult using react-js and GitHub  API
 1. react
 2. semantic-ui
 # How to  start the app
-1. npm install
-2.  npm start
+1. cd dir
+2. npm install
+3.  npm start
