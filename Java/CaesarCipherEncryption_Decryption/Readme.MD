@@ -28,3 +28,5 @@ A JRE
 
 ![](Images/Encryption.PNG)
 ![](Images/Decryption.PNG)
+<a href = https://www.java.com/en/ ><img src="https://img.shields.io/badge/language-Java-blue?style=for-the-badge"></a>
+![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
