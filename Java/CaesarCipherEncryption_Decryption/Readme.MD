@@ -20,5 +20,5 @@ AJRE
 ```
 ## Output
 
-![](images\Encryption.PNG)
-![](images\Decryption.PNG)
+![](Images\Encryption.PNG)
+![](Images\Decryption.PNG)
