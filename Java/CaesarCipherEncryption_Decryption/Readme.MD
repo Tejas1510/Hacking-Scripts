@@ -14,7 +14,7 @@ and so forth). Of course you can choose any shift you want. This is basically a 
 ## Requirements
 ```
 A JDK
-AJRE
+A JRE
 ```
 
 ## How to use the code
@@ -26,5 +26,5 @@ AJRE
 ```
 ## Output
 
-![](Images\Encryption.jpg)
-![](Images\Decryption.jpg)
+![](Images/Encryption.PNG)
+![](Images/Decryption.PNG)
