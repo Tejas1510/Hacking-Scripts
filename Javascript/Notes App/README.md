@@ -1,1 +1,1 @@
-| 33  | [Notes App](https://github.com/bradtraversy/50projects50days/tree/master/notes-app)                                         | [Live Demo](https://50projects50days.com/projects/notes-app/)                     |
+[Notes App](https://github.com/Ayush7614/50Days50Projects/tree/main/notes-app)                                         | [Live Demo](https://50projects50days.com/projects/notes-app/)                     |
