@@ -8,24 +8,27 @@ A markdown table looks like
 
 This script takes path of csv file as an input and converts it into a markdown file
 """
+
 import os
 import csv
 
 input_path = input("Input full path of the csv file:")
-#takes input of the type of delimiter in CSV file
-type_del=input("Enter the type of delemiter example ',' '|' ';' for space enter 'space' for tab enter 'tab' or any other : ")
+# takes input of the type of delimiter in CSV file
+type_del = input(
+    "Enter the type of delemiter example ',' '|' ';' for space enter 'space' for tab enter 'tab' or any other : ")
 
-if type_del=="space":
-    type_del=" "
-    
-if type_del=="tab":
-    type_del="\t"
+if type_del == "space":
+    type_del = " "
+
+if type_del == "tab":
+    type_del = "\t"
 
 # creating a string with .md extension for the output file
 output_file = input_path.replace(".csv", ".md")
 
 # I used encoding UTF-8 as we won't have to worry about errors while decoding contents of a csv file
-csv_dict = csv.DictReader(open(input_path, encoding="UTF-8"),delimiter=type_del)
+csv_dict = csv.DictReader(
+    open(input_path, encoding="UTF-8"), delimiter=type_del)
 
 # storing the content of csv file in a list_of_rows. Each row is a dict.
 
