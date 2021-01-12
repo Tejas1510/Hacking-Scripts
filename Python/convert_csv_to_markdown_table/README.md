@@ -13,12 +13,12 @@ a markdown table in a .md file at the same location
 ## Example output:
 
 It takes a csv file like this as an input 
-![1.png]("./img/1.png")
+![1.png](/img/1.png)
 
-![2.png]("./img/2.png")
+![2.png](/img/2.png)
 
 and converts it into a markdown table in an .md file of the same name like this.
-![3.png]("./img/3.png") 
+![3.png](/img/3.png) 
 
 ## Author:
 
