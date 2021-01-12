@@ -13,12 +13,12 @@ a markdown table in a .md file at the same location
 ## Example output:
 
 It takes a csv file like this as an input 
-![1.png]("https://github.com/Tejas1510/Hacking-Scripts/tree/main/Python/convert_csv_to_markdown_table/img/1.png")
+![1.png]("https://github.com/Tejas1510/Hacking-Scripts/blob/main/Python/convert_csv_to_markdown_table/img/1.png")
 
-![2.png]("https://github.com/Tejas1510/Hacking-Scripts/tree/main/Python/convert_csv_to_markdown_table/img/2.png")
+![2.png]("https://github.com/Tejas1510/Hacking-Scripts/blob/main/Python/convert_csv_to_markdown_table/img/2.png")
 
 and converts it into a markdown table in an .md file of the same name like this.
-![3.png]("https://github.com/Tejas1510/Hacking-Scripts/tree/main/Python/convert_csv_to_markdown_table/img/3.png") 
+![3.png]("https://github.com/Tejas1510/Hacking-Scripts/blob/main/Python/convert_csv_to_markdown_table/img/3.png") 
 
 ## Author:
 
