@@ -12,11 +12,13 @@ including geographical location,ISP,lat,lon,etc.
 ## Example output:
 
 If you will just press Enter key or no input you will get the info about your current IP address.
+
 ![1.png](img/1.png)
 
 OR
 
 If you enter an IP address you will get the info about it
+
 ![2.png](img/2.png)
 
 ## Author:
