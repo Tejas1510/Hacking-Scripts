@@ -22,6 +22,10 @@
 
 ## 📢 Join Official Slack channel for Discussion about the project : [Hacking-Scripts](https://swoc-workspace.slack.com/archives/C01HV9LADSQ)
 
+<p align = "center">
+  <img height="200" width ="200" src = "https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/Logos/logohackingscript.png"></img>
+</p>  
+
 ## 📌 Introduction
 
 <b>Hacking Scripts</b> contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs and many more. The main aim of this repository is to provide utility scripts that could make everyday life easy. Get started with coding exhilarating scripts that can be useful to download PDFs from an Online Source or just to randomly accept bulk linkedin request.
