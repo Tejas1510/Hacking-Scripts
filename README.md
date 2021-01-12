@@ -23,7 +23,7 @@
 ## 📢 Join Official Slack channel for Discussion about the project : [Hacking-Scripts](https://swoc-workspace.slack.com/archives/C01HV9LADSQ)
 
 <p align = "center">
-  <img height="200" width ="200" src = "https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/Logos/logohackingscript.png"></img>
+  <img height="700" width ="700" src = "https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/Logos/logohackingscript.png"></img>
 </p>  
 
 ## 📌 Introduction
