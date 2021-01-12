@@ -23,7 +23,7 @@ const generateTempalate = (todo) => {
                   <i class="far fa-trash-alt delete"></i>
                 </li>`;
   todoList.innerHTML += html;
-};
+}
 
 function addTodos(e) {
   e.preventDefault();
