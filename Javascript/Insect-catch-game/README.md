@@ -1,0 +1,1 @@
+| 50  | [Insect Catch Game](https://github.com/Ayush7614/Hacking-Scripts/tree/main/Javascript/Insect-catch-game)                         | [Live Demo](https://50projects50days.com/projects/insect-catch-game/)             |
