@@ -1,6 +1,6 @@
 # Python YouTube Downloader
 
-A simple python GUI built using Tkinter an Pytube to facilitate video downloads from YouTube.
+A simple python GUI built using Tkinter and Pytube to facilitate video downloads from YouTube.
 
 ![Preview Image](preview.png)
 
