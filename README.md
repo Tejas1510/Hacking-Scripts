@@ -113,26 +113,6 @@ git push
 ## ⭐ Issues:
 For major changes, you are welcomed to open an issue and discuss what you would like to contribute. Enhancements will be appreciated.
 
-## ❤️ Project Admin
-<table>
-    <tr>
-        <td align="center">
-            <a href="https://github.com/Tejas1510">
-            <img src="https://avatars0.githubusercontent.com/u/64543913?s=400&u=6468d71695b9ce8fc4a5704cfe7df32fdd28437a&v=4" width="200px;" alt="" style="border-radius:50%"/> <br />
-            <b>Tejas1510</b>
-            </a><br />
-            <a href="https://github.com/Tejas1510/Awesome-Javascript-and-React-Project/commits?author=Tejas1510" title="Coding">💻</a>
-        </td>
- </tr>
- </table>
-
-<p align = "center">
-
-<a href="https://github.com/Tejas1510"><img src="http://ForTheBadge.com/images/badges/built-by-developers.svg" alt="built by developers"></a>
-![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
-</p>
-
-Check out my Github profile [Tejas1510!](https://github.com/Tejas1510)
 
 ## Contributors 
 
@@ -142,6 +122,7 @@ Check out my Github profile [Tejas1510!](https://github.com/Tejas1510)
 
 <table>
   <tr>
+    <td align="center"><a href="https://github.com/Tejas1510"><img src="https://avatars0.githubusercontent.com/u/64543913?s=400&u=6468d71695b9ce8fc4a5704cfe7df32fdd28437a&v=4" width="100px;" alt=""/><br /><sub><b>Tejas1510</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=pritamp17" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/pritamp17"><img src="https://avatars0.githubusercontent.com/u/65030567?s=400&u=24f4d73172453c1864a890d321f35ff2f33d6895&v=4" width="100px;" alt=""/><br /><sub><b>pritamp17</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=pritamp17" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ckmganesh"><img src="https://avatars2.githubusercontent.com/u/69971780?s=400&v=4" width="100px;" alt=""/><br /><sub><b>ckmganesh</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=ckmganesh" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/abhijeet007rocks8"><img src="https://avatars3.githubusercontent.com/u/64676594?s=400&u=067281c880614579839aba8098a57dc5740c9954&v=4" width="100px;" alt=""/><br /><sub><b>abhijeet007rocks8</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=abhijeet007rocks8" title="Code">💻</a></td>
@@ -176,3 +157,24 @@ Check out my Github profile [Tejas1510!](https://github.com/Tejas1510)
     <td align="center"><a href="https://github.com/chitranshu11"><img src="https://avatars1.githubusercontent.com/u/31448318?s=400&u=bd8743deb6f32d1fab99e79ec7b934a0f23b8893&v=4" width="100px;" alt=""/><br /><sub><b>chitranshu11</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=chitranshu11" title="Code">💻</a></td>        
   </tr>
 </table>
+
+## ❤️ Project Admin
+<table>
+    <tr>
+        <td align="center">
+            <a href="https://github.com/Tejas1510">
+            <img src="https://avatars0.githubusercontent.com/u/64543913?s=400&u=6468d71695b9ce8fc4a5704cfe7df32fdd28437a&v=4" width="200px;" alt="" style="border-radius:50%"/> <br />
+            <b>Tejas1510</b>
+            </a><br />
+            <a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=Tejas1510" title="Coding">💻</a>
+        </td>
+ </tr>
+ </table>
+
+<p align = "center">
+
+<a href="https://github.com/Tejas1510"><img src="http://ForTheBadge.com/images/badges/built-by-developers.svg" alt="built by developers"></a>
+![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
+</p>
+
+Check out my Github profile [Tejas1510!](https://github.com/Tejas1510)
