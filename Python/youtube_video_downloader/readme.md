@@ -1,19 +1,21 @@
-### APP DESCRIPTION
-This a basic application where you can download any youtube video of your choice by specifying the youtube video link and the destination folder where you wnat your video to be saved in your local computer.
+# Python YouTube Downloader
 
-### TECH STACK
-Pyhon <br/>
-Tinkter <br/>
-Pytube
+A simple python GUI built using Tkinter an Pytube to facilitate video downloads from YouTube.
 
-### PRE REQUISITE INSTALLATION
-1.INSTALL PYTUBE
+![Preview Image](preview.png)
 
-```ps 
-pip install git+https://github.com/nficano/pytube
+## Libraries Used
+* Python 3 <br/>
+* Tinkter <br/>
+* Pytube
+
+## Dependency Installation
+
+1. Install Pytube
 ```
-### WORKING 
-## INPUT AND OUTPUT
-![alt text](https://github.com/spursbyte/Hacking-Scripts/blob/main/Python/youtube_video_downloader/input%2Boutput.PNG)
-
-![alt text](https://github.com/spursbyte/Hacking-Scripts/blob/main/Python/youtube_video_downloader/video.PNG)
+$ pip install pytube 
+```
+## Credits
+* [Tejas1510](https://github.com/Tejas1510)
+* [snake-arch](https://github.com/snake-arch)
+* [detailer](https://github.com/detailer)
