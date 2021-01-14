@@ -158,16 +158,25 @@ For major changes, you are welcomed to open an issue and discuss what you would 
   </tr>
 </table>
 
-## ❤️ Project Admin
+## ❤️ Project Admin and Mentor
 <table>
     <tr>
         <td align="center">
             <a href="https://github.com/Tejas1510">
+            <img src="https://avatars3.githubusercontent.com/u/25269310?s=400&u=5512dc4064385dfdb410550d62d04fdeb2a0156d&v=4" width="200px;" alt="" style="border-radius:50%"/> <br />
+            <b>tripathyprateek</b>
+            </a><br />
+            <a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=Tejas1510" title="Coding">💻</a>
+        </td>
+      
+      <td align="center">
+            <a href="https://github.com/tripathyprateek">
             <img src="https://avatars0.githubusercontent.com/u/64543913?s=400&u=6468d71695b9ce8fc4a5704cfe7df32fdd28437a&v=4" width="200px;" alt="" style="border-radius:50%"/> <br />
             <b>Tejas1510</b>
             </a><br />
             <a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=Tejas1510" title="Coding">💻</a>
         </td>
+      
  </tr>
  </table>
 
