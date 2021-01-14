@@ -158,7 +158,7 @@ For major changes, you are welcomed to open an issue and discuss what you would 
   </tr>
 </table>
 
-## ❤️ Project Admin and Mentor
+## ❤️ Project Admin
 <table>
     <tr>
         <td align="center">
