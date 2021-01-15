@@ -21,6 +21,8 @@ or
 python3 morse.py
 ```
 depending upon the python version. Make sure that you are running the command from the same virtual environment in which the required modules are installed.
+
+
 ![Demo pic of MorseCodeTranslator by akr](image/akr.jpg)
 
 Now you are all set to explore the Morse Code Translator. Happy Hacking!!!!!!
