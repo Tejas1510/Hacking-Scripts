@@ -1,8 +1,8 @@
-# Basic calculator for Android 
+# Random Password Generator for Android 
 
 ## Introduction
 ```
-Basic Calculator for android with JAVA Backend.  
+Random Password Generator for android with JAVA Backend.  
 ```
 
 
@@ -14,11 +14,9 @@ Basic Calculator for android with JAVA Backend.
 
 ```
 ## Output
-![](IMAGES/img 1.jpeg)
-![](IMAGES/img 1.jpeg)
+![](https://github.com/kshitij-srivastav/Hacking-Scripts/blob/master/Android%20Studio%20Scripts/RandomPasswordGenerator/IMAGES/img%201.jpeg)
+![](https://github.com/kshitij-srivastav/Hacking-Scripts/blob/master/Android%20Studio%20Scripts/RandomPasswordGenerator/IMAGES/img%202.jpeg)
 
 <a href = https://www.java.com/en/ ><img src="https://img.shields.io/badge/language-Java-blue?style=for-the-badge"></a>
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
-
-
-Check out my Github profile [kshitij-srivastav](https://github.com/kshitij-srivastav)
+Check out my Github Profile ![kshitij-srivastav](https://github.com/kshitij-srivastav)
