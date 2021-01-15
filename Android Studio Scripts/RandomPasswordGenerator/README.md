@@ -11,3 +11,9 @@ Random Password Generator for android with JAVA Backend.
 1. Download the apk file from APK folder
 2. Install it on an android device.
 3. Test it out
+
+## Output
+```
+![](IMAGES/img 1.jpeg)
+![](IMAGES/img 2.jpeg)
+Check out my Github profile [kshitij-srivastav](https://github.com/kshitij-srivastav)
