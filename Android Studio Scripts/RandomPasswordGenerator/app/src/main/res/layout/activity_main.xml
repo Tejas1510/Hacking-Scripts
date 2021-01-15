@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the length of the password to be generated"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"
+        android:id="@+id/displaymessage">
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@id/displaymessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+
+        >
+    </EditText>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/length"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Genrate Password"
+        android:id="@+id/genratebutton"
+        >
+
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/genratedpassword"
+        android:layout_below="@id/genratebutton"
+        android:layout_marginTop="150dp"
+        android:text="Hello"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:visibility="invisible"
+        >
+
+    </TextView>
+
+
+
+
+
+
+</RelativeLayout>
