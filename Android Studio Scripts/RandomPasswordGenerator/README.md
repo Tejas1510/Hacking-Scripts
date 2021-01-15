@@ -13,7 +13,9 @@ Random Password Generator for android with JAVA Backend.
 3. Test it out
 
 ## Output
-```
-![alt text](https://github.com/kshitij-sriastav/Hacking-Scripts/blob/master/img 1.jpeg?raw=true)
-![](IMAGES/img 2.jpeg)
+
+![](IMAGES/img 1.jpeg)
+![](Images/img 2.jpeg)
+
+<a href = https://www.java.com/en/ ><img src="https://img.shields.io/badge/language-Java-blue?style=for-the-badge"></a>
 Check out my Github profile [kshitij-srivastav](https://github.com/kshitij-srivastav)
