@@ -20,4 +20,4 @@ Basic Calculator for android with JAVA Backend.
 <a href = https://www.java.com/en/ ><img src="https://img.shields.io/badge/language-Java-blue?style=for-the-badge"></a>
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
 
-Check out my Github profile [abhijeet007rocks8](https://github.com/abhijeet007rocks8)
+
