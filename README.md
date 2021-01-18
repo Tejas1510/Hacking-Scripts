@@ -22,6 +22,10 @@
 
 ## 📢 Join Official Slack channel for Discussion about the project : [Hacking-Scripts](https://swoc-workspace.slack.com/archives/C01HV9LADSQ)
 
+<p align = "center">
+  <img height="700" width ="700" src = "https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/Logos/logohackingscript.png"></img>
+</p>  
+
 ## 📌 Introduction
 
 <b>Hacking Scripts</b> contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs and many more. The main aim of this repository is to provide utility scripts that could make everyday life easy. Get started with coding exhilarating scripts that can be useful to download PDFs from an Online Source or just to randomly accept bulk linkedin request.
@@ -103,23 +107,68 @@ git push
 
 <p align="center">
 <img src ="https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/scriptcode.jfif" alt ="Script Winter of Code"></img>
-<img src ="https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/script.jfif" alt ="Script Winter of Code"></img>
+<img src ="https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/jwoc.jpg" alt ="JGEC Winter of Code"></img>
 </p>
 
 ## ⭐ Issues:
 For major changes, you are welcomed to open an issue and discuss what you would like to contribute. Enhancements will be appreciated.
+
+
+## Contributors 
+
+✨ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Tejas1510"><img src="https://avatars0.githubusercontent.com/u/64543913?s=400&u=6468d71695b9ce8fc4a5704cfe7df32fdd28437a&v=4" width="100px;" alt=""/><br /><sub><b>Tejas1510</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=pritamp17" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/pritamp17"><img src="https://avatars0.githubusercontent.com/u/65030567?s=400&u=24f4d73172453c1864a890d321f35ff2f33d6895&v=4" width="100px;" alt=""/><br /><sub><b>pritamp17</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=pritamp17" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ckmganesh"><img src="https://avatars2.githubusercontent.com/u/69971780?s=400&v=4" width="100px;" alt=""/><br /><sub><b>ckmganesh</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=ckmganesh" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/abhijeet007rocks8"><img src="https://avatars3.githubusercontent.com/u/64676594?s=400&u=067281c880614579839aba8098a57dc5740c9954&v=4" width="100px;" alt=""/><br /><sub><b>abhijeet007rocks8</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=abhijeet007rocks8" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Ayush7614"><img src="https://avatars1.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width="100px;" alt=""/><br /><sub><b>Ayush7614</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=Ayush7614" title="Code">💻</a></td> 
+    <td align="center"><a href="https://github.com/adviksinghania"><img src="https://avatars3.githubusercontent.com/u/72959852?s=400&u=4c762e03ca52bb8d27b06ed952c502f024cfdf09&v=4" width="100px;" alt=""/><br /><sub><b>adviksinghania</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=adviksinghania" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/saiharsha-22"><img src="https://avatars3.githubusercontent.com/u/61947484?s=400&v=4" width="100px;" alt=""/><br /><sub><b>saiharsha-22</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=saiharsha-22" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/rutvikpadhiyar000"><img src="https://avatars3.githubusercontent.com/u/76583071?s=400&v=4" width="100px;" alt=""/><br /><sub><b>rutvikpadhiyar000</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=rutvikpadhiyar000" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Rahul555-droid"><img src="https://avatars2.githubusercontent.com/u/60074958?s=400&u=1c0a8fd2182f106dc0f167b8c7b43f50c08b5ad8&v=4" width="100px;" alt=""/><br /><sub><b>Rahul555-droid</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=Rahul555-droid" title="Code">💻</a></td>  
+    <td align="center"><a href="https://github.com/iamvs-2002"><img src="https://avatars3.githubusercontent.com/u/54304786?s=400&u=8227ffa721e798e1fa67233e635733b0f8521635&v=4" width="100px;" alt=""/><br /><sub><b>iamvs-2002</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=iamvs-2002" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/smriti1313"><img src="https://avatars3.githubusercontent.com/u/52624997?s=400&u=fe00d69251e7ed30455c55ca0698bc88dc149cce&v=4" width="100px;" alt=""/><br /><sub><b>smriti1313</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=smriti1313" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/nitya123-github"><img src="https://avatars0.githubusercontent.com/u/53599318?s=400&u=08af1b08c9e818a1705ba60aa2c59c3497868db0&v=4" width="100px;" alt=""/><br /><sub><b>nitya123-github</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=nitya123-github" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/N00Bmaster2810"><img src="https://avatars0.githubusercontent.com/u/61646176?s=400&u=a6f4ea1a74a940daf18351a3fc9f73b3268dde37&v=4" width="100px;" alt=""/><br /><sub><b>N00Bmaster2810</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=N00Bmaster2810" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/nporia"><img src="https://avatars3.githubusercontent.com/u/20817990?s=400&v=4" width="100px;" alt=""/><br /><sub><b>nporia</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=nporia" title="Code">💻</a></td>  
+    <td align="center"><a href="https://github.com/KamalAres"><img src="https://avatars3.githubusercontent.com/u/53576033?s=400&u=a726d1b3bea8ebd0c6431c9a5f64edc6b5d534f2&v=4" width="100px;" alt=""/><br /><sub><b>KamalAres</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=KamalAres" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/yashlad681"><img src="https://avatars0.githubusercontent.com/u/30846820?s=400&v=4" width="100px;" alt=""/><br /><sub><b>yashlad681</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=yashlad681" title="Code">💻</a></td>  
+    <td align="center"><a href="https://github.com/pawankm21"><img src="https://avatars3.githubusercontent.com/u/63885768?s=400&v=4" width="100px;" alt=""/><br /><sub><b>pawankm21</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=pawankm21" title="Code">💻</a></td> 
+    <td align="center"><a href="https://github.com/spursbyte"><img src="https://avatars0.githubusercontent.com/u/60615807?s=400&v=4" width="100px;" alt=""/><br /><sub><b>spursbyte</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=spursbyte" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/BobinMathew"><img src="https://avatars3.githubusercontent.com/u/32351527?s=400&v=4" width="100px;" alt=""/><br /><sub><b>BobinMathew</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=BobinMathew" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/aakashgoel2002"><img src="https://avatars0.githubusercontent.com/u/65633502?s=400&u=82bee409c01643dc8f8238c4582b006e92ac6650&v=4" width="100px;" alt=""/><br /><sub><b>aakashgoel2002</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=aakashgoel2002" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/devmalik7"><img src="https://avatars2.githubusercontent.com/u/72170432?s=400&u=27c60f7cddd9507745ade7f17f0c5cb0c5510d86&v=4" width="100px;" alt=""/><br /><sub><b>devmalik7</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=devmalik7" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ayushi-get"><img src="https://avatars2.githubusercontent.com/u/63720826?s=400&v=4" width="100px;" alt=""/><br /><sub><b>ayushi-get</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=ayushi-get" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/tripathyprateek"><img src="https://avatars3.githubusercontent.com/u/25269310?s=400&u=5512dc4064385dfdb410550d62d04fdeb2a0156d&v=4" width="100px;" alt=""/><br /><sub><b>tripathyprateek</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=tripathyprateek" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Nishant2907"><img src="https://avatars3.githubusercontent.com/u/59792198?s=400&u=2eed493272e44a3ae85a8004355f38148edcec51&v=4" width="100px;" alt=""/><br /><sub><b>Nishant2907</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=Nishant2907" title="Code">💻</a></td>  
+    <td align="center"><a href="https://github.com/Purvanshsingh"><img src="https://avatars3.githubusercontent.com/u/49719371?s=400&u=bbbd20bee33af4b2b4cd5fbb19c5b11560c21eb8&v=4" width="100px;" alt=""/><br /><sub><b>Purvanshsingh</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=Purvanshsingh" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/chetanN02"><img src="https://avatars1.githubusercontent.com/u/46220982?s=400&v=4" width="100px;" alt=""/><br /><sub><b>chetanN02</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=chetanN02" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/chitranshu11"><img src="https://avatars1.githubusercontent.com/u/31448318?s=400&u=bd8743deb6f32d1fab99e79ec7b934a0f23b8893&v=4" width="100px;" alt=""/><br /><sub><b>chitranshu11</b></sub></a><br /><a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=chitranshu11" title="Code">💻</a></td>        
+  </tr>
+</table>
 
 ## ❤️ Project Admin
 <table>
     <tr>
         <td align="center">
             <a href="https://github.com/Tejas1510">
-            <img src="https://avatars0.githubusercontent.com/u/64543913?s=400&u=6468d71695b9ce8fc4a5704cfe7df32fdd28437a&v=4" width="200px;" alt="" style="border-radius:50%"/> <br />
+            <img src="https://avatars0.githubusercontent.com/u/64543913?s=400&u=6468d71695b9ce8fc4a5704cfe7df32fdd28437a&v=4" width="200px;" alt="" style="border-radius:50%"/>                 <br />
             <b>Tejas1510</b>
             </a><br />
-            <a href="https://github.com/Tejas1510/Awesome-Javascript-and-React-Project/commits?author=Tejas1510" title="Coding">💻</a>
+            <a href="https://github.com/Tejas1510/Hacking-Scripts/commits?author=Tejas1510" title="Coding">💻</a>
         </td>
- </tr>
+    </tr>
  </table>
 
 <p align = "center">

@@ -1,116 +1,54 @@
-# Tic-Tac-Toe Program using 
-# random number in Python 
+from tkinter import *
+from tkinter import messagebox
+import random as r
 
-# importing all necessary libraries 
-import numpy as np 
-import random 
-from time import sleep 
+def button(frame):
+    b = Button(frame,padx=1,bg="#FFB100", width=3, text="   ", font=('arial',60,'bold'),relief="sunken",bd=10)
+    return b
 
-# Creates an empty board 
-def create_board(): 
-	return(np.array([[0, 0, 0], 
-					[0, 0, 0], 
-					[0, 0, 0]])) 
+def change_a():
+    global a
+    for i in ['O','X']:
+        if (i!=a):
+            a=i
+            break
 
-# Check for empty places on board 
-def possibilities(board): 
-	l = [] 
-	
-	for i in range(len(board)): 
-		for j in range(len(board)): 
-			
-			if board[i][j] == 0: 
-				l.append((i, j)) 
-	return(l) 
+def reset():
+    global a 
+    for i in range(3):
+        for j in range(3):
+            b[i][j]["text"]=" "
+            b[i][j]["state"]= NORMAL    
+    a=r.choice(['O','X'])
 
-# Select a random place for the player 
-def random_place(board, player): 
-	selection = possibilities(board) 
-	current_loc = random.choice(selection) 
-	board[current_loc] = player 
-	return(board) 
+def check():                #Checks for victory or Draw
+    for i in range(3):
+            if(b[i][0]["text"]==b[i][1]["text"]==b[i][2]["text"]==a or b[0][i]["text"]==b[1][i]["text"]==b[2][i]["text"]==a):
+                    messagebox.showinfo("Congrats!!","'"+a+"' has won")
+                    reset()
+    if(b[0][0]["text"]==b[1][1]["text"]==b[2][2]["text"]==a or b[0][2]["text"]==b[1][1]["text"]==b[2][0]["text"]==a):
+        messagebox.showinfo("Congrats!!","'"+a+"' has won")
+        reset()   
+    elif(b[0][0]["state"]==b[0][1]["state"]==b[0][2]["state"]==b[1][0]["state"]==b[1][1]["state"]==b[1][2]["state"]==b[2][0]["state"]==b[2][1]["state"]==b[2][2]["state"]==DISABLED):
+        messagebox.showinfo("Tied!!","The match ended in a draw")
+        reset()
 
-# Checks whether the player has three 
-# of their marks in a horizontal row 
-def row_win(board, player): 
-	for x in range(len(board)): 
-		win = True
-		
-		for y in range(len(board)): 
-			if board[x, y] != player: 
-				win = False
-				continue
-				
-		if win == True: 
-			return(win) 
-	return(win) 
-
-# Checks whether the player has three 
-# of their marks in a vertical row 
-def col_win(board, player): 
-	for x in range(len(board)): 
-		win = True
-		
-		for y in range(len(board)): 
-			if board[y][x] != player: 
-				win = False
-				continue
-				
-		if win == True: 
-			return(win) 
-	return(win) 
-
-# Checks whether the player has three 
-# of their marks in a diagonal row 
-def diag_win(board, player): 
-	win = True
-	y = 0
-	for x in range(len(board)): 
-		if board[x, x] != player: 
-			win = False
-	if win: 
-		return win 
-	win = True
-	if win: 
-		for x in range(len(board)): 
-			y = len(board) - 1 - x 
-			if board[x, y] != player: 
-				win = False
-	return win 
-
-# Evaluates whether there is 
-# a winner or a tie 
-def evaluate(board): 
-	winner = 0
-	
-	for player in [1, 2]: 
-		if (row_win(board, player) or
-			col_win(board,player) or
-			diag_win(board,player)): 
-				
-			winner = player 
-			
-	if np.all(board != 0) and winner == 0: 
-		winner = -1
-	return winner 
-
-# Main function to start the game 
-def play_game(): 
-	board, winner, counter = create_board(), 0, 1
-	print(board) 
-	sleep(2) 
-	
-	while winner == 0: 
-		for player in [1, 2]: 
-			board = random_place(board, player) 
-			print("Board after " + str(counter) + " move") 
-			print(board) 
-			sleep(2) 
-			counter += 1
-			winner = evaluate(board) 
-			if winner != 0: 
-				break
-	return(winner) 
-
-# Driver Code 
-print("Winner is: " + str(play_game())) 
+def click(row,col):
+        b[row][col].config(text=a,state=DISABLED,disabledforeground=colour[a])
+        check()
+        change_a()
+        label.config(text=a+"'s Chance")
+###############   Main Program #################
+root = Tk()
+root.title("Tic-Tac-Toe")   #Title given
+a=r.choice(['O','X'])       #Two operators defined
+colour={'O':"#000000",'X':"#FF0000"}
+b=[[],[],[]]
+for i in range(3):
+        for j in range(3):
+                b[i].append(button(root))
+                b[i][j].config(command= lambda row=i,col=j:click(row,col))
+                b[i][j].grid(row=i,column=j)
+label=Label(text=a+"'s Chance",font=('arial',20,'bold'))
+label.grid(row=3,column=0,columnspan=3)
+root.mainloop()
