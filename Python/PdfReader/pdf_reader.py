@@ -1,7 +1,7 @@
 import pyttsx3 #python text to speech version 3
 import PyPDF2 
 
-pdf= open("Andriy_Burkov.pdf",'rb') #you can replace this with any pdf file 
+pdf = open("Andriy_Burkov.pdf",'rb') #you can replace this with any pdf file 
 
 pdfreader = PyPDF2.PdfFileReader(pdf)
 
