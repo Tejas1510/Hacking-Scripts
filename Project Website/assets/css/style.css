@@ -1764,8 +1764,7 @@ section {
 }
 
 .services1 .icon {
-  margin: 0 auto 20px auto;
-  padding-top: 17px;
+  margin: 0 auto 20px auto;  
   display: inline-block;
   text-align: center;
   border-radius: 50%;
@@ -1777,6 +1776,10 @@ section {
   font-size: 36px;
   line-height: 1;
   transition: 0.5s;
+}
+
+.services1 .icon-box .icon img {
+  max-width: 100%;
 }
 
 .services1 .title {
@@ -1796,72 +1799,23 @@ section {
   margin-bottom: 0;
 }
 
-.services1 .icon-box-javascript .icon {
-  background: #f0db4f;
-}
-
-.services1 .icon-box-javascript .icon i {
-  color: #323330;
-}
-
 .services1 .icon-box-javascript:hover {
   border-color: #f0db4f;
-}
-
-.services1 .icon-box-python .icon {
-  background: #4b8bbe;
-}
-
-.services1 .icon-box-python .icon i {
-  color: #ffe873;
 }
 
 .services1 .icon-box-python:hover {
   border-color: #4b8bbe;
 }
 
-.services1 .icon-box-java .icon {
-  background: #f89820;
-}
-
-.services1 .icon-box-java .icon i {
-  color: #5382a1;
-}
-
 .services1 .icon-box-java:hover {
   border-color: #f89820;
 }
-
-.services1 .icon-box-nodejs .icon {
-  background: #68a063;
-}
-
-.services1 .icon-box-nodejs .icon i {
-  color: #303030;
-}
-
 .services1 .icon-box-nodejs:hover {
   border-color: #68a063;
 }
 
-.services1 .icon-box-c .icon {
-  background: #f1f9f9;
-}
-
-.services1 .icon-box-c .icon i {
-  color: #303030;
-}
-
 .services1 .icon-box-c:hover {
   border-color: #f1f9f9;
-}
-
-.services1 .icon-box-android .icon {
-  background: #3ddc84;
-}
-
-.services1 .icon-box-android .icon i {
-  color: #fff;
 }
 
 .services1 .icon-box-android:hover {
