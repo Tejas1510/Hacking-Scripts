@@ -3,5 +3,5 @@
 ### random.randint(): This function generates a random number in the given range.
 
 ### Below is the implementation.
-[Implementation](https://github.com/Ayush7614/Amazing-Python-Scripts/blob/master/Dice%20Roll%20Simulator/program.py)
+[Implementation](https://github.com/Ayush7614/Hacking-Scripts/blob/patch-1/Python/Dice%20Rolling%20Simulator%20using%20Python/program.py)
 
