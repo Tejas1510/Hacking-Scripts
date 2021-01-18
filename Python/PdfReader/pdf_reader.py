@@ -5,7 +5,7 @@ pdf= open("Andriy_Burkov.pdf",'rb') #you can replace this with any pdf file
 
 pdfreader = PyPDF2.PdfFileReader(pdf)
 
-pages=pdfreader.numPages 
+pages = pdfreader.numPages 
 print(pages)
 
 
