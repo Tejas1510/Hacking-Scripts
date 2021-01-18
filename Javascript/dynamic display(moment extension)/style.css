@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Grenze Gotisch', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #000;
+}
+
+#time{
+    font-size: 8rem;
+}
+
+h1{
+    margin-bottom: 2.5rem;
+
+}
+
+h2{
+    margin-bottom: 0.5rem;
+    opacity: 0.75;
+}
+
+@media(max-width: 600px){
+    font-size: 5.5rem;
+}
