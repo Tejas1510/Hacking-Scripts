@@ -19,5 +19,3 @@ text=pages.extractText() #extract text from pages
 dell.say(text)
 
 dell.runAndWait()
-
-#you can read documentation here for pyttsx3 : https://pypi.org/project/pyttsx3/
