@@ -5,3 +5,4 @@ This app is build in vanilla javascript
 ## how to run
 open index.html
 
+![Alt text](https://user-images.githubusercontent.com/65030567/104946590-55164000-59e0-11eb-9ef5-ec5409356852.png )
