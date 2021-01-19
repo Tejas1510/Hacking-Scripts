@@ -1,7 +1,7 @@
 ### Dice simulator in javascript
-In this script we will create a classic rolling dice simulator with the help of basic javascript knowledge. 
+In this app we will create a classic rolling dice simulator with the help of basic javascript , HTML, css knowledge. 
 ## Dependencies
-This app is build in vanilla javascript
+  no dependencies
 ## how to run
 ```
 $ git clone https://github.com/Tejas1510/Hacking-Scripts.git
