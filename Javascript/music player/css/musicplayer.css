@@ -20,12 +20,17 @@ body{
 .header h1{
     margin: 46px 0px 32px 0px;
     text-align: center;
-    font-size: 37px;
+    font-size: 3.5rem;
+    letter-spacing: 0.25rem;
+    font-weight: 900;
+    color: grey;
 }
 
 .header p{
     text-align: center;
     font-size: 19px;
+    color: grey;
+    
 }
 
 .pads{
