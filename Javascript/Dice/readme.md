@@ -10,6 +10,9 @@ $ git clone https://github.com/Tejas1510/Hacking-Scripts.git
 ```
 $ cd Hacking-Scripts/javascript/dice
 ```
+```
 open index.html
+```
+
 
 ![Alt text](https://user-images.githubusercontent.com/65030567/104946590-55164000-59e0-11eb-9ef5-ec5409356852.png )
