@@ -1,0 +1,40 @@
+.container{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 5%;
+}
+.flex-box-rps, .flex-box-pick-color{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px rgba(30,10,210,0.7);
+}
+
+h1,h2{
+    margin: 2% 0% 4% 0%;
+    color: grey;
+    font-weight: 1000;
+    letter-spacing: 3px;;
+}
+h2{
+    margin: 2% 0% 18% 0%;
+    color: grey;
+    font-weight: 800;;
+}
+
+#flex-box-rps-div{
+    margin-top: 10%;
+}
+
+img{
+    width: 16%;
+}
+
+body{
+    background-color: rgb(17, 12, 29);
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Project-1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rock, Paper, Scissors</h1>
+        <h3 style="color: grey; text-align: center;">Click on any image to play the game</h3>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img src="images/paper.jpg" id="paper" height="180px" width="180px" alt="paper" onclick="rpsGame(this)">
+            <img src="images/rock.png" id="rock" height="180px" width="158px" alt="rock" onclick="rpsGame(this)">
+            <img src="images/scissors.png" id="scissor" height="180px" width="180px" alt="Scissor"
+                onclick="rpsGame(this)">
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
