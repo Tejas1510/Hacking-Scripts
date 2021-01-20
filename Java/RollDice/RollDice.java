@@ -8,7 +8,7 @@ public class RollDice {
 	public static void main (String[] args)
 	{
 		//Start option for dice roll//
-		System.out.println("Do you want to roll the dice? (Y/N)");
+		System.out.println("Do you want to roll the dice? (y/n)");
 		userchoice = new Scanner(System.in);
 		
 		String choice;
@@ -35,7 +35,7 @@ public class RollDice {
 				faces = generator.nextInt(6) + 1;
 				
 				System.out.println("You rolled a " + faces + ".");
-				System.out.println("Roll again?");
+				System.out.println("Roll again?(y/n)");
 				userchoice = new Scanner(System.in);
 				choice = userchoice.next();
 				choice = choice.toLowerCase();
@@ -47,8 +47,7 @@ public class RollDice {
 				System.out.println("Thank you for rolling!");
 				break;
 			}
-		}	
-		
+		}
+		userchoice.close();		
 	}
-	
 }
