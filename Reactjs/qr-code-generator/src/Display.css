@@ -1,0 +1,25 @@
+.card {
+  width: 60vw;
+  height: 60vw;
+  margin-top: 50px;
+}
+
+@media only screen and (min-width: 900px)
+{
+    .card{
+        width: 35vw;
+        height: 35vw;
+    }
+}
+
+@media only screen and (min-width: 1200px)
+{
+    .card{
+        width: 20vw;
+        height: 20vw;
+    }
+}
+
+.download-button{
+    margin: 30px;
+}
