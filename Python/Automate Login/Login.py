@@ -1,7 +1,8 @@
 # Loading Modules
 from selenium import webdriver
-import time
+from selenium.webdriver.chrome.service import Service
 import getpass
+import time
 
 login_url = 'https://www.facebook.com/login.php'
 
@@ -10,7 +11,7 @@ password = getpass.getpass("Enter your password: ")
 
 
 def login(email, password):
-    driver = webdriver.Chrome("./")
+    driver = webdriver.Chromdriver= webdriver.Chrome('./Hacking-Scripts/Python/Automate Login/chromedriver')
     driver.get(login_url)
     time.sleep(1)
     # Entering Email Address

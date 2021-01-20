@@ -3,7 +3,7 @@
 ```bash
 pip install -r requirements.txt
 ```
-- ### Download the webdriver for chrome in order to run the script [From Here](https://chromedriver.storage.googleapis.com/index.html?path=2.45/)
+- ### Download the webdriver for chrome in order to run the script according to your Operating System and Chrome version[From Here](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 
 *Note :* Move the webdriver to the same directory where script is present.
 
@@ -11,3 +11,8 @@ pip install -r requirements.txt
 ```bash
 python3 Login.py
 ```
+- ### **Input**
+![Input](Input.png)
+
+- ### **Output**
+![Output](Output.png)
