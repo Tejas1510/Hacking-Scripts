@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  margin: 20px;
+  text-align: center;
+  width: 80vw;
+  margin: auto;
+}
+
+.header > h1{
+  margin: 20px;
+}
