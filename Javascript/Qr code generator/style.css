@@ -1,0 +1,38 @@
+.link{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 10% 0 10% 0s;
+    
+
+}
+
+.data{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 10% 0 10% 0;
+}
+
+#qr-data{
+    width: 80%;
+    margin: 10% 0 0 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    text-align: center;
+    cursor: text;
+    border-bottom: 3px solid darkgrey;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#qrcode{
+    margin: 0 auto;
+}
+img{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;}
