@@ -1,10 +1,10 @@
-#### Currency converter in React-JS
+## Currency converter in React-JS
 
 ## Dependencies
 1. Material-Ui <br />
 2. React particles animation background component
 
-#### How TO Run App
+## How TO Run App
 
  `$ git clone https://github.com/Tejas1510/Hacking-Scripts.git`<br />
  `$ cd Hacking-Scripts/Reactjs/Currency-converter`<br />
