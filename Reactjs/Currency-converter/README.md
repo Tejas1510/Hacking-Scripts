@@ -20,8 +20,3 @@ You will also see any lint errors in the console.
 ### DEMO
 
 ![Alt text](https://github.com/pritamp17/Hacking-Scripts/blob/currency_converter/Reactjs/Currency-converter/currency2.png?raw=true )
-
-
-
-
-
