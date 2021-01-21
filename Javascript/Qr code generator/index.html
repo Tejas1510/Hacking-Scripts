@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR-CODE GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="link">
+        <label for="qr-data"></label>
+        <input type="text" id="qr-data" placeholder="put any link here" onchange="qrGenerator()">
+
+    </div>
+
+    <div class="data">
+        <div id="qrcode"></div>
+    </div>
+
+
+    <script src="qrcode.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
