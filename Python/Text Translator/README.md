@@ -1,4 +1,16 @@
-### Text Translator
+## Text translator using Python.
+- ### Installing necessary packages
+```bash
+pip install textblob
+```
+- ### Keep the input file inside textfiles folder named as `input.txt`. Output file will be also stored there as `output.txt`
 
-To run this script, you need to install textblob library in python.  
-`pip install -U textblob`
+- ### Finally run the Python script
+```bash
+python script.py
+```
+- ### **Input**
+![input](input.png)
+
+- ### **Output**
+![output](output.png)
