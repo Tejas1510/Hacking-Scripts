@@ -8,5 +8,5 @@
 
 ## Run the script :
 ```sh
-$ python3 cric_buzz.py
+ python3 cric_buzz.py
 ```
