@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">JetList</string>
+    <string-array name="options">
+        <item>Food</item>
+        <item>Dring</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
