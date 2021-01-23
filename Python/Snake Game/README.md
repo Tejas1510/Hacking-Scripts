@@ -10,6 +10,8 @@ Use arrow keys to control the snake. If the snake collides with wall or bites it
 I would like to thank [thenewboston](https://www.youtube.com/channel/UCJbPGzawDH1njbqV-D5HqKw) for his awesome pygame tutorial. 
 
 - ### Screenshots
+#### Screenshot 1
 ![game-1](game-1.png)
+#### Screenshot 2
 ![game-2](game-2.png)
 
