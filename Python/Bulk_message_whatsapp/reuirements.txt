@@ -4,10 +4,7 @@ et-xmlfile==1.0.1
 idna==2.10
 jdcal==1.4.1
 MouseInfo==0.1.3
-numpy==1.19.5
 openpyxl==3.0.6
-panda==0.3.1
-pandas==1.2.1
 Pillow==8.1.0
 PyAutoGUI==0.9.52
 PyGetWindow==0.0.9
@@ -18,7 +15,9 @@ PyScreeze==0.1.26
 python-dateutil==2.8.1
 PyTweening==1.0.3
 pytz==2020.5
+pywhatkit==3.9
 requests==2.25.1
 six==1.15.0
+soupsieve==2.1
 urllib3==1.26.2
-xlrd==2.0.1
+wikipedia==1.4.0
