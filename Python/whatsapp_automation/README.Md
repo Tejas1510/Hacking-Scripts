@@ -25,6 +25,7 @@ command : hack\Scripts\activate.bat
 4>run whatsapp.py file-------python whatsapp.py
 5>use number in this format +91********(+,country code ,then rest of the digits) 
 
+[note:hour should be in +12 format, eg.8pm IST =20]
 
 
 
