@@ -20,8 +20,3 @@ git clone clone_path
 - CSS
 - JS
 
-## Screenshots
-
-[Output1]()
-
-[Output2]()
