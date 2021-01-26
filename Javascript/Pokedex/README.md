@@ -1,6 +1,7 @@
-# Pokedex is a diiferent different forms of pokemon cartoon this is made of HTML CSS JS and using fetching of API of pokemon this is made by me during my learning of HTML CSS JS through udemy course
-
 # Pokedex using Javascript
+
+## Pokedex is a diiferent different forms of pokemon cartoon this is made of HTML CSS JS and using fetching of API of pokemon this is made by me during my learning of HTML CSS JS through udemy course
+
 
 ## Steps to try this
 
@@ -22,5 +23,5 @@ git clone clone_path
 
 ## Screenshots
 
-[Output](https://github.com/Ayush7614/Hacking-Scripts/blob/main/Javascript/Pokedex/Output.jpeg)
+![Output](https://github.com/Tejas1510/Hacking-Scripts/blob/main/Javascript/Pokedex/Output.jpeg)
 
