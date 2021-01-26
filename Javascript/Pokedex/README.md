@@ -20,3 +20,8 @@ git clone clone_path
 - CSS
 - JS
 
+## Screenshots
+
+[Output1](https://github.com/Tejas1510/Hacking-Scripts/blob/3fa1b55e02a7fed322f3a648dfba00da754bd452/Javascript/Pokedex/Output%201.pdf)
+
+[Output2](https://github.com/Tejas1510/Hacking-Scripts/blob/8ad556fb0c50fb9d8fd99fe98ab8dcd842e4aec6/Javascript/Pokedex/Output%202.pdf)
