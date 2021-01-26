@@ -1,0 +1,116 @@
+/* Block */
+.Button {
+  --button-height: 36px;
+  --button-horizontal-padding: 8px;
+  --button-contained-horizontal-padding: 16px;
+  --button-height-dense: 32px;
+  --button-outlined-border-width: 1px;
+
+  /* Typography */
+  font-size: 0.875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--text-color);
+
+  padding: 0 var(--button-horizontal-padding);
+  background-color: rgba(0, 0, 0, 0);
+
+  /* Display */
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  height: var(--button-height);
+  border: none;
+  outline: none;
+
+  /* alternate */
+  line-height: inherit;
+  user-select: none;
+  appearance: none;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.Button:active {
+  outline: none;
+}
+
+.Button:hover {
+  cursor: pointer;
+}
+
+.Button:disabled {
+  color: var(--button-disabled-ink-color);
+  cursor: default;
+}
+
+/* Elements */
+.Button__Icon {
+  margin-right: 4px;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  vertical-align: top;
+}
+
+.Button__Label {
+}
+
+/* Modifiers */
+.Button_uppercase {
+  text-transform: uppercase;
+}
+
+.Button_dense {
+  height: var(--button-height-dense);
+  font-size: 0.8125rem;
+}
+
+.Button_raised {
+  color: white;
+  background-color: var(--primary);
+  position: relative;
+}
+
+.Button_raised:hover,
+.Button_raised:focus {
+  z-index: 4;
+  background-color: var(--primary-dark);
+  box-shadow: var(--elevation-umbra-4) var(--elevation-umbra-color),
+    var(--elevation-penumbra-4) var(--elevation-penumbra-color);
+}
+
+.Button_raised:active {
+  z-index: 8;
+  box-shadow: var(--elevation-umbra-8) var(--elevation-umbra-color),
+    var(--elevation-penumbra-8) var(--elevation-penumbra-color);
+}
+
+.Button_raised:disabled {
+  z-index: 0;
+  box-shadow: var(--elevation-umbra-0) var(--elevation-umbra-color),
+    var(--elevation-penumbra-0) var(--elevation-penumbra-color);
+}
+
+.Button_raised:disabled {
+  color: var(--button-disabled-ink-color);
+}
+
+.Button_outlined {
+  border: 1px solid;
+}
+
+.Button_outlined:disabled {
+  border-color: var(--button-disabled-ink-color);
+}
+
+.Button_unelevated,
+.Button_unelevated:hover,
+.Button_unelevated:focus,
+.Button_unelevated:active {
+  box-shadow: none;
+}

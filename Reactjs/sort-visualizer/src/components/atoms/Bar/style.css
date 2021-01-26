@@ -1,0 +1,35 @@
+.Bar {
+  background-color: var(--white);
+  color: var(--text-color-dark);
+  display: flex;
+  font-size: 1.1rem;
+  flex-direction: column reverse;
+  align-items: flex-end;
+  transition: 125ms ease-in-out;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.Bar__Text {
+  margin: 0 auto 0.25rem;
+}
+
+.Bar_sorted {
+  background-color: rgb(122, 241, 122);
+}
+
+.Bar_stateD {
+  background-color: var(--blue);
+}
+
+.Bar_stateC {
+  background-color: var(--red);
+}
+
+.Bar_stateB {
+  background-color: var(--secondary);
+}
+
+.Bar_stateA {
+  background-color: var(--amber);
+}
