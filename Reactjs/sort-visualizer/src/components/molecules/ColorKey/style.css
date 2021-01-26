@@ -1,0 +1,45 @@
+/* BLOCK */
+.ColorKey {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 1rem;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* ELEMENT */
+.ColorKey__Item {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 4rem;
+  padding: 4px;
+}
+
+.ColorKey__Box {
+  flex-shrink: 0;
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+
+.ColorKey__Unsorted {
+  border: 1px solid var(--text-color);
+  background-color: var(--white);
+}
+.ColorKey__Sorted {
+  background-color: var(--primary-dark);
+}
+.ColorKey__GroupA {
+  background-color: var(--amber);
+}
+.ColorKey__GroupB {
+  background-color: var(--secondary);
+}
+.ColorKey__GroupC {
+  background-color: var(--red);
+}
+.ColorKey__GroupD {
+  background-color: var(--blue);
+}

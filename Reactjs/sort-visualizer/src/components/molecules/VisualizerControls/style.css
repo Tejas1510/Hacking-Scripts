@@ -1,0 +1,38 @@
+/* BLOCK */
+.VisualizerControls {
+  display: inline-flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+/* ELEMENT */
+.VisualizerControls__CenterButton {
+  height: 4rem;
+  width: 4rem;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--secondary);
+}
+
+.VisualizerControls__CenterButton:hover,
+.VisualizerControls__CenterButton:focus {
+  background-color: var(--secondary-dark);
+}
+
+.VisualizerControls__CenterButton:disabled {
+  background-color: var(--gray-500);
+}
+
+.VisualizerControls__Button {
+  padding: 0 12px;
+}
+
+.VisualizerControls__SpeedButton {
+  padding-right: 12px;
+}
+
+.VisualizerControls__Icon {
+  height: 2rem;
+  width: 2rem;
+  margin: 0;
+}

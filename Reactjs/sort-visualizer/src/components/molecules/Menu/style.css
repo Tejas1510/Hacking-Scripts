@@ -1,0 +1,61 @@
+/* BLOCK */
+.Menu {
+  position: relative;
+  display: inline-block;
+}
+
+/* ELEMENT */
+.Menu__List {
+  position: absolute;
+  z-index: 110;
+  top: 100%;
+  left: 0;
+  right: 0;
+
+  max-height: 80vh;
+  padding: 0;
+  margin: 0;
+  border-top: 2px solid var(--primary);
+  box-shadow: var(--box-shadow-2);
+
+  text-align: justify;
+  list-style: none;
+  background-color: var(--background-color-2);
+  overflow: scroll;
+}
+
+.Menu__Header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 2.5rem;
+  padding: 0.5rem 0rem;
+}
+
+.Menu__SelectedItem {
+  min-width: 32px;
+  text-align: right;
+}
+
+.Menu__Placeholder {
+  color: var(--gray-500);
+}
+
+.Menu__Item {
+  border-bottom: 1px solid var(--gray-300);
+  padding: 0.75rem;
+}
+
+.Menu__Item:hover,
+.Menu__Item:focus {
+  color: var(--text-color-dark);
+  background-color: var(--primary-light);
+  cursor: pointer;
+}
+
+.Menu__Item:last-of-type {
+  border: none;
+}
+
+/* MODIFIER */
