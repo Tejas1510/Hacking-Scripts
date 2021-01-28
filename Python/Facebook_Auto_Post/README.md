@@ -18,3 +18,6 @@ This script helps to post the content on Facebook. It is very handy to post the 
 2. Enter the facebook Email Id.
 3. Enter the facebook password.
 4. Write the Content you want to post then the bot will automatically post the content.
+
+## Output
+  <img align="right" alt="JPEG" src="https://github.com/Ayush7614/Hacking-Scripts/blob/main/Python/Facebook_Auto_Post/Output.jpeg" width="500" height="320" />
