@@ -1,0 +1,35 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+@import './_settngs/variables.css';
+
+.App {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  color: black;
+  background-color: #1f1364;
+  transition: color 250ms;
+  transition: background-color 500ms ease-in-out;
+}
+
+.App__Body {
+  padding-top: 64px;
+}
+
+.App_modal_open {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.App_modal_open footer {
+  display: none;
+}
+
+@media (max-width: 599px) {
+  .App {
+    --footer-height: 160px;
+  }
+}

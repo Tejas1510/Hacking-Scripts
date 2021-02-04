@@ -1,0 +1,93 @@
+.TopBar {
+  /* Default Styles */
+  --top-bar-row-height: 64px;
+  --top-bar-title-left-padding: 20px;
+  --top-bar-section-vertical-padding: 8px;
+  --top-bar-section-horizontal-padding: 12px;
+
+  --top-bar-content-display: none;
+  --top-bar-mobile-breakpoint: 599px;
+
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.2rem;
+
+  background-color: var(--background-color-3);
+  z-index: 105;
+  box-shadow: var(--elevation-umbra-4) var(--elevation-umbra-color),
+    var(--elevation-penumbra-4) var(--elevation-penumbra-color);
+
+  transition: background-color 500ms ease-in-out;
+}
+
+/* Default Mobile Styles */
+@media (max-width: 599px) {
+  .TopBar {
+    --top-bar-row-height: 56px;
+    --top-bar-section-vertical-padding: 4px;
+    --top-bar-section-horizontal-padding: 4px;
+    --top-bar-menu-button-display: inline-block;
+  }
+}
+
+@media (min-width: 768px) {
+  .TopBar {
+    --top-bar-menu-button-display: none;
+    --top-bar-content-display: inline-flex;
+  }
+}
+
+.TopBar__Row {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: var(--top-bar-row-height);
+}
+
+.TopBar__Section {
+  display: inline-flex;
+  flex: 1 1 auto;
+  align-items: center;
+  min-width: 0;
+  padding: var(--top-bar-section-vertical-padding)
+    var(--top-bar-section-vertical-padding);
+  z-index: 1;
+}
+
+.TopBar__Section_align_start {
+  justify-content: flex-start;
+  order: -1;
+}
+
+.TopBar__Section_align_end {
+  display: var(--top-bar-content-display);
+  justify-content: flex-end;
+  order: 1;
+}
+
+.TopBar__Title {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-weight: 500;
+  text-decoration: inherit;
+  text-transform: inherit;
+  font-weight: bolder;
+  padding-left: var(--top-bar-title-left-padding);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.TopBar__MenuButton {
+  display: var(--top-bar-menu-button-display);
+}
+
+.TopBar__Icon {
+  height: 2rem;
+  width: 2rem;
+  margin: 0;
+}

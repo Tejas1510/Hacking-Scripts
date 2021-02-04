@@ -1,0 +1,62 @@
+.SortInfo {
+  text-align: left;
+  width: 80%;
+  max-width: 1200px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.SortInfo__Body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.SortInfo__Article {
+  width: 50ch;
+  line-height: 1.3;
+}
+
+.SortInfo__Article li {
+  line-height: 1.5;
+}
+
+.SortInfo__Article a {
+  color: var(--secondary);
+}
+
+.SortInfo__Article a:hover {
+  color: var(--secondary-dark);
+}
+
+.SortInfo__Aside td {
+  padding: 0.5rem 0;
+}
+
+.SortInfo__Aside h3 {
+  margin: 1rem 0;
+}
+
+.SortInfo__Aside code {
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .SortInfo__Aside {
+    padding-left: 2ch;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .SortInfo__Article {
+    width: 55ch;
+    padding-right: 5ch;
+  }
+
+  .SortInfo__Aside {
+    padding-left: 5ch;
+    border-left: 1px solid var(--text-color);
+  }
+}

@@ -1,0 +1,40 @@
+/* BLOCK */
+.AppDrawer {
+  box-sizing: border-box;
+  position: absolute;
+  top: 56px;
+  z-index: 105;
+
+  width: 256px;
+  min-height: calc(100vh - 56px);
+  padding-left: 1rem;
+  display: flex;
+  flex-flow: column;
+  overflow: scroll;
+
+  background-color: var(--background-color-3);
+  box-shadow: var(--elevation-umbra-4) var(--elevation-umbra-color),
+    var(--elevation-penumbra-4) var(--elevation-penumbra-color);
+
+  transition: all 500ms ease-in-out;
+}
+
+/* ELEMENTS */
+.AppDrawer__Content {
+  height: 224px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+/* MODIFIERS */
+.AppDrawer_open {
+  left: 0;
+  opacity: 1;
+}
+
+.AppDrawer_closed {
+  left: -256px;
+  opacity: 0.25;
+}
