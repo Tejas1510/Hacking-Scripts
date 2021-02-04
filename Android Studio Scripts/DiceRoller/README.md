@@ -1,7 +1,7 @@
 	# Dice Roller
 ***
 ## Introduction
-This is a code written in Android Application to Roll Dice.
+This is an Android Application to Roll Dice.
 
 ***
 ## Features

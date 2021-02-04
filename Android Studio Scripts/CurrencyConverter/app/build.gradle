@@ -1,0 +1,93 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+apply plugin: 'io.gitlab.arturbosch.detekt'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "github.com.st235.easycurrency"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 28
+        versionName "1.0.3"
+
+        kapt {
+            arguments {
+                arg("room.schemaLocation", "$projectDir/schemas".toString())
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "long", "BACKGROUND_UPDATE_TIME_IN_MINUTES", "60"
+            buildConfigField "long", "FOREGROUND_UPDATE_TIME_IN_MINUTES", "5"
+
+            buildConfigField "long", "RATES_EXPIRES_HOURS", "1"
+
+            buildConfigField "int", "DATABASE_VERSION", "1"
+            buildConfigField "String", "DATABASE_NAME", "\"rates_debug.db\""
+
+            buildConfigField 'String', 'CURRENCIES_RATES_APP_ID', readProperty('./local.properties', 'props.app_id')
+            buildConfigField "String", "CURRENCIES_RATES_BASE_URL", "\"https://easy-currency.herokuapp.com\""
+
+            minifyEnabled false
+            versionNameSuffix '-debug'
+        }
+
+        release {
+            buildConfigField "long", "BACKGROUND_UPDATE_TIME_IN_MINUTES", "60"
+            buildConfigField "long", "FOREGROUND_UPDATE_TIME_IN_MINUTES", "5"
+
+            buildConfigField "long", "RATES_EXPIRES_HOURS", "2"
+
+            buildConfigField "int", "DATABASE_VERSION", "1"
+            buildConfigField "String", "DATABASE_NAME", "\"rates.db\""
+
+            buildConfigField 'String', 'CURRENCIES_RATES_APP_ID', readProperty('./local.properties', 'props.app_id')
+            buildConfigField "String", "CURRENCIES_RATES_BASE_URL", "\"https://easy-currency.herokuapp.com\""
+
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation libs.kotlin
+    implementation libs.kotlinCoroutinesCore
+    implementation libs.kotlinCoroutinesAndroid
+
+    implementation libs.appCompat
+    implementation libs.constraint
+    implementation libs.recyclerview
+    implementation libs.cardView
+    implementation libs.design
+
+    implementation libs.koin
+    implementation libs.koinAndroid
+    implementation libs.koinAndroidScope
+
+    implementation libs.room
+    kapt compilers.room
+
+    implementation libs.lifecycle
+    kapt compilers.lifecycle
+
+    implementation libs.retrofit
+    implementation libs.gsonConverter
+
+    implementation libs.workManager
+
+    implementation libs.timber
+    implementation libs.stetho
+
+    testImplementation libs.junit
+    testImplementation libs.mockito
+    testImplementation libs.kotlinMockito
+    testImplementation libs.robolectric
+}

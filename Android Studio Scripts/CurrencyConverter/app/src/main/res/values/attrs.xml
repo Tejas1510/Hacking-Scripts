@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularImageView">
+        <attr name="cl_foreground" format="reference" />
+        <attr name="cl_text_color" format="color" />
+        <attr name="cl_text" format="string" />
+        <attr name="cl_text_size" format="dimension" />
+    </declare-styleable>
+</resources>

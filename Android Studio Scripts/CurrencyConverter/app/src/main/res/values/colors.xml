@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#4F4F4F</color>
+
+    <color name="colorCurrencyTitle">@color/colorDark80</color>
+    <color name="colorCurrencyCode">@color/colorDark40</color>
+    <color name="colorCurrencyInputColor">@color/colorDark30</color>
+    <color name="colorCurrencyInputHint">@color/colorDark40</color>
+    <color name="colorCurrencyInputUnderline">@color/colorDark30</color>
+
+    <color name="colorDark80">#CC000000</color>
+    <color name="colorDark40">#66000000</color>
+    <color name="colorDark30">#4D000000</color>
+
+    <color name="colorWhite40">#66FFFFFF</color>
+    <color name="colorWhite30">#4DFFFFFF</color>
+
+    <color name="colorNightDark">#212326</color>
+
+    <color name="colorSnackbarAction">#ff80ab</color>
+
+    <color name="swipeRefreshBackground">#FFFFFF</color>
+    <color name="swipeRefreshProgressOne">#1AFE9D</color>
+    <color name="swipeRefreshProgressTwo">#7DFF61</color>
+    <color name="swipeRefreshProgressThree">#FDFF16</color>
+</resources>
