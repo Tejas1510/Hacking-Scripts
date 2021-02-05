@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Easy Currency</string>
+    <string name="all_rates_are_outdated">Probably, this rates are outdated. Last update was %s ago</string>
+    <string name="all_rates_are_outdated_dismiss">Got it</string>
+
+
+    <plurals name="all_rates_are_outdated_hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+</resources>
