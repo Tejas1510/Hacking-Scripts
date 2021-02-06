@@ -17,4 +17,4 @@ This is an Android Application to Convert Currencies.
 
 ***
 ## Screenshots
-![](images/image.jpg)
+![](images/image.png)
