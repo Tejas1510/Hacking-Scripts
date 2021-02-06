@@ -1,0 +1,15 @@
+p{
+    text-align:center;
+    font-size: 3rem;
+}
+
+button{
+    margin-left: 45%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+#demo{
+    font-size: 1.8rem;
+}
