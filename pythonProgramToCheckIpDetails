@@ -1,0 +1,13 @@
+import requests
+ip = input("Input Ip Address to check location: ")
+url = "http://ipwhois.app/json/" + ip
+
+headers = {
+    'x-rapidapi-key': "b9c96dc742mshef8e15dc474568ap1038d9jsnef529fc3ef11",
+    'x-rapidapi-host': "ip-geolocation-ipwhois-io.p.rapidapi.com"
+}
+
+response = requests.request("GET", url, headers=headers)
+
+print("Details about IP: \n")
+print(response.json())
