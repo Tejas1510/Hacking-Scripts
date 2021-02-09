@@ -1,25 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Location Tracker</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Geolocation</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="main.js"></script>
 </head>
 
 <body>
+    <p class="note">Checkout your location below</p>
+    <div id="map"></div>
 
-    <p>Click the button to get your coordinates.</p>
-
-    <button onclick="getLocation()">Try It</button>
-
-    <p id="demo"></p>
-
-
-    <div id="mapholder"></div>
-
-    <script src="main.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW7KqMgHYWxtlZ_G6drmGkCxpfba8wvLw&callback=initMap&libraries=&v=weekly"
+        async></script>
 </body>
 
 </html>
