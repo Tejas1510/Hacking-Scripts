@@ -28,7 +28,10 @@ I will build a subdomain scanner in Python using requests library.
 ### Step 5:
 
     Sit back and Relax. Let the Script do the Job. ☕
-
+    
 ### Screenshots of Output
 
+<img align="center" alt="JPEG" src="https://github.com/Ayush7614/Hacking-Scripts/blob/main/Python/Discovering%20Subdomains/Output1.jpeg" width="700" height="700" />
 
+
+<img align="center" alt="JPEG" src="https://github.com/Ayush7614/Hacking-Scripts/blob/main/Python/Discovering%20Subdomains/Output2.jpeg" width="700" height="700" />
