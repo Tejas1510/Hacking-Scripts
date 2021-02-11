@@ -1,0 +1,17 @@
+/**
+ * Path should be specified relative to file, which apply that utils
+ */
+ext.readProperty = { String path, String key ->
+    def properties = new Properties()
+    def propertyFiles = file(path)
+
+    if (propertyFiles.canRead()) {
+        properties.load(new FileInputStream(propertyFiles))
+        if (properties != null
+                && properties.containsKey(key)) {
+            return properties[key]
+        }
+    }
+
+    return null
+}

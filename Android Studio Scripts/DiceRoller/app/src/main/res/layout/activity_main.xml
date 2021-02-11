@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3342f"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/rollBtn"
+        android:layout_width="451dp"
+        android:layout_height="81dp"
+        android:background="@color/black"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/rollBtn"
+        android:textColor="@color/redBkg"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    //AHGL
+    <ImageView
+        android:id="@+id/dice"
+        android:layout_width="185dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:contentDescription="@string/dice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/one" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
