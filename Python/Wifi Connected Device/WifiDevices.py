@@ -12,3 +12,4 @@ while x < len(ls):
         ssids.append(ls[x])
     x += 1
 print(ssids)
+print("\n")
