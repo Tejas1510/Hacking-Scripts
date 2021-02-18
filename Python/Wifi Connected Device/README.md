@@ -11,9 +11,9 @@ On the console, type `import subprocess`
 After opening the script in your Python IDE, execute the code so that you get the console output window. 
 The script will print the SSIDs and usernames of all the connected devices. The SSID is the name of wireless network consisting of unique 32 alphanumeric characters for each user.
 ## Basic Terminologies:
->`netsh`: is a command-line scripting utility that allows you to display or modify the network configuration of a computer that is currently running. <br>
->`wlan`: command that allows you to access the Wi-Fi profiles. <br>
+>`netsh`: is a command-line scripting utility that allows you to display or modify the network configuration of a computer that is currently running\
+>`wlan`: command that allows you to access the Wi-Fi profiles\
 >`network`: the unique name of wireless network. 
 ## Output:
-<img src="Screenshot.PNG"><br>
+![Output1](Screenshot.PNG)
 
