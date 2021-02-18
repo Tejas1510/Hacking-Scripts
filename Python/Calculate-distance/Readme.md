@@ -42,7 +42,7 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 # And here you go
-![](https://imgur.com/JKn92eb)
+![](https://i.imgur.com/JKn92eb.png)
 ![](https://imgur.com/dJDQi0N)
 ![](https://imgur.com/N5E4fuF)
 
