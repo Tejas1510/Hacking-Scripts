@@ -26,8 +26,8 @@ create folder named 'geoip' in main project directory.
 download city and country database
 ```
 [For downloading city and country database ](https://www.maxmind.com/en/accounts/497315/people/84e6213c-91a4-4e02-ae2e-1d709084c544)
-1. ![](https://imgur.com/6n7Fac9)
-2. ![](https://imgur.com/xwQf6s1)
+1. ![](https://i.imgur.com/81QDzAQ.png)
+2. ![](https://i.imgur.com/6GDJqRe.png)
 
 ```
 extract the zip files and copy paste 
@@ -43,8 +43,8 @@ python manage.py runserver
 ```
 # And here you go
 ![](https://i.imgur.com/JKn92eb.png)
-![](https://imgur.com/dJDQi0N)
-![](https://imgur.com/N5E4fuF)
+![](https://i.imgur.com/v8gP5xI.png)
+![](https://i.imgur.com/c2tmAtO.png)
 
 # Author
 [Pritam Pawar](https://github.com/pritamp17)
