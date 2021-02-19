@@ -1,0 +1,41 @@
+.main{
+    width: 600px;
+    height: 500px;
+    margin: 40px auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+h1{
+    background: linear-gradient(to right,white, rgb(221, 221, 110));
+    width: 100vw!;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0%;
+    height: 15vh;
+    display: grid;
+    place-items: center;
+    
+
+}
+
+.bulb-off{
+    width: 250px;
+    height: 375px;
+    background: url('off.png') no-repeat;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bulb-on{
+    width: 250px;
+    height: 375px;
+    background: url('on.png') no-repeat;;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
