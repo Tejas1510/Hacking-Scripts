@@ -1,0 +1,11 @@
+<resources>
+    <string name="about">Acerca de</string>
+    <string name="copy_instructions">Haga clic aquí para copiar. Clic largo para compartir.</string>
+    <string name="digits">Dígitos</string>
+    <string name="generate">Generar</string>
+    <string name="length">Longitud: %s</string>
+    <string name="lower_letters">Letras minusculas</string>
+    <string name="password_copied">Contraseña copiada con éxito al portapapeles</string>
+    <string name="symbols">Símbolos</string>
+    <string name="upper_letters">Letras mayúsculas</string>
+</resources>

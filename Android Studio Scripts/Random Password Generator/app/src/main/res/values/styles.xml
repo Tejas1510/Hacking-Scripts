@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarStyle">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:elevation" tools:targetApi="21">0dp</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="GenerateButtonTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:stateListAnimator" tools:targetApi="21">@null</item>
+    </style>
+
+    <style name="LengthTitleStyle">
+        <item name="android:layout_marginTop">@dimen/default_margin</item>
+        <item name="android:layout_marginLeft">@dimen/default_margin</item>
+        <item name="android:layout_marginRight">@dimen/default_margin</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="DiscreteSeekBarStyle">
+        <item name="android:layout_marginLeft">@dimen/medium_margin</item>
+        <item name="android:layout_marginRight">@dimen/medium_margin</item>
+        <item name="dsb_indicatorColor">@color/colorPrimary</item>
+        <item name="dsb_progressColor">@color/colorPrimary</item>
+        <item name="dsb_min">4</item>
+        <item name="dsb_max">30</item>
+        <item name="dsb_value">12</item>
+    </style>
+
+    <style name="SwitchStyle">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd" tools:targetApi="17">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:checked">true</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="SwitchTextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="SwitchContainerStyle">
+        <item name="android:paddingTop">@dimen/reduced_margin</item>
+        <item name="android:paddingBottom">@dimen/reduced_margin</item>
+        <item name="android:paddingRight">@dimen/reduced_margin</item>
+        <item name="android:paddingEnd" tools:targetApi="17">@dimen/reduced_margin</item>
+        <item name="android:paddingLeft">@dimen/default_margin</item>
+        <item name="android:paddingStart" tools:targetApi="17">@dimen/default_margin</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+</resources>
