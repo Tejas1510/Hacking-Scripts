@@ -1,0 +1,11 @@
+<resources>
+    <string name="about">About</string>
+    <string name="copy_instructions">Click here to copy. Long click to share.</string>
+    <string name="digits">Digits</string>
+    <string name="generate">Generate</string>
+    <string name="length">Length: %s</string>
+    <string name="lower_letters">Lowercase letters</string>
+    <string name="password_copied">Password successfully copied to clipboard</string>
+    <string name="symbols">Symbols</string>
+    <string name="upper_letters">Uppercase letters</string>
+</resources>

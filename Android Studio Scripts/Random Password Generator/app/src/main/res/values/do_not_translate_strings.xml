@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Password Generator</string>
+    <string name="min_password_length">4</string>
+    <string name="max_password_length">30</string>
+</resources>
