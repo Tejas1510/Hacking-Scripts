@@ -15,5 +15,6 @@ cd Hacking-Scripts/python/encrypt-pdf
 # And here you go
 ![](https://github.com/pritamp17/Hacking-Scripts/blob/encrypt/Python/pdf-encrypt/ss/1.png?raw=true)
 ![](https://github.com/pritamp17/Hacking-Scripts/blob/encrypt/Python/pdf-encrypt/ss/2.png?raw=true)
+![](https://github.com/pritamp17/Hacking-Scripts/blob/encrypt/Python/pdf-encrypt/ss/3-.png?raw=true)
 # Author
 [Pritam Pawar](https://github.com/pritamp17)
