@@ -1,5 +1,5 @@
 # Encrypt your PDF
-Python script that can encrypt your pdf
+Python script that can protect your pdf by encrypting it.
 # Packages Used
 1. [PyPDF2](https://pypi.org/project/PyPDF2/)
 # How to run
