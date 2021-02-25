@@ -205,7 +205,7 @@ const image_urls = [
   },
   {
     name: "DiceRoller",
-    link: "https://images.unsplash.com/photo-1551431009-a802eeec77b1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8ZGljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    link: "https://images.unsplash.com/photo-1605870445919-838d190e8e1b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8ZGljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
   },
   {
     name: "DrawingApp",
@@ -247,10 +247,10 @@ const image_urls = [
     name: "Github-Data-Fetcher",
     link: "https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8Z2l0aHVifGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
   },
-  // {
-  //   name: "markdown-previewer",
-  //   link: ""
-  // },
+  {
+    name: "markdown-previewer",
+    link: "https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fGVtYWlsfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
   {
     name: "qr-code-generator",
     link: "https://images.unsplash.com/photo-1595079676339-1534801ad6cf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fHFyJTIwY29kZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
@@ -267,14 +267,14 @@ const image_urls = [
     name: "CompleteIPAddressDetailsFinder",
     link: "https://images.unsplash.com/photo-1590233033196-a50b826b059b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bWFwfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
   },
-  // {
-  //   name: "DirectoryLister",
-  //   link: ""
-  // },
-  // {
-  //   name: "DuplicateFileRemover",
-  //   link: ""
-  // },
+  {
+    name: "DirectoryLister",
+    link: "https://images.unsplash.com/photo-1506612966115-4ee2c4c93e2d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8ZmlsZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "DuplicateFileRemover",
+    link: "https://images.unsplash.com/photo-1590421631770-c6fe140592b4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzd8fGZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
   {
     name: "Guessing Game IN JAVA",
     link: "https://images.unsplash.com/photo-1588591795084-1770cb3be374?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fGdhbWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
@@ -306,6 +306,126 @@ const image_urls = [
   {
     name: "SizeOfDirectory",
     link: "https://images.unsplash.com/photo-1589995186011-a7b485edc4bf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8aGRkfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "CSV data in websie",
+    link: "https://images.unsplash.com/photo-1550645612-83f5d594b671?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDZ8fGRhdGF8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "CircularImages",
+    link: "https://images.unsplash.com/photo-1478754117940-f5bc84311001?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2lyY3VsYXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "CountingDays",
+    link: "https://images.unsplash.com/photo-1610888662651-05dbdec7cfae?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzJ8fGNhbGVuZGFyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "Dice",
+    link: "https://images.unsplash.com/photo-1522069213448-443a614da9b6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8ZGljZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "Drawing App",
+    link: "https://images.unsplash.com/photo-1524642176501-f3393ec0b116?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjl8fGRyYXd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "Geo-location",
+    link: "https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hcHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "Maze-Game",
+    link: "https://images.unsplash.com/photo-1590278458425-6aa3912a48a5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bWF6ZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "Notes App",
+    link: "https://images.unsplash.com/photo-1517842645767-c639042777db?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm90ZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "Number Guessing Game",
+    link: "https://images.unsplash.com/photo-1502570149819-b2260483d302?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bnVtYmVyc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "Password Generator",
+    link: "https://images.unsplash.com/photo-1504203700686-f21e703e5f1c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFzc3dvcmR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "Pokedex",
+    link: "https://images.unsplash.com/photo-1542779283-429940ce8336?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cG9rZW1vbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "Qr code generator",
+    link: "https://images.unsplash.com/photo-1595079676339-1534801ad6cf?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fHFyJTIwY29kZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "Random Email Generator",
+    link: "https://images.unsplash.com/photo-1557200134-90327ee9fafa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8ZW1haWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "Rock, Paper, scissors",
+    link: "https://images.unsplash.com/photo-1522032662723-6649e699785f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cm9jayUyMHBhcGVyJTIwc2Npc3NvcnN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "SudokuSolver",
+    link: "https://images.unsplash.com/photo-1526566661780-1a67ea3c863e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cHV6emxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "TextEditior",
+    link: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "UrlShortner",
+    link: "https://images.unsplash.com/photo-1598662779094-110c2bad80b5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGtleWJvYXJkfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "dynamic display(moment extension)",
+    link: "https://images.unsplash.com/photo-1555940280-66bf87aa823d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzB8fGRpc3BsYXl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "light-bulb",
+    link: "https://images.unsplash.com/photo-1493402702251-a6e5320337f7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bGlnaHQlMjBidWxifGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "Tic Tac Toe Game",
+    link: "https://images.unsplash.com/photo-1608111282283-df105d21a7ce?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8dGljJTIwdGFjfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "Todo-List",
+    link: "https://images.unsplash.com/photo-1547480053-7d174f67b557?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8dG8lMjBkbyUyMGxpc3R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "todoList-react",
+    link: "https://images.unsplash.com/photo-1547480053-7d174f67b557?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8dG8lMjBkbyUyMGxpc3R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "TODO",
+    link: "https://images.unsplash.com/photo-1547480053-7d174f67b557?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8dG8lMjBkbyUyMGxpc3R8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
+  {
+    name: "Github-Data-Fetcher",
+    link: ""
+  },
+  {
+    name: "Github-Data-Fetcher",
+    link: ""
+  },
+  {
+    name: "Github-Data-Fetcher",
+    link: ""
+  },
+  {
+    name: "Github-Data-Fetcher",
+    link: ""
+  },
+  {
+    name: "Github-Data-Fetcher",
+    link: ""
+  },
+  {
+    name: "Github-Data-Fetcher",
+    link: ""
+  },
+  {
+    name: "Github-Data-Fetcher",
+    link: ""
   },
   {
     name: "Github-Data-Fetcher",
