@@ -1,11 +1,8 @@
 # Packet Sniffer
-Python3 script to  sniff data from the HTTP pages.
-#####
-you can run this script on linux,
-script will only run on HTTP pages.
+Python3 script to sniff data from the HTTP pages, you can run this script on linux, script will only run on HTTP pages.
 ### Requirements:
--python3
-- scapy_http
+1.python3
+2.scapy_http
 ```bash
 $ sudo pip install scapy_http
 ```
