@@ -666,8 +666,6 @@ const default_image = {
   link: "assets/img/services.jpg"
 }
 
-// assets/img/services.jpg - default image, dont lose it
-
 function fetchDataAndroid() {
   fetch('https://api.github.com/repos/Tejas1510/Hacking-Scripts/contents/Android Studio Scripts').then(response => {
     return response.json();
