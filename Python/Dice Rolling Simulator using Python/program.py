@@ -1,6 +1,5 @@
 import random
 
-
 x = "y"
 
 while x == "y":

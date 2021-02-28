@@ -27,10 +27,14 @@ def calculate_distance_view(request):
     pointA = (l_lat, l_lon)
 
     # initial folium map
-    m = folium.Map(width=800, height=500,
-                   location=get_center_coordinates(l_lat, l_lon), zoom_start=8)
+    m = folium.Map(width=800,
+                   height=500,
+                   location=get_center_coordinates(l_lat, l_lon),
+                   zoom_start=8)
     # location marker
-    folium.Marker([l_lat, l_lon], tooltip='click here for more', popup=city['city'],
+    folium.Marker([l_lat, l_lon],
+                  tooltip='click here for more',
+                  popup=city['city'],
                   icon=folium.Icon(color='purple', icon='home')).add_to(m)
     # destination marker)).add_to(m)
 
@@ -47,18 +51,26 @@ def calculate_distance_view(request):
         distance = round(geodesic(pointA, pointB).km, 2)
 
         # folium map modification
-        m = folium.Map(width=800, height=500, location=get_center_coordinates(
-            l_lat, l_lon, d_lat, d_lon), zoom_start=get_zoom(distance))
+        m = folium.Map(width=800,
+                       height=500,
+                       location=get_center_coordinates(l_lat, l_lon, d_lat,
+                                                       d_lon),
+                       zoom_start=get_zoom(distance))
         # location marker
-        folium.Marker([l_lat, l_lon], tooltip='click here for more', popup=city['city'],
+        folium.Marker([l_lat, l_lon],
+                      tooltip='click here for more',
+                      popup=city['city'],
                       icon=folium.Icon(color='purple', icon='home')).add_to(m)
         # destination marker
-        folium.Marker([d_lat, d_lon], tooltip='click here for more', popup=destination,
+        folium.Marker([d_lat, d_lon],
+                      tooltip='click here for more',
+                      popup=destination,
                       icon=folium.Icon(color='red', icon='cloud')).add_to(m)
 
         # draw the line between location and destination
-        line = folium.PolyLine(
-            locations=[pointA, pointB], weight=5, color='blue')
+        line = folium.PolyLine(locations=[pointA, pointB],
+                               weight=5,
+                               color='blue')
         m.add_child(line)
 
         instance.location = location

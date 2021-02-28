@@ -2,7 +2,6 @@ import pyautogui
 import keyboard
 from tkinter import filedialog
 
-
 while True:
     try:
         if keyboard.is_pressed('p'):

@@ -20,8 +20,11 @@ def getIMG():
     im1 = Image.open(import_file_path)
 
 
-browseButton_PNG = tk.Button(text="      Import PNG File     ", command=getIMG,
-                             bg='deeppink', fg='white', font=('helvetica', 12, 'bold'))
+browseButton_PNG = tk.Button(text="      Import PNG File     ",
+                             command=getIMG,
+                             bg='deeppink',
+                             fg='white',
+                             font=('helvetica', 12, 'bold'))
 canvas1.create_window(150, 130, window=browseButton_PNG)
 
 
@@ -32,8 +35,11 @@ def convertToJPG():
     im1.save(export_file_path)
 
 
-saveAsButton_JPG = tk.Button(text='Convert IMG to JPG', command=convertToJPG,
-                             bg='deeppink', fg='white', font=('helvetica', 12, 'bold'))
+saveAsButton_JPG = tk.Button(text='Convert IMG to JPG',
+                             command=convertToJPG,
+                             bg='deeppink',
+                             fg='white',
+                             font=('helvetica', 12, 'bold'))
 canvas1.create_window(150, 180, window=saveAsButton_JPG)
 
 root.mainloop()

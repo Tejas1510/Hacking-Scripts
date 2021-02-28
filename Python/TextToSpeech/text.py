@@ -1,7 +1,5 @@
-
 from gtts import gTTS
 import os
-
 
 import pytesseract
 from PIL import Image

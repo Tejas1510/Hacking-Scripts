@@ -3,12 +3,21 @@ from textblob import TextBlob
 
 
 def Translate():
-    Lang = ['Hindi', 'Bengali', 'Tamil', 'Telugu',
-            'Malayalam', 'Marathi', 'Gujarati']
+    Lang = [
+        'Hindi', 'Bengali', 'Tamil', 'Telugu', 'Malayalam', 'Marathi',
+        'Gujarati'
+    ]
     for i in range(len(Lang)):
         print("Press " + str(i) + " for " + Lang[i])
-    lang_list = {Lang[0]: 'hi', Lang[1]: 'bn', Lang[2]: 'ta',
-                 Lang[3]: 'te', Lang[4]: 'ml', Lang[5]: 'mr', Lang[6]: 'gu'}
+    lang_list = {
+        Lang[0]: 'hi',
+        Lang[1]: 'bn',
+        Lang[2]: 'ta',
+        Lang[3]: 'te',
+        Lang[4]: 'ml',
+        Lang[5]: 'mr',
+        Lang[6]: 'gu'
+    }
     Target_lang = int(input())
     text = open("textfiles/input.txt", "r")
     content = TextBlob(text.read())

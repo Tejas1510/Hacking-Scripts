@@ -14,16 +14,18 @@ def get_html(url):
     options = webdriver.ChromeOptions()
     # True is required for taking the screenshot with scroll.
     options.headless = True
-    driver = webdriver.Chrome(
-        r"chromedriver_win32\chromedriver.exe", options=options)
+    driver = webdriver.Chrome(r"chromedriver_win32\chromedriver.exe",
+                              options=options)
     driver.get(url)  # url is passes
     required_height = driver.execute_script(
-        'return document.body.parentNode.scrollHeight')  # gets the scroll height
+        'return document.body.parentNode.scrollHeight'
+    )  # gets the scroll height
     # sets the window height and width
     driver.set_window_size(1366, required_height)
     driver.find_element_by_tag_name('article').screenshot(
         path)  # Every article in GeeksForGeeks has article tag
     convert_image_to_pdf('image.png')
+
 
 # This function uses fpdf library to convert the image passed from the last
 # function to a pdf. For image manipulation it uses pillow.
@@ -34,16 +36,17 @@ def convert_image_to_pdf(path):
     width, height = cover.size
     margin = 20
     # Setting up the dimensions
-    pdf = FPDF(unit='pt', format=[width + 2*margin, height + 2*margin])
+    pdf = FPDF(unit='pt', format=[width + 2 * margin, height + 2 * margin])
     pdf.add_page()  # Adding new page to the pdf
     pdf.image(path, margin, margin)
-    pdf_filename = input('Enter the file name: ')+'.pdf'
+    pdf_filename = input('Enter the file name: ') + '.pdf'
     pdf.output(pdf_filename, "F")
     print("Success!!")
 
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1:  # Get the url of the site from where you want to download
+    if len(sys.argv
+           ) > 1:  # Get the url of the site from where you want to download
         url = " ".join(sys.argv[1:])
     else:
         url = input('Enter the URL: ')

@@ -22,8 +22,8 @@ font = pygame.font.SysFont(None, 25)
 
 def snake(block_size, snakelist):
     for XnY in snakelist:
-        pygame.draw.rect(gameDisplay, green, [
-                         XnY[0], XnY[1], block_size, block_size])
+        pygame.draw.rect(gameDisplay, green,
+                         [XnY[0], XnY[1], block_size, block_size])
 
 
 def message_to_screen(msg, colour):
@@ -36,20 +36,21 @@ def gameLoop():
     gameExit = False
     gameOver = False
     # snake is made of blocks,so we r specifying the positon of leading block
-    lead_x = display_width/2
-    lead_y = display_height/2
+    lead_x = display_width / 2
+    lead_y = display_height / 2
     lead_x_change = 0
     lead_y_change = 0
     snakelist = []
     snakelength = 1
-    randAppleX = round(random.randrange(0, display_width-block_size)/10.0)*10.0
-    randAppleY = round(random.randrange(
-        0, display_height-block_size)/10.0)*10.0
+    randAppleX = round(
+        random.randrange(0, display_width - block_size) / 10.0) * 10.0
+    randAppleY = round(
+        random.randrange(0, display_height - block_size) / 10.0) * 10.0
     while not gameExit:  # starting game loop
         while gameOver == True:
             gameDisplay.fill(white)
-            message_to_screen(
-                "game over,press C to play again or Q to quit", red)
+            message_to_screen("game over,press C to play again or Q to quit",
+                              red)
             pygame.display.update()
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
@@ -81,7 +82,6 @@ def gameLoop():
                     lead_x_change = 0
         if lead_x >= display_width or lead_x < 0 or lead_y >= display_height or lead_y < 0:
             gameOver = True  # x>=800 y>=600 is used to avoid boundary problem
-
             '''if event.type==pygame.KEYUP:
                 if event.key==pygame.K_LEFT or event.key==pygame.K_RIGHT:
                     lead_x_change = 0
@@ -91,8 +91,8 @@ def gameLoop():
         # problem due to not defining fps
 
         gameDisplay.fill(white)
-        pygame.draw.rect(gameDisplay, red, [
-                         randAppleX, randAppleY, block_size, block_size])
+        pygame.draw.rect(gameDisplay, red,
+                         [randAppleX, randAppleY, block_size, block_size])
 
         snakehead = []
         snakehead.append(lead_x)
@@ -110,23 +110,23 @@ def gameLoop():
         # it does not make the block moving continuously
         pygame.display.update()
         if lead_x == randAppleX and lead_y == randAppleY:
-            randAppleX = round(random.randrange(
-                0, display_width-block_size)/10.0)*10.0
-            randAppleY = round(random.randrange(
-                0, display_height-block_size)/10.0)*10.0
+            randAppleX = round(
+                random.randrange(0, display_width - block_size) / 10.0) * 10.0
+            randAppleY = round(
+                random.randrange(0, display_height - block_size) / 10.0) * 10.0
             snakelength += 5
         clock.tick(FPS)
     #message_to_screen("YOU LOSE",red)
-        # right fps for snake game
-        # first define movement then define fps
+    # right fps for snake game
+    # first define movement then define fps
 
-        # updating the display in each step
-        # print(event)
-   # message_to_screen("YOU LOSE,GO OUTSIDE YOU FOOL",red)
-    # pygame.display.update()
-    # time.sleep(2)#user have to wait for some time
+    # updating the display in each step
+    # print(event)
+
+# message_to_screen("YOU LOSE,GO OUTSIDE YOU FOOL",red)
+# pygame.display.update()
+# time.sleep(2)#user have to wait for some time
     pygame.quit()
     quit()
-
 
 gameLoop()

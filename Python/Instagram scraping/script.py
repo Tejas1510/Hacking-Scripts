@@ -25,26 +25,31 @@ class instaBot:
         sleep(10)
 
         self.driver.find_element_by_xpath(
-            '//*[@id="react-root"]/section/nav/div[2]/div/div/div[3]/div/div[5]/span/img').click()
+            '//*[@id="react-root"]/section/nav/div[2]/div/div/div[3]/div/div[5]/span/img'
+        ).click()
         sleep(5)
 
         self.driver.find_element_by_xpath(
-            '/html/body/div[1]/section/nav/div[2]/div/div/div[3]/div/div[5]/div[2]/div[2]/div[2]/a[1]/div/div[2]/div/div/div').click()
+            '/html/body/div[1]/section/nav/div[2]/div/div/div[3]/div/div[5]/div[2]/div[2]/div[2]/a[1]/div/div[2]/div/div/div'
+        ).click()
 
         sleep(5)
 
     def get_unfollowers(self):
 
         self.driver.find_element_by_xpath(
-            '//*[@id="react-root"]/section/main/div/header/section/ul/li[3]/a').click()
+            '//*[@id="react-root"]/section/main/div/header/section/ul/li[3]/a'
+        ).click()
         following = self.get_names()
 
         self.driver.find_element_by_xpath(
-            '//*[@id="react-root"]/section/main/div/header/section/ul/li[2]/a').click()
+            '//*[@id="react-root"]/section/main/div/header/section/ul/li[2]/a'
+        ).click()
         followers = self.get_names()
 
         not_following_back = [
-            user for user in following if user not in followers]
+            user for user in following if user not in followers
+        ]
 
         print("Information Collection Successful .....\n")
         print('Writing usernames to "listfile.txt" ......\n')
@@ -67,7 +72,8 @@ class instaBot:
         while last_ht != ht:
             last_ht = ht
             sleep(1)
-            ht = self.driver.execute_script("""
+            ht = self.driver.execute_script(
+                """
                 arguments[0].scrollTo(0, arguments[0].scrollHeight); 
                 return arguments[0].scrollHeight;
                 """, scroll_box)
@@ -78,8 +84,11 @@ class instaBot:
         self.driver.find_element_by_xpath(
             '/html/body/div[5]/div/div/div[1]/div/div[2]/button').click()
 
-        trash = ['Edit Profile', 'POSTS', 'IGTV', 'SAVED', 'TAGGED', 'ABOUT', 'HELP',
-                 'PRESS', 'API', 'JOBS', 'PRIVACY', 'TERMS', 'LOCATIONS', 'TOP ACCOUNTS', 'HASHTAGS']
+        trash = [
+            'Edit Profile', 'POSTS', 'IGTV', 'SAVED', 'TAGGED', 'ABOUT',
+            'HELP', 'PRESS', 'API', 'JOBS', 'PRIVACY', 'TERMS', 'LOCATIONS',
+            'TOP ACCOUNTS', 'HASHTAGS'
+        ]
 
         del all[0:int(len(trash))]
         return all

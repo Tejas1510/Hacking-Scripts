@@ -13,7 +13,6 @@ scraped_data = {
     'stipend': [],
     'apply_by': [],
     'start_date': [],
-
 }
 
 main_url = input("Please enter the url of internshala website to scrap : ")
@@ -22,8 +21,8 @@ url = main_url
 response = requests.get(url)
 data = response.text
 soup = BeautifulSoup(data, 'html.parser')
-count_of_internships = int(soup.find("div",
-                                     class_="heading_4_6").text.split()[0])
+count_of_internships = int(
+    soup.find("div", class_="heading_4_6").text.split()[0])
 
 num_of_pages = int((count_of_internships / 40) + 1)
 # A loop that will go to each page and will scrape the data
@@ -41,7 +40,7 @@ for i in range(1, num_of_pages + 1):
     data = response.text
     soup = BeautifulSoup(data, 'html.parser')
 
-# ------------------- Search for heading of the Internship -------------------
+    # ------------------- Search for heading of the Internship -------------------
     heading_data = soup.find_all("div", class_="heading_4_5 profile")
     for heading in heading_data:
         scraped_data['heading'].append(heading.text.lstrip('\n'))
@@ -56,7 +55,6 @@ for i in range(1, num_of_pages + 1):
         name = name.rstrip('\n')
         name = name.rstrip(' ')
         scraped_data['company'].append(name)
-
 
 # ------------------- Search for stipend of the Internship -------------------
     stipend_data = soup.find_all("span", class_="stipend")
@@ -78,8 +76,8 @@ for i in range(1, num_of_pages + 1):
         apply_date = apply_date.rstrip(' ')
         scraped_data['apply_by'].append(apply_date)
 
-    duration_data = soup.find_all(
-        "div", class_="internship_other_details_container")
+    duration_data = soup.find_all("div",
+                                  class_="internship_other_details_container")
     for duration in duration_data:
         # Cleaning of data before saving it
         duration = duration.find("div", class_="item_body").text

@@ -13,11 +13,12 @@ def nextdate(name):
         next_episode = next_episode.replace('"', "")
         next_episode = next_episode.replace("status", "")
         next_episode = next_episode.replace("/div><", "")
-        next_episode = next_episode.replace(
-            "class=><a href=/sear", "Show not Found")
+        next_episode = next_episode.replace("class=><a href=/sear",
+                                            "Show not Found")
         if (next_episode == None):
-            check = soup.find('div', {'class': 'countdown'}).find(
-                'div', {"class": "status"})
+            check = soup.find('div', {
+                'class': 'countdown'
+            }).find('div', {"class": "status"})
             check_status = check.getText()
             return check_status
         else:
@@ -28,23 +29,24 @@ def nextdate(name):
 
 def function():
     value = nextdate(e.get().lower())
-    mylabel = Label(frame, text=e.get()+" "+value)
+    mylabel = Label(frame, text=e.get() + " " + value)
     mylabel.pack()
-    messagebox.showinfo("Next airing date: "+e.get(), value)
+    messagebox.showinfo("Next airing date: " + e.get(), value)
 
 
 value = ""
 root = Tk()
 root.title("Next Episodate")
-frame = LabelFrame(
-    root, text="Find your TV Show/anime next Episode Date:", padx=5, pady=5)
+frame = LabelFrame(root,
+                   text="Find your TV Show/anime next Episode Date:",
+                   padx=5,
+                   pady=5)
 frame.pack(padx=10, pady=10)
 e = Entry(frame, width=25)
 e.pack()
 b = Button(frame, text="search", command=function)
 b.pack()
 root.mainloop()
-
 
 #***********************  Made By: Abhijeet  ************************ #
 #*************** https://github.com/abhijeet007rocks8 ****************#

@@ -28,12 +28,12 @@ def password_check(password):
     lowercase_check = re.search(r"[a-z]", password) is None
 
     # searching for symbols
-    symbol_check = re.search(
-        r"[ !#$%&'()*+,-./[\\\]^_`{|}~"+r'"]', password) is None
+    symbol_check = re.search(r"[ !#$%&'()*+,-./[\\\]^_`{|}~" + r'"]',
+                             password) is None
 
     # overall result
-    strong = not (
-        length_check or num_check or uppercase_check or lowercase_check or symbol_check)
+    strong = not (length_check or num_check or uppercase_check
+                  or lowercase_check or symbol_check)
 
     return {
         'Password is Strong': strong,

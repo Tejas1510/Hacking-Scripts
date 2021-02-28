@@ -1,4 +1,3 @@
-
 import pyautogui
 from PIL import Image, ImageGrab
 import time

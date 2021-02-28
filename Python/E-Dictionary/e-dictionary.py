@@ -24,7 +24,7 @@ def find_meaning(word):  # Function to find the meaning of the word
         print('(', i, ')', sep='')  # e.g.: Noun, Verb, Adjective
         # and print the data for that respective key, line by line
         for j in range(len(mean[i])):
-            print('\t', j+1, '. ', mean[i][j], sep='')
+            print('\t', j + 1, '. ', mean[i][j], sep='')
         print()
 
 

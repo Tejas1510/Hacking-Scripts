@@ -44,9 +44,9 @@ def get_value_bar(space_value, space_len, bgcolor, space_name, reset=reset):
     return output_string
 
 
-print('-'*MAX_LENGTH)
+print('-' * MAX_LENGTH)
 print(f"Space analysis Report")
-print('-'*MAX_LENGTH)
+print('-' * MAX_LENGTH)
 print(f'Utility called from {os.getcwd()}')
 print(get_value_bar(total_space, total_space_len, blue_bg, "Total Space"))
 print(get_value_bar(used_space, used_space_len, red_bg, "Used Space"))

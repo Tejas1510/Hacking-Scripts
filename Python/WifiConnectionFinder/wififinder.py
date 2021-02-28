@@ -13,4 +13,4 @@ print("Your System is Connected to following wifi networks : ")
 i = 1
 for name in allWifiName:
     print(i, ")", name)
-    i = i+1
+    i = i + 1

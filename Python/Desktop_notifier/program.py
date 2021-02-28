@@ -31,8 +31,9 @@ def Parsefeed():
         print('\n')
 
         # create Notification object
-        n = notify2.Notification(
-            newsitem['title'], newsitem['summary'], icon=ICON_PATH)
+        n = notify2.Notification(newsitem['title'],
+                                 newsitem['summary'],
+                                 icon=ICON_PATH)
         # set urgency level
         n.set_urgency(notify2.URGENCY_NORMAL)
         # show notification on screen
@@ -49,8 +50,8 @@ if __name__ == '__main__':
     # call the functions
     try:
         Parsefeed()
-        mixer.music.play()      # start producing sound while showing notification
-        time.sleep(10)          # short delay
-        mixer.music.pause()     # pause the sound
+        mixer.music.play()  # start producing sound while showing notification
+        time.sleep(10)  # short delay
+        mixer.music.pause()  # pause the sound
     except:
         print("Error")

@@ -10,12 +10,16 @@ try:
     import os
     import lyricsgenius as lg
 except ModuleNotFoundError:  # Handle the error if the module is not found
-    print('Module not found. Run "python3 -m pip install lyricsgenius" to install it.')
+    print(
+        'Module not found. Run "python3 -m pip install lyricsgenius" to install it.'
+    )
 
 # Creating an instance of the Genius API and giving it the required API Token
 # Replace Insert_Client_API_Token_Here with your API Token
-genius = lg.Genius('Insert_Client_API_Token_Here', skip_non_songs=True, excluded_terms=[
-                   "(Remix)", "(Live)"], remove_section_headers=True)
+genius = lg.Genius('Insert_Client_API_Token_Here',
+                   skip_non_songs=True,
+                   excluded_terms=["(Remix)", "(Live)"],
+                   remove_section_headers=True)
 
 # Taking the title name of the song and the artist name as the input from the user:
 title = input('Enter the title of the song   : ')
@@ -36,8 +40,8 @@ else:
     try:
         song = genius.search_song(title, artist)  # Searching for the song
         file.write(song.lyrics)  # Writing the lyrics of the song to the file
-        print('Lyrics of "' + title + '"',
-              'found and saved to the file', filename)
+        print('Lyrics of "' + title + '"', 'found and saved to the file',
+              filename)
         file.close()  # Closing the file upon writing the contents successfully
     except:
         file.close()

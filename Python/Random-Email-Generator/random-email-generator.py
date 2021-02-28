@@ -2,7 +2,6 @@ import random
 import string
 import csv
 import progressbar
-
 ''' Ask user for total number of emails required'''
 
 
@@ -21,16 +20,19 @@ def getcount():
 
 def makeEmail():
     extensions = ['com', 'net', 'org', 'gov']
-    domains = ['gmail', 'yahoo', 'comcast', 'verizon',
-               'charter', 'hotmail', 'outlook', 'frontier']
+    domains = [
+        'gmail', 'yahoo', 'comcast', 'verizon', 'charter', 'hotmail',
+        'outlook', 'frontier'
+    ]
 
-    finalext = extensions[random.randint(0, len(extensions)-1)]
-    finaldom = domains[random.randint(0, len(domains)-1)]
+    finalext = extensions[random.randint(0, len(extensions) - 1)]
+    finaldom = domains[random.randint(0, len(domains) - 1)]
 
     accountlen = random.randint(1, 20)
 
-    finalacc = ''.join(random.choice(string.ascii_lowercase +
-                                     string.digits) for _ in range(accountlen))
+    finalacc = ''.join(
+        random.choice(string.ascii_lowercase + string.digits)
+        for _ in range(accountlen))
 
     finale = finalacc + "@" + finaldom + "." + finalext
     return finale

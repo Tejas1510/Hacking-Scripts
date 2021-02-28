@@ -7,7 +7,6 @@ from selenium.webdriver.support import expected_conditions
 from selenium.common.exceptions import NoSuchElementException
 import time
 
-
 try:
     driver = webdriver.Chrome(
         '<===============ENTER YOUR CHROME DRIVER PATH===========>')

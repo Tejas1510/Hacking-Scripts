@@ -5,13 +5,14 @@ import re
 
 print('Collecting data ...')
 # Creating an object of Scrapper type and passing on the url
-soup = BeautifulSoup(requests.get(
-    "https://www.worldometers.info/coronavirus/").text, 'lxml')
+soup = BeautifulSoup(
+    requests.get("https://www.worldometers.info/coronavirus/").text, 'lxml')
 # Searching for tables in the page"
 table = soup.find("table", {"id": "main_table_countries_today"})
 # Extracting the headers of the table and performing some data cleaning
-headings = [h.text.replace('\n', '').replace('\xa0', '')
-            for h in table.find_all('th')]
+headings = [
+    h.text.replace('\n', '').replace('\xa0', '') for h in table.find_all('th')
+]
 # Extracting only the country wise data by deleting the continent wise data
 rows = [r for r in table.find_all('tr') if not r.has_attr('data-continent')]
 # Removing the header
@@ -42,34 +43,34 @@ with open('data.csv') as file:
     reader = csv.reader(file)
     count = 0
     for row in reader:
-        if(re.match(country, row[1], re.IGNORECASE)):
+        if (re.match(country, row[1], re.IGNORECASE)):
             flag = 1
             print('Country - ', row[1])
-            if(len(row[2]) > 0):
+            if (len(row[2]) > 0):
                 print('Total Cases - ', row[2])
             else:
                 print('Total Cases - ', '0')
-            if(len(row[4]) > 0):
+            if (len(row[4]) > 0):
                 print('Total Deaths - ', row[4])
             else:
                 print('Total Deaths - ', '0')
-            if(len(row[6]) > 0):
+            if (len(row[6]) > 0):
                 print('Total Recovered - ', row[6])
             else:
                 print('Total Recovered - ', '0')
-            if(len(row[3]) > 0):
+            if (len(row[3]) > 0):
                 print('Newly Reported Cases - ', row[3])
             else:
                 print('Newly Reported Cases - ', '0')
-            if(len(row[5]) > 0):
+            if (len(row[5]) > 0):
                 print('Newly Reported deaths - ', row[5])
             else:
                 print('Newly Reported Deaths  - ', '0')
-            if(len(row[7]) > 0):
+            if (len(row[7]) > 0):
                 print(' Newly Recovered - ', row[7])
             else:
                 print('Newly Recovered  - ', '0')
 
 # Flag for checking , in case a wrong country name is given
-if(flag == 0):
+if (flag == 0):
     print("No such country exists")

@@ -1,6 +1,5 @@
 import string
 import secrets
-
 """
     This is random password generator which creates
     random password using "secrets" module.
@@ -23,6 +22,7 @@ def isspecial(char):
         return True
     return False
 
+
 # Generates password using secrets module.
 
 
@@ -34,8 +34,8 @@ def password_generator(n):
     # Generates password till password satisfies all standerd conditions.
     while True:
         password = ''.join(secrets.choice(char_set) for i in range(n))
-        if (any(c.islower() for c in password)
-                and any(c.isupper() for c in password)
+        if (any(c.islower() for c in password) and any(c.isupper()
+                                                       for c in password)
                 and any(c.isdigit() for c in password)
                 and any(isspecial(c) for c in password)):
             return password

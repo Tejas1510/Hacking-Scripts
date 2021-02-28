@@ -12,7 +12,6 @@ import time
 
 class App(QWidget, Thread):
     """Inherit the class Thread"""
-
     def __init__(self):
         """Initialize init"""
         super().__init__()
@@ -76,8 +75,8 @@ class App(QWidget, Thread):
                 height, width, layers = img.shape
                 size = (width, height)
                 img_array.append(img)
-            out = cv2.VideoWriter(
-                'project.avi', cv2.VideoWriter_fourcc(*'DIVX'), 24, size)
+            out = cv2.VideoWriter('project.avi',
+                                  cv2.VideoWriter_fourcc(*'DIVX'), 24, size)
             for i in range(len(img_array)):
                 out.write(img_array[i])
             out.release()

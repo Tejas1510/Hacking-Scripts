@@ -5,11 +5,16 @@ from datetime import datetime as dt
 hostsPath = r"C:\Windows\System32\drivers\etc\hosts"
 redirect = "127.0.0.1"
 # Add the website you want to block, in this list
-websites = ["www.youtube.com", "youtube.com",
-            "www.facebook.com", "facebook.com"]
+websites = [
+    "www.youtube.com", "youtube.com", "www.facebook.com", "facebook.com"
+]
 while True:
     # Duration during which, website blocker will work
-    if dt(dt.now().year, dt.now().month, dt.now().day, 9) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 18):
+    if dt(dt.now().year,
+          dt.now().month,
+          dt.now().day, 9) < dt.now() < dt(dt.now().year,
+                                           dt.now().month,
+                                           dt.now().day, 18):
         print("Access denied to Website")
     with open(hostsPath, 'r+') as file:
         content = file.read()
@@ -17,7 +22,7 @@ while True:
             if site in content:
                 pass
             else:
-                file.write(redirect+" "+site+"\n")
+                file.write(redirect + " " + site + "\n")
         else:
             with open(hostsPath, 'r+') as file:
                 content = file.readlines()

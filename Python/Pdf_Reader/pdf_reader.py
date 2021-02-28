@@ -9,7 +9,6 @@ pdfreader = PyPDF2.PdfFileReader(pdf, strict=False)
 pages = pdfreader.numPages
 # print(pages) you can used this to print number of pages
 
-
 myreader = pyttsx3.init()
 
 pages = pdfreader.getPage(7)

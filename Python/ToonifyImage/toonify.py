@@ -2,13 +2,11 @@ import requests
 import shutil  # to save image locally
 imagePath = input("Please enter the path of image to toonify : ")
 api_key = input("Please enter your api key")
-r = requests.post(
-    "https://api.deepai.org/api/toonify",
-    files={
-        'image': open(imagePath, 'rb'),
-    },
-    headers={'api-key': api_key}
-)
+r = requests.post("https://api.deepai.org/api/toonify",
+                  files={
+                      'image': open(imagePath, 'rb'),
+                  },
+                  headers={'api-key': api_key})
 y = r.json()
 image_url = y['output_url']
 filename = image_url.split("/")[-1]

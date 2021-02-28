@@ -1,4 +1,3 @@
-
 from tkinter import *
 from tkinter import messagebox
 
@@ -16,8 +15,9 @@ def tell_weather():
 
     complete_url = base_url + "appid =" + api_key + "&q =" + city_name
 
-    response = requests.get("http://api.openweathermap.org/data/2.5/weather?q=" +
-                            city_name+"&appid=25bb0be2a718d9cc2c9bf60994549146")
+    response = requests.get(
+        "http://api.openweathermap.org/data/2.5/weather?q=" + city_name +
+        "&appid=25bb0be2a718d9cc2c9bf60994549146")
 
     x = response.json()
 
@@ -26,7 +26,7 @@ def tell_weather():
         y = x["main"]
 
         current_temperature = y["temp"]
-        current_temperatureDegree = current_temperature-273.5
+        current_temperatureDegree = current_temperature - 273.5
         finalTemp = round(current_temperatureDegree, 2)
 
         current_pressure = y["pressure"]
@@ -37,10 +37,10 @@ def tell_weather():
 
         weather_description = z[0]["description"]
         min_temp = y["temp_min"]
-        min1 = min_temp-273.5
+        min1 = min_temp - 273.5
         min2 = round(min1, 2)
         max_temp = y["temp_max"]
-        max1 = max_temp-273.5
+        max1 = max_temp - 273.5
         max2 = round(max1, 2)
 
         temp_field.insert(15, str(finalTemp) + " degree")
@@ -52,8 +52,9 @@ def tell_weather():
 
     else:
 
-        messagebox.showerror("Error", "City Not Found \n"
-                             "Please enter valid city name")
+        messagebox.showerror(
+            "Error", "City Not Found \n"
+            "Please enter valid city name")
 
         city_field.delete(0, END)
 
@@ -80,27 +81,53 @@ if __name__ == "__main__":
 
     root.geometry("745x685")
 
-    headlabel = Label(root, text="Weather Predictor",
-                      fg='red', bg='light pink', font="Times 24", padx="10", pady="10")
+    headlabel = Label(root,
+                      text="Weather Predictor",
+                      fg='red',
+                      bg='light pink',
+                      font="Times 24",
+                      padx="10",
+                      pady="10")
 
-    label1 = Label(root, text="City name : ",
-                   fg='red', bg='light pink', font="Times 16")
+    label1 = Label(root,
+                   text="City name : ",
+                   fg='red',
+                   bg='light pink',
+                   font="Times 16")
 
-    label2 = Label(root, text="Temperature :",
-                   fg='red', bg='light pink', font="Times 16")
+    label2 = Label(root,
+                   text="Temperature :",
+                   fg='red',
+                   bg='light pink',
+                   font="Times 16")
 
-    label3 = Label(root, text="atm pressure :",
-                   fg='red', bg='light pink', font="Times 16")
+    label3 = Label(root,
+                   text="atm pressure :",
+                   fg='red',
+                   bg='light pink',
+                   font="Times 16")
 
-    label4 = Label(root, text="humidity :",
-                   fg='red', bg='light pink', font="Times 16")
+    label4 = Label(root,
+                   text="humidity :",
+                   fg='red',
+                   bg='light pink',
+                   font="Times 16")
 
-    label5 = Label(root, text="description  :",
-                   fg='red', bg='light pink', font="Times 16")
-    label6 = Label(root, text="Minimun Temp",
-                   fg='red', bg='light pink', font="Times 16")
-    label7 = Label(root, text="Maximum Temp",
-                   fg='red', bg='light pink', font="Times 16")
+    label5 = Label(root,
+                   text="description  :",
+                   fg='red',
+                   bg='light pink',
+                   font="Times 16")
+    label6 = Label(root,
+                   text="Minimun Temp",
+                   fg='red',
+                   bg='light pink',
+                   font="Times 16")
+    label7 = Label(root,
+                   text="Maximum Temp",
+                   fg='red',
+                   bg='light pink',
+                   font="Times 16")
 
     headlabel.grid(row=0, column=1)
     label1.grid(row=1, column=0, sticky="E")
@@ -119,26 +146,62 @@ if __name__ == "__main__":
     min_field = Entry(root, font="Calibri 18")
     max_field = Entry(root, font="Calibri 18")
 
-    city_field.grid(row=1, column=1, ipadx="150",
-                    ipady="7", padx="10", pady="10")
-    temp_field.grid(row=3, column=1, ipadx="150",
-                    ipady="7", padx="10", pady="10")
-    atm_field.grid(row=4, column=1, ipadx="150",
-                   ipady="7", padx="10", pady="10")
-    humid_field.grid(row=5, column=1, ipadx="150",
-                     ipady="7", padx="10", pady="10")
-    desc_field.grid(row=6, column=1, ipadx="150",
-                    ipady="7", padx="10", pady="10")
-    min_field.grid(row=7, column=1, ipadx="150",
-                   ipady="7", padx="10", pady="10")
-    max_field.grid(row=8, column=1, ipadx="150",
-                   ipady="7", padx="10", pady="10")
+    city_field.grid(row=1,
+                    column=1,
+                    ipadx="150",
+                    ipady="7",
+                    padx="10",
+                    pady="10")
+    temp_field.grid(row=3,
+                    column=1,
+                    ipadx="150",
+                    ipady="7",
+                    padx="10",
+                    pady="10")
+    atm_field.grid(row=4,
+                   column=1,
+                   ipadx="150",
+                   ipady="7",
+                   padx="10",
+                   pady="10")
+    humid_field.grid(row=5,
+                     column=1,
+                     ipadx="150",
+                     ipady="7",
+                     padx="10",
+                     pady="10")
+    desc_field.grid(row=6,
+                    column=1,
+                    ipadx="150",
+                    ipady="7",
+                    padx="10",
+                    pady="10")
+    min_field.grid(row=7,
+                   column=1,
+                   ipadx="150",
+                   ipady="7",
+                   padx="10",
+                   pady="10")
+    max_field.grid(row=8,
+                   column=1,
+                   ipadx="150",
+                   ipady="7",
+                   padx="10",
+                   pady="10")
 
-    button1 = Button(root, text="Submit", bg="red",
-                     fg="black", command=tell_weather, font="Times 18")
+    button1 = Button(root,
+                     text="Submit",
+                     bg="red",
+                     fg="black",
+                     command=tell_weather,
+                     font="Times 18")
 
-    button2 = Button(root, text="Clear", bg="red",
-                     fg="black", command=clear_all, font="Times 18")
+    button2 = Button(root,
+                     text="Clear",
+                     bg="red",
+                     fg="black",
+                     command=clear_all,
+                     font="Times 18")
 
     button1.grid(row=2, column=1)
     button2.grid(row=10, column=1)

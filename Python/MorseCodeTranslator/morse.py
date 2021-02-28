@@ -4,14 +4,12 @@ from tkinter import IntVar, END, DISABLED, NORMAL
 from PIL import ImageTk, Image
 from playsound import playsound
 
-
 # Defining root window
 root = tkinter.Tk()
 root.title('Morse Code Translator')
 root.geometry('500x350')
 root.iconbitmap('morse.ico')
 root.resizable(0, 0)
-
 
 # Defining fonts and colors
 button_font = ('SimSun', 10)
@@ -126,8 +124,8 @@ def show_guide():
     guide = tkinter.Toplevel()
     guide.title("Morse Chart")
     guide.iconbitmap('morse.ico')
-    guide.geometry('350x350+' + str(root.winfo_x()+500) +
-                   "+" + str(root.winfo_y()))
+    guide.geometry('350x350+' + str(root.winfo_x() + 500) + "+" +
+                   str(root.winfo_y()))
     guide.config(bg=root_color)
 
     # Display morse chart
@@ -136,8 +134,11 @@ def show_guide():
     label.pack(padx=10, pady=10, ipadx=5, ipady=5)
 
     # Creating close button
-    close_button = tkinter.Button(
-        guide, text="Close", font=button_font, bg=button_color, command=hide_guide)
+    close_button = tkinter.Button(guide,
+                                  text="Close",
+                                  font=button_font,
+                                  bg=button_color,
+                                  command=hide_guide)
     close_button.pack(padx=10, ipadx=50)
 
     # Disabel the guide button
@@ -151,13 +152,51 @@ def hide_guide():
     guide_button.config(state=NORMAL)
     guide.destroy()
 
+
 #######################################################################################################################################################################################################################################################################################################
 
-
 # English to Morse mapping
-english_to_morse = {'a': '.-', 'b': '-...', 'c': '-.-.', 'd': '-..', 'e': '.', 'f': '..-.', 'g': '--.', 'h': '....', 'i': '..', 'j': '.---', 'k': '-.-', 'l': '.-..', 'm': '--', 'n': '-.', 'o': '---', 'p': '.--.',
-                    'q': '--.-', 'r': '.-.', 's': '...', 't': '-', 'u': '..--', 'v': '...-', 'w': '.--', 'x': '-..-', 'y': '-.--', 'z': '--..', '1': '.----', '2': '..---', '3': '...--', '4': '....-', '5': '.....',
-                    '6': '-....', '7': '--...', '8': '---..', '9': '----.', '0': '-----', ' ': ' ', '|': '|', "": ""}
+english_to_morse = {
+    'a': '.-',
+    'b': '-...',
+    'c': '-.-.',
+    'd': '-..',
+    'e': '.',
+    'f': '..-.',
+    'g': '--.',
+    'h': '....',
+    'i': '..',
+    'j': '.---',
+    'k': '-.-',
+    'l': '.-..',
+    'm': '--',
+    'n': '-.',
+    'o': '---',
+    'p': '.--.',
+    'q': '--.-',
+    'r': '.-.',
+    's': '...',
+    't': '-',
+    'u': '..--',
+    'v': '...-',
+    'w': '.--',
+    'x': '-..-',
+    'y': '-.--',
+    'z': '--..',
+    '1': '.----',
+    '2': '..---',
+    '3': '...--',
+    '4': '....-',
+    '5': '.....',
+    '6': '-....',
+    '7': '--...',
+    '8': '---..',
+    '9': '----.',
+    '0': '-----',
+    ' ': ' ',
+    '|': '|',
+    "": ""
+}
 # Morse to English mapping
 morse_to_english = dict([(value, key)
                          for key, value in english_to_morse.items()])
@@ -177,12 +216,23 @@ input_text.grid(row=0, column=1, rowspan=3, padx=5, pady=5)
 
 language = IntVar()
 language.set(1)
-morse_button = tkinter.Radiobutton(input_frame, text="English --> Morse Code",
-                                   variable=language, value=1, font=button_font, bg=frame_color)
-english_button = tkinter.Radiobutton(
-    input_frame, text="Morse Code --> English", variable=language, value=2, font=button_font, bg=frame_color)
-guide_button = tkinter.Button(
-    input_frame, text="Guide Me", font=button_font, bg=button_color, command=show_guide)
+morse_button = tkinter.Radiobutton(input_frame,
+                                   text="English --> Morse Code",
+                                   variable=language,
+                                   value=1,
+                                   font=button_font,
+                                   bg=frame_color)
+english_button = tkinter.Radiobutton(input_frame,
+                                     text="Morse Code --> English",
+                                     variable=language,
+                                     value=2,
+                                     font=button_font,
+                                     bg=frame_color)
+guide_button = tkinter.Button(input_frame,
+                              text="Guide Me",
+                              font=button_font,
+                              bg=button_color,
+                              command=show_guide)
 
 morse_button.grid(row=0, column=0, pady=(15, 0))
 english_button.grid(row=1, column=0)
@@ -192,14 +242,26 @@ guide_button.grid(row=2, column=0, sticky="WE", padx=10)
 output_text = tkinter.Text(output_frame, height=8, width=30, bg=text_color)
 output_text.grid(row=0, column=1, rowspan=4, padx=5, pady=5)
 
-convert_button = tkinter.Button(
-    output_frame, text="Convert", font=button_font, bg=button_color, command=convert)
-play_button = tkinter.Button(
-    output_frame, text="Play Morse", font=button_font, bg=button_color, command=play)
-clear_button = tkinter.Button(
-    output_frame, text="Clear", font=button_font, bg=button_color, command=clear)
-quit_button = tkinter.Button(
-    output_frame, text="Quit", font=button_font, bg=button_color, command=root.destroy)
+convert_button = tkinter.Button(output_frame,
+                                text="Convert",
+                                font=button_font,
+                                bg=button_color,
+                                command=convert)
+play_button = tkinter.Button(output_frame,
+                             text="Play Morse",
+                             font=button_font,
+                             bg=button_color,
+                             command=play)
+clear_button = tkinter.Button(output_frame,
+                              text="Clear",
+                              font=button_font,
+                              bg=button_color,
+                              command=clear)
+quit_button = tkinter.Button(output_frame,
+                             text="Quit",
+                             font=button_font,
+                             bg=button_color,
+                             command=root.destroy)
 # convert ipadx defines column width
 convert_button.grid(row=0, column=0, padx=10, ipadx=50)
 play_button.grid(row=1, column=0, padx=10, sticky="WE")
