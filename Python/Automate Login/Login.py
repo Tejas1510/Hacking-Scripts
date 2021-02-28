@@ -11,7 +11,8 @@ password = getpass.getpass("Enter your password: ")
 
 
 def login(email, password):
-    driver = webdriver.Chromdriver= webdriver.Chrome('./Hacking-Scripts/Python/Automate Login/chromedriver')
+    driver = webdriver.Chromdriver = webdriver.Chrome(
+        './Hacking-Scripts/Python/Automate Login/chromedriver')
     driver.get(login_url)
     time.sleep(1)
     # Entering Email Address

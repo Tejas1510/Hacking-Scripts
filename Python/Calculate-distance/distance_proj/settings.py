@@ -102,7 +102,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-CRISPY_ALLOWED_TEMPLATE_PACKS = ('bootstrap', 'uni_form', 'bootstrap3', 'foundation-5')
+CRISPY_ALLOWED_TEMPLATE_PACKS = (
+    'bootstrap', 'uni_form', 'bootstrap3', 'foundation-5')
 # CRISPY_TEMPLATE_PACK='bootstap4'
 
 # Internationalization
@@ -118,7 +119,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-GEOIP_PATH = os.path.join(BASE_DIR,'geoip')
+GEOIP_PATH = os.path.join(BASE_DIR, 'geoip')
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 

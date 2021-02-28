@@ -12,11 +12,11 @@ scraped_data = {
     'company': [],
     'stipend': [],
     'apply_by': [],
-    'start_date':[],
+    'start_date': [],
 
 }
 
-main_url=input("Please enter the url of internshala website to scrap : ")
+main_url = input("Please enter the url of internshala website to scrap : ")
 
 url = main_url
 response = requests.get(url)
@@ -30,7 +30,8 @@ num_of_pages = int((count_of_internships / 40) + 1)
 for i in range(1, num_of_pages + 1):
     # ------------------- Scraping starts here -------------------------------
     response = requests.get(f"{url}/page-{0}".format(i))
-    print("Please Wait , We are scrapping the details")  # Check out response whether its 200 or not
+    # Check out response whether its 200 or not
+    print("Please Wait , We are scrapping the details")
 
     # ........ if response is not 200, exit the script ..........
     if response.status_code != 200:
@@ -77,7 +78,8 @@ for i in range(1, num_of_pages + 1):
         apply_date = apply_date.rstrip(' ')
         scraped_data['apply_by'].append(apply_date)
 
-    duration_data = soup.find_all("div", class_="internship_other_details_container")
+    duration_data = soup.find_all(
+        "div", class_="internship_other_details_container")
     for duration in duration_data:
         # Cleaning of data before saving it
         duration = duration.find("div", class_="item_body").text

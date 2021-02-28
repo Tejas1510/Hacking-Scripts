@@ -6,4 +6,4 @@ shortener = pyshorteners.Shortener()
 
 shortLink = shortener.tinyurl.short(link)
 
-print("shortend URL  : ",shortLink)
+print("shortend URL  : ", shortLink)

@@ -4,6 +4,8 @@ import time
 
 # here i have used the standard moorse code chart provided by wikipedia and other website
 # you can change if you wish to do so
+
+
 def encrypt(msg, MORSE_CODE_DICTIONARY):
     li1 = list(MORSE_CODE_DICTIONARY.keys())
     wordlist = msg.split(" ")
