@@ -7,9 +7,9 @@ from selenium.webdriver.support import expected_conditions
 from selenium.common.exceptions import NoSuchElementException
 import time
 
-
 try:
-    driver = webdriver.Chrome('<===============ENTER YOUR CHROME DRIVER PATH===========>')
+    driver = webdriver.Chrome(
+        '<===============ENTER YOUR CHROME DRIVER PATH===========>')
     driver.get('https://www.facebook.com/')
     print("Facebook Open Succesfully...!")
     time.sleep(5)
@@ -17,7 +17,8 @@ try:
     # Facebook Email
 
     facebookEmail = input("Enter your Email ID:")
-    email = driver.find_element_by_xpath("//input[@id='email' or @name='email']")
+    email = driver.find_element_by_xpath(
+        "//input[@id='email' or @name='email']")
     email.send_keys(facebookEmail)
     print("Email Id Entered Successfully")
 

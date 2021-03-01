@@ -14,7 +14,9 @@ except ImportError:
 
 # input...........
 SenderAddress = input("your email :  ").strip()
-print("\nplease allow 'enable less secured apps ' option on this account to send emails\n")
+print(
+    "\nplease allow 'enable less secured apps ' option on this account to send emails\n"
+)
 password = input("your password : ").strip()
 # ...........
 
@@ -26,22 +28,22 @@ server.starttls()
 try:
     server.login(SenderAddress, password)
 except smtplib.SMTPAuthenticationError:
-    print("\n[+]Username or password not accepted or not enabled less secured apps on the above Mail account \n")
-
+    print(
+        "\n[+]Username or password not accepted or not enabled less secured apps on the above Mail account \n"
+    )
 
 subject = "Hi there"
 
 # reading subject from msg.txt....
 
 a_file = open("msg.txt")
-lines = a_file. readlines()
+lines = a_file.readlines()
 
 msg = ""
 for line in lines:
-    msg = msg+line
-a_file. close()
+    msg = msg + line
+a_file.close()
 # ..........
-
 
 body = "Subject: {}\n\n{}".format(subject, msg)
 # ........send mail.....

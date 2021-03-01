@@ -11,12 +11,14 @@ RESET = colorama.Fore.RESET
 internal_urls = set()
 external_urls = set()
 
+
 def is_valid(url):
     """
     Checks whether `url` is a valid URL.
     """
     parsed = urlparse(url)
     return bool(parsed.netloc) and bool(parsed.scheme)
+
 
 def get_all_website_links(url):
     """
@@ -55,8 +57,10 @@ def get_all_website_links(url):
             internal_urls.add(href)
     return urls
 
+
 # number of urls visited so far will be stored here
 total_urls_visited = 0
+
 
 def crawl(url, max_urls=50):
     """
@@ -73,8 +77,9 @@ def crawl(url, max_urls=50):
             break
         crawl(link, max_urls=max_urls)
 
+
 if __name__ == "__main__":
-    website =input("Please Enter the website which you want to scrapp : ")
+    website = input("Please Enter the website which you want to scrapp : ")
     crawl(website)
     print("[+] Total External links:", len(external_urls))
     print("[+] Total Internal links:", len(internal_urls))

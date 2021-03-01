@@ -1,8 +1,8 @@
 import PyPDF2
 
 # Open the pdf file
-file1=input("Enter the path of pdf1 : ")
-file2=input("Enter the path of pdf2 : ")
+file1 = input("Enter the path of pdf1 : ")
+file2 = input("Enter the path of pdf2 : ")
 pdf1 = open(file1, 'rb')
 pdf2 = open(file2, 'rb')
 

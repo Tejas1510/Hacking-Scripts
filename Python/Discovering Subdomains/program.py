@@ -1,7 +1,7 @@
 import requests
 
 # the domain to scan for subdomains
-domain = "email.com" 
+domain = "email.com"
 # read all subdomains
 file = open("subdomains.txt")
 # read all content

@@ -1,4 +1,3 @@
-
 import cv2
 import os
 
@@ -80,7 +79,5 @@ with open(input_txt_file) as input_list:
 
 cv2.destroyAllWindows()
 
-print(
-    '''Ceritificate Generation Completed.
-    Find your generated certificates in ''' + output_directory_path[2::]
-)
+print('''Ceritificate Generation Completed.
+    Find your generated certificates in ''' + output_directory_path[2::])
