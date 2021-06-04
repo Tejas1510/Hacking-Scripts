@@ -90,15 +90,15 @@ git add .
 git commit -m "<your_commit_message>"
 ```
 
-**7.** Push your local commits to the remote repo.
+**6.** Push your local commits to the remote repo.
 
 ```bash
 git push
 ```
 
-**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
+**7.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
-**9.** **Congratulations!** Sit and relax, you've made your contribution to [Hacking-Scripts](https://github.com/Tejas1510/Hacking-Scripts) project.
+**8.** **Congratulations!** Sit and relax, you've made your contribution to [Hacking-Scripts](https://github.com/Tejas1510/Hacking-Scripts) project.
 
 
 ## 📢  Open Source Program
