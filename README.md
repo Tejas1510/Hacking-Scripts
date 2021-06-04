@@ -114,7 +114,7 @@ git push
 For major changes, you are welcomed to open an issue and discuss what you would like to contribute. Enhancements will be appreciated.
 
 
-## Contributors 
+## Hall of Fame
 
 ✨ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
