@@ -14,3 +14,4 @@ pip install requests
 *   Navigate to where you have saved it and open a terminal there.
 *   Run `python script.py` in your terminal or `python3 script.py` if you have Python 2 installed as well.
 *   Enter the Ip you want the details of, or press enter to check your IP details
+//this is Suraj Pawar thanks for creating this wonderfull youtube video also thanks to LetsGrowMore team members.
