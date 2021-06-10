@@ -1,6 +1,5 @@
 # Counting Days Javascript Program
 
-
 ### How to use it
 ```
 1. Download the given code

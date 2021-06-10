@@ -1,23 +1,24 @@
+body{
+    background-image: url("images/cool.png");
+}
+
 .heading{
     text-align: center;
-    color: blueviolet;
-
-
+    color:cornsilk;
+    margin-top: 8rem;
 }
 
-form{
-    width: 500px;
-    margin-left: 550px;
-    margin-top: 20px;
-}
-.btn{
-    margin-top: 20px;
-    align-items: center;
-    margin-left: 750px;
-    width: 100px;
-}
-#finalAns{
-    padding-top: 30px;
+
+label{
+    color:slateblue;
     text-align: center;
-    color: blueviolet;
+}
+
+.container{
+    margin-top: 4rem;
+}
+
+#finalAns{
+    background-color: white;
+    text-align: center;
 }
