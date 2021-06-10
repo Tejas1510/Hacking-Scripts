@@ -3,7 +3,8 @@
 ### To get started
 <li>Fork the repo</li>
 <li>Clone it to your system</li>
-<li>Type the following commands in your terminal</li>
+<li>Type the following commands in your terminal</li><br/>
+
 ```
 npm install
 ```
