@@ -16,4 +16,13 @@
   <li>GoogleMap</li>
   <li>OpenWeatherMap </li>
 </ul>
+### How to use it
+```
+1. Download the given code
+2. Run the index.html file
+3. you will just need to click on the load button over there.
+4. After thaht it will automatically display you the full data in a table form.
+5. You will be displayed the result
+```
+## Output
 
