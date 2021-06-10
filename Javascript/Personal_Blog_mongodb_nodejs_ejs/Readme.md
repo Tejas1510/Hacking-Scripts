@@ -41,9 +41,7 @@ nodemon app.js        (nodemon library required)
 
 ## Output
 
-<p align="center">
   <img src="Images/1.png" width="350" title="home">
-</p>
 
 ### Input Image
 
