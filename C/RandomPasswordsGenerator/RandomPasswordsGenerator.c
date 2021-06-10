@@ -13,7 +13,7 @@ int main(void)
     printf("\nEnter the number of passwords you want: ");
     scanf("%d", &num);
     /* Seed number for rand() */
-    srand((unsigned int) time(0) + getpid());
+   srand((unsigned int)(time(NULL)));
  
     while(num--)
     {
