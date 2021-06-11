@@ -7,17 +7,18 @@
 
 
 <p align="center">
-  <a href = https://www.python.org/ ><img src="https://img.shields.io/badge/language-Python-blue?style=for-the-badge"></a>
-  <a href = https://www.javascript.com/ ><img src="https://img.shields.io/badge/language-Javascript-blue?style=for-the-badge"></a>
-  <a href = https://www.java.com/en/ ><img src="https://img.shields.io/badge/language-Java-blue?style=for-the-badge"></a>
-  <a href = https://nodejs.org/en/ ><img src="https://img.shields.io/badge/language-Nodejs-blue?style=for-the-badge"></a>
+  <a href = "https://www.python.org/"><img src="https://img.shields.io/badge/language-Python-blue?style=for-the-badge"></a>
+  <a href = "https://www.javascript.com/"><img src="https://img.shields.io/badge/language-Javascript-blue?style=for-the-badge"></a>
+  <a href = "https://www.java.com/en/"><img src="https://img.shields.io/badge/language-Java-blue?style=for-the-badge"></a>
+  <a href = "https://nodejs.org/en/"><img src="https://img.shields.io/badge/language-Nodejs-blue?style=for-the-badge"></a>
  </p>
 
  <p align="center">
-<img src="https://img.shields.io/github/stars/Tejas1510/Hacking-Scripts?style=for-the-badge" >
-<img src="https://img.shields.io/github/forks/Tejas1510/Hacking-Scripts?style=for-the-badge" >  
-<img src="https://img.shields.io/github/issues-raw/Tejas1510/Hacking-Scripts?style=for-the-badge" >
-<img src="https://img.shields.io/github/issues-pr-closed-raw/Tejas1510/Hacking-Scripts?style=for-the-badge" >
+<a href="https://github.com/Tejas1510/Hacking-Scripts/stargazers"><img src="https://img.shields.io/github/stars/Tejas1510/Hacking-Scripts?style=for-the-badge"></a>
+<a href="https://github.com/Tejas1510/Hacking-Scripts/network/members"><img src="https://img.shields.io/github/forks/Tejas1510/Hacking-Scripts?style=for-the-badge"> </a>
+<a href="https://github.com/Tejas1510/Hacking-Scripts/issues"><img src="https://img.shields.io/github/issues-raw/Tejas1510/Hacking-Scripts?style=for-the-badge"></a>
+<a href="https://github.com/Tejas1510/Hacking-Scripts/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Tejas1510/Hacking-Scripts?style=for-the-badge"></a>
+<a href="https://github.com/Tejas1510/Hacking-Scripts/pulls"><img src="https://img.shields.io/github/issues-pr-raw/Tejas1510/Hacking-Scripts?style=for-the-badge"></a>
 </p>
 
 ## 📢 Join Official Slack channel for Discussion about the project : [Hacking-Scripts](https://swoc-workspace.slack.com/archives/C01HV9LADSQ)
