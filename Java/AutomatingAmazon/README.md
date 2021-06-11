@@ -15,10 +15,10 @@ In this example, the ordered item is the book, "Wings Of Fire: An autobiography 
 3. Run the automateamazon.java file.
 4. The item entered gets added to the cart.
 ```
-[link](https://drive.google.com/drive/folders/1U_Zgy6txCTprBa1pIC9fUB0ykcNMt4lh?usp=sharing)
+[Link to Download Code](https://drive.google.com/drive/folders/1U_Zgy6txCTprBa1pIC9fUB0ykcNMt4lh?usp=sharing)
 
 ## Output
-
-![endpoint](https://github.com/Tejas1510/Hacking-Scripts/Java/AutomatingAmazon/AutomatingAmazon.mp4)
+  
+[Video Demo](https://drive.google.com/file/d/1gBW3qWPed5qSm2aF8QzDFB_NzgISTiFF/view?usp=sharing)
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
