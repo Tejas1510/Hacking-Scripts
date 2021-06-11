@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+
+    <title>WeatherApp</title>
+</head>
+
+<body>
+    <div class="container-fluid section-one">
+        <h1>Choose what you want:</h1>
+        <div class="row">
+            <div class="col-12 col-md-6 col-sm-12">
+                <p class="choice-text">Check weather for your's current position</p>
+                <p class="choice-text" id="city">Your's city: <span class="city-name"></span></p>
+                <button id="btn-location" type="button" class="btn btn-primary btn-lg">Check</button>
+            </div>
+            <div class="col-12 col-md-6 col-sm-12" id="two">
+                <p class="choice-text">Check weather for chosen place</p>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="city-input" placeholder="City name">
+                    <button id="btn-choice" type="button" class="btn btn-primary btn-lg">Check</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid section-two">
+        <div id="wheater-video">
+            <video autoplay muted loop id="myVideo"><source src="" type="video/mp4"></video>
+        </div>
+        <table class="table table-bordered" id="wheater-info">
+            <tr>
+                <td>City</td>
+                <td id="city-info"></td>
+            </tr>
+            <tr>
+                <td>Weather</td>
+                <td id="wheat-info"></td>
+            </tr>
+            <tr>
+                <td>Temperature</td>
+                <td id="temp-info"></td>
+            </tr>
+            <tr>
+                <td>Pressure</td>
+                <td id="pressure-info"></td>
+            </tr>
+            <tr>
+                <td>Wind Speed</td>
+                <td id="windSpeed-info"></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="location.js"></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyD06pquWXnhgoZAWCnBvaVJdrr7RJlKXAo"></script>
+</body>
+
+</html>
