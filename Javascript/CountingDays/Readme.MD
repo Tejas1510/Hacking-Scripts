@@ -11,5 +11,6 @@
 ```
 ## Output 
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/counting/Javascript/CountingDays/images/image1.png)
+![Screenshot (1)](https://user-images.githubusercontent.com/75033038/121635649-3bb38480-caa4-11eb-8ad6-8cf4faf37dd5.png)
+
 
