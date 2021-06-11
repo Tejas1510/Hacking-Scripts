@@ -1,24 +1,21 @@
 # Drum-Kit
-## Hello , This is Shubhankar Poddar-aka codeaholic-shub👋
+This is a Javascript Based Game, in which you can press buttons and feel the beats of Drum
 
 
-- 🤔 &nbsp; Exploring new technologies and being a coding enthusiastic.
-- 🎓 &nbsp; Studying Computer Science and Engineering at Madan Mohan Malviya University of Technology.
-- 🌱 &nbsp; Learning more about MERN Stack.
-- ✍️ &nbsp; Pursuing Technical Content Writing and some other tech stuffs.
+## Steps to make it run
+
+1. Clone/Download this repository
+```
+git clone clone_path
+```
+2. Run the HTML file in liver server extension
+
+3. After that you can press the buttons for sounds features of Game
 
 
-<h2> Project Details - Drum Kit </h2>
-<p> Implemented HTML,CSS,JAVASCRIPT </p>
-<p> Added Sounds Features for Differnt Beats of Drum </p>
-<p> Vanilla JS Project </p>
+[Project Link](https://codeaholic-shub.github.io/Drum-Kit/)
 
 
 
-<h3> 🤝🏻 &nbsp;Connect with Me </h3>
-
-<p align="center">
-<a href="https://www.linkedin.com/in/shubhankar-poddar-b58684193/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Shubhankar%20Poddar-blue?style=flat-square&logo=linkedin"></a>
-<a href="https://www.instagram.com/_s_h_u_b_h_a_n_k_a_r/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-_s_h_u_b_h_a_n_k_a_r-blue?style=flat-square&logo=instagram"></a>
-<a href="mailto:shubhankar.poddar789@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-shubhankar.poddar789@gmail.com-blue?style=flat-square&logo=gmail"></a>
-</p>
+### Screenshot of Game
+![Drum Kit - Google Chrome 09-06-2021 09_28_28](https://user-images.githubusercontent.com/65807708/121631139-25092f80-ca9c-11eb-9192-6352e4d95b6c.png)
