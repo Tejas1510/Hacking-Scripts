@@ -35,4 +35,5 @@ For this project, 'haarcascade_frontal_face_default.xml' is used to detect the f
 
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
+
 Check out my Github profile [divesh-giri!](https://github.com/divesh-giri)
