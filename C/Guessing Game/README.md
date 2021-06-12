@@ -13,4 +13,4 @@ This is a Guessing Game Generate Number Between 1 To 100  Using  C(Programming L
 
 ***
 ## Output
-![](test.jpeg)
+![](test.jpg)
