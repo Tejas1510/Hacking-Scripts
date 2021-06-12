@@ -19,13 +19,7 @@ Guess The Number Game is a python program i.e, developed in python programming l
 
 
 ### Output
-<img align="center" alt="output"  src="Images/guessnum.PNG" />
 
-### Author👨‍
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/dhruv-varshney"><img src="https://" height="120px" width="120px"/><br/>
-      <sub><b>Dhruv Varshney</b></sub></a></td>
-  </tr>
-</table>
+
+
 
