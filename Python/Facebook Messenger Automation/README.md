@@ -21,5 +21,6 @@ Input Image
 
 
 OutPut Image
-![input(facebook)](https://user-images.githubusercontent.com/71593494/121767514-260e8f80-cb76-11eb-823b-26a66489d62c.png)
+![output(facebook)](https://user-images.githubusercontent.com/71593494/121767652-2a877800-cb77-11eb-862b-f51a53ab5b59.png)
+
 ![output(facebook messenger)](https://user-images.githubusercontent.com/71593494/121767515-260e8f80-cb76-11eb-9eae-bef9944c86e3.png)
