@@ -26,6 +26,8 @@ python Gwen.py
 ```
 
 
+Contributed by : Paras Rawat 
+![GitHub](https://github.com/Paras0-7)
 
 
 
