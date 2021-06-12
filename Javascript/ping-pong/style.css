@@ -10,12 +10,17 @@ canvas {
   margin-top: 10px;
   z-index: 10;
 }
-
+p {
+  text-align: left;
+  margin-top: 47%;
+  margin-left: -400px;
+  margin-right: 100px;
+}
 .game-over-container {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 44%;
+  left: 40%;
+  transform: translate(-30%, -50%);
   width: 500px;
   height: 700px;
   background-color: rgb(56, 56, 56);
