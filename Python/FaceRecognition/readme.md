@@ -10,7 +10,7 @@ For this project, 'haarcascade_frontal_face_default.xml' is used to detect the f
 ### Requirements:
 
 1) OpenCV
-	```pip install opencv-python
+	```pip install opencv-python```
 
 
 ### Methodology
