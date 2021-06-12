@@ -19,6 +19,7 @@ Guess The Number Game is a python program i.e, developed in python programming l
 
 
 ### Output
+![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Guess-the-Number/output_images/output1.jpeg)
 ![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Guess-the-Number/output_images/output2.jpeg)
 
 
