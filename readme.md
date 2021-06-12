@@ -7,17 +7,18 @@
 
 
 <p align="center">
-  <a href = https://www.python.org/ ><img src="https://img.shields.io/badge/language-Python-blue?style=for-the-badge"></a>
-  <a href = https://www.javascript.com/ ><img src="https://img.shields.io/badge/language-Javascript-blue?style=for-the-badge"></a>
-  <a href = https://www.java.com/en/ ><img src="https://img.shields.io/badge/language-Java-blue?style=for-the-badge"></a>
-  <a href = https://nodejs.org/en/ ><img src="https://img.shields.io/badge/language-Nodejs-blue?style=for-the-badge"></a>
+  <a href = "https://www.python.org/"><img src="https://img.shields.io/badge/language-Python-blue?style=for-the-badge"></a>
+  <a href = "https://www.javascript.com/"><img src="https://img.shields.io/badge/language-Javascript-blue?style=for-the-badge"></a>
+  <a href = "https://www.java.com/en/"><img src="https://img.shields.io/badge/language-Java-blue?style=for-the-badge"></a>
+  <a href = "https://nodejs.org/en/"><img src="https://img.shields.io/badge/language-Nodejs-blue?style=for-the-badge"></a>
  </p>
 
  <p align="center">
-<img src="https://img.shields.io/github/stars/Tejas1510/Hacking-Scripts?style=for-the-badge" >
-<img src="https://img.shields.io/github/forks/Tejas1510/Hacking-Scripts?style=for-the-badge" >  
-<img src="https://img.shields.io/github/issues-raw/Tejas1510/Hacking-Scripts?style=for-the-badge" >
-<img src="https://img.shields.io/github/issues-pr-closed-raw/Tejas1510/Hacking-Scripts?style=for-the-badge" >
+<a href="https://github.com/Tejas1510/Hacking-Scripts/stargazers"><img src="https://img.shields.io/github/stars/Tejas1510/Hacking-Scripts?style=for-the-badge"></a>
+<a href="https://github.com/Tejas1510/Hacking-Scripts/network/members"><img src="https://img.shields.io/github/forks/Tejas1510/Hacking-Scripts?style=for-the-badge"> </a>
+<a href="https://github.com/Tejas1510/Hacking-Scripts/issues"><img src="https://img.shields.io/github/issues-raw/Tejas1510/Hacking-Scripts?style=for-the-badge"></a>
+<a href="https://github.com/Tejas1510/Hacking-Scripts/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Tejas1510/Hacking-Scripts?style=for-the-badge"></a>
+<a href="https://github.com/Tejas1510/Hacking-Scripts/pulls"><img src="https://img.shields.io/github/issues-pr-raw/Tejas1510/Hacking-Scripts?style=for-the-badge"></a>
 </p>
 
 ## 📢 Join Official Slack channel for Discussion about the project : [Hacking-Scripts](https://swoc-workspace.slack.com/archives/C01HV9LADSQ)
@@ -178,3 +179,20 @@ For major changes, you are welcomed to open an issue and discuss what you would 
 </p>
 
 Check out my Github profile [Tejas1510!](https://github.com/Tejas1510)
+# Python Script to find the details of IP input
+### Introduction
+This script is made using Python 3. It takes the input from the user, an IP address (ipv4 and ipv6) and returns the details about the IP, like country, city, location etc
+
+### Third Party Library Required:
+requests
+
+### How to install the above library:
+pip install requests
+
+### How to use it.
+*   Download and install the latest version of [Python](https://www.python.org).
+*   Download and save the script.
+*   Navigate to where you have saved it and open a terminal there.
+*   Run `python script.py` in your terminal or `python3 script.py` if you have Python 2 installed as well.
+*   Enter the Ip you want the details of, or press enter to check your IP details
+
