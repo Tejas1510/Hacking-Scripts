@@ -10,8 +10,10 @@ For this project, 'haarcascade_frontal_face_default.xml' is used to detect the f
 ### Requirements:
 
 1) OpenCV
-<br>
-	```pip install opencv-python```
+
+	```
+	pip install opencv-python
+	```
 
 
 ### Methodology
@@ -30,3 +32,7 @@ For this project, 'haarcascade_frontal_face_default.xml' is used to detect the f
 7) Display the frame.
 
 8) Stop the infinite loop and closing the webcam by pressing the escape key.
+
+
+![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
+Check out my Github profile [divesh-giri!](https://github.com/divesh-giri)
