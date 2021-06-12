@@ -7,7 +7,7 @@ words per minute and total time taken to type the sentence. It is user friendly 
 
 ## Third-Party Libraries Required :
     pygame
-    pjokes
+    pyjokes
     python
     
 ## How to install the above Library
