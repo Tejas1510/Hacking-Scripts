@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+	<enemy type="SimpleEnemy" time="1" position="4" />
+
+	<enemy type="SimpleEnemy" time="2" position="5" />
+
+	<enemy type="SimpleEnemy" time="3" position="6" />
+
+	<enemy type="JumpingEnemy" time="4" position="7" />
+
+	<enemy type="SimpleEnemy" time="5" position="6" />
+
+	<enemy type="SimpleEnemy" time="6" position="5" />
+
+	<enemy type="SimpleEnemy" time="7" position="4" />
+
+	<enemy type="SimpleEnemy" time="8" position="3" />
+
+	<enemy type="SimpleEnemy" time="9" position="2" />
+
+	<enemy type="JumpingEnemy" time="10" position="1" />
+
+	<enemy type="SimpleEnemy" time="11" position="2" />
+
+	<enemy type="SimpleEnemy" time="12" position="3" />
+
+	<enemy type="SimpleEnemy" time="13" position="4" />
+
+	<enemy type="SimpleEnemy" time="14" position="5" />
+
+	<enemy type="SimpleEnemy" time="15" position="6" />
+
+	<enemy type="JumpingEnemy" time="16" position="7" />
+
+	<enemy type="SimpleEnemy" time="17" position="6" />
+
+	<enemy type="SimpleEnemy" time="18" position="5" />
+
+	<enemy type="SimpleEnemy" time="19" position="4" />
+
+	<enemy type="SimpleEnemy" time="20" position="3" />
+
+	<enemy type="SimpleEnemy" time="21" position="2" />
+
+	<enemy type="JumpingEnemy" time="22" position="1" />
+
+	<enemy type="SimpleEnemy" time="23" position="2" />
+
+	<enemy type="SimpleEnemy" time="24" position="3" />
+
+	<enemy type="SimpleEnemy" time="25" position="4" />
+
+	<enemy type="SimpleEnemy" time="26" position="5" />
+
+	<enemy type="SimpleEnemy" time="27" position="6" />
+
+	<enemy type="JumpingEnemy" time="28" position="7" />
+
+	<enemy type="SimpleEnemy" time="29" position="6" />
+
+	<enemy type="SimpleEnemy" time="30" position="5" />
+
+	<enemy type="SimpleEnemy" time="31" position="4" />
+
+	<enemy type="SimpleEnemy" time="32" position="3" />
+
+	<enemy type="SimpleEnemy" time="33" position="2" />
+
+	<enemy type="JumpingEnemy" time="34" position="1" />
+
+	<enemy type="SimpleEnemy" time="35" position="2" />
+
+	<enemy type="SimpleEnemy" time="36" position="3" />
+
+	<enemy type="SimpleEnemy" time="37" position="4" />
+
+	<enemy type="SimpleEnemy" time="38" position="5" />
+
+	<enemy type="SimpleEnemy" time="39" position="6" />
+
+	<enemy type="JumpingEnemy" time="40" position="7" />
+
+	<enemy type="SimpleEnemy" time="41" position="6" />
+
+	<enemy type="SimpleEnemy" time="42" position="5" />
+
+	<enemy type="SimpleEnemy" time="43" position="4" />
+
+	<enemy type="SimpleEnemy" time="44" position="3" />
+
+	<enemy type="SimpleEnemy" time="45" position="2" />
+
+	<enemy type="JumpingEnemy" time="46" position="1" />
+
+	<enemy type="SimpleEnemy" time="47" position="2" />
+
+	<enemy type="SimpleEnemy" time="48" position="3" />
+
+	<enemy type="SimpleEnemy" time="49" position="4" />
+
+	<enemy type="FireEnemy" time="50" position="5" />
+
+	<enemy type="SimpleEnemy" time="51" position="6" />
+
+	<enemy type="JumpingEnemy" time="52" position="7" />
+
+	<enemy type="SimpleEnemy" time="53" position="6" />
+
+	<enemy type="SimpleEnemy" time="54" position="5" />
+
+	<enemy type="SimpleEnemy" time="55" position="4" />
+
+	<enemy type="SimpleEnemy" time="56" position="3" />
+
+	<enemy type="SimpleEnemy" time="57" position="2" />
+
+	<enemy type="JumpingEnemy" time="58" position="1" />
+
+	<enemy type="SimpleEnemy" time="59" position="2" />
+
+	<enemy type="SimpleEnemy" time="60" position="3" />
+
+	<enemy type="SimpleEnemy" time="61" position="4" />
+
+	<enemy type="SimpleEnemy" time="62" position="5" />
+
+	<enemy type="SimpleEnemy" time="63" position="6" />
+
+	<enemy type="JumpingEnemy" time="64" position="7" />
+
+	<enemy type="SimpleEnemy" time="65" position="6" />
+
+	<enemy type="SimpleEnemy" time="66" position="5" />
+
+	<enemy type="SimpleEnemy" time="67" position="4" />
+
+	<enemy type="SimpleEnemy" time="68" position="3" />
+
+	<enemy type="SimpleEnemy" time="69" position="2" />
+
+	<enemy type="JumpingEnemy" time="70" position="1" />
+
+	<enemy type="SimpleEnemy" time="71" position="2" />
+
+	<enemy type="SimpleEnemy" time="72" position="3" />
+
+	<enemy type="SimpleEnemy" time="73" position="4" />
+
+	<enemy type="SimpleEnemy" time="74" position="5" />
+
+	<enemy type="SimpleEnemy" time="75" position="6" />
+
+	<enemy type="JumpingEnemy" time="76" position="7" />
+
+	<enemy type="SimpleEnemy" time="77" position="6" />
+
+	<enemy type="SimpleEnemy" time="78" position="5" />
+
+	<enemy type="SimpleEnemy" time="79" position="4" />
+
+	<enemy type="SimpleEnemy" time="80" position="3" />
+
+	<enemy type="SimpleEnemy" time="81" position="2" />
+
+	<enemy type="JumpingEnemy" time="82" position="1" />
+
+	<enemy type="SimpleEnemy" time="83" position="2" />
+
+	<enemy type="SimpleEnemy" time="84" position="3" />
+
+	<enemy type="SimpleEnemy" time="85" position="4" />
+
+	<enemy type="SimpleEnemy" time="86" position="5" />
+
+	<enemy type="SimpleEnemy" time="87" position="6" />
+
+	<enemy type="JumpingEnemy" time="88" position="7" />
+
+	<enemy type="SimpleEnemy" time="89" position="6" />
+
+	<enemy type="SimpleEnemy" time="90" position="5" />
+
+	<enemy type="SimpleEnemy" time="91" position="4" />
+
+	<enemy type="SimpleEnemy" time="92" position="3" />
+
+	<enemy type="SimpleEnemy" time="93" position="2" />
+
+	<enemy type="JumpingEnemy" time="94" position="1" />
+
+	<enemy type="SimpleEnemy" time="95" position="2" />
+
+	<enemy type="SimpleEnemy" time="96" position="3" />
+
+	<enemy type="SimpleEnemy" time="97" position="4" />
+
+	<enemy type="SimpleEnemy" time="98" position="5" />
+
+	<enemy type="SimpleEnemy" time="99" position="6" />
+
+	<enemy type="BonusEnemy" time="100" position="7" />
+
+	<enemy type="SimpleEnemy" time="101" position="6" />
+
+	<enemy type="SimpleEnemy" time="102" position="5" />
+
+	<enemy type="SimpleEnemy" time="103" position="4" />
+
+	<enemy type="SimpleEnemy" time="104" position="3" />
+
+	<enemy type="SimpleEnemy" time="105" position="2" />
+
+	<enemy type="JumpingEnemy" time="106" position="1" />
+
+	<enemy type="SimpleEnemy" time="107" position="2" />
+
+	<enemy type="SimpleEnemy" time="108" position="3" />
+
+	<enemy type="SimpleEnemy" time="109" position="4" />
+
+	<enemy type="SimpleEnemy" time="110" position="5" />
+
+	<enemy type="SimpleEnemy" time="111" position="6" />
+
+	<enemy type="JumpingEnemy" time="112" position="7" />
+
+	<enemy type="SimpleEnemy" time="113" position="6" />
+
+	<enemy type="SimpleEnemy" time="114" position="5" />
+
+	<enemy type="SimpleEnemy" time="115" position="4" />
+
+	<enemy type="SimpleEnemy" time="116" position="3" />
+
+	<enemy type="SimpleEnemy" time="117" position="2" />
+
+	<enemy type="JumpingEnemy" time="118" position="1" />
+
+	<enemy type="SimpleEnemy" time="119" position="2" />
+
+	<enemy type="SimpleEnemy" time="120" position="3" />
+
+	<enemy type="SimpleEnemy" time="121" position="4" />
+
+	<enemy type="SimpleEnemy" time="122" position="5" />
+
+	<enemy type="SimpleEnemy" time="123" position="6" />
+
+	<enemy type="JumpingEnemy" time="124" position="7" />
+
+	<enemy type="SimpleEnemy" time="125" position="6" />
+
+	<enemy type="SimpleEnemy" time="126" position="5" />
+
+	<enemy type="SimpleEnemy" time="127" position="4" />
+
+	<enemy type="SimpleEnemy" time="128" position="3" />
+
+	<enemy type="SimpleEnemy" time="129" position="2" />
+
+	<enemy type="JumpingEnemy" time="130" position="1" />
+
+	<enemy type="SimpleEnemy" time="131" position="2" />
+
+	<enemy type="SimpleEnemy" time="132" position="3" />
+
+	<enemy type="SimpleEnemy" time="133" position="4" />
+
+	<enemy type="SimpleEnemy" time="134" position="5" />
+
+	<enemy type="SimpleEnemy" time="135" position="6" />
+
+	<enemy type="JumpingEnemy" time="136" position="7" />
+
+	<enemy type="SimpleEnemy" time="137" position="6" />
+
+	<enemy type="SimpleEnemy" time="138" position="5" />
+
+	<enemy type="SimpleEnemy" time="139" position="4" />
+
+	<enemy type="SimpleEnemy" time="140" position="3" />
+
+	<enemy type="SimpleEnemy" time="141" position="2" />
+
+	<enemy type="JumpingEnemy" time="142" position="1" />
+
+	<enemy type="SimpleEnemy" time="143" position="2" />
+
+	<enemy type="SimpleEnemy" time="144" position="3" />
+
+	<enemy type="SimpleEnemy" time="145" position="4" />
+
+	<enemy type="SimpleEnemy" time="146" position="5" />
+
+	<enemy type="SimpleEnemy" time="147" position="6" />
+
+	<enemy type="JumpingEnemy" time="148" position="7" />
+
+	<enemy type="SimpleEnemy" time="149" position="6" />
+
+	<enemy type="FireEnemy" time="150" position="5" />
+
+	<enemy type="SimpleEnemy" time="151" position="4" />
+
+	<enemy type="SimpleEnemy" time="152" position="3" />
+
+	<enemy type="SimpleEnemy" time="153" position="2" />
+
+	<enemy type="JumpingEnemy" time="154" position="1" />
+
+	<enemy type="SimpleEnemy" time="155" position="2" />
+
+	<enemy type="SimpleEnemy" time="156" position="3" />
+
+	<enemy type="SimpleEnemy" time="157" position="4" />
+
+	<enemy type="SimpleEnemy" time="158" position="5" />
+
+	<enemy type="SimpleEnemy" time="159" position="6" />
+
+	<enemy type="JumpingEnemy" time="160" position="7" />
+
+	<enemy type="SimpleEnemy" time="161" position="6" />
+
+	<enemy type="SimpleEnemy" time="162" position="5" />
+
+	<enemy type="SimpleEnemy" time="163" position="4" />
+
+	<enemy type="SimpleEnemy" time="164" position="3" />
+
+	<enemy type="SimpleEnemy" time="165" position="2" />
+
+	<enemy type="JumpingEnemy" time="166" position="1" />
+
+	<enemy type="SimpleEnemy" time="167" position="2" />
+
+	<enemy type="SimpleEnemy" time="168" position="3" />
+
+	<enemy type="SimpleEnemy" time="169" position="4" />
+
+	<enemy type="SimpleEnemy" time="170" position="5" />
+
+	<enemy type="SimpleEnemy" time="171" position="6" />
+
+	<enemy type="JumpingEnemy" time="172" position="7" />
+
+	<enemy type="SimpleEnemy" time="173" position="6" />
+
+	<enemy type="SimpleEnemy" time="174" position="5" />
+
+	<enemy type="SimpleEnemy" time="175" position="4" />
+
+	<enemy type="SimpleEnemy" time="176" position="3" />
+
+	<enemy type="SimpleEnemy" time="177" position="2" />
+
+	<enemy type="JumpingEnemy" time="178" position="1" />
+
+	<enemy type="SimpleEnemy" time="179" position="2" />
+
+	<enemy type="SimpleEnemy" time="180" position="3" />
+
+	<enemy type="SimpleEnemy" time="181" position="4" />
+
+	<enemy type="SimpleEnemy" time="182" position="5" />
+
+	<enemy type="SimpleEnemy" time="183" position="6" />
+
+	<enemy type="JumpingEnemy" time="184" position="7" />
+
+	<enemy type="SimpleEnemy" time="185" position="6" />
+
+	<enemy type="SimpleEnemy" time="186" position="5" />
+
+	<enemy type="SimpleEnemy" time="187" position="4" />
+
+	<enemy type="SimpleEnemy" time="188" position="3" />
+
+	<enemy type="SimpleEnemy" time="189" position="2" />
+
+	<enemy type="JumpingEnemy" time="190" position="1" />
+
+	<enemy type="SimpleEnemy" time="191" position="2" />
+
+	<enemy type="SimpleEnemy" time="192" position="3" />
+
+	<enemy type="SimpleEnemy" time="193" position="4" />
+
+	<enemy type="SimpleEnemy" time="194" position="5" />
+
+	<enemy type="SimpleEnemy" time="195" position="6" />
+
+	<enemy type="JumpingEnemy" time="196" position="7" />
+
+	<enemy type="SimpleEnemy" time="197" position="6" />
+
+	<enemy type="SimpleEnemy" time="198" position="5" />
+
+	<enemy type="SimpleEnemy" time="199" position="4" />
+
+	<enemy type="SimpleEnemy" time="200" position="3" />
+
+</level>
+<!--
+				1
+				2
+position		3
+				4
+				5
+				6
+				7
+					1 2 3 4 5 6 7 ................
+						Time
+-->
+<!--
+// Practice - Level 1
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	ios::sync_with_stdio(true);
+	cin.tie(NULL);
+	cout.tie(NULL);
+
+	freopen("out.txt","w",stdout);
+	int cntsimple=0,cntjump=0;
+	int pos = 3;
+	int flag = 0;
+	for(int i=1;i<=200;i++)
+	{
+		if((pos%7)+1 == 1 || (pos%7)+1 == 7)
+		{
+			cout<<"<enemy type=\"JumpingEnemy\" time=\""<<i<<"\" position=\""<<(pos%7)+1<<"\" />"<<endl;
+			cntjump++;
+		}
+		else
+		{
+			cout<<"<enemy type=\"SimpleEnemy\" time=\""<<i<<"\" position=\""<<(pos%7)+1<<"\" />"<<endl;
+			cntsimple++;
+		}
+		if(flag == 0)
+		{
+			pos++;
+			if(pos == 7)
+			{
+				flag = 1;
+				pos = 6;
+			}
+		}
+		if(flag == 1)
+		{
+			pos = pos - 1;
+			if(pos==0)
+			{
+				flag = 0;
+				pos = 0;
+			}
+		}
+
+		cout<<endl;
+	}
+	//cout<<cntsimple<<" "<<cntjump<<endl;
+    return 0;
+}
+-->
