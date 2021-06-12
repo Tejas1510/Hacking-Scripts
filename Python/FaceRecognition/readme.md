@@ -1,4 +1,4 @@
-#Face Detection using OpenCV in Python
+# Face Detection using OpenCV in Python
 
 ### Introduction:
 In this project, a webcam is used to detect the face, if the face is detected a rectangular box is drawn around it.
