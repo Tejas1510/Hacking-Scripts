@@ -1,7 +1,7 @@
 ## Twitter Data Streaming
 Twitter Data Streaming is a python program 
 
-### About the game
+### About the program
 - It's a python program which uses twitter api to retrieve the data of the handle mention by the user.In order to stream the twitter data we have to provide consumer_key,consumer_secret,access_token,access_token_secret which you can get from your developer account.Since you can get the 
 
 ### Libraries used
