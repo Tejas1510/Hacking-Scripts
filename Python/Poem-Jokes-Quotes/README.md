@@ -1,6 +1,34 @@
 # Poem Automation
+For Poem Automation we are using `poetpy` library which is an unofficial Python wrapper for the PoetryDB API. 
+The PoetryDB API allows users to find a vast amount of poetry and poet data and is free to use without any authentication required.
+
+#### Install
+
+Install with pip command in any terminal
+```python
+pip install poetpy
+```
+#### Working
+
+Import the `poetpy` library in the Python file that you are going to get the poems and then use the `get_poetry()` function to easily get poems into your console/application.
+
+For example, we are interested in finding all of William Shakespeare’s poems and sonnets available in the PoetryDB API then
+
+```python
+import poetpy
+
+poems = poetpy.get_poetry('author', 'William Shakespeare')
+
+print(poems)
+
+```
+
+#### Screenshots
+
+##### In CLI
 
 
+##### In PyCharm
 
 # Jokes Automation
 
@@ -17,6 +45,7 @@ pip install pyjokes
 ```
 
 #### Working
+
 Import the `pyjokes` module in the Python file that you are going to get the jokes and then use the `get_joke()` function to easily get a random joke into your console/application.
 
 ```python
@@ -36,6 +65,30 @@ joke = get_joke(language="es",category="neutral")
 print(joke)
 ```
 
+#### Screenshots
 
-# Quotes
+##### In CLI
 
+
+##### In PyCharm
+
+# Quotes Automation
+
+
+
+
+
+
+#### Screenshots
+
+##### In CLI
+
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-2/Python/Poem-Jokes-Quotes/Images/quotes_img.png">
+
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-2/Python/Poem-Jokes-Quotes/Images/quotes_img0.png">
+
+##### In PyCharm
+
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-2/Python/Poem-Jokes-Quotes/Images/quotes_img1.png">
+
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-2/Python/Poem-Jokes-Quotes/Images/quotes_img2.png">
