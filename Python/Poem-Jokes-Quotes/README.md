@@ -4,7 +4,7 @@ The PoetryDB API allows users to find a vast amount of poetry and poet data and 
 
 #### Install
 
-Install with pip command in any terminal
+Install with `pip` command in any terminal
 ```python
 pip install poetpy
 ```
@@ -27,8 +27,11 @@ print(poems)
 
 ##### In CLI
 
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-2/Python/Poem-Jokes-Quotes/Images/poem_img1.png">
 
 ##### In PyCharm
+
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-2/Python/Poem-Jokes-Quotes/Images/poem_img0.png">
 
 # Jokes Automation
 
@@ -69,8 +72,17 @@ print(joke)
 
 ##### In CLI
 
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-2/Python/Poem-Jokes-Quotes/Images/joke_img0.png">
+
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-2/Python/Poem-Jokes-Quotes/Images/joke_img1.png">
+
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-2/Python/Poem-Jokes-Quotes/Images/joke_img2.png">
 
 ##### In PyCharm
+
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-2/Python/Poem-Jokes-Quotes/Images/joke_img3.png">
+
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-2/Python/Poem-Jokes-Quotes/Images/joke_img4.png">
 
 # Quotes Automation
 
@@ -92,3 +104,7 @@ print(joke)
 <img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-2/Python/Poem-Jokes-Quotes/Images/quotes_img1.png">
 
 <img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-2/Python/Poem-Jokes-Quotes/Images/quotes_img2.png">
+
+#### Contributor
+
+<a href="https://github.com/Umesh-01">Umesh Singh</a>
