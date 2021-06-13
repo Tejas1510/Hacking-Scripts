@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Caveman!</string>
+    <string name="app_name">CaveMan - The Saviour</string>
+    <string name="splash_screen">SplashScreen</string>
+    <string name="highscores">highscores</string>
+    <string name="credits_1">Akash Rajak</string>
+    <string name="credits_2">Contact : +91 8980153352</string>
+    <string name="credits_3">Email Id : aakashrajak02@gmail.com</string>
+    <string name="IntegralEmailAddress">aakashrajak02@gmail.com</string>
+    <string name="options">options</string>
+    <string name="text">🔗 <a href = "https://github.com/akash435/Cave-Man-Game">Github Code link</a></string>
+    <string name="feedback">Feedback :</string>
+    <string name="game_name">📌 Game Name\t\t\t:\t\t\tCave Saviour</string>
+    <string name="game_mode">📌 Game Mode\t\t\t:\t\t\tSingle Player</string>
+    <string name="about_game_1">\t\t\t\t\t Cave Saviour is a 2D physics-based game created with simple graphics.</string>
+    <string name="about_game_2">\t\t\t\t\t It is an "Enemy killing" Game, where the core gameplay is based on making weapon to touch the enemy and killing that enemy. Killing an enemy leaves an empty space at its location and player gets plus points or penalty according to which enemy killed.</string>
+    <string name="about_game_3">\t\t\t\t\t The game is split in different levels. Each level poses different challenge to the player,such as achieving minimum score and dealing with different clone of enemies.</string>
+    <string name="about_game_4">\t\t\t\t\t The game is based on reaching the winning(maximum) score in each level, and win-lose strategy is staged accordingly.</string>
+
+    <string name="demo">🤔\t DEMO VIDEO 👇🏿</string>
+    <string name="ques1">🤔\t Who is Cave Man ?</string>
+    <string name="ans1">\t\t\t📌 Cave Man is the saviour of the cave. He will be found sitting on tree on PLay Screen and will be able to kill the enemies coming from right side through axe (his weapon), take some bonus points and also some penalty.</string>
+    <string name="ques2">🤔\t Who are the Enemies in red ?</string>
+    <string name="ans2">\t\t\t📌 Red Enemies are one type of enemies, that are red in color. On killing it player gets 10 extra points</string>
+    <string name="ques3">🤔\t Who are the Enemies in black ?</string>
+    <string name="ans3">\t\t\t📌 Black Enemies are another type of enemies, that are black in color. On killing it player gets penalty of 10 points</string>
+    <string name="ques4">🤔\t What are fire in bunch of enemies ?</string>
+    <string name="ans4">\t\t\t📌 When axe touches the fire, it gives penalty of 50 points to player.</string>
+    <string name="ques5">🤔\t What are gold star in bunch of enemies ?</string>
+    <string name="ans5">\t\t\t📌 When axe touches the gold star, it gives extra score of 50 to player.</string>
+    <string name="ques6">🤔\t How to play game ?</string>
+    <string name="ans6line1">\t\t\t📌 The game is simple and above the FAQs there is a demo video showing how to play game.</string>
+    <string name="ans6line2">\t\t\t📌 Firstly, player need to select the game level, and then he/she will be directed to the corresponding level. Now the axe is with CAVE MAN sitting on the tree, and player needs to put finger on top of caveman and swipe towards right.</string>
+    <string name="ans6line3">\t\t\t📌 The player gets the score according to the enemies touched by the axe.</string>
+    <string name="ans6line4">\t\t\t📌 When the bunch of enemy are about to over, the GAME OVER! message will be displayed indicating that level is over.</string>
+    <string name="ans6line5">\t\t\t📌 Then if player wants to play another level, he/she need to touch any where on the GAMEOVER! screen.</string>
+    <string name="ans6line6">\t\t\t📌 If player doesn\'t want to play more, he/she needs to select the back key button.</string>
+
+    <string name="ques7">🤔\t When will the "GAME OVER!" message will be displayed ?</string>
+    <string name="ans7">\t\t\t📌 The GAME OVER! message will be displayed on screen when particular level finishes. At this point, If player want to play next level, he/she need to touch anywhere on the screen. Otherwise pressing the back key and player will be directed to the MENU page.</string>
+    <string name="ques8">🤔\t What is Level Score ?</string>
+    <string name="ans8">\t\t\t📌 The Level Score is visible at the top left corner for each level.</string>
+    <string name="ques9">🤔\t What is Winning Score ?</string>
+    <string name="ans9">\t\t\t📌 The Winning Score set to 500, is the minimum score player has to score to win that level.</string>
+    <string name="ques10">🤔\t What is Status ?</string>
+    <string name="ans10">\t\t\t📌 Status describes whether player has won or not, and if not then how much more score needed. If the Level Score is less than Winning Score, Status will be "Need X Points" where X is extra required points to win, Otherwise the Status will be "YOU WON".</string>
+    <string name="ques11">🤔\t What is there in Option button of MENU page ?</string>
+    <string name="ans11">\t\t\t📌 On clicking on Option button, player gets the chance to rate the game among five stars.</string>
+    <string name="ques12">🤔\t What is there in Credits button of MENU page ?</string>
+    <string name="ans12">\t\t\t📌 On Clicking on credits button, Player will be able to see the contact information of the developer and also gets a feedback option.</string>
+    <string name="ques13">🤔\t What is there in About button of MENU page ?</string>
+    <string name="ans13">\t\t\t📌 On clicking on about button, Player will be able to see information(description) about the game.</string>
+    <!--<string name="end">🌞🌟🌞 PLAY N\' ENJOY 🌞🌟🌞</string>-->
+    <string name="end">🌞🌟🌞 CAVEMAN-THE SAVIOUR 🌞🌟🌞</string>
+</resources>
