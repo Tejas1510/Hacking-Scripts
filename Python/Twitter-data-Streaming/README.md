@@ -26,8 +26,8 @@ Twitter Data Streaming is a python program
 
 
 ### Output
-![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Twitter-Data-Streaming/output_images/output1.jpeg)
-![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Twitter-Data-Streaming/output_images/output2.jpeg)
+![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Twitter-data-Streaming/output_images/output1.jpeg)
+![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Twitter-data-Streaming/output_images/output2.jpeg)
 
 After Running this project we not only get the time and text of the tweet,but also we can access the location of almost all the tweets which uses @BCCI
 
