@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+      <ImageView 
+        android:id="@+id/mainMenuBackground"
+        android:src="@drawable/credits1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+          android:contentDescription="@null" />
+
+	<!--
+	android:layout_centerInParent="true"
+
+	-->
+
+<!--	  <ViewFlipper android:id="@+id/flipper"-->
+<!--    	android:layout_width="fill_parent"-->
+<!--    	android:layout_height="wrap_content"-->
+<!--    	android:flipInterval="2000"-->
+<!--		  android:layout_marginTop="80dip"-->
+<!--    	android:layout_marginBottom="20dip" >-->
+
+<!--		  <TextView-->
+<!--			  android:layout_width="fill_parent"-->
+<!--			  android:layout_height="wrap_content"-->
+<!--			  android:gravity="center_vertical|center_horizontal"-->
+<!--			  android:text="@string/credits_1"-->
+<!--			  android:textColor="#000000"-->
+<!--			  android:textSize="36sp"-->
+<!--			  android:textStyle="bold" />-->
+
+<!--		  &lt;!&ndash;-->
+<!--		  <TextView-->
+<!--			  android:layout_width="fill_parent"-->
+<!--			  android:layout_height="wrap_content"-->
+<!--			  android:gravity="center_vertical|center_horizontal"-->
+<!--			  android:text="@string/credits_2"-->
+<!--			  android:textColor="#000000"-->
+<!--			  android:textSize="36sp"-->
+<!--			  android:textStyle="bold" />-->
+<!--		  &ndash;&gt;-->
+<!--          <TextView-->
+<!--              android:layout_width="fill_parent"-->
+<!--              android:layout_height="wrap_content"-->
+<!--              android:gravity="center_vertical|center_horizontal"-->
+<!--              android:text="@string/credits_3"-->
+<!--              android:textColor="#000000"-->
+<!--              android:textSize="36sp"-->
+<!--              android:textStyle="bold" />-->
+
+<!--	  </ViewFlipper>-->
+            
+       <ImageView 
+        android:id="@+id/credits"
+        android:src="@drawable/credits_unchecked"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="center"
+           android:layout_marginTop="30dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+           android:contentDescription="@null" />
+
+	<ToggleButton
+		android:id="@+id/toggle4"
+		android:layout_width="80dp"
+		android:layout_height="60dp"
+		android:layout_marginLeft="30dip"
+		android:layout_marginTop="20dip"
+		android:background="#00000000"
+		android:drawableStart="@drawable/creditsmusic_layout"
+		android:text="ToggleButton"
+		android:textColor="#D50000"
+		android:textSize="24sp"
+		android:textStyle="bold"
+		tools:visibility="invisible" />
+
+	<!--
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="160dip"
+		android:text="@string/text"
+		android:textColor="#64DD17"
+		android:textSize="34sp"
+		android:textStyle="italic" />
+	-->
+
+	<!--
+	<Button
+		android:id="@+id/arrow_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@layout/arrowbutton_layout"
+		android:layout_marginLeft="80dip"
+		android:layout_marginTop="245dip"
+		android:soundEffectsEnabled="false"/>
+	-->
+	<!-- android:layout_marginTop="245,250,250dip" -->
+	<ImageView
+		android:id="@+id/arrow_image"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="80dip"
+		android:layout_marginTop="200dip"
+		android:src="@drawable/arrow" />
+
+	<Button
+		android:id="@+id/share_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@layout/sharebutton_layout"
+		android:layout_marginLeft="300dip"
+		android:layout_marginTop="205dip"
+		android:soundEffectsEnabled="false"/>
+
+	<Button
+		android:id="@+id/follow_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@layout/followbutton_layout"
+		android:layout_marginLeft="400dip"
+		android:layout_marginTop="200dip"
+		android:soundEffectsEnabled="false"/>
+
+	<!-- android:layout_marginTop="170dip" -->
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="50dip"
+		android:layout_marginTop="100dip"
+		android:text="@string/feedback"
+		android:textColor="#FFAB00"
+		android:textSize="54sp"
+		android:textStyle="bold" />
+
+	<Button
+		android:id="@+id/Good"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="100dip"
+		android:layout_marginBottom="600dip"
+		android:layout_marginLeft="350dip"
+		android:layout_marginRight="200dip"
+		android:background="@layout/goodbutton_layout"
+		android:soundEffectsEnabled="true" />
+
+	<Button
+		android:id="@+id/Bad"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="100dip"
+		android:layout_marginBottom="600dip"
+		android:layout_marginLeft="450dip"
+		android:layout_marginRight="200dip"
+		android:background="@layout/badbutton_layout"
+		android:soundEffectsEnabled="true" />
+
+</RelativeLayout>

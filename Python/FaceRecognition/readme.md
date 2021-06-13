@@ -1,4 +1,4 @@
-#Face Detection using OpenCV in Python
+# Face Detection using OpenCV in Python
 
 ### Introduction:
 In this project, a webcam is used to detect the face, if the face is detected a rectangular box is drawn around it.
@@ -10,7 +10,10 @@ For this project, 'haarcascade_frontal_face_default.xml' is used to detect the f
 ### Requirements:
 
 1) OpenCV
+
+	```
 	pip install opencv-python
+	```
 
 
 ### Methodology
@@ -30,8 +33,15 @@ For this project, 'haarcascade_frontal_face_default.xml' is used to detect the f
 
 8) Stop the infinite loop and closing the webcam by pressing the escape key.
 
+<<<<<<< HEAD
 ### Input
 ![plot](./input.png)
 
 ### Output
 ![plot](./output.png)
+=======
+
+![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
+
+Check out my Github profile [divesh-giri!](https://github.com/divesh-giri)
+>>>>>>> 799f184a3165e2abc818098bfdf938c217b9a4d6
