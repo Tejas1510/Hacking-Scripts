@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    background: url("bcal.jpg") no-repeat  center/cover;
+    height: 100vh;
+    width: 100vw;
+    /* background-attachment: fixed; */
+    
+     
+ }
+.calc{
+  
+    text-align: center;
+    /* margin: 10px; */
+    /* padding: 8rem; */
+}
+
+ .calc h1{
+     color: white;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.inner{
+  display: inline-block;
+    background-color: #95cece08;
+    border: 2px solid burlywood;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    margin: rem;
+    border-radius: 2rem;
+   
+}
+
+#screen{
+
+        /* width: 100vw; */
+        border: 2px solid black;
+        border-radius: 1rem;
+        /* height: 1.2rem; */
+        padding: 7px;
+        width: 10rem;
+}
+
+.btn{
+    font-size: 1.6rem;
+    /* height: 2.3rem; */
+    width: 2rem;
+    background-color: #f7bebe;
+    font-weight: 30;
+    border-radius: 0.5rem;
+    
+}
+
+.symbols{
+    background-color: #328e8e00;
+    /* margin: auto; */
+    margin-left: 3px;
+
+}
