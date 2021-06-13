@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/splash_background"
+    android:id="@+id/splashLayout">
+    <!--
+    <ImageView
+        android:id="@+id/credits"
+        android:src="@drawable/start1"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="center"
+        android:layout_marginTop="220dip"
+        android:layout_marginLeft="300dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null" />
+      -->
+<!--    <Button-->
+<!--        android:id="@+id/Welcome"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="220dip"-->
+<!--        android:layout_marginBottom="40dip"-->
+<!--        android:layout_marginLeft="280dip"-->
+<!--        android:layout_marginRight="100dip"-->
+<!--        android:background="@layout/welcomebutton_layout"-->
+<!--        android:soundEffectsEnabled="true" />-->
+    <ImageView
+        android:id="@+id/Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dip"
+        android:layout_marginBottom="40dip"
+        android:layout_marginLeft="280dip"
+        android:layout_marginRight="100dip"
+        android:src="@drawable/welcome" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/Welcome"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="250dip"-->
+<!--        android:layout_marginBottom="40dip"-->
+<!--        android:layout_marginLeft="150dip"-->
+<!--        android:layout_marginRight="30dip"-->
+<!--        android:src="@drawable/welcome_toast" />-->
+
+</LinearLayout>
