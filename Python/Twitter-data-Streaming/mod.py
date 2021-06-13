@@ -23,7 +23,7 @@ def get_twitter_data():
     record += str(i.text)
     record += ';\n'
     record += str(normalize_timestamp(str(i.created_at)))
-    record += ';'
+    record += ';' 
     record += str(i.user.followers_count)
     record += ';'
     record += str(i.user.location)
