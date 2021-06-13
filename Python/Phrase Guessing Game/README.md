@@ -15,21 +15,21 @@ The game continues until the entire phrase is revealed (or one player guesses th
 ***
 ## Input Image
 
-![](images\img1.PNG)
+![](images/img1.PNG)
 
-![](images\img2.PNG)
+![](images/img2.PNG)
 
-![](images\img3.PNG)
+![](images/img3.PNG)
 
-![](images\img4.PNG)
+![](images/img4.PNG)
 
-![](images\img5.PNG)
+![](images/img5.PNG)
 
-![](images\img6.PNG)
+![](images/img6.PNG)
 
 ## Output Image
 
-![](images\img7.PNG)
+![](images/img7.PNG)
 ## How to use: 
 
 1. Run the script.
