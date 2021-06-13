@@ -13,6 +13,8 @@
 ```
 python map.py
 ```
+## Implementation Example -
+![](https://raw.githubusercontent.com/Paras0-7/Hacking-Scripts/main/Python/Map%20Finder/Screenshot.png)<br>
 
 ## Methodology :
 
@@ -31,6 +33,7 @@ python map.py
 7) Save your map and open it using the webbrowser package to view it.
 
 Scroll through your map to see your nearby locations.
+
 
 
 
