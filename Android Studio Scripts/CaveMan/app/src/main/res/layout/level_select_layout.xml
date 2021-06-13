@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<RelativeLayout android:layout_height="fill_parent"
+		android:id="@+id/relativeLayout1" android:layout_width="fill_parent"
+		android:background="@drawable/play1">
+		<ImageView
+			android:id="@+id/credits"
+			android:src="@drawable/level1"
+			android:adjustViewBounds="true"
+			android:layout_centerHorizontal="true"
+			android:scaleType="center"
+			android:layout_marginTop="10dip"
+			android:layout_marginLeft="300dip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:contentDescription="@null" />
+
+		<ImageButton
+			android:background="@layout/lvl_button1"
+			android:id="@+id/imageButton1"
+			android:layout_alignParentTop="true"
+			android:layout_width="90dip"
+			android:layout_height="90dip"
+			android:layout_marginTop="180dip"
+			android:layout_marginLeft="25dip"
+			android:contentDescription="@null" />
+
+		<ImageButton
+			android:background="@layout/lvl_button2"
+			android:id="@+id/imageButton2"
+			android:layout_toEndOf="@+id/imageButton1"
+			android:layout_alignTop="@+id/imageButton1"
+			android:layout_alignBottom="@+id/imageButton1"
+			android:layout_width="90dip"
+			android:layout_height="90dip"
+			android:contentDescription="@null" />
+
+		<ImageButton
+			android:background="@layout/lvl_button3"
+			android:id="@+id/imageButton3"
+			android:layout_toEndOf="@+id/imageButton2"
+			android:layout_alignTop="@+id/imageButton2"
+			android:layout_alignBottom="@+id/imageButton2"
+			android:layout_width="90dip"
+			android:layout_height="90dip"
+			android:contentDescription="@null" />
+
+		<ImageButton
+			android:background="@layout/lvl_button4"
+			android:id="@+id/imageButton4"
+			android:layout_toEndOf="@+id/imageButton3"
+			android:layout_alignTop="@+id/imageButton3"
+			android:layout_alignBottom="@+id/imageButton3"
+			android:layout_width="90dip"
+			android:layout_height="90dip"
+			android:contentDescription="@null" />
+
+		<ImageButton
+			android:background="@layout/lvl_button5"
+			android:id="@+id/imageButton5"
+			android:layout_toEndOf="@+id/imageButton4"
+			android:layout_alignTop="@+id/imageButton4"
+			android:layout_alignBottom="@+id/imageButton4"
+			android:layout_width="90dip"
+			android:layout_height="90dip"
+			android:contentDescription="@null" />
+
+		<ImageButton
+			android:background="@layout/lvl_button6"
+			android:id="@+id/imageButton6"
+			android:layout_toEndOf="@+id/imageButton5"
+			android:layout_alignTop="@+id/imageButton5"
+			android:layout_alignBottom="@+id/imageButton5"
+			android:layout_width="90dip"
+			android:layout_height="90dip"
+			android:contentDescription="@null" />
+
+
+	</RelativeLayout>
+</LinearLayout>
