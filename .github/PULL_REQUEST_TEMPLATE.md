@@ -1,23 +1,23 @@
-<!-- Please create/claim an issue before sending a PR -->
-<!-- Add issue number (Eg: fixes #123) -->
+<!--
+  - Thanks for submitting code to Hacking Script! Please fill out the following as part of
+  - your pull request so we can review your code more easily.
+  -->
 
-Fixes #
+## Explanation
+<!--
+  - Explain what your PR does. If this PR fixes an existing bug, please include
+  - "Fixes #issue_number:" in the explanation so that GitHub can auto-close the issue
+  - when this PR is merged.
+  -->
+  
+Fixes #:
 
-### Checklist:
-- [ ] My branch is up-to-date with upstream/master branch.
+## Checklist
+<!-- Please tick the relevant boxes by putting an "x" in them. -->
 
-### Description:
-<!-- Describe about what this PR does, previous state and new state of the output -->
-
-### Change logs:
-<!-- #### Added -->
-<!-- Edit these points below to describe the new features added with this PR -->
-<!-- - Feature 1 -->
-<!-- - Feature 2 -->
-
-### Fixed:
-<!-- Edit these points below to describe the bug fixes made with this PR -->
-<!-- - Bug 1 -->
-
-### Snapshot:
-<!-- If you can then please provide the screenshot of the changes you have made -->
+- [ ] The PR title starts with "Fix #issue_number".  <!-- PR refers to PULL REQUEST -->
+- [ ] My branch is up-to-date with the main branch.
+- [ ] The PR does not contain any unnecessary auto-generated code.
+- [ ] The PR does not break any part of the existing code.
+- [ ] The PR creator have carefully read & adher to the guidelines of the project.
+- [ ] The PR is raised after the issue has been assigned to the PR creator.

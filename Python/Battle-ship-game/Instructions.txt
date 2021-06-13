@@ -1,0 +1,16 @@
+Game Starts by clicking "Start Button"
+-----------------------------------------------
+If you fire at enemy position it will show number of ships in adjacent box
+-----------------------------------------------
+There are two grids one is your region and other is enemy
+Before starting the game you have to place some ships on board
+Ships can be placed by clicking the positions on board
+When you place ships enemy will also do same
+But you cant see enemies ship
+Once the game is started you can start firing by clicking at enemy grid
+Enemy will also do the same
+THE SUCCESSFULL HIT WILL BE APPEARED AS "BLUE" FLAG ON GRID
+If enmmy hits your ship your health will be decremented and
+aflag will appear on your grid
+Enemy plays game intelligently ! iT SHOOTS NEAR the positions of your ships.
+You can also get a hint about enemies ship by clicking at "Compass" button
