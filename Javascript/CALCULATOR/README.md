@@ -11,4 +11,4 @@ This is a simple Calculator which calculates the basic operations plus , minus ,
 
 # Screenshot
 
-<img src="Javascript/CALCULATOR/Screenshot (112).png" width="750" height="500">
+<img src="https://user-images.githubusercontent.com/66429038/121801248-064d9900-cc54-11eb-86b0-332ee5ae71b6.png" width="750" height="500">
