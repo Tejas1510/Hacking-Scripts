@@ -13,10 +13,26 @@ c.) If the wheel lands on “bankrupt”, the player loses their turn and loses 
 The game continues until the entire phrase is revealed (or one player guesses the complete phrase).
 
 ***
+## Input Image
 
+![](images\img1.PNG)
+
+![](images\img2.PNG)
+
+![](images\img3.PNG)
+
+![](images\img4.PNG)
+
+![](images\img5.PNG)
+
+![](images\img6.PNG)
+
+## Output Image
+
+![](images\img7.PNG)
 ## How to use: 
 
 1. Run the script.
-1. Enter information as asked. (Default password length is 16.)
+1. Enter information as asked.
 1. Enjoy!
 
