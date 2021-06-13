@@ -2,7 +2,7 @@ from selenium import webdriver
 
 class music():
     def __init__(self):
-        self.driver = webdriver.Chrome(r"C:\users\paras\chromedriver.exe")
+        self.driver = webdriver.Chrome(r"Enter the path of your selenieum webdriver")
     
     def play(self,query):
         self.query = query
