@@ -13,7 +13,7 @@ class email():
             self.mssg['Subject']=sub
             self.mssg.attach(MIMEText(msg,'plain'))
             text=self.mssg.as_string()
-            self.server.sendmail("parasrawat681@gmail.com",to,text)
+            self.server.sendmail("example@gmail.com",to,text)
             self.server.quit()
             return "Email sent successfully to "
         except:

@@ -2,7 +2,7 @@ from selenium import webdriver
 
 class info():
     def __init__(self):
-        self.driver = webdriver.Chrome(r'C:\Users\Paras\chromedriver.exe')
+        self.driver = webdriver.Chrome(r'Enter the path of your selenieum webdriver')
     
     def get_info(self,query):
         self.query = query

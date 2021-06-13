@@ -20,7 +20,9 @@ pip install speech_recognition // this library will help to recognize the speech
 pip install pyaudio 
 
 ```
-iv)  Run the application
+iv) Install selenium webdriver for your browser<br> 
+[ChromeDriver](https://chromedriver.chromium.org/downloads)
+v)  Run the application
 ```
 python Gwen.py
 ```
