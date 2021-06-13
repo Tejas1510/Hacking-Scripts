@@ -33,7 +33,6 @@ For this project, 'haarcascade_frontal_face_default.xml' is used to detect the f
 
 8) Stop the infinite loop and closing the webcam by pressing the escape key.
 
-<<<<<<< HEAD
 ### Input
 ![plot](./input.png)
 
