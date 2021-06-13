@@ -17,7 +17,7 @@ Twitter Data Streaming is a python program
 - Then start the kafka by using the command 'kafka-server-start.sh ./config/server.properties' 
   (Run the above two command where you download and install kafka)
 - Then run the python script by using command 'python mod.py'
-- Then run the command 'kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dhruv2612 --from-beginning' (run this command where kafka file is set)
+- Then run the command 'kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dhruv2612 --from-beginning' (run this command where kafka file is s    set)
 
 ### Setup instructions
 2. Download this repository as zip and extract
