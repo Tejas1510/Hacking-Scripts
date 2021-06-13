@@ -34,7 +34,7 @@ For this project, 'haarcascade_frontal_face_default.xml' is used to detect the f
 8) Stop the infinite loop and closing the webcam by pressing the escape key.
 
 ### Input
-![plot](./input.png)
+``` python open_cv_video_face_recognition.py ```
 
 ### Output
 ![plot](./output.png)
