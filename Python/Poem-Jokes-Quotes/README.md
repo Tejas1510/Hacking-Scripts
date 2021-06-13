@@ -69,6 +69,24 @@ joke = get_joke(language="es",category="neutral")
 print(joke)
 ```
 
+##### Options available for Language
+
+|Value|Language Name|
+|---|---|
+|en|English|
+|de|German|
+|es|Spanish|
+|it|Italian|
+|gl|Galician
+|eu|Basque|
+    
+##### Options available for Category
+|Value|Category Detail|
+|---|---|
+|neutral|Neutral geeky jokes|
+|twister|Tongue-twister|
+|all|All types of joke|
+
 #### Screenshots
 
 ##### In CLI
