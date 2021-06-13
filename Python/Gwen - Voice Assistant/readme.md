@@ -20,8 +20,7 @@ pip install speech_recognition // this library will help to recognize the speech
 pip install pyaudio 
 
 ```
-iv) Install selenium webdriver for your browser<br> 
-[ChromeDriver](https://chromedriver.chromium.org/downloads)
+iv) Install selenium webdriver for your browser  </t> Get the driver for Chrome from this link </t>[ChromeDriver](https://chromedriver.chromium.org/downloads)
 <br>
 v)  Run the application
 ```
