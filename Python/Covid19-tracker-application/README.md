@@ -7,9 +7,13 @@ The aim of this project is to track the Covid-19 cases across the world. This ap
 * Button
 ## Prerequisites
 * Firstly you need to have a Python 3.x in your PC, you can [download here](https://www.python.org/downloads/)
-* You need packages like tkinter and matplotlib. For that you have to use the below commands
-* pip install tkinter
-* pip install matplotlib
+* You need packages like numpy, tkinter, matplotlib and covid. For that you have to use the below commands
+```
+pip install numpy
+pip install tk
+pip install matplotlib
+pip install covid
+```
 ## Procedure to run
 * Download and run the "Covid19 tracker application.py"
 * Give the required country names.
