@@ -17,4 +17,4 @@ No extra libraries are required.
 3. Give the UID
 
 ## Output
-![uid](uid.png)
+![uid](uid0.png)
