@@ -20,6 +20,10 @@ Hangman is a game developed in python rogramming Language using random module an
 4. Run the code and start playing.
 5. Have fun!!
 
+###Snapshot of Game 
+<img width="386" alt="loosing" src="https://user-images.githubusercontent.com/65807708/121860981-06629d00-cd17-11eb-9536-a9cb122406e6.PNG">
+<img width="347" alt="winning" src="https://user-images.githubusercontent.com/65807708/121861009-0c587e00-cd17-11eb-80b2-5d39b93c57b7.PNG">
+
 
 
 
