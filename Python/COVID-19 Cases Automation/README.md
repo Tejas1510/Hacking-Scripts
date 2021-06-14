@@ -60,10 +60,15 @@ print(data)
 
 #### In CLI
 
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-3/Python/COVID-19%20Cases%20Automation/Images/corona3.png">
+
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-3/Python/COVID-19%20Cases%20Automation/Images/corona4.png">
 
 #### In PyCharm
 
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-3/Python/COVID-19%20Cases%20Automation/Images/corona1.png">
 
+<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-3/Python/COVID-19%20Cases%20Automation/Images/corona2.png">
 
 ## Contributor
 <a href="https://github.com/Umesh-01">Umesh Singh</a>
