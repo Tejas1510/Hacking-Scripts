@@ -14,8 +14,6 @@ def show_grouped_data():
     from matplotlib import pyplot as plt
     
     from covid import Covid
-    
-    import numpy as np
 
     covid = Covid()
     
