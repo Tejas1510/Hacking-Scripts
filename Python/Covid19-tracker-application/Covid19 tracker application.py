@@ -10,10 +10,16 @@ root.title("Get Covid-19 Data Country Wise")
 
 
 def show_grouped_data():
-    
+    # Matplotlib is an amazing visualization library in Python for 2D plots of arrays.
     from matplotlib import pyplot as plt
-    
+    # To get the covid data we need to import covid package
+    # Dependencies of covid package
+    # pydantic
+    # requests
     from covid import Covid
+    # Here we import numpy package because the matplotlib package will use numpy behind the scenes.
+    # The lists which are passing to plt.bar are immediately converted to Numpy arrays.
+    import numpy as np
 
     covid = Covid()
     
