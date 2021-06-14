@@ -1,0 +1,13 @@
+body
+{
+    background-color:black;
+    color:white;
+}
+.grid
+{
+    display:flex;
+    flex-wrap:wrap;
+    height:300px;
+    width:400px;
+    margin-top:50px;
+}
