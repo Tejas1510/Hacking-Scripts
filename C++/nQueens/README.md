@@ -1,7 +1,7 @@
 # nQueens
 ***
 ## Indroduction
-This is the code written in C++ for the standard problem nQueens. The code return an matrix with posible maximum positions of Queen in the board.
+This is the code written in C++ for the standard problem nQueens. The code returns all possible matrix with posible maximum positions of Queen in the board.
 
 ***
 ## How to Use
