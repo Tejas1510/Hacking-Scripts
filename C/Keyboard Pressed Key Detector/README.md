@@ -6,6 +6,34 @@
 
 ****
 
+# Third-Party Libraries Required :
+```bash
+gcc library
+```
+
+****
+
+# How to install the above Library in Linux
+```bash
+sudo apt update
+```
+```bash
+sudo apt install build-essential
+```
+```bash
+sudo apt-get install manpages-dev
+```
+
+****
+
+# How to use it :
+
+```bash
+Just download the code and run on your local computer, and press key and check the output.
+```
+
+****
+
 # SCREENSHOTS :
 
 ****
