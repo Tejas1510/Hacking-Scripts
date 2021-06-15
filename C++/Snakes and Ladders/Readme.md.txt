@@ -42,4 +42,6 @@ U = 54   V = 34
 
 Minimun number of steps to reach 100 : 7
 
-
+***
+## Output: 
+Image has been attached in the folder.
