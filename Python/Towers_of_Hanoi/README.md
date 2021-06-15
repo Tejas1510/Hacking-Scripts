@@ -36,10 +36,10 @@ The Following Steps help you in the setup and getting started with the script.
 ### Playing the game
 
 * After starting the game, we need to select the number of disks with which we want to play the game. The minimum is 3. After selecting the one number, the game starts and the disks on the current stack are visible like this.
-  ! [ ](Python/Towers_of_Hanoi/assets/Game_start.png)
+  <img src="assets/Game_start.png"/>
 * We can use L,M,R commands to select the top-most element of left, middle and right stacks.
 * We can use the same commands as above to select the stack to which we want to move the element. Here is how it looks.
-  ! [ ](Python/Towers_of_Hanoi/assets/moving_elements.png)
+   <img src="assets/moving_elements.png"/>
 * Selecting and moving from an empty stack results in an invalid move.
 
 
