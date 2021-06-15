@@ -19,7 +19,7 @@ git clone https://github.com/Tejas1510/Hacking-Scripts.git
 #### Calculator image:
 ---
 
-![Calculator image](images\calculator.png)
+<img src="images/calculator.png" alt="calculator">
 
 #### Tech stack:
 ---
