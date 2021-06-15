@@ -10,7 +10,16 @@ This is a code written in C++ Programming Language for Snakes and Ladders.
 3. Enjoy Playing the Game.
 
 ***
-Output: 
+## About:
+
+Snakes and Ladders Problem
+In this we give nuber of ladders and number of snakes
+After the number of ladders, we give the Starting point of the ladder and ending number of ladder;
+After the number of snakes, we give the snake head number and the snake tail number.
+It will calculate the Minimum number of die numbers to take to reach 100
+
+***
+## Input: 
 Ladders - 8
 Ladders Starting and ending number - 
 U = 1    V = 38
@@ -32,4 +41,5 @@ U = 17   V = 7
 U = 54   V = 34
 
 Minimun number of steps to reach 100 : 7
+
 
