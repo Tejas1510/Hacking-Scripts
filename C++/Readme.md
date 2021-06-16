@@ -11,4 +11,4 @@ This is a code written in C++ Programming Language .
 
 ***
 ## Output
-![](Rock_Paper_Scisor C++/image.png)
+![](C++/image.png)
