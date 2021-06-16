@@ -14,6 +14,7 @@ python3 madlibs.py
 
 
 ### Snapshots of Game -
-![Project Image](Images/Output1.png)
-![Project Image](Images/Output2.png)
+![Ouput1 png](https://user-images.githubusercontent.com/65807708/122245815-aec55c80-cee3-11eb-85da-a2e4ee1c495c.png)
+![Output2 png](https://user-images.githubusercontent.com/65807708/122245821-b08f2000-cee3-11eb-90af-2fe910937339.png)
+
 
