@@ -13,6 +13,6 @@ Inside the coin toss folder run the coin.html file.<br>
 <br>
 ## Output
 <img src="Screen1.PNG" alt="Screen 1" width="300" height="200">
-<img src="heads.PNG" alt="heads screen" width="300" height="200">
-<img src="tails.PNG" alt="tails screen" width="300" height="200">
+<img src="Javascript/coin toss/heads.PNG" alt="heads screen" width="300" height="200">
+<img src="Javascript/coin toss/tails.PNG" alt="tails screen" width="300" height="200">
 
