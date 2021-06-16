@@ -1,4 +1,5 @@
-# DESCRIPTION
+# COIN TOSS IN JAVASCRIPT<br>
+## DESCRIPTION
 A simple coin toss game that gives heads and tails randomly.<br>
 The user clicks on the toss button and heads or tails is generated
 No packages or libraries are needed.<br>
