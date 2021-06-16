@@ -12,7 +12,7 @@ Navigate to throught the javascript folder to the coin toss folder .<br>
 Inside the coin toss folder run the coin.html file.<br>
 <br>
 ## Output
-<img src="Screen1.png" alt="Screen 1" width="300" height="200">
-<img src="heads.png" alt="Screen 1" width="300" height="200">
-<img src="tails.png" alt="Screen 1" width="300" height="200">
+<img src="Screen1.PNG" alt="Screen 1" width="300" height="200">
+<img src="heads.PNG" alt="heads screen" width="300" height="200">
+<img src="tails.PNG" alt="tails screen" width="300" height="200">
 
