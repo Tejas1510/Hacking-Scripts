@@ -8,6 +8,20 @@ A Sentiment Classifier is a program which will detect how positive or negative e
 
 ***
 
+## Input Image
+<br>
+
+![](images/image4.PNG)
+<br>
+<br>
+![](images/image5.PNG)
+<br>
+<br>
+![](images/image6.PNG)
+<br>
+<br>
+
+
 ## Output Image
 <br>
 
