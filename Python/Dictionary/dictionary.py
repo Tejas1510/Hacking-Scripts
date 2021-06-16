@@ -21,19 +21,134 @@ from difflib import get_close_matches  # imported get close matches from difflib
                 # get_close_matches, is used to give the closest word meaning if something entrered wrong or spelling mistake
 import tkinter as tk  # imported tkinter as tk
 from tkinter import *
-# ----------------------------------------------------------------------------------------------------
+import tkinter.messagebox as mbox
+import pandas as pd
+# ---------------------------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------------------------------------------
+data = pd.read_csv('words.csv')
+autocompleteList = data['Words'].tolist()
+
+class AutocompleteEntry(Entry):
+    def __init__(self, autocompleteList, *args, **kwargs):
+
+        # Listbox length
+        if 'listboxLength' in kwargs:
+            self.listboxLength = kwargs['listboxLength']
+            del kwargs['listboxLength']
+        else:
+            self.listboxLength = 10
+
+        # Custom matches function
+        if 'matchesFunction' in kwargs:
+            self.matchesFunction = kwargs['matchesFunction']
+            del kwargs['matchesFunction']
+        else:
+            def matches(fieldValue, acListEntry):
+                pattern = re.compile('.*' + re.escape(fieldValue) + '.*', re.IGNORECASE)
+                return re.match(pattern, acListEntry)
+
+            self.matchesFunction = matches
+
+        Entry.__init__(self, *args, **kwargs)
+        self.focus()
+
+        self.autocompleteList = autocompleteList
+
+        self.var = self["textvariable"]
+        if self.var == '':
+            self.var = self["textvariable"] = StringVar()
+
+        self.var.trace('w', self.changed)
+        self.bind("<Right>", self.selection)
+        self.bind("<Up>", self.moveUp)
+        self.bind("<Down>", self.moveDown)
+
+        self.listboxUp = False
+
+    def changed(self, name, index, mode):
+        if self.var.get() == '':
+            if self.listboxUp:
+                self.listbox.destroy()
+                self.listboxUp = False
+        else:
+            words = self.comparison()
+            if words:
+                if not self.listboxUp:
+                    self.listbox = Listbox(width=self["width"], height=self.listboxLength)
+                    self.listbox.bind("<Button-1>", self.selection)
+                    self.listbox.bind("<Right>", self.selection)
+                    self.listbox.place(x=self.winfo_x(), y=self.winfo_y() + self.winfo_height())
+                    self.listboxUp = True
+
+                self.listbox.delete(0, END)
+                for w in words:
+                    self.listbox.insert(END, w)
+            else:
+                if self.listboxUp:
+                    self.listbox.destroy()
+                    self.listboxUp = False
+
+    def selection(self, event):
+        if self.listboxUp:
+            self.var.set(self.listbox.get(ACTIVE))
+            self.listbox.destroy()
+            self.listboxUp = False
+            self.icursor(END)
+
+    def moveUp(self, event):
+        if self.listboxUp:
+            if self.listbox.curselection() == ():
+                index = '0'
+            else:
+                index = self.listbox.curselection()[0]
+
+            if index != '0':
+                self.listbox.selection_clear(first=index)
+                index = str(int(index) - 1)
+
+                self.listbox.see(index)  # Scroll!
+                self.listbox.selection_set(first=index)
+                self.listbox.activate(index)
+
+    def moveDown(self, event):
+        if self.listboxUp:
+            if self.listbox.curselection() == ():
+                index = '0'
+            else:
+                index = self.listbox.curselection()[0]
+
+            if index != END:
+                self.listbox.selection_clear(first=index)
+                index = str(int(index) + 1)
+
+                self.listbox.see(index)  # Scroll!
+                self.listbox.selection_set(first=index)
+                self.listbox.activate(index)
+
+    def comparison(self):
+        return [w for w in self.autocompleteList if self.matchesFunction(self.var.get(), w)]
+
+def matches(fieldValue, acListEntry):
+    pattern = re.compile(re.escape(fieldValue) + '.*', re.IGNORECASE)
+    return re.match(pattern, acListEntry)
+
+# entry = AutocompleteEntry(autocompleteList, f1, listboxLength=6, width=32, matchesFunction=matches)
+# entry.place(x=0, y=0)
+# ------------------------------------------------------------------------------------------------------------------
+
 
 # first loads the data of json file in variable data, using load function
 data = json.load(open("data.json"))
 
 # function defined th=o clear both the input text and output text --------------------------------------------------
 def clear_text():
-    inputtxt.delete("1.0","end")
+    inputentry.delete(0, END)
     outputtxt.delete("1.0","end")
 
 # defined function for searching input word ----------------------------------------------------------------------
 def search_word():
-    word = inputtxt.get("1.0", "end-1c") # first we get the word from the inputtxt and store it in word variable
+    word = inputentry.get() # first we get the word from the inputtxt and store it in word variable
     # print(word)
     word = word.lower() # converting word into lowercase
 
@@ -154,24 +269,48 @@ frame.state('zoomed') # for default maximize way
 dic = tk.Label(text = "DICTIONARY", font=("Arial", 50), fg="magenta",underline=0) # same way bg
 dic.pack()
 
-# for writing strting label, at the top of window
-start = tk.Label(text = "Enter the word you want to search : ", font=("Arial", 30), fg="red")
-start.pack(padx=6, pady=20)
+start1 = tk.Label(text = "Enter the text you want to search...", font=("Arial", 30), fg="green",underline=0) # same way bg
+start1.pack()
+
+myname = StringVar(frame)
+firstclick1 = True
+def on_inputentry_click(event):
+    """function that gets called whenever entry1 is clicked"""
+    global firstclick1
+
+    if firstclick1: # if this is the first time they clicked it
+        firstclick1 = False
+        inputentry.delete(0, "end") # delete all the text in the entry
+
 
 # Taking input from TextArea
-inputtxt = tk.Text(frame,height = 5, width = 60, font=("Arial", 15), bg = "light yellow",fg = "brown", borderwidth=3, relief="solid")
-inputtxt.pack()
+# inputentry = Entry(window,font=("Arial", 35), width=33, border=2)
+inputentry = AutocompleteEntry(autocompleteList, frame,font=("Arial", 35) , width=33, border=2, matchesFunction=matches)
+inputentry.insert(0, 'Enter the word you want to search...')
+inputentry.bind('<FocusIn>', on_inputentry_click)
+inputentry.place(x=350, y=150)
 
-# Creating Search Button
-searchButton = tk.Button(frame,text="SEARCH",command= search_word,font=("Arial", 20), bg = "light green", fg = "blue", borderwidth=3, relief="raised")
-searchButton.pack(padx=6, pady=5)
 
-# creating clear button
-clearButton = tk.Button(frame,text="Clear",command= lambda: clear_text(),font=("Arial", 20), bg = "light green", fg = "blue", borderwidth=3, relief="raised")
-clearButton.pack(padx=6, pady=5)
+# # Creating Search Button
+Button(frame,text="SEARCH",command= search_word,font=("Arial", 20), bg = "light green", fg = "blue", borderwidth=3, relief="raised").place(x = 550, y = 250)
 
-# Output TextBox Creation
+
+# # creating clear button
+Button(frame,text="CLEAR",command= clear_text,font=("Arial", 20), bg = "light green", fg = "blue", borderwidth=3, relief="raised").place(x = 800, y = 250)
+
+
+# # Output TextBox Creation
 outputtxt = tk.Text(frame,height = 15, width = 100, font=("Arial", 15), bg = "light yellow", fg = "brown", borderwidth=3, relief="solid")
-outputtxt.pack()
+outputtxt.place(x=200, y = 350)
+
+def exit_win():
+    if mbox.askokcancel("Exit", "Do you want to exit?"):
+        frame.destroy()
+
+# # creating exit button
+Button(frame,text="EXIT",command= exit_win,font=("Arial", 20), bg = "red", fg = "black", borderwidth=3, relief="raised").place(x = 700, y = 720)
+
+
+frame.protocol("WM_DELETE_WINDOW", exit_win)
 
 frame.mainloop()
