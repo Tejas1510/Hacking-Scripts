@@ -147,7 +147,7 @@ public class Tic_Tac_Toe {
 			if(playerPositions.containsAll(l)) {
 				return "Congratulations you won!";
 			}
-			else if(cpuPositions.contains(l)) {
+			else if(cpuPositions.containsAll(l)) {
 				return "CPU wins! Try Again :(";
 			}
 			else if(playerPositions.size() + cpuPositions.size() == 9) {
