@@ -14,6 +14,6 @@ python3 madlibs.py
 
 
 ### Snapshots of Game -
-[Output1](Images/Output1.png)
-[Output2](Images/Output2.png)
+![Project Image](Images/Output1.png)
+![Project Image](Images/Output2.png)
 
