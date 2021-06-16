@@ -1,14 +1,30 @@
-# Calculator
+# Github Profile Viewer
+
 ## Description
-This is a simple Calculator which calculates the basic operations plus , minus , division , subtraction made by (Kartikey Dubey) @kartikey0205 
+It is a Simple Calculator made using Javascript and jQuery
 
-## Tech-Stack Required
-* HTML
+#### Steps:
+---
 
-* CSS 
+- Download or clone the repository
+```
+git clone https://github.com/Tejas1510/Hacking-Scripts.git
+```
+- Go to the directory
+- Run the index.html file
+- Calculate
 
-* Vanilla JS
+<br/>
 
-# Screenshot
+#### Calculator image:
+---
 
-<img src="https://user-images.githubusercontent.com/66429038/121801248-064d9900-cc54-11eb-86b0-332ee5ae71b6.png" width="750" height="500">
+<img src="images/calculator.png" alt="calculator">
+
+#### Tech stack:
+---
+- HTML5
+- CSS3
+- Bootstrap
+- Javascript
+- jQuery
