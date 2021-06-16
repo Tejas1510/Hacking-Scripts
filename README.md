@@ -109,6 +109,7 @@ git push
 <p align="center">
 <img src ="https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/scriptcode.jfif" alt ="Script Winter of Code"></img>
 <img src ="https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/jwoc.jpg" alt ="JGEC Winter of Code"></img>
+<img src="https://user-images.githubusercontent.com/60106112/121303829-28c07900-c919-11eb-8cf2-afd39b5c54ab.png" alt="Lets Grow More Summer of Code">
 </p>
 
 ## ⭐ Issues:
