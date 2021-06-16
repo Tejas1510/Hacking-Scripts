@@ -18,6 +18,6 @@ In the folder, you will find these files:
 - transform_empty.py: empty template for image filter functions
 
 ### Snapshots of Projects
-[input](input/city.png)
-[output](output/test.png)
+![input](input/city.png)
+![output](output/test.png)
 
