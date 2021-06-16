@@ -71,3 +71,8 @@ body {
 .hidden {
   display: none;
 }
+
+.center{
+  margin: 1px;
+  text-align: center;
+}

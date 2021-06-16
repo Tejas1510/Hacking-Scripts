@@ -1,6 +1,6 @@
 # <p align = "center"> Website Blocker using PC Hosts files </p>
 ## Introduction: 
-This is a script that aims to implement a website blocking utility for Windows-based systems. It makes use of the computer's hosts files and runs it as a background process, preventing access to the sites entered by the user in array format.
+This is a script that aims to implement a website blocking utility for Windows-based systems. It makes use of the computer's hosts files and runs it as a background process, preventing access to the sites entered by the user in list format.
 ## Third-party libraries required:
 The project requires Python's datetime library only
 ## Importing the Libraries:
@@ -10,7 +10,7 @@ On the script's console, type: <br>
 `from datetime import datetime as dt`
 
 ## Running the Script:
-After opening the script in your Python IDE, execute the code so that you get the console output window. Open your browser and try to visit the websites you blocked. When the script runs successfully, you will see `This site can't be reached` error on the browser.
+After opening the script in your Python IDE, execute the code so that you get the UI output window. Open your browser and try to visit the websites you blocked. When the script runs successfully, you will see `This site can't be reached` error or similar 404 error's on the browser.
 
 **Note:**
 > In some systems, access to the computers's hosts files maybe denied by default to prevent malware attacks. So the script while executing may show an error while modifying the hosts files. 
@@ -19,7 +19,11 @@ After opening the script in your Python IDE, execute the code so that you get th
 > *Recommended:* Please revert to the original access settings after testing the script to prevent any future compromise
 
 ## Output:
-#### The output console will print this everytime you visit/refresh a blocked webpage:
-![Output1](https://i.pinimg.com/originals/f2/ef/48/f2ef48144df31db5abdb497e3eaa3751.png)
-#### This is how the browser acts when you try to visit the website that you blocked:
-![Output2](https://i.pinimg.com/originals/ea/2b/cf/ea2bcfbc1240f17ff2c45087728ff500.png)
+#### The output UI will appear as shown below:
+![Output 1](https://raw.githubusercontent.com/Rutuj-Runwal/Img/master/assets/UI1.png?token=AOFO32AFMK2ZEB3T4IKLGW3AZ6G6Q)
+#### You can add new site as shown below then click on "Add Website" button.You can add as many as you want:
+![Output 2](https://raw.githubusercontent.com/Rutuj-Runwal/Img/master/assets/UI2.png?token=AOFO32GHV3ZGY7QR27FDTA3AZ6HIE)
+#### If you entered anything that's not a proper website.An error willshow up to guide you:
+![Output 3](https://raw.githubusercontent.com/Rutuj-Runwal/Img/master/assets/UI3.png?token=AOFO32A2EMFCJ2WLIA7WCGTAZ6HNC)
+
+#### Once you are done with adding websites, you canclick on Block-Sites button to begin blocking
