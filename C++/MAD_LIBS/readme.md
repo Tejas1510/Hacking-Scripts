@@ -25,4 +25,4 @@ Open the MAD_LIBS folder and run the main.cpp
 
 # Output
 
-<img src="output.PNG">
+<img src="output.png">
