@@ -1,5 +1,5 @@
 # ToDoApp :
-It is a basic CRUD application that implements the SRP and DRY priciples. It lets you create new tasks, delete previous tasks, search tasks, update previous tasks and print all the tasks.
+It is a basic CRUD application that implements the SRP(Single Responsibilty Principle) and DRY(Don't Repeat Yourself) priciples. It lets you create new tasks, delete previous tasks, search tasks, update previous tasks and print all the tasks.
 
 ## How to use the code
 
