@@ -3,10 +3,13 @@
 ## Introduction
 ```
 It is the program will generate a QR code a specified link.
-## Requirements
+
 ```
-
-
+## Third-Party Libraries Required :
+1. <a href="https://mvnrepository.com/artifact/com.google.zxing/core" target="_blank">zing-core</a> 
+2. <a href="https://mvnrepository.com/artifact/com.google.zxing/javase" target="_blank">zing-javase</a> 
+```
+1. <a href="https://mvnrepository.com/artifact/com.google.zxing/core">zing-core</a1> 
 ```
 ## How to use the code
 ```
@@ -15,7 +18,10 @@ It is the program will generate a QR code a specified link.
 3.Run the GenerateQR.java file.
 ```
 ## Output
-
+```
+this is the QR code that ia generated using this script.
+```
+![](QRs/LGM-SOC.png)
 
 
 
