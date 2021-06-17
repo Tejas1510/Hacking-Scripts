@@ -26,3 +26,4 @@ iv) Print Task<br>
 <br>
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)<br>
 
+Check out my Github profile [Paras0-7!](https://github.com/Paras0-7)
