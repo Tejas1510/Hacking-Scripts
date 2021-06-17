@@ -8,9 +8,7 @@ It is the program will generate a QR code a specified link.
 ## Third-Party Libraries Required :
 1. <a href="https://mvnrepository.com/artifact/com.google.zxing/core" target="_blank">zing-core</a> 
 2. <a href="https://mvnrepository.com/artifact/com.google.zxing/javase" target="_blank">zing-javase</a> 
-```
-1. <a href="https://mvnrepository.com/artifact/com.google.zxing/core">zing-core</a1> 
-```
+
 ## How to use the code
 ```
 1.Download the given code.
