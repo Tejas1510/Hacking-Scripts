@@ -24,3 +24,5 @@ iv) Print Task<br>
 ![PrintTask](https://raw.githubusercontent.com/Paras0-7/ToDoApp/main/Images/printTask.png)
 <br>
 <br>
+![built with love](https://forthebadge.com/images/badges/built-with-love.svg)<br>
+
