@@ -2,8 +2,7 @@
 
 ## Introduction
 ```
-It is the program will generate a QR code a specified link.
-
+This script generates QR code for any sepcified link
 ```
 ## Third-Party Libraries Required :
 1. <a href="https://mvnrepository.com/artifact/com.google.zxing/core" target="_blank">zing-core</a> 
@@ -17,7 +16,7 @@ It is the program will generate a QR code a specified link.
 ```
 ## Output
 ```
-this is the QR code that ia generated using this script.
+This is the QR code that was generated using this script.
 ```
 ![](QRs/LGM-SOC.png)
 
