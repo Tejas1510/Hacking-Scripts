@@ -8,6 +8,23 @@
 
 ****
 
+## Libraries Used.
+- ### io
+- ### tkinter
+- ### difflib
+- ### pandas
+
+****
+
+## How to use it:
+- ### Just download the files, and run the dictionary.py file.
+- ### Then enter your text in the entry field and click on the search button, this will show meaning the below output textarea.
+- ### While entrting the text, we can use select the word from the drop dow list suggested, if our word is there in drop down list.
+- ### There is also an option to clear both the input and output field.
+- ### And on clicking on the exit button, we get permission asking exit dialog box.
+
+****
+
 <p align="center">
   <img src="images/1.png" /><br>
   <img src="images/2.png" /><br>
