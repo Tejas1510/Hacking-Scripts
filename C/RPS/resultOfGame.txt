@@ -1,0 +1,76 @@
+Write your name please
+Kartikey
+
+Welcome Kartikey to Rock-Paper-Scissor Game !!
+
+
+Kartikey's Turn !!
+Choose :-
+ 1 for Rock(r)
+ 2 for Paper(p)
+ 3 for Scissors(s)
+1
+Kartikey Choose : r 
+
+Computer's Turn !!
+Computer is choosing one of them :-
+ 1 for Rock(r)
+ 2 for Paper(p)
+ 3 for Scissors(s)
+
+Computer Choose : p
+
+Wooow , Computer wins this  chance  !!
+
+SCORE:-
+ Kartikey Got 0 Points
+ Computer Got 1 Points
+
+Kartikey's Turn !!
+Choose :-
+ 1 for Rock(r)
+ 2 for Paper(p)
+ 3 for Scissors(s)
+1
+Kartikey Choose : r 
+
+Computer's Turn !!
+Computer is choosing one of them :-
+ 1 for Rock(r)
+ 2 for Paper(p)
+ 3 for Scissors(s)
+
+Computer Choose : s
+
+Great  , Kartikey wins this  chance  !!
+
+SCORE:-
+ Kartikey Got 1 Points
+ Computer Got 1 Points
+
+Kartikey's Turn !!
+Choose :-
+ 1 for Rock(r)
+ 2 for Paper(p)
+ 3 for Scissors(s)
+2
+Kartikey Choose : p
+
+Computer's Turn !!
+Computer is choosing one of them :-
+ 1 for Rock(r)
+ 2 for Paper(p)
+ 3 for Scissors(s)
+
+Computer Choose : r
+
+Great  , Kartikey wins this  chance  !!
+
+SCORE:-
+ Kartikey Got 2 Points
+ Computer Got 1 Points
+
+Congrats !! , Kartikey had won this Game !!
+ Better Luck Next Time Computer
+
+Thanks for playing Game!!
