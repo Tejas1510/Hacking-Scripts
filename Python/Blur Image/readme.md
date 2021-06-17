@@ -21,3 +21,9 @@ For this project, we require the PIL library. To install the PIL library use the
 
 ### Output
 ![plot](./blurredimage.jpg)
+
+=======
+
+![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
+
+Check out my Github profile [divesh-giri!](https://github.com/divesh-giri)
