@@ -1,0 +1,19 @@
+<%- include("partials/header") -%>
+
+<div class="row">
+<% results.forEach(function(anime) { %>
+<div class="col col-lg-4">
+  <div class="card" style="width: 18rem; display:inline-block  ">
+  <img class="card-img-top"  src="<%=anime.image_url %>" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title"><%=anime.title %></h5>
+    <p class="card-text"><%=anime.synopsis %></p>
+    <a href="<%=anime.url %>" class="btn btn-primary">More</a>
+  </div>
+</div>
+</div >
+
+<%  }); %>
+</div>
+
+<%- include("partials/footer") -%>
