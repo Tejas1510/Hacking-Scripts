@@ -17,6 +17,12 @@
 - You need to install **requests** module.
 - Type this in command prompt ```pip install requests```
 
+### Module used
+- tkinter
+- requests
+- json
+- webbrowser
+- datetime
 ### Screenshot of the application
 ![App Image 1](Screenshots/img_1.png)
 
