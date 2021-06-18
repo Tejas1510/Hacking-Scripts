@@ -24,7 +24,7 @@ Deleting the contact
 Updating contacts
 ![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Contact-Management-System/output_images/output3.png)
 
- Displaying contacts
+                 Displaying contacts
 ![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Contact-Management-System/output_images/output4.png)
 
 
