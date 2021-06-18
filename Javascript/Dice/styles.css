@@ -7,7 +7,7 @@
 .dice {
   text-align: center;
   display: inline-block;
-
+  margin: 30px;
 }
 
 body {
@@ -15,6 +15,11 @@ body {
   background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
+}
+
+#result{
+  margin-bottom: 80px;
+  font-size:100px;
 }
 
 h1 {
@@ -41,8 +46,9 @@ p {
 }
 
 img {
-  width: 80%;
+  width: 90%;
 }
+
 
 footer {
   margin-top: 5%;
@@ -56,6 +62,7 @@ footer {
 /* ...........btn........... */
 .html {
   padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,7 +79,7 @@ footer {
   color: #eee;
   font-size: 40px;
   font-family: 'Cookie', cursive;
-  position: relative;
+  position:relative;
   transition: 1s;
   -webkit-tap-highlight-color: transparent;
   display: flex;
@@ -80,6 +87,7 @@ footer {
   justify-content: center;
   cursor: pointer;
   padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #btn #circle {
