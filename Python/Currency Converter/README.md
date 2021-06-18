@@ -4,7 +4,8 @@
 Here we can covert INR  into various currencies using the data of rates from google ,we will make currency file in which all the rates will be there and then in the script we will read and fetch from that file and then convert it into any currency.
 
 
-Third-Party Libraries Required : No libraries required.
+## Third-Party Libraries Required : 
+No libraries required.
 
 ## How to use it :
 We firstly need to get the rates from google and copy it into currency file then we need to run the script and then mention the currency in which we need to convert.
