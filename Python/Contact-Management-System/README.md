@@ -15,10 +15,17 @@ Contact management system is developed in python programming language using rand
 3. Use Python IDLE to run the program.
 
 ### Output
-![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Contact-Management-System/output_images/output1.jpeg)
-![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Contact-Management-System/output_images/output2.jpeg)
-![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Contact-Management-System/output_images/output3.jpeg)
-![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Contact-Management-System/output_images/output4.jpeg)
+Adding Contact
+![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Contact-Management-System/output_images/output1.png)
+
+Deleting the contact
+![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Contact-Management-System/output_images/output2.png)
+
+Updating contacts
+![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Contact-Management-System/output_images/output3.png)
+
+Displaying contacts
+![](https://github.com/dhruv-varshney/Hacking-Scripts/blob/main/Python/Contact-Management-System/output_images/output4.png)
 
 
 
