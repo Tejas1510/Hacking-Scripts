@@ -1,4 +1,4 @@
-package generateQR;
+package QR-Code_Generator;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
