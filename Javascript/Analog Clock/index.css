@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+
 .container {
   /* border: 5px solid green; */
 
