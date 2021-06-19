@@ -41,7 +41,8 @@ Make sure you have node.js installed.
  ```
  npm start
  ```
-   
+## Screenshot
+ ![screenshot](https://user-images.githubusercontent.com/78664749/122631772-b9ead900-d0eb-11eb-9c38-8687175c04e0.png)
 
 ## Deployed [here](https://react-calculator-mukul.netlify.app/)
 
