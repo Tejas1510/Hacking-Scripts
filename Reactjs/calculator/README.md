@@ -31,7 +31,7 @@ Make sure you have node.js installed.
  ```
   cd Hacking-Scripts
   cd Reactjs
-  cd React-Calculator
+  cd calculator
  ```
 4. Install node modules
  ```
