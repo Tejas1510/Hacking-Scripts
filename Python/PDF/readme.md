@@ -17,7 +17,7 @@ pip install Pillow
 iv) Run the pdf.py file. <br>
 
 ## Output :
-<img src ="https://github.com/Paras0-7/Hacking-Scripts/blob/patch-3/Python/PDF/images/img.png">
+<img src ="https://raw.githubusercontent.com/Paras0-7/Hacking-Scripts/main/Python/PDF/images/img.png">
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)<br>
 
