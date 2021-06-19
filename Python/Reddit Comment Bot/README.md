@@ -31,8 +31,13 @@ This Reddit Comment Bot is a python-based auto-responder.
 - Set your bot's reply
 This is how the whole thing is working, or we can that this is the block diagram of this project.
 
+## Input
+<img src = "https://github.com/abhisheks008/Hacking-Scripts/blob/patch-1/Python/Reddit%20Comment%20Bot/Images/input_bot.png">
+
 ## Output
 <img src = "https://github.com/abhisheks008/Hacking-Scripts/blob/patch-1/Python/Reddit%20Comment%20Bot/Images/bot.png">
+
+<img src = "https://github.com/abhisheks008/Hacking-Scripts/blob/patch-1/Python/Reddit%20Comment%20Bot/Images/bot2.png">
 
 ## Author
 Code contributed by, Abhishek Sharma, 2021, @abhisheks008 #LGMSOC21
