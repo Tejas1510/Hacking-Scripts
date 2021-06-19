@@ -1,4 +1,4 @@
-# Reddit Bot using Python 3 Language
+# Reddit Comment Bot using Python 3 Language
 
 ## Description
 This Reddit Bot is basically comment bot which will comment automatically depending upon the client id and the client server. Confguration is the main thing for this bot, otherwise it will be not working as it is shown here.
