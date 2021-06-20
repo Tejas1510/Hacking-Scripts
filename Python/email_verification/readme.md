@@ -6,6 +6,8 @@ All LIBRARY REQUIRED BEFORE RUNNING THE SCRIPTS.
 
 ###pip install socket
 pip install smptlib
+pip install socket
+
 
 ### How to use it.
 Enter the mail id assume 250 as correct 
