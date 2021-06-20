@@ -2,7 +2,7 @@
 
 ## Introduction
 The **pomodoro technique** is a time management method which uses a timer to break down work into intervals.
-This script is is GUI version of this technique and has 3 options :
+This script is a GUI version of this technique and has 3 options :
 - Start
 - Reset
 - Quit
