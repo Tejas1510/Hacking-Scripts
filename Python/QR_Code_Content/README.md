@@ -1,5 +1,9 @@
 # QR Code Code Content Reader
 
+## About Script
+
+#### This Script detects the QR code present in your derired video stream or image and decode its content to display over the image and it also copies that info to your clipboard
+
 - ## Requirements
 
   - #### Python 3
