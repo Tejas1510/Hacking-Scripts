@@ -1,6 +1,16 @@
 # QR Code Code Content Reader
 
-- ### Simple working
+- ## Requirements
+
+  - #### Python 3
+  - #### OpenCV
+  - #### PyperClip
+  - #### Pyzbar
+  - #### Numpy
+
+  #### To install these Dependencies use `pip install [module_name]`
+
+- ## How Script Works
   - #### First give the python file executable permissions
     - In terminal type `chmod +rwx filename` in the current directory
   - #### To execute the Script type `python3 QR_code_content.py` in the terminal
@@ -10,6 +20,6 @@
   - #### To stop the camera use or to close the window along with pasting the result on your clipboard and terminal press `C`.
   - #### To change the input device as external connected cameras change line `12` of Code
 
-## Screenshot
+## Output Screenshot
 
 ![ScreenShot](./Screenshot.png)
