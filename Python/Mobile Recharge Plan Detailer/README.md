@@ -1,6 +1,6 @@
 # Mobile Recharge Detailer Planner
 ## Introduction
-We can fetch all the rescharge plans wether it is unlimited one or limited using the url and getting the data using request library and getting only the required things through bs4 library in proper format.
+We can fetch all the recharge plans whether it is unlimited one or limited using the url and getting the data using request library and getting only the required things through bs4 library in proper format.
 
 ## Third-Party Libraries Required :
 bs4 , random 
