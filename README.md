@@ -79,29 +79,9 @@ git clone https://github.com/<your-github-username>/Hacking-Scripts
 cd Hacking-Scripts
 ```
 
-**4.** Add a reference(remote) to the original repository.
-```
-git remote add upstream https://github.com/Tejas1510/Hacking-Scripts.git
-```
+**4.** Make changes in source code.
 
-**5.** Check the remotes for this repository.
-```
-git remote -v
-```
-
-**6.** Always take a pull from the upstream repository to your main branch to keep it at par with the main project(updated repository).
-```
-git pull upstream main
-```
-
-**7.** Create a new branch.
-```
-git checkout -b <your_branch_name>
-```
-
-**8.** Make changes in source code.
-
-**9.** Stage your changes and commit
+**5.** Stage your changes and commit
 
 ```bash
 #Add changes to Index
@@ -111,15 +91,15 @@ git add .
 git commit -m "<your_commit_message>"
 ```
 
-**10.** Push your local commits to the remote repo.
+**6.** Push your local commits to the remote repo.
 
 ```bash
-git push origin <your_branch_name>
+git push
 ```
 
-**11.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
+**7.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
-**12.** **Congratulations!** Sit and relax, you've made your contribution to [Hacking-Scripts](https://github.com/Tejas1510/Hacking-Scripts) project.
+**8.** **Congratulations!** Sit and relax, you've made your contribution to [Hacking-Scripts](https://github.com/Tejas1510/Hacking-Scripts) project.
 
 
 ## 📢  Open Source Program
