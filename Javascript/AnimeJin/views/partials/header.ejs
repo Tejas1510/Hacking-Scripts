@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AnimeJin</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0c646cf0e9.js" crossorigin="anonymous"></script>
+
+
+
+
+  </head>
+  <body>
+
+    <!-- <form  action="/" method="post">
+
+      <label>Pls Enter the anime name:</label>
+      <input type="text" name="animeTaken">
+
+    </form> -->
+    <nav class="navbar  navbar-expand-lg navbar-light py-1" style="background-color: #e3f2fd;">
+
+  <h1><a href="/" class="px-4">AnimeJin</a> </h1>
+
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ">
+
+
+
+    </ul>
+    <form class="form-inline my-4 mx-auto my-lg-0  " method="POST" action="/">
+      <input class="form-control mr-sm-0 btn-lg " name="animeTaken" placeholder="Search" aria-label="Search">
+      <button class="btn btn-lg btn-outline-success  mx-2 my-sm-2" type="submit">Search</button>
+    </form>
+
+
+  </div>
+</nav>
+<div class="container-fluid container_anime" style = "background-color:#e3f2fd">
+
+    <form  action="/genre" method="post">
+
+
+    <h2><label for="cars">Choose a Genre </label></h2>
+
+    <select name="anime" >
+      <option value="1">Action</option>
+      <option value="2">Adventure</option>
+      <option value="3">Romance</option>
+      <option value="4">Fantasy</option>
+      <option value="5">Slice of life</option>
+      <option value="6">Dark</option>
+
+
+    </select>
+
+    <button type="submit"  class = "btn btn-primary"name="button">Wanna See anime </button>
+
+</div>

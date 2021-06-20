@@ -1,0 +1,5 @@
+argparse==1.4.0
+beautifulsoup4==4.9.1
+fake-useragent==0.1.11
+openpyxl==3.0.4
+requests==2.24.0

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="10dp" android:layout_width="10dp">
+    <item android:state_focused="true" android:state_pressed="false" android:drawable="@drawable/play_unchecked" />
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/play_checked" />
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/play_checked" />
+    <item android:drawable="@drawable/play_unchecked" />
+</selector>

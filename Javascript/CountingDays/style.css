@@ -1,23 +1,33 @@
 .heading{
     text-align: center;
-    color: blueviolet;
+    margin-top: 4rem;
+    color:lightcoral
+}
+body{
+    background-image: url("images/bg-image.png");
+}
 
+.form-control{
+    margin-top: 0.60rem;
+}
 
+label{
+    margin-top: 1.25rem;
+    color:coral
 }
 
 form{
     width: 500px;
-    margin-left: 550px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .btn{
     margin-top: 20px;
     align-items: center;
-    margin-left: 750px;
-    width: 100px;
+    margin-left: 225px;
+    width: 75px;
 }
 #finalAns{
     padding-top: 30px;
     text-align: center;
-    color: blueviolet;
+    color:yellow
 }

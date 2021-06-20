@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.str {
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+    border: 2px black solid;
+}
+
+#rot-x {
+    width: 80px;
+    display: block;
+    margin: auto;
+}

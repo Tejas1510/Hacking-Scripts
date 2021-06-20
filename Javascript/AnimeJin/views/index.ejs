@@ -1,0 +1,52 @@
+<%- include("partials/header") -%>
+<!-- <h1>AnimeJin</h1> -->
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+
+
+
+ <% animeGenre.forEach(function(anime) { %>
+<div class="col col-lg-4">
+   <div class="card card-anime " style="width: 30rem; ">
+   <img class="card-img-top"  src="<%=anime.image_url %>" alt="Card image cap">
+   <div class="card-body">
+     <h5 class="card-title"><%=anime.title %></h5>
+     <% if(anime.synopsis){  %>
+       <p class="card-text"><%=anime.synopsis %></p>
+
+     <%  } else { %>
+       <p class="card-text">Type: <%=anime.type %></p>
+
+  <%   } %>
+     <a href="<%=anime.url %>" class="btn btn-primary">More</a>
+
+</div>
+
+
+
+
+</div>
+</div>
+<%  }); %>
+</div>
+</form>
+
+<div id="search-results" class="container">
+
+</div>
+
+
+
+
+
+
+<%- include("partials/footer") -%>

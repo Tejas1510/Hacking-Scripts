@@ -1,0 +1,85 @@
+/* ########### Normal Display ############ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("pattern-34.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    margin: auto;
+}
+
+header.text-warning {
+    font-family: 'Itim',sans-serif;
+    font-size: 50px;
+}
+
+.col {
+    padding: 0;
+}
+
+div.border {
+    padding: 8px;
+    border-radius: 15px;
+}
+
+input.calscreen {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: right;
+    border: none;
+    border-radius: 12px;
+    font-size: 30px;
+    width: 99.5%
+}
+
+input.chars {
+    margin-bottom: 4px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 12px;
+    width: 98%;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+input.zero {
+    width: 99%;
+}
+
+/* ############# Mobile ############# */
+
+@media screen and (max-width: 1100px) {
+    header.text-warning {
+        margin-bottom: 28%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header.text-warning {
+        margin-bottom: 28%;
+    }
+
+    input.chars {
+        background-color: rgba(0, 0, 0, 0.7);
+        border: none;
+        width: 98%;
+        height: 45px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    input.zero {
+        width: 99%;
+    }
+
+}

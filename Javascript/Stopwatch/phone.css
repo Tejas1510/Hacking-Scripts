@@ -1,0 +1,40 @@
+body{
+  background:url("bg/bg3stop.jpg")no-repeat center center/cover;
+
+}
+    .Stopwatch{
+    margin: 0 64px;
+}
+.Stopwatch h1{
+    font-family: cursive;
+    font-weight: 200;
+    font-size: 4rem;
+    position: relative;
+}
+.Stopwatch h1::before{
+    content: "";
+    position: absolute;
+    background: linear-gradient(35deg ,#e22042 , #396694);
+    width: 117px;
+    height: 128px;
+    border-radius: 50% 0% 50%;
+    top: -19px;
+    left: 119px;
+}
+.container h2{
+    font-size: 3rem;
+    margin: 24px 6px;
+}
+
+button{
+    width: 103px;
+    height: 36px;
+    font-size: 1rem;
+    color: white;
+    outline: none;
+    border-radius: 25%;
+    cursor: pointer;
+    font-family: 'Sansita Swashed', cursive;
+    background: linear-gradient(to right,rgb(142, 45, 226), rgb(226 73 73));
+    margin: 18px 0px
+}

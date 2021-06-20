@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/mainMenuBackground"
+        android:src="@drawable/about1"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@null" />
+
+    <ImageView
+        android:id="@+id/credits"
+        android:src="@drawable/about_unchecked"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="center"
+        android:layout_marginTop="30dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/credits">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/game_image"
+                android:adjustViewBounds="true"
+                android:layout_centerHorizontal="true"
+                android:scaleType="center"
+                android:layout_marginTop="30dip"
+                android:layout_marginLeft="280dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:layout_marginTop="15dip"
+                android:layout_marginRight="30dip"
+                android:text="@string/game_name"
+                android:textColor="#C51162"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:layout_marginTop="15dip"
+                android:layout_marginRight="30dip"
+                android:text="@string/game_mode"
+                android:textColor="#C51162"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:layout_marginTop="15dip"
+                android:layout_marginRight="30dip"
+                android:text="@string/about_game_1"
+                android:textColor="#FF6F00"
+                android:textSize="34sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:layout_marginTop="15dip"
+                android:layout_marginRight="30dip"
+                android:text="@string/about_game_2"
+                android:textColor="#FF6F00"
+                android:textSize="34sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:layout_marginTop="15dip"
+                android:layout_marginRight="30dip"
+                android:text="@string/about_game_3"
+                android:textColor="#FF6F00"
+                android:textSize="34sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dip"
+                android:layout_marginTop="15dip"
+                android:layout_marginRight="30dip"
+                android:text="@string/about_game_4"
+                android:textColor="#FF6F00"
+                android:textSize="34sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dip"
+                android:text="@string/end"
+                android:textColor="#B2FF59"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ToggleButton
+        android:id="@+id/toggle5"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dip"
+        android:layout_marginTop="20dip"
+        android:background="#00000000"
+        android:drawableStart="@drawable/helpmusic_layout"
+        android:text="ToggleButton"
+        android:textColor="#D50000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:visibility="invisible" />
+
+
+</RelativeLayout>

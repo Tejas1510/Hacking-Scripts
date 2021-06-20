@@ -1,0 +1,19 @@
+.card-anime
+{
+
+  position: relative;
+ display: block;
+ margin: 20px;
+
+}
+body
+{
+
+  background-color: #e3f2fd;
+}
+.container_anime
+{
+  margin: 20px;
+  text-align: center;
+  padding: 50px;
+}
