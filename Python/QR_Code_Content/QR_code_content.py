@@ -1,6 +1,5 @@
 #! /usr/bin/python3
 import numpy as np
-from numpy.core.fromnumeric import size
 import pyperclip
 import cv2
 import sys
