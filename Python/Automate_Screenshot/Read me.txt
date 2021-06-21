@@ -1,0 +1,6 @@
+If your are in online class and you feel boared to take screenshot again and again you can use this program to automate screenshot.
+You can use this program to automate screenshot function using pyautogui module.
+If you dont have this module in your machine you can install this using command "pip install pyautogui".
+You have to create a folder of your choice and you have to give the path of that folder.
+You can customize this program based on your preferences.
+Make sure that you have changed the folder name when you run it again otherwise the previous screenshot will be overiden by new screenshot.
