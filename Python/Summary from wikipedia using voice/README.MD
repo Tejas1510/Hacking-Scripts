@@ -20,3 +20,4 @@ pip install wikipedia<br>
 pip install SpeechRecognition<br>
 <br>
 <h4>screenshot</h4>
+![Screenshot  of the output](https://user-images.githubusercontent.com/81240664/122780634-a5b20200-d2cc-11eb-9330-b08145939b8c.png)
