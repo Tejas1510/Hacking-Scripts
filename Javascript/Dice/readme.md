@@ -15,8 +15,15 @@ open index.html
 ```
 ### DEMO
 
-![Alt text](https://user-images.githubusercontent.com/65030567/104946590-55164000-59e0-11eb-9ef5-ec5409356852.png )
+![Screenshot (95)](https://user-images.githubusercontent.com/47074353/122643080-541e4180-d12b-11eb-8b89-576c0fa084b2.png)
 
-### After pressing refresh button
 
-![Alt text]( https://github.com/pritamp17/Hacking-Scripts/blob/dice_js/Javascript/Dice/2..png?raw=true)
+### After Pressing the button
+
+![Screenshot (96)](https://user-images.githubusercontent.com/47074353/122643087-60a29a00-d12b-11eb-8ba1-27be53b76856.png)
+
+### 3 Seconds after Pressing the button and getting the winner (Reveret back to its original state)
+
+![Screenshot (95)](https://user-images.githubusercontent.com/47074353/122643098-7912b480-d12b-11eb-8ce3-33076d01d166.png)
+
+
