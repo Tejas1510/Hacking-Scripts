@@ -1,5 +1,7 @@
 import React from "react";
-
+import UseAnimations from "react-useanimations";
+import trash2 from "react-useanimations/lib/trash2";
+import checkBox from "react-useanimations/lib/checkBox";
 
 const Todo =({text,todo,todos,setTodos}) => {
     /// Events
@@ -20,20 +22,28 @@ const Todo =({text,todo,todos,setTodos}) => {
         }) )
     }
             
-    return(
-        <div className="todo">
-        <li className={`todo-item ${todo.completed ? "completed":''}`}>{text}</li>
+    return (
+      <div className="todo">
+        <li className={`todo-item ${todo.completed ? "completed" : ""}`}>
+          {text}
+        </li>
         <button onClick={completeHandler} className="complete-btn">
-         <i className="fas fa-check"></i>
-          </button>
-
-        <button onClick={deleteHandler} className="trash-btn"> 
-        <i className="fas fa-trash"></i> 
+          <UseAnimations
+            animation={checkBox}
+            size={26}
+            speed={1}
+          />
         </button>
-       
+
+        <div className="trash-btn">
+          <UseAnimations
+            animation={trash2}
+            onClick={deleteHandler}
+            size={26}
+            speed={0.8}
+          />
         </div>
-
-
+      </div>
     );
 
 }

@@ -1,19 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
+*{
   box-sizing: border-box;
 }
 body {
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
 }
 header {
-  font-size: 2rem;
+  font-size: 150%;
 }
 
 header,
@@ -29,6 +22,11 @@ form > button {
   font-size: 2rem;
   border: none;
   background: white;
+  border:1px solid #A7BBC7;
+}
+form > input {
+  outline: none;
+  box-shadow: none;
 }
 form button {
   color: #ff6f47;
@@ -54,22 +52,15 @@ form button:hover {
 .todo {
   margin: 0.5rem;
   background: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: all 1s ease;
+  border: 1px solid black;
 }
-.filter-todo {
-  padding: 1rem;
-  height: 2px;
-  padding: 0.5rem;
-  font-size: 2rem;
-  border: none;
-  background: white;
- 
-}
+
 .todo li {
   flex: 1;
 }
@@ -96,11 +87,6 @@ form button:hover {
   border: none;
   
 
-}
-
-.fa-trash,
-.fa-check {
-  pointer-events: none;
 }
 
 .fall {
@@ -151,9 +137,12 @@ select {
   cursor: pointer;
   pointer-events: none;
 }
-/* Transition */
-/*
-.select:hover::after {
-  transform: scale(1.5);
+
+option {
+  color: black;
 }
-*/
+
+.toggleSwitch{
+  float: right;
+  margin-right: 5%;
+}
