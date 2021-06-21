@@ -1,6 +1,6 @@
 # ✔ SPELLING CORRECTOR
 - ### A Spelling Corrector created in python with tkinter gui.
-- ### In this script, the user can enter any word, either correct or misspelled, and get the correct speled word for that entered word.
+- ### In this script, the user can enter any word, either correct or misspelled, and get the correct spelled word for that entered word.
 
 ****
 
