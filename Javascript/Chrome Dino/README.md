@@ -16,13 +16,13 @@ git clone https://github.com/Tejas1510/Hacking-Scripts.git
 
 <br/>
 
-#### Image:
----
-
-![Dino-game image](images/ss.png)
-
 #### Tech stack:
 ---
 - HTML5
 - CSS3
 - Javascript
+
+#### Image:
+---
+
+![Dino-game image](images/ss.png)
