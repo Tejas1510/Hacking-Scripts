@@ -53,3 +53,6 @@ time_zone.py
   <img width = 700 src="Images/5.jpg" /><br>
   <img width = 700 src="Images/6.jpg" /><br>
 </p>
+
+# Below is the video links of how appliation works :
+https://user-images.githubusercontent.com/57003737/122768341-223ee380-d2c1-11eb-86b6-b60ec4fa52b5.mp4
