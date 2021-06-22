@@ -30,11 +30,11 @@ pip install requests
 5. Obtain the excel file in .xls format
 
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/internshala/Python/Internshala_Scrapper/images/image1.png)
+![endpoint](https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/Internshala_Scrapper/images/image1.png)
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/internshala/Python/Internshala_Scrapper/images/image2.png)
+![endpoint](https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/Internshala_Scrapper/images/image2.png)
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/internshala/Python/Internshala_Scrapper/images/image3.png)
+![endpoint](https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/Internshala_Scrapper/images/image3.png)
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
 
