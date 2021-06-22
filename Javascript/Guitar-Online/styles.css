@@ -1,0 +1,82 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: url("guitar.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    margin-bottom: 200px;
+}
+#hole {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px yellow solid;
+    display: block;
+    margin: auto;
+}
+
+#strE {
+    height: 475px;
+    width: 2px;
+    margin: 0;
+    border-left: 2px yellow solid;
+    position: absolute;
+    left: 510px;
+    top: 100px;
+}
+
+#strA {
+    height: 475px;
+    width: 2px;
+    margin: 0;
+    border-left: 2px yellow solid;
+    position: absolute;
+    left: 560px;
+    top: 100px;
+}
+
+#strD {
+    height: 475px;
+    width: 2px;
+    margin: 0;
+    border-left: 2px yellow solid;
+    position: absolute;
+    left: 610px;
+    top: 100px;
+}
+
+#strG {
+    height: 475px;
+    width: 2px;
+    margin: 0;
+    border-left: 2px yellow solid;
+    position: absolute;
+    left: 664px;
+    top: 100px;
+}
+
+#strB {
+    height: 475px;
+    width: 2px;
+    margin: 0;
+    border-left: 2px yellow solid;
+    position: absolute;
+    left: 714px;
+    top: 100px;
+}
+
+
+#stre {
+    height: 475px;
+    width: 2px;
+    margin: 0;
+    border-left: 2px yellow solid;
+    position: absolute;
+    left: 765px;
+    top: 100px;
+}
