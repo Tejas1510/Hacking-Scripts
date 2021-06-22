@@ -1,7 +1,6 @@
 # ✔ PART OD SPEECH CALCULATOR
 - ### A Part of Speech Calculator is an application created in python with tkinter gui.
-- ### In this game, the user will get upto 20 counntry name with one alphabet missing, and he/she needs to enter the correct word for each country in just single chance.
-- ### for the list of countries, used the country_name.csv dataset and read the data from there and used as the questions.
+- ### In this application user can enter any text or sentence or paragraph, and will be able to get the count of each part of speech and what are they.
 
 ****
 
