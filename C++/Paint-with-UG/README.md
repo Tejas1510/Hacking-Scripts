@@ -1,42 +1,31 @@
-![](https://img.shields.io/badge/Welcome-Developers-sliver.svg) 
-![](https://img.shields.io/badge/Programming_Language-c++-blue.svg)
-![](https://img.shields.io/badge/Library-Graphics.h-gold.svg)
-![](https://img.shields.io/badge/Platform-Desktop_Development-green.svg)
-![](https://img.shields.io/badge/Status-Beta-green.svg)
-![](https://img.shields.io/badge/Version-CodeBlocks_20.03-red.svg)
-![](https://img.shields.io/badge/Version-2.01.00-blue.svg)
 <h1><p align="center">Paint-with-UG-The-SEP</p>
-<p align="center">😲Updated Version😲</p> </h1>
-<h2> Feature in Paint with UG</h2><br>
-1. Pencil <br>
-2. Fill<br>
-3. Text<br>
-4. Line <br>
-5. Rectangle<br>
-6. Oval<br>
-7. Load <br>
-8. Save<br>
-9. Triangle<br>
-10. Right Angled Triangle<br>
-11. Diamond<br>
-12. Cube<br>
-13. Cuboid<br>
-14. Horizontal Arrow<br>
-15. Cone<br>
-16. Clear<br>
-17. Change Background<br>
-18. Horizontal symetric<br>
-19. Vertical symetric<br>
-<h1>What's New👀👀??</h1><br>
-<h2>1. Fixed few bugs🐛🐛</br>
-2:New features🆕🆕</h2></br>
-<h1>What's New Features🤔🤔🤔🤔</h1>
-<h2>1.Horizontal Symetric 😲😲</br>
-    2.Vertical Symetric😲😲</h2>
-<h1>Advantages of New Feature</h1>
-<h2>1. Less effort while drawing figure😊</br>
-    2. Easy to create eyes of human i.e. help  to make the eyes equidistant and same👁‍🗨👁‍🗨.</br>
-    3. easy to make body parts..👂👃👅👁</br></h2>
+<h2>Introduction</h2><br>
+Paint With UG is desktop application which help you to draw figure, add text, fill color, symetric, open image, save image and it contain 12+ shapes with an simple UI.
+<h2> Third Party Library</h2>
+Before running the script you need to install and apply Graphics.h header file
+<h2>How to Install the above Library</h2>
+To Install Graphics.h in your IDE follow the below steps<br>
+<strong>1: Download WinBGIM- http://winbgim.codecutter.org/ <br><br>
+2: Extract the downloaded file. There will be three files:
+
+* graphics.h
+* winbgim.h
+* libbgi.a <br><br>
+
+3: Copy and paste graphics.h and winbgim.h files into the include folder of compiler directory. (If you have Code::Blocks installed in C drive of your computer, go through: Disk C >> Program Files >> CodeBlocks >> MinGW >> include. Paste these two files there.)<br><br>
+4: Copy and paste libbgi.a to the lib folder of compiler directory<br><br>
+5: Open Code::Blocks. Go to Settings >> Compiler >> Linker settings<br><br>
+6: In that window, click the Add button under the “Link libraries” part, and browse
+ *   Select the libbgi.a file copied to the lib folder in step 4. <br><br>
+7: In right part (ie. other linker options) paste commands
+
+<i>-lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32</i><br><br>
+8: Try compiling a graphics.h program in C or C++, still there will be an error. To solve it, open graphics.h file (pasted in include folder in step 3) with Notepad++. Go to line number 302, and replace that line with this line : int left=0, int top=0, int right=INT_MAX, int bottom=INT_MAX<br><br>
+Note: Save the file in .cpp extension
+</strong><br><br>
+<h2>How to use</h2>
+<code>To use it copy and paste the Paint-With-UG.cpp to screenshots folder and simply run the program. To select color put the cursor to that color and press TAB and to select shapes press SHIFT </code>
+<h2>Image </h2>
 <img src="https://github.com/UG-SEP/Project-Guidance/blob/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG/screenshot/doremon.jpg" alt="Image" >
 <img src="https://github.com/UG-SEP/Project-Guidance/blob/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG/screenshot/verti_sym.jpg" alt="Image" >
 <h2>OutLook</h2>
@@ -46,9 +35,4 @@
  <img src="https://github.com/UG-SEP/Project-Guidance/blob/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG/screenshot/Screenshot%202021-02-09%20223034.jpg" alt="Image">
  <img src="https://github.com/UG-SEP/Project-Guidance/blob/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG/screenshot/Screenshot%202021-02-09%20223338.jpg" alt="Image">
  <img src="https://github.com/UG-SEP/Project-Guidance/blob/main/Desktop%20Application/Advanced/C%2B%2B/Paint%20With%20UG/screenshot/Screenshot%202021-02-09%20223744.jpg" alt="Image">
-<h1> Love By Starting Some of my repos💖💖💖</h1><br>
-<h2> 🤝 Connect with me:-</h2>
-<a href="https://www.youtube.com/channel/UChdmj1kcZiXXsmEKz7dVnWQ">Watch Video on Youtube</a> <br>
-<a href="https://www.linkedin.com/in/ujjwal-gupta-ug-233543202/">Connect With Me 🤝</a>
-
 
