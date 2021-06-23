@@ -10,11 +10,11 @@
 
 ### How to use it.
 
-(Preferable IDE - VSCode)
+(Preferable IDE - VSCode/PyCharm)
 - Clone the folder- MAGIC-8-BALL
 - You must have python  installed
 - In cmd do:
-  - `python 8ball.py`
+  - `python 8ball.py` or run
   - Also check for any package that's needed to be installed, on cmd
   - then run the script in VScode or any other IDE.
 
