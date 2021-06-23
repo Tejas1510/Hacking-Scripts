@@ -20,15 +20,15 @@ git clone https://github.com/Tejas1510/Hacking-Scripts.git
 ---
 - User found
 
-![User found](User.png)
+![User found](images/User.png)
 
 - User not found
 
-![User not found](No-User.png)
+![User not found](images/No-User.png)
 
 - No username entered error
 
-![No Username entered](Enter.png)
+![No Username entered](images/Enter.png)
 
 #### Tech stack:
 ---
