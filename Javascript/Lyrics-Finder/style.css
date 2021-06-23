@@ -1,0 +1,194 @@
+body {
+    color: #161631;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://images.hdqwalls.com/download/music-for-you-gu-1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.neon {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px rgb(4, 78, 8),
+      0 0 80px rgb(7, 109, 53),
+      0 0 90px rgb(2, 100, 100),
+      0 0 100px rgb(3, 107, 64),
+      0 0 150px rgb(20, 68, 1);
+  }
+  
+
+.page-title {
+    font-family: 'Corben', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 900;
+    color: #B18FCF;
+}
+
+
+.max-vw {
+    max-width: 100vw;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*Search box*/
+
+.search-box {
+    padding: 20px;
+    text-align: center;
+    color: #D8D8F6;
+    border-bottom: solid 1px #D8D8F6;
+    max-width: 80vw;
+
+}
+
+#search {
+    display:inline-block;
+    background-color: rgba(225, 225, 225, 0.6);
+    box-shadow: 0rem 4rem 6rem #a7a4a44d;
+    border: 0.2rem solid #e1e1e11a;
+    border-radius:0.5rem;
+    backdrop-filter: blur(10px);
+    border-bottom: 0.1rem solid black;
+    width: 60%;
+    height: 4rem;
+    font-size: 2rem;
+    padding: 0.5rem 0.8rem;
+}
+        
+#search:hover{
+background: #fff;
+box-shadow: 0px 2px 10px 5px #a7a4a44d;
+}
+
+#search:focus {
+    background: #fff;
+    box-shadow: 0px 2px 10px 5px #a7a4a44d;
+    outline:none;
+}
+
+/*Radio Button*/
+.radi{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 3rem;
+    height: 1.5rem;
+    outline:none;
+}
+
+input[type=radio]:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    outline:none;
+}
+
+/*Buttons*/
+
+.btn-srch,
+.btn-clear,
+.btn-back {
+    display:inline-block;
+    padding-bottom: 3%;
+    background-color: rgba(236, 234, 234, 0.6);
+    box-shadow: 0rem 4rem 6rem #a7a4a44d;
+    border: 0.2rem solid #e1e1e11a;
+    border-radius:0.5rem;
+    backdrop-filter: blur(10px);
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+.btn-srch:active,
+.btn-clear:active,
+.btn-back:active {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    outline:none;
+  }
+
+.btn-srch:hover,
+.btn-clear:hover,
+.btn-back:active {
+    background: #fff;
+    box-shadow: 0px 2px 10px 5px #a7a4a44d;
+    outline:none;
+}
+
+.btn-srch:focus,
+.btn-clear:focus,
+.btn-back:focus {
+    outline:none;
+}
+
+.btn-result{
+    background-color: #193366;
+    color: white;
+    border: none;
+    outline:none;
+    display:inline-block;
+    box-shadow: 0rem 4rem 6rem #a7a4a44d;
+    border-radius:0.5rem;
+}
+
+/*Results*/
+
+.results,
+.back-button-container {
+
+    margin-top: 0.1rem;
+    max-width: 770px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 900;
+    display:inline-block;
+    background-color: rgba(225, 225, 225, 0.6);
+    box-shadow: 0rem 4rem 6rem #a7a4a44d;
+    border: 0.2rem solid #e1e1e11a;
+    border-radius:0.5rem;
+    backdrop-filter: blur(10px);
+}
+
+th,
+td {
+    text-align: center;
+}
+
+.lyrics {
+    white-space: pre-line; /*Allows the lyrice results string to display in the correct formatting*/
+}
+
+/*Media Queries*/
+
+@media (max-width: 770px) {
+    body {
+        background-repeat: repeat-y;
+        /*added to resolve an issue with iOS where the background image will not stay fixed */
+    }
+    .page-title {
+        text-align: center;
+    }
+    .btn-result {
+        display: block;
+    }
+    .btn-result-mobile {
+        display: block;
+    }
+    .results {
+        max-width: 80vw;
+    }
+
+}
