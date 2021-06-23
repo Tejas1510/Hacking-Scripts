@@ -65,7 +65,7 @@ Refer to the following articles on the basics of Git and Github and can also con
 
 ## ⭐ Contribution:
 **1.** Fork [this](https://github.com/Tejas1510/Hacking-Scripts/) repository.
-Click on the <a href="https://github.com/Tejas1510/Hacking-Scripts/"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
+Click on the <a href="https://github.com/Tejas1510/Hacking-Scripts/"><img src="assets/forkIcon.JPG" width="50"></a> symbol at the top right corner.
 
 **2.** Clone the forked repository.
 
@@ -79,29 +79,9 @@ git clone https://github.com/<your-github-username>/Hacking-Scripts
 cd Hacking-Scripts
 ```
 
-**4.** Add a reference(remote) to the original repository.
-```
-git remote add upstream https://github.com/Tejas1510/Hacking-Scripts.git
-```
+**4.** Make changes in source code.
 
-**5.** Check the remotes for this repository.
-```
-git remote -v
-```
-
-**6.** Always take a pull from the upstream repository to your main branch to keep it at par with the main project(updated repository).
-```
-git pull upstream main
-```
-
-**7.** Create a new branch.
-```
-git checkout -b <your_branch_name>
-```
-
-**8.** Make changes in source code.
-
-**9.** Stage your changes and commit
+**5.** Stage your changes and commit
 
 ```bash
 #Add changes to Index
@@ -111,15 +91,15 @@ git add .
 git commit -m "<your_commit_message>"
 ```
 
-**10.** Push your local commits to the remote repo.
+**6.** Push your local commits to the remote repo.
 
 ```bash
-git push origin <your_branch_name>
+git push
 ```
 
-**11.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
+**7.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
-**12.** **Congratulations!** Sit and relax, you've made your contribution to [Hacking-Scripts](https://github.com/Tejas1510/Hacking-Scripts) project.
+**8.** **Congratulations!** Sit and relax, you've made your contribution to [Hacking-Scripts](https://github.com/Tejas1510/Hacking-Scripts) project.
 
 
 ## 📢  Open Source Program
@@ -200,20 +180,3 @@ For major changes, you are welcomed to open an issue and discuss what you would 
 </p>
 
 Check out my Github profile [Tejas1510!](https://github.com/Tejas1510)
-# Python Script to find the details of IP input
-### Introduction
-This script is made using Python 3. It takes the input from the user, an IP address (ipv4 and ipv6) and returns the details about the IP, like country, city, location etc
-
-### Third Party Library Required:
-requests
-
-### How to install the above library:
-pip install requests
-
-### How to use it.
-*   Download and install the latest version of [Python](https://www.python.org).
-*   Download and save the script.
-*   Navigate to where you have saved it and open a terminal there.
-*   Run `python script.py` in your terminal or `python3 script.py` if you have Python 2 installed as well.
-*   Enter the Ip you want the details of, or press enter to check your IP details
-
