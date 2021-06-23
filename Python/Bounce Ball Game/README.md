@@ -19,9 +19,22 @@ import time
 import pyglet (for splash screen)
 
 ## SCREENSHOTS:
+## FIRST SCREEN WITH LOGO
+![First Screen With Logo](https://user-images.githubusercontent.com/77405013/123138163-5b6a8580-d472-11eb-8939-cad9aa31c5f7.png)
+
+## GAME SCREEN
+![Game Screen](https://user-images.githubusercontent.com/77405013/123138259-70dfaf80-d472-11eb-8913-3489c607013e.png)
+
+## PAUSE SCREEN
+![Pause Screen](https://user-images.githubusercontent.com/77405013/123138325-81902580-d472-11eb-8c02-61d0113c25c3.png)
+
+## GAME OVER SCREEN
+![GameOver Screen](https://user-images.githubusercontent.com/77405013/123138378-910f6e80-d472-11eb-920b-4aca97751ce0.png)
 
 
 ## FUNCTIONING OF THE GAME:
+https://user-images.githubusercontent.com/77405013/123138401-9a004000-d472-11eb-907d-4a0a8f470f10.mp4
+
 
 
 ## AUTHOR:
