@@ -659,6 +659,10 @@ const image_urls = [
     name: "youtube_video_downloader",
     link: "https://images.unsplash.com/photo-1541877944-ac82a091518a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8eW91dHViZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
   },
+  {
+    name: "Lyrics_Finder",
+    link: "https://images.unsplash.com/photo-1541877944-ac82a091518a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8eW91dHViZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  },
 ]
 
 const default_image = {
