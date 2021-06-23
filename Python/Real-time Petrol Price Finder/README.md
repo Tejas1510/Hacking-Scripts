@@ -11,7 +11,7 @@ pip install bs4
 pip install pandas
 
 ## How to use it :
-We just need to get url of website from which we can find the price and then just run the script so prices of metro cities and state capital are shown for finding price of particlar cities we need to change the url.
+We just need to get url of website from which we can find the price and then just run the script so prices of metro cities and state capital are shown for finding price of particular cities we need to change the url.
 
 ## Output
 ![output(petrol)](https://user-images.githubusercontent.com/71593494/123044871-e4080800-d417-11eb-866c-b2a77105294b.png)
