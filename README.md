@@ -65,7 +65,7 @@ Refer to the following articles on the basics of Git and Github and can also con
 
 ## ⭐ Contribution:
 **1.** Fork [this](https://github.com/Tejas1510/Hacking-Scripts/) repository.
-Click on the <a href="https://github.com/Tejas1510/Hacking-Scripts/"><img src="https://raw.githubusercontent.com/Vivek-Hotti/Hacking-Scripts/main/assets/forkIcon.JPG" width="50"></a> symbol at the top right corner.
+Click on the <a href="https://github.com/Tejas1510/Hacking-Scripts/"><img src="assets/forkIcon.JPG" width="50"></a> symbol at the top right corner.
 
 **2.** Clone the forked repository.
 
