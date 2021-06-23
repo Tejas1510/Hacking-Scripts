@@ -1,26 +1,31 @@
-## Twitter-bot
-Twitter-bot is a python program that schedules and automates 
+# Twitter Bot
 
-### About the game
-- It's a python program which uses twitter api to retrieve the data from an api that returns anime quotes in the form of anime name, character and quote,
-and posts this information in the form of a tweet.
+### Third Party Libraries Required :
+1. requests [To fetch the Url content ]
+2. tweepy [Library used for web scraping]
 
-### Libraries used
-- tweepy
-- time
+### How to install above Library
 
-### How to run?
-- First install basic modules which are used to run the program [tweepy]
-- Go to twitter Developer and generate the keys [consumer_key,consumer_secret,access_token,access_token_secret]
-- copy the keys and paste in the code
-- Then run the python script by using command 'python mod.py'
+```
+pip install tweepy
 
-### Setup instructions
-2. Download this repository as zip and extract
-3. Use Python IDE to run the program.
-4. Run the code and stream the twitter data.<br>
+```
+
+### Fetches the following data for every API call :
+- Title of anime
+- Name of character
+- Quote
+
+### How to use it :
+1. Download or clone the repository
+2. Install Required Libraries
+3. Make developer account on twitter and obtain access token and secret keys
+4. Enter access tokens and secret keys in the code as specified
+5. Run twitter-bot.py
 
 
-After Running this project we not only get the time and text of the tweet,but also we can access the location of almost all the tweets which uses @BCCI
 
 
+![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
+
+Check out my Github profile [okarin1511!](https://github.com/okarin1511)
