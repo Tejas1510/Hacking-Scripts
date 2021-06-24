@@ -1,9 +1,12 @@
 ## Text adventure game
 Text adventure game  is a python program in which you will be asked to choose among two direction and if you select them perfectly then only you can reach to the right location and win this game.
 
+## Modules used
+## Module used
+In this i used <i><b>Random</b></i> module in two situation first in order to pick randomly who will win the fight , a devil or a man and second to get a random number 0 or 1 in order to decide the direction.
 
 ### How to run?
-1. Fisrt install python3 to run the program
+1. First install python3 to run the program
 2. Download this repository as zip and extract
 3. Use Python IDLE to run the program.
 4. Run the code by using adventure.py
