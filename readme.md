@@ -120,6 +120,7 @@ For major changes, you are welcomed to open an issue and discuss what you would 
 
 ✨ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 
 <table>
