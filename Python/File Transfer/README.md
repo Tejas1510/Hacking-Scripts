@@ -25,11 +25,18 @@ A. Steps to create the socket program on word transfer from client to server wit
 	- h. Displayed it to the client
 	- i. Ended the connection
 
+<hr>
 
 <h2>How to use:</h2>
 
 - Need to switch off the local firewall in both the pcs
 - To run the server in a VM or in a different computer and the client in the different computer and change the IP in the client folder based on the IP of the VM/Computer.
 
+<hr>
+
+<h2>Output</h2>
+<img src = "https://github.com/kumarjeetray/Hacking-Scripts/blob/main/Python/File%20Transfer/Images/file_transfer_client_ss.jpg" />
+<img src = "https://github.com/kumarjeetray/Hacking-Scripts/blob/main/Python/File%20Transfer/Images/file_transfer_server_ss_1.jpg" />
+<img src = "https://github.com/kumarjeetray/Hacking-Scripts/blob/main/Python/File%20Transfer/Images/file_transfer_server_ss_2.jpg" />
 
 
