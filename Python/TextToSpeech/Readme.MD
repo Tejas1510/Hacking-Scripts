@@ -21,7 +21,7 @@ pip install pytesseract
 5. you will get .mp3 file in the same folder
 
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/text/Python/TextToSpeech/images/image1.png)
+![endpoint](https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/TextToSpeech/images/image1.png.png)
 
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
