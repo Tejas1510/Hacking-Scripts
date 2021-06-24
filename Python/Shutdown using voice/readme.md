@@ -17,3 +17,6 @@ pipi install time
 5. Say "Yes".
 6. It will shoutdown your pc in 3 second.
 
+
+## Output
+![](Images/img.png)

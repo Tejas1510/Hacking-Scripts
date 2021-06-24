@@ -13,3 +13,6 @@ pip install random
 2. Run this programme in your command prompt or any terminal.
 3. Tell something near your microphone.
 4. Machine will repeat it for you.
+
+## Output
+![](Images/img.png)
