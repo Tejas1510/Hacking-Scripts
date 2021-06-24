@@ -8,7 +8,6 @@
 
 ```
 pip install tweepy
-
 ```
 
 ### Fetches the following data for every API call :
@@ -24,6 +23,9 @@ pip install tweepy
 5. Run twitter-bot.py
 
 
+![twitterbotimg](https://user-images.githubusercontent.com/69676297/123267728-f4ed7200-d51a-11eb-9355-b04e92833787.jpg)
+
+![twitterbotimg2](https://user-images.githubusercontent.com/69676297/123267800-06cf1500-d51b-11eb-9252-f275cd748c6d.jpg)
 
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
