@@ -18,7 +18,7 @@ subprocess.check_output(['netsh', 'wlan', 'show', 'profiles'])
 ```
 ## Output
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/wifi/Python/WifiConnectionFinder/images/image1.png)
+![endpoint](https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/WifiConnectionFinder/images/image1.png)
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
 
