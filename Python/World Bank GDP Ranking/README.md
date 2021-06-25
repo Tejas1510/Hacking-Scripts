@@ -1,6 +1,6 @@
 # ✔ WORLD BANK GDP RANKING
 - ### A "World Bank GDP Ranking" is an application created in python with tkinter gui.
-- ### In this application, user can find the GDP Ranking of any country entring just country code.
+- ### In this application, user can find the GDP Ranking of any country entering just country code.
 - ### The information can be like Ranking , Economy, and how many US Dollars.
 - ### for the data, used the gdp.csv data, and read using pandas library.
 
