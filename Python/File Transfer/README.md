@@ -26,7 +26,11 @@ A. Steps to create the socket program on word transfer from client to server wit
 	- Ended the connection
 
 <hr>
-
+<h2>Third-Party Libraries Required:</h2>
+N.A
+<h2>How to install the above Library:</h2>
+N.A>
+<hr>
 <h2>How to use:</h2>
 
 - Need to switch off the local firewall in both the pcs
