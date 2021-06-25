@@ -34,8 +34,9 @@ A. Steps to create the socket program on word transfer from client to server wit
 
 <hr>
 
-<h2>Output</h2>
+<h2>Input</h2>
 <img src = "https://github.com/kumarjeetray/Hacking-Scripts/blob/main/Python/File%20Transfer/Images/file_transfer_client_ss.jpg" />
+<h2>Output</h2>
 <img src = "https://github.com/kumarjeetray/Hacking-Scripts/blob/main/Python/File%20Transfer/Images/file_transfer_server_ss_1.jpg" />
 <img src = "https://github.com/kumarjeetray/Hacking-Scripts/blob/main/Python/File%20Transfer/Images/file_transfer_server_ss_2.jpg" />
 
