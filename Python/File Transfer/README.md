@@ -29,7 +29,7 @@ A. Steps to create the socket program on word transfer from client to server wit
 <h2>Third-Party Libraries Required:</h2>
 N.A
 <h2>How to install the above Library:</h2>
-N.A>
+N.A
 <hr>
 <h2>How to use:</h2>
 
