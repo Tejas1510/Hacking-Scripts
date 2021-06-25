@@ -1,6 +1,6 @@
 # Bitcoin Price Tracker
 ## Introduction
-Here we will fetch the peice of bitcoin price from the google url , through requests we will extract the data and through bs4 we will show it, it is similar to web scraping.
+Here we will fetch the price of bitcoin price from the google url , through requests we will extract the data and through bs4 we will show it, it is similar to web scraping.
 Here we can find price of any country, we just need to do changes in the url accordingly.
 ## Third-Party Libraries Required :
 All library required before running the script are requests and bs4.
