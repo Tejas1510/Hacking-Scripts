@@ -19,7 +19,7 @@ git clone https://github.com/Tejas1510/Hacking-Scripts.git
 #### LYRICS-FINDER image:
 ---
 
-![image](images\lyrics-finder.png)
+![image](images/lyrics-finder.png)
 
 #### Tech stack:
 ---
