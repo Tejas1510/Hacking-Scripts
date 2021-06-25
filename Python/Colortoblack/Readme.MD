@@ -17,9 +17,9 @@ pip install opencv-python
 5. You will be displayed three images 1. Black and White 2. Color 3. Grey Scale
 
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/colors/Python/Colortoblack/images/image2.png)
+![endpoint](https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/Colortoblack/images/image2.png)
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/colors/Python/Colortoblack/images/image1.png)
+![endpoint](https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/Colortoblack/images/image1.png)
 
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
