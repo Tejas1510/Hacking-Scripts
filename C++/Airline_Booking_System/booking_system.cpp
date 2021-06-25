@@ -19,7 +19,7 @@ int main()
         }
     }
     do{
-        cout<<"Please enter your name.(Only 1 word allowed.)\n";
+        cout<<"Please enter your name:(Only 1 word allowed.)\n";
         cin>>name;
         int i, j;
         int flag = 1;
@@ -125,4 +125,6 @@ int main()
             cout<<"Please enter a valid choice...\n";
         }
     }while(true);
+
+return 0;
 }

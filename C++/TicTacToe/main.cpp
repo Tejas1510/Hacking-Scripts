@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cassert>
+using namespace std;
 class tictactoe_board {
 public:
     tictactoe_board () :
@@ -34,24 +35,24 @@ private:
     bool is_full () const { return empty_spaces == 0; }
     bool check_for_winner (cross_or_circle player) const;
     void debug_values () const {
-        std::cout << "values: ";
+         cout << "values: ";
         for (int i = 0; i < 9; ++i)
-            std::cout << values[i] << " ";
-        std::cout << "\n";
+             cout << values[i] << " ";
+         cout << "\n";
     }
     static const char * const cross_or_circle_strings[3];
     cross_or_circle values[9];
     int empty_spaces;
     cross_or_circle winner;
 };
-const char * const tictactoe_board::cross_or_circle_strings[3] = {"_","X","O"};
+const char* const tictactoe_board::cross_or_circle_strings[3] = {"_","X","O"};
 void tictactoe_board::print () const {
     int itr = 0;
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
-            std::cout << cross_or_circle_strings[ values[itr++] ] << " ";
+             cout << cross_or_circle_strings[ values[itr++] ] << " ";
         }
-        std::cout << "\n";
+         cout << "\n";
     }
 }
 int tictactoe_board::suggest_empty_spot() const {
@@ -106,33 +107,33 @@ bool tictactoe_board::is_finished() {
     return is_full() || is_cross_winner() || is_circle_winner();
 }
 static void play_tictactoe () {
-    std::cout << "Welcome to Tic-Tac-Toe\nYou play crosses, the computer plays circles\n";
+     cout << "Welcome to Tic-Tac-Toe\nYou play crosses, the computer plays circles\n";
     tictactoe_board board;
     while (!board.is_finished()) {
         board.print();
-        std::cout << "Press 1 to 9: ";
+        cout << "Press 1 to 9: ";
         int num;
-        std::cin >> num;
+         cin >> num;
         if (num > 9 || num < 1)
-            std::cout << "Number is out of range, try again\n";
+             cout << "Number is out of range, try again\n";
         else if (board.is_set(num))
-            std::cout << "That spot is already taken, try something else\n";
+             cout << "That spot is already taken, try something else\n";
         else {
             board.set_cross(num);
             if (!board.is_finished()) {
                 board.set_circle(board.suggest_empty_spot());
             }
         }
-        std::cout << "\n";
+        cout << "\n";
     }
     board.print();
-    std::cout << "Game over\n";
+      cout << "Game over\n";
     if (board.is_circle_winner())
-        std::cout << "Circle won\n";
+         cout << "Circle won\n";
     else if (board.is_cross_winner())
-        std::cout << "Cross won\n";
+        cout << "Cross won\n";
     else
-        std::cout << "No winner\n";
+         cout << "No winner\n";
 }
 int main () {
     play_tictactoe();
