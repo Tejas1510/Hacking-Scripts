@@ -1888,6 +1888,7 @@ section {
 
 .services1 .icon-box .icon img {
     max-width: 100%;
+    transition: 0.5s all ease-in-out;
 }
 
 .services1 .title {
@@ -1909,26 +1910,32 @@ section {
 
 .services1 .icon-box-javascript:hover {
     border-color: #f0db4f;
+    transform: scale(1.25);
 }
 
 .services1 .icon-box-python:hover {
     border-color: #4b8bbe;
+    transform: scale(1.25);
 }
 
 .services1 .icon-box-java:hover {
     border-color: #f89820;
+    transform: scale(1.25);
 }
 
 .services1 .icon-box-nodejs:hover {
     border-color: #68a063;
+    transform: scale(1.25);
 }
 
 .services1 .icon-box-c:hover {
     border-color: #273493;
+    transform: scale(1.25);
 }
 
 .services1 .icon-box-android:hover {
     border-color: #3ddc84;
+    transform: scale(1.25);
 }
 
 .btn-get-started-javascript {
