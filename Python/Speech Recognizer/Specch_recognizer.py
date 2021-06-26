@@ -39,14 +39,3 @@ def TakeCommand() :
 while(True) :  
     if __name__ == '__main__':
         Query = TakeCommand().lower()
-
-   
-
-    
-   
-
-    
-
-
-
-
