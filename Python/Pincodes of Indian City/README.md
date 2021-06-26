@@ -22,7 +22,7 @@
 - ### Also there is a RESET button, clicking on which user can resets both the Option Menu to default element name "Vadodara" (default District).
 - ### Also there is an EXIT button, clicking on which exit dialog box appears asking for the permission of the user for closing the window.
 
-# Purrpose :
+# Purpose :
 - ### This scripts helps us to easily get No. of cities in selected district, Range of Pincode of those cities and the state name.
 
 # Compilation Steps :
