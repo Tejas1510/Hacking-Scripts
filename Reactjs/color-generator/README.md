@@ -2,6 +2,12 @@
 
 Users can generate color for their projects as their requirement.
 
+## App
+
+![output1]() 
+
+![output2]()
+
 ## Run Locally
 
 Clone the project
