@@ -46,17 +46,6 @@ state = data['state'].tolist()
 rank = data['rank'].tolist()
 
 
-# print(len(name))
-# print(institute_id)
-# print(tlr)
-# print(rpc)
-# print(go)
-# print(oi)
-# print(perception)
-# print(city)
-# print(state)
-# print(rank)
-
 def nirf_details():
     mbox.showinfo("NIRF Details", "The National Institutional Ranking Framework (NIRF) was approved by the MHRD and launched by Honourable Minister of Human Resource Development on 29th September 2015.\n\nThis framework outlines a methodology to rank institutions across the country. The methodology draws from the overall recommendations broad understanding arrived at by a Core Committee set up by MHRD, to identify the broad parameters for ranking various universities and institutions.\n\nThe parameters broadly cover “Teaching, Learning and Resources,” “Research and Professional Practices,” “Graduation Outcomes,” “Outreach and Inclusivity,” and “Perception”.")
 
