@@ -51,12 +51,6 @@ from pywikihow import search_wikihow
 
 ## Screenshots
 
-#### In CLI
-
-<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-6/Python/Ask%20How%20to%20Qus%20using%20Voice/Images/howtoqus3.png">
-
-<img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-6/Python/Ask%20How%20to%20Qus%20using%20Voice/Images/howtoqus4.png">
-
 #### In PyCharm
 
 <img src="https://github.com/Umesh-01/Hacking-Scripts/blob/patch-6/Python/Ask%20How%20to%20Qus%20using%20Voice/Images/howtoqus1.png">
