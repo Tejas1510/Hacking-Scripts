@@ -34,11 +34,11 @@ The minimum min you need to enter is 1
 Then after specific amount of time you will be redirected to a relaxation song if you select Y else a message will be displayed.
 ```
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/notifierfinal/Python/RestNotifier/images/input1.png)
+![endpoint](https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/RestNotifier/images/input1.png)
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/notifierfinal/Python/RestNotifier/images/image2.png)
+![endpoint](https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/RestNotifier/images/image2.png)
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/notifierfinal/Python/RestNotifier/images/input2.png)
+![endpoint] (https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/RestNotifier/images/input2.png)
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
 

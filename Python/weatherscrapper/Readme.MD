@@ -20,11 +20,11 @@ Weather Map Ai
 
 ### Enter any city name as input
 
-[input](https://github.com/Tejas1510/Hacking-Scripts/tree/main/Python/weatherscrapper/images/image1.png)
+![input](https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/weatherscrapper/images/image1.png)
 
 ### You will get output with all details
 
-[output](https://github.com/Tejas1510/Hacking-Scripts/tree/main/Python/weatherscrapper/images/image2.png)
+![output](https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/weatherscrapper/images/image2.png)
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
 

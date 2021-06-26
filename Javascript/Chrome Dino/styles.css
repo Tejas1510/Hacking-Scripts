@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(182, 196, 211);
+}
+
+.center {
+    text-align: center;
+    margin: 25px auto;
+    text-transform: uppercase;
+    text-shadow: 1px 1px grey;
+}
+
+#game {
+    width: 800px;
+    height: 400px;
+    border: 2px black solid;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+}
+
+#block {
+    width: 20px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    top: 350px;
+    left: 800px;
+    animation: move 2.5s linear infinite;
+}
+
+#character {
+    width: 20px;
+    height: 50px;
+    background-color: rgb(61, 61, 61);
+    position: relative;
+    top: 300px;
+    left: 100px;
+}
+
+@keyframes move {
+    0% {left: 800px;}
+    100% {left: -20px;}
+}
+
+h2 {
+    text-align: center;
+    margin-top: 25px;
+}
