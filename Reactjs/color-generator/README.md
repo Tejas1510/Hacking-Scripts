@@ -4,9 +4,9 @@ Users can generate color for their projects as their requirement.
 
 ## App
 
-![output1]() 
+![output1](https://raw.githubusercontent.com/atharva21-stack/Hacking-Scripts/main/Reactjs/color-generator/output_1.png) 
 
-![output2]()
+![output2](https://raw.githubusercontent.com/atharva21-stack/Hacking-Scripts/main/Reactjs/color-generator/output_2.png)
 
 ## Run Locally
 
