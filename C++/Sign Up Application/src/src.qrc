@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/src">
+        <file>Img/America.png</file>
+        <file>Img/Austriala.png</file>
+        <file>Img/bangladesh.png</file>
+        <file>Img/england.png</file>
+        <file>Img/India.png</file>
+        <file>Img/Nepal.jpg</file>
+        <file>Img/Russia.jpg</file>
+        <file>Img/switzerland.png</file>
+    </qresource>
+</RCC>
