@@ -60,5 +60,3 @@ screenshot
 For a better experience, we suggest changing some of the default settings, see our recommended configuration settings.
 <h2>How to use </h2>
 Dowload it and open qt in there open Project select this project and run it 
-<h2>Show your 💖 by ⭐⭐⭐ some of my repo</h2>
-<h3><a href="https://youtu.be/mICiLmdTmXw">Watch demo video</a></h3>
