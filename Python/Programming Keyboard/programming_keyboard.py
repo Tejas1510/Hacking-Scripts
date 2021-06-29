@@ -161,8 +161,8 @@ class Keypad(tk.Frame):
 
         # ----------
 
-        # self.label = tk.Label(self, text='memory : ', font=("Arial", 20), fg="magenta")
-        # self.label.grid(row=10, column=0, columnspan=11, sticky='news')
+        self.label = tk.Label(self, text='memory : ', font=("Arial", 25), fg="magenta")
+        self.label.grid(row=10, column=0, columnspan=11, sticky='news')
 
     def get(self):
         if self.target:

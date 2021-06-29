@@ -3,6 +3,7 @@
 - ### In this application user can enter any text or sentence or paragraph or any coding keyword of python using the virtual keyboard that is embedded inside keyboard button.
 - ### This virtual keyboard can print any character (lower or uppercase), any special characters, digits, or any code snippet in python.
 - ### Also there are clear, backspace, space, tab, hide keys also in this virtual keyboard.
+- ### Also implemented the copy and paste also in the textarea.
 
 ****
 
@@ -55,6 +56,7 @@ python programming_keyboard.py
   <img width = 1000 src="Images/6.jpg" /><br>
   <img width = 1000 src="Images/7.jpg" /><br>
   <img width = 1000 src="Images/8.jpg" /><br>
+  <img width = 1000 src="Images/9.jpg" /><br>
 </p>
 
 ****
