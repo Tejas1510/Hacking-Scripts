@@ -23,11 +23,23 @@ class Create:
 
 	@staticmethod
 	def hint():
-		if Main.flag == True:
-			hin = [ i.give_id for i in Main.lis_comp if i.get_fg == 'Red']
-			hin = (random.choice(hin)-64) + random.randint(0 , 3)
-			messagebox.showinfo('Compass' , f'One of Enemy Ship is at box location { hin }')
-		else: messagebox.showinfo('Message' , 'Kindly place yours ships first !!')
+		global turn
+		if Intro.Gme_mode : 
+			if Main.flag == True:
+				hin = [ i.give_id for i in Main.lis_comp if i.get_fg == 'Red']
+				hin = (random.choice(hin)-64) + random.randint(0 , 3)
+				messagebox.showinfo('Compass' , f'One of Enemy Ship is at box location { hin }')
+			else: messagebox.showinfo('Message' , 'Kindly place yours ships first !!')
+		elif not Intro.Gme_mode : 
+			if Main.flag  : 
+				if turn%2 == 0 : 
+					hin = [ i.give_id for i in Main.lis_comp if i.get_fg == 'Red']
+					hin = (random.choice(hin)-64) + random.randint(0 , 3)
+					messagebox.showinfo('Compass' , f'One of Player-2 Ship is at box location { hin }')
+				elif turn %2 == 1 : 
+					hin = [ i.give_id for i in Main.lis_player if i.get_bg == 'Red']
+					hin = (random.choice(hin)-64) + random.randint(0 , 3)
+					messagebox.showinfo('Compass' , f'One of Player-1 Ship is at box location { hin }')
 	
 	@property
 	def get_bg(self):
@@ -44,80 +56,125 @@ class Create:
 		self.fg = 'Red'		
 
 	def change(self):	
+		global turn
 		if Main.flag == False:
 			if self.num < 65:
 				if self.bg == 'White':
-					self.button.configure(bg = 'RED')
+					if Intro.Gme_mode : 
+						self.button.configure(bg = 'RED')
 					self.bg = 'Red'
 					return False
-		if Main.flag == True:
-			if self.num < 65: return None
-		if Main.flag == True: # ################ FIRING MODE ############### #
+			if not Intro.Gme_mode  : 
+				if self.num  > 64 : 
+					if self.bg == 'White' : 
+						# self.button.configure(bg = 'RED')
+						self.button.configure(fg = 'Red')
+						self.fg = 'Red'
+		if Intro.Gme_mode : 
+			if Main.flag == True:
+				if self.num < 65: return None
+# ########################### FIRING MODE ########################### #			
+		if Main.flag == True: 
 			z = Create.intelligence()
 			a = random.choice(z) + random.randint( 0 , Intro.diff_level )		
 
-# ################# FIRING ON COMPUTER REGION #######################
+# ################# FIRING ON COMPUTER/Player-2 REGION #######################
 			if self.fg == 'Red' and self.num > 64:
-				self.button.configure(bg = 'BLUE' )
-				self.bg = 'Blue'
-				play(exp_sound)
-				Create.computer_health-=1
+				if not Intro.Gme_mode :
+					if turn % 2 == 0: 
+						turn+=1
+						self.button.configure(bg = 'BLUE' )
+						self.bg = 'Blue'
+						play(exp_sound)
+						Create.computer_health-=1
+				else : 
+					self.button.configure(bg = 'BLUE' )
+					self.bg = 'Blue'
+					play(exp_sound)
+					Create.computer_health-=1
 
 				Main.player_health['text'] = f'Your-Health : {Create.player_health}'
 				Main.computer_health['text'] = f'Comp-Health : {Create.computer_health}'
 
 				if Create.computer_health == 0:
-					m=messagebox.askquestion('HURRAH ! ' , 'YOU SANK Enemie\'s ARMADA ! '+'\n'+'Do you want to play again ?')
+					m=messagebox.askquestion('HURRAH ! ' , 'YOU SANK Player-2\'s ARMADA ! '+'\n'+'Do you want to play again ?')
 					if m == 'yes': Main.destroy_comp(self.parent , flag = False)
 					if m == 'no': exit()		
 					return False
 			
 			if self.fg == 'Yellow' and self.num > 64:
-				self.button.configure(bg = 'pink')
-				self.bg = 'pink'
+				if not Intro.Gme_mode :
+					if turn % 2 == 0 :
+						turn+=1 
+						self.button.configure(bg = 'pink')
+						self.bg = 'pink'
+				else : 
+					self.button.configure(bg = 'pink')
+					self.bg = 'pink'
+					pres = 0
+					for i in Main.lis_comp:
+						if self.num - i.num == -1 or self.num - i.num == 1:
+							if i.fg=='Red':
+								pres+=1
+						if i.num - self.num == -8 or i.num  - self.num == 8:
+							if i.fg == 'Red':
+								pres+=1
+						if i.num - self.num == -7 or i.num - self.num == 7:
+							if i.fg == 'Red':
+								pres+=1
+						if i.num -self.num == - 9 or i.num -self.num == 9:
+							if i.fg == 'Red':
+								pres+=1
+					self.button['text'] = str(pres)
+					play(shot_sound)
 
-				pres = 0
-				for i in Main.lis_comp:
-					if self.num - i.num == -1 or self.num - i.num == 1:
-						if i.fg=='Red':
-							pres+=1
-					if i.num - self.num == -8 or i.num  - self.num == 8:
-						if i.fg == 'Red':
-							pres+=1
-					if i.num - self.num == -7 or i.num - self.num == 7:
-						if i.fg == 'Red':
-							pres+=1
-					if i.num -self.num == - 9 or i.num -self.num == 9:
-						if i.fg == 'Red':
-							pres+=1
-
-				self.button['text'] = str(pres)
-				play(shot_sound)
-
-# ################## FIRING ON PLAYER REGION #########################
-			
-			for k in Main.lis_player:
-				if k.give_id == a:
-					if k.bg == 'Red' :
-						k.button.configure(bg = 'BLUE' )
-						k.bg = 'Blue'
+# ################## FIRING ON PLAYER/Player-1 REGION #########################
+			if not Intro.Gme_mode :
+				if turn %2 == 1 :
+					if self.bg == 'Red' and self.num < 65:
+						turn+=1
+						self.button.configure(bg = 'BLUE' )
+						self.bg = 'Blue'
 						play(exp_sound)
 						Create.player_health-=1
-						
+
 						Main.player_health['text'] = f'Your-Health : {Create.player_health}'
 						Main.computer_health['text'] = f'Comp-Health : {Create.computer_health}'
 
 						if Create.player_health == 0:
-							m = messagebox.askquestion('OPSS' , '...You Lost... Enemy Sunk your fleet'+'\n'+'Do You want to play again ?')
+							m=messagebox.askquestion('HURRAH ! ' , 'YOU SANK Player-1\'s ARMADA ! '+'\n'+'Do you want to play again ?')
 							if m == 'yes': Main.destroy_comp(self.parent , flag = False)
-							if m == 'no': exit()	
+							if m == 'no': exit()		
 							return False
-
-					if k.bg == 'White' :
-						k.button.configure(bg = 'pink')
-						k.bg = 'pink'
+					elif self.bg == 'White' and self.num < 65:
+						turn+=1
+						self.button.configure(bg = 'pink')
+						self.bg = 'pink'
 						play(shot_sound)
-					break
+
+			if Intro.Gme_mode  : 
+				for k in Main.lis_player:
+					if k.give_id == a:
+						if k.bg == 'Red' :
+							k.button.configure(bg = 'BLUE' )
+							k.bg = 'Blue'
+							play(exp_sound)
+							Create.player_health-=1
+							
+							Main.player_health['text'] = f'Your-Health : {Create.player_health}'
+							Main.computer_health['text'] = f'Comp-Health : {Create.computer_health}'
+
+							if Create.player_health == 0:
+								m = messagebox.askquestion('OPSS' , '...You Lost... Enemy Sunk your fleet'+'\n'+'Do You want to play again ?')
+								if m == 'yes': Main.destroy_comp(self.parent , flag = False)
+								if m == 'no': exit()	
+								return False
+
+						if k.bg == 'White' :
+							k.button.configure(bg = 'pink')
+							k.bg = 'pink'
+							play(shot_sound)
+						break
 		Main.player_health['text'] = f'Your-Health : {Create.player_health}'
 		Main.computer_health['text'] = f'Comp-Health : {Create.computer_health}'
 	
@@ -213,19 +270,21 @@ class Main:
 
 class Intro(Main):
 	diff_level , dic = 10 , { 10  : '--Easy--', 7 : '--Hard--' , 4 : ' --Insane--' }
-	inverted_dic = { value:key for (key,value) in dic.items() }
-	
+	Gme_mode = True
+	inverted_dic = { value:key for (key,value) in dic.items() }	
 	def __init__(self):
 		self.root = Tk()
-		self.root.geometry('500x500'+'+300+100') , self.root.resizable(0,0) , self.root.title('Welcome Battle-ship')
-		self.photo = ImageTk.PhotoImage(Image.open('image.jpg').resize( (500,500) ))
+		self.root.geometry('500x540'+'+300+100') , self.root.resizable(0,0) , self.root.title('Welcome Battle-ship')
+		self.photo = ImageTk.PhotoImage(Image.open('image.jpg').resize( (500,540) ))
 		Label(self.root ,image = self.photo ).pack()
 		self.new_srt = Button(self.root , text = 'Play Game',relief=SUNKEN ,width = 20, bg = 'seagreen3' , fg = 'black' , font = ('veredana' , 15 , 'bold' ),  command = self.play  )
-		self.new_srt.place(x = 140 , y = 200)
+		self.new_srt.place(x = 140 , y = 150)
 		self.instr = Button(self.root , text = 'Instructions',relief=SUNKEN ,width = 20, bg = 'seagreen3' , fg = 'black' , font = ('veredana' , 15 , 'bold' ),  command = self.instructions  )
-		self.instr.place(x = 140 , y = 300)
+		self.instr.place(x = 140 , y = 250)
 		self.diff_lev = Button(self.root , text = 'Difficulty',relief=SUNKEN ,width = 20, bg = 'seagreen3' , fg = 'black' , font = ('veredana' , 15 , 'bold' ),  command = self.level_difficulty  )
-		self.diff_lev.place(x = 140 , y = 400)
+		self.diff_lev.place(x = 140 , y = 350)
+		self.gme_mode = Button(self.root , text = 'Game-Mode',relief=SUNKEN ,width = 20, bg = 'seagreen3' , fg = 'black' , font = ('veredana' , 15 , 'bold' ),  command = self.mode_sel  )
+		self.gme_mode.place(x = 140 , y = 450)
 
 		self.new_srt.bind('<Enter>' , lambda event, bt_this = self.new_srt : on_enter(event ,  bt_this ) ) 
 		self.new_srt.bind('<Leave>' ,  lambda event, bt_this = self.new_srt : on_leave( event , bt_this ) ) 		
@@ -234,6 +293,8 @@ class Intro(Main):
 		self.diff_lev.bind('<Enter>' , lambda event, bt_this = self.diff_lev : on_enter(event ,  bt_this ) ) 
 		self.diff_lev.bind('<Leave>' ,  lambda event, bt_this = self.diff_lev : on_leave( event , bt_this ) ) 		
 
+		self.gme_mode.bind('<Enter>' , lambda event, bt_this = self.gme_mode: on_enter(event ,  bt_this ) ) 
+		self.gme_mode.bind('<Leave>' ,  lambda event, bt_this = self.gme_mode : on_leave( event , bt_this ) ) 		
 
 		self.root.mainloop()
 
@@ -266,7 +327,27 @@ class Intro(Main):
 		hard.bind('<Leave>' ,  lambda event, bt_this = hard: on_leave( event , bt_this ) ) 		
 		insane.bind('<Enter>' , lambda event, bt_this = insane : on_enter(event ,  bt_this ) ) 
 		insane.bind('<Leave>' ,  lambda event, bt_this = insane: on_leave( event , bt_this ) ) 		
+	
+	def mode_sel(self) : 
+		self.mode_wind = Toplevel()
+		self.mode_wind.configure(bg = 'Black')
+		self.mode_wind.geometry('480x250') ,self.mode_wind.resizable(0,0) , self.mode_wind.title('Difficulty Level')
+		Label(self.mode_wind,bg='Black').pack()
+		fps = Button(self.mode_wind , text = 'Single-player', bg = 'seagreen3',fg='black' , width = 10 ,font = ('veredana italic' , 12, 'bold'),command = lambda : self.set_mode('Single-player') )
+		mps = Button(self.mode_wind , text = 'Multi-player', bg = 'seagreen3',fg='black' , width = 10 ,font = ('veredana italic' , 12, 'bold'),command = lambda : self.set_mode('Multi-player') )
+		fps.pack(pady=10 , ipadx = 50 , ipady = 10) , mps.pack(pady=10 , ipadx = 50 , ipady = 10)
+		fps.bind('<Enter>' , lambda event, bt_this = fps : on_enter(event ,  bt_this ) ) 
+		fps.bind('<Leave>' ,  lambda event, bt_this = fps: on_leave( event , bt_this ) ) 		
+		mps.bind('<Enter>' , lambda event, bt_this = mps : on_enter(event ,  bt_this ) ) 
+		mps.bind('<Leave>' ,  lambda event, bt_this = mps: on_leave( event , bt_this ) ) 		
 
+	def set_mode(self , txt) :
+		if txt == 'Single-player' :
+			Intro.Gme_mode = True
+			messagebox.showinfo('Set' , 'SINGLE PLAYER mode selected' , parent = self.mode_wind) , self.mode_wind.destroy()
+		elif txt == 'Multi-player' : 
+			Intro.Gme_mode = False
+			messagebox.showinfo('Set' , 'MULTI PLAYER mode selected' , parent = self.mode_wind) , self.mode_wind.destroy()
 	
 	def set_level(self , txt):
 		if txt == 'Easy' : 
@@ -292,27 +373,45 @@ def show_grid(root,  parent , specify = False ):
 			counter+=1
 
 def start_place():
-	check  , count = 0 , 0
+	check , count , check_2 , count_2 = 0 , 0 , 0 , 0
 	if Main.flag == False:
 		for i in Main.lis_player:
 			if i.get_bg == 'White':check+=1
 			if i.get_bg == 'Red':count+=1 				
 		if check == 64:
-			messagebox.showinfo('Alert' , ' Place YOUR SHIPS KINDLY !  ')
+			messagebox.showinfo('Alert' , ' Player-1 Kindly place your ships !  ')
 			return True
-		rec = random.sample(range( 0 , 64 ) , count )
-		y = list(map( lambda x :  x+65  , rec)  )
-		for i in y:
-			for j in Main.lis_comp:
-				if j.give_id == i:
-					j.place_enemy()
-		Create.player_health ,  Create.computer_health = count , count			
-		count = 0
+		if Intro.Gme_mode : 
+			rec = random.sample(range( 0 , 64 ) , count )
+			y = list(map( lambda x :  x+65  , rec)  )
+			for i in y:
+				for j in Main.lis_comp:
+					if j.give_id == i:
+						j.place_enemy()
+
+		elif not Intro.Gme_mode  : 
+			if not Main.flag  : 
+				for each in Main.lis_comp : 
+					if each.get_fg == 'Yellow':check_2+=1
+					if each.get_fg == 'Red':count_2+=1
+				if check_2 == 64 :  	
+					messagebox.showinfo('Alert' , ' Player-2 kindly place your ships !  !  ')
+					return True
+		if count_2 == 0 :  
+			Create.player_health ,  Create.computer_health = count , count
+		elif count_2 != 0 : 			
+			Create.player_health ,  Create.computer_health = count , count_2
+			count = 0
 
 		Main.player_health['text'] = f'Your-Health : {Create.player_health}'
 		Main.computer_health['text'] = f'Comp-Health : {Create.computer_health}'	
 		Main.flag = True
-		messagebox.showinfo('READY' , f'ALL-SET.!!\n You are playing in "{ Intro.dic[Intro.diff_level] }" mode  Click "OK" to start game' )
+		if Intro.Gme_mode : 
+			dis_txt = f'ALL-SET.!!\n You are playing in "{ Intro.dic[Intro.diff_level] }" mode  Click "OK" to start game'
+		elif not Intro.Gme_mode : 	
+			dis_txt = f'ALL-SET.!!\n Click OK to start the epic battle !:)'	
+		messagebox.showinfo('READY' , dis_txt )
+
 
  
 def play(file_name):
@@ -330,8 +429,8 @@ def on_leave(e  , bt , bg_color = 'seagreen3'):
 # ######################### MAIN PROGRAMM ######################### #
 
 if __name__ == '__main__':
-	
 	sec , minu , flag= 0 , 0 , True
+	turn  = 0
 	pygame.mixer.init()
 	crr_path = os.getcwd()
 	dirs = [ each for each in os.listdir(crr_path) if os.path.isdir(each) ]
@@ -349,4 +448,3 @@ if __name__ == '__main__':
 		root_msg.withdraw()
 		messagebox.showerror("Error", f'The directory named "Sound" doesnt exist :) ')
 			
-
