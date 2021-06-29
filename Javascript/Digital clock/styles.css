@@ -10,7 +10,7 @@ body {
 }
 
 .neumorphism-3 {
-	width: 420px;
+	width: 440px;
 	height: 200px;
 	background: rgb(252, 239, 249);
     border-radius: 10px;
@@ -22,7 +22,7 @@ body {
 	content: '';
 	position: absolute;
     top: 30px;
-    left: 30px;
+    left: 32.5px;
 	height: 70%;
 	width: 85%;
 	background-color: transparent;
@@ -31,7 +31,7 @@ body {
 }
 
 #root {
-    width: 400px;
+    width: 440px;
     height: 200px;
     padding: 40px;
     display: block;
@@ -50,7 +50,7 @@ body {
     text-align: right;
     font-family: 'Itim';
     font-size: 20px;
-    margin-right: 15px;
+    margin-right: 20px;
     color: rgb(121, 62, 111);
 }  
 
