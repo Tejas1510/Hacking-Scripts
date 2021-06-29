@@ -1,15 +1,19 @@
+# pip install pyttsx3
 import pyttsx3 
+# pip install SpeechRecognition
 import speech_recognition as sr  
+# pip install wikipedia
 import wikipedia  
 
+# creating object
 engine = pyttsx3.init()
 
-
+# function for speaking up the wikipedia results through speakers
 def fun_talk(audio):
     engine.say(audio)
     engine.runAndWait()
 
-
+# function for taking the questions/queries using voice commands and recognizing them
 def get_command():
     rec = sr.Recognizer()
     with sr.Microphone() as source:
@@ -33,12 +37,16 @@ def get_command():
 
 if __name__ == '__main__':
 
+    # taking the query input in the form of voice command from the user using the get_command function
     query = get_command().lower()
 
     try:
+        # checking if it contains the word 'wikipedia'
         if 'wikipedia' in query:
             fun_talk('Searching Wikipedia')
             query = query.replace("wikipedia", "")
+            
+            # searching query on wikipedia and getting the results
             results = wikipedia.summary(query, sentences=5)
             fun_talk("According to Wikipedia")
             print(results)
