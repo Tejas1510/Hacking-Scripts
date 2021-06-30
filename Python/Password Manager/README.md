@@ -1,6 +1,6 @@
 # Password Manager
 ## Introduction
-Here in the passowrd manager it will help the admin to store the password in a quite secure manner.Firstly through fernet library we will generate a key for the specified admin and save it in a key(text) file.Then we will ask them for to view or add user and thier corresponding password.Here all the passwords will be saved in password(text file) in encrypted format even if someone finds this file then also he won't be able to find the password. 
+Here in the password manager it will help the admin to store the password in a quite secure manner. Firstly through fernet library we will generate a key for the specified admin and save it in a key(text) file. Then we will ask them for to view or add user and their corresponding password. Here all the passwords will be saved in password(text file) in encrypted format even if someone finds this file then also he won't be able to find the password. 
 ## Third-Party Libraries Required :
 All library required before running the script ->fernet
 
