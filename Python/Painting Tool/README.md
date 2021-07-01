@@ -31,10 +31,18 @@
 - ### This scripts helps us to draw any free-handed design of any width, any colour and can erase also.
 
 # Compilation Steps :
-- ### Install tkinter, python3
-- ### After that download the code file, and run painting_tool.py on local system.
-- ### Then the script will start running and user can explore and play with it by drawing any free-handed design.
-
+1. Clone/Download this repository
+```
+git clone clone_path
+```
+2. Install the requirements using the command
+```
+pip install -r requirements.txt
+```
+3. Run the program using command
+```
+python painting_tool.py
+```
 ****
 
 # SCREENSHOTS :
