@@ -1,5 +1,5 @@
 # ✔ PAINTING TOOL
-- ### A Painitng Tool is an simple paint application created in python with tkinter gui.
+- ### A Paintng Tool is an simple paint application created in python with tkinter gui.
 - ### In this application user will be given a drawing area along with button like PEN, BRUSH, COLOUR, ERASER and EXIT.
 - ### Using PEN button, user can select the pen and start drawing or writing a freehand design.
 - ### Using BRUSH button, user can select brush and start drawing.
@@ -31,18 +31,9 @@
 - ### This scripts helps us to draw any free-handed design of any width, any colour and can erase also.
 
 # Compilation Steps :
-1. Clone/Download this repository
-```
-git clone clone_path
-```
-2. Install the requirements using the command
-```
-pip install -r requirements.txt
-```
-3. Run the program using command
-```
-python painting_tool.py
-```
+- ### Install tkinter, python3
+- ### After that download the code file, and run painting_tool.py on local system.
+- ### Then the script will start running and user can explore and play with it by drawing any free-handed design.
 
 ****
 
@@ -65,3 +56,7 @@ python painting_tool.py
 <p align="center">
   <img src="Images/sample_video.gif" /><br>
 </p>
+
+# Name :
+- ### Akash Ramanand Rajak
+
