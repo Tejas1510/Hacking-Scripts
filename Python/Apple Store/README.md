@@ -1,7 +1,7 @@
 <h1 align="center"> Apple Store </h1>
 <hr>
 
-<h2>Description:</h2>
+<h2>Introduction:</h2>
 
 - The script is divided into many parts
 - First is the market package
@@ -18,25 +18,30 @@
 		- The market file is used for designing the market page
 		- The item_modals and owned_items_modals contains the design of the buying and selling part
 	- The run file is used to run the entire program 
-
-## Output
-![Image](Images/front_page.jpg)
-![Image](Images/register_page.jpg)
-![Image](Images/market_page.jpg)
-![Image](Images/transaction.jpg)
 <hr>
 <h2>Third-Party Libraries Required:</h2>
+
 - Flask
 - SqlAlchemy
+
+<hr>
 <h2>How to install the above Library:</h2>
+
 - pip install Flask
 - pip install SqlAlchemy
+
 <hr>
 <h2>How to use:</h2>
 
 - Need to install both SqlAlchemy and Flask through the terminal
 - Then use set FLASK_APP=run
 - flask run
+
+## Output
+![Image](Images/front_page.jpg)
+![Image](Images/register_page.jpg)
+![Image](Images/market_page.jpg)
+![Image](Images/transaction.jpg)
 
 <hr>
 
