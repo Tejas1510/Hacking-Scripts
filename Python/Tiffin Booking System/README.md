@@ -55,7 +55,7 @@ If you have not set the password
 
 * User is asked for Sign-Up or login choice ![1](https://github.com/Rajulmahto21/Hacking-Scripts/blob/main/Python/Tiffin%20Booking%20System/How%20To%20Use%20Snips/1.png)
 * User enters the detail and the account is successfully created ![2](https://github.com/Rajulmahto21/Hacking-Scripts/blob/main/Python/Tiffin%20Booking%20System/How%20To%20Use%20Snips/2.png)
-* User is now asked to Log-In from the created username,password and is then asked to select from the choices ![3](https://github.com/Rajulmahto21/Tiffin-Booking-System/blob/main/Screen%20Snips/3.png)
+* User is now asked to Log-In from the created username,password and is then asked to select from the choices ![3](https://github.com/Rajulmahto21/Hacking-Scripts/blob/main/Python/Tiffin%20Booking%20System/How%20To%20Use%20Snips/3.png)
 * User selects Book Your Tiffin and then tiffin menu is shown ![4](https://github.com/Rajulmahto21/Hacking-Scripts/blob/main/Python/Tiffin%20Booking%20System/How%20To%20Use%20Snips/4.png)
 * User is asked to enter the tiffin and days choices ![5](https://github.com/Rajulmahto21/Hacking-Scripts/blob/main/Python/Tiffin%20Booking%20System/How%20To%20Use%20Snips/5.png)
 * User enters the day choice and enter's y to get the order summary and the order summary is displayed  ![6](https://github.com/Rajulmahto21/Hacking-Scripts/blob/main/Python/Tiffin%20Booking%20System/How%20To%20Use%20Snips/6.png)
