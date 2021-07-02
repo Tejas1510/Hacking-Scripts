@@ -38,16 +38,16 @@ Kindly read the instructions given below throughly to setup the project successf
     * WARNING! Don't make any changes in the table name and delete the database with the similar name as the script if you have any.
     * WARNING! Run the statement to create customer_info table at the end after creating all other tables from Tiffin_Type to Master_Login as it contains foreign key constraints.
 * When you reach at the point creating Master_Login table ,create the table and before inserting values in it you can change the master username and password by changing the create_username and create_password under the quoted marks according to yourself.
-![IMAGE:](https://github.com/Rajulmahto21/Tiffin-Booking-System/blob/main/How%20To%20Use%20Snips/master_table_instruction.png)
+![IMAGE:](https://github.com/Rajulmahto21/Hacking-Scripts/blob/main/Python/Tiffin%20Booking%20System/How%20To%20Use%20Snips/master_table_instruction.png)
 * After running all the statements use the SHOW TABLES; statement and verify that you have created all the tables successfully.
 * Now open the python(.py) file while you have earlier downloaded and run the code.
      * WARNING! Visual Studio Code is recommended as some libraries may not work in terminal or other python IDE's.
 * Now in the 11th line use your mysql user and password in place of your_user and your_mysql_password respectively if you have not set the password then remove the passwd word.
 
 If you have set the password
-![IMAGE:](https://github.com/Rajulmahto21/Tiffin-Booking-System/blob/main/How%20To%20Use%20Snips/sql_connector_1.png)
+![IMAGE:](https://github.com/Rajulmahto21/Hacking-Scripts/blob/main/Python/Tiffin%20Booking%20System/How%20To%20Use%20Snips/sql_connector_1.png)
 If you have not set the password
-![IMAGE:](https://github.com/Rajulmahto21/Tiffin-Booking-System/blob/main/How%20To%20Use%20Snips/sql_connector_2.png)
+![IMAGE:](https://github.com/Rajulmahto21/Hacking-Scripts/blob/main/Python/Tiffin%20Booking%20System/How%20To%20Use%20Snips/sql_connector_2.png)
 
 * You have successfully started the Tiffin-Booking System ,you can now follow the instruction and explore it.
 # How To Use
