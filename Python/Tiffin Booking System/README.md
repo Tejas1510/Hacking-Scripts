@@ -18,7 +18,7 @@ Kindly read the instructions given below throughly to setup the project successf
 # Tech Stack
 * Python
 * MySQL
-* 
+
 # Prerequsites
 * Python
     * IDE
