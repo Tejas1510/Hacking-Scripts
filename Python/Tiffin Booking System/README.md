@@ -14,7 +14,12 @@ The various options available for the users include :-
 The data that will be entered by the user will be saved , updated in the sql database that will be locally created and stored.
 
 Kindly read the instructions given below throughly to setup the project successfully on your local machine.
-# Prequsites
+
+# Tech Stack
+* Python
+* MySQL
+* 
+# Prerequsites
 * Python
     * IDE
 * Python Libraries
