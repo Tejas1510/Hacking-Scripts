@@ -21,9 +21,9 @@ import pygame
 ## SCREENSHOTS:
 
 <p align="center">
-  <img width = 700 src="images/capture1.jpg" /><br>
-  <img width = 700 src="images/capture2.jpg" /><br>
-  <img width = 700 src="images/capture3.jpg" /><br>
+  <img width = 700 src="images/capture1.png" /><br>
+  <img width = 700 src="images/capture3.png" /><br>
+  <img width = 700 src="images/capture2.png" /><br>
   
 </p>
 
