@@ -13,5 +13,7 @@ We just need to get all the text in the text file and then we need to run the sc
 
 ## Output
 ![Screenshot (656)](https://user-images.githubusercontent.com/71593494/124376941-f95a1d80-dcc6-11eb-8809-c834420021fb.png)
+![output(pdf)](https://user-images.githubusercontent.com/71593494/124393805-e58bd700-dd19-11eb-8cc3-fa397498a677.png)
+![Screenshot (657)](https://user-images.githubusercontent.com/71593494/124393807-eae92180-dd19-11eb-8681-e0bc2e67b308.png)
 
 
