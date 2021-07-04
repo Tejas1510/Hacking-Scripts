@@ -41,15 +41,26 @@ python 21_number_game.py
 <p>
 <img width=1000 height=400 src="https://github.com/rahulsrivastava1/Hacking-Scripts/blob/main/Python/21 Number Game/photos/two.png">
 </p>
-3. Now i take input 3 values and give the values in consecutive manner and then it will show order of inputs after the computer's turn and agin ask for no. of values.i am<br/>
-  	giving 1 value after this step and lets see the whole scenario by one by one snapshot.
+3. Now i take input 3 values and give the values in consecutive manner and then it will show order of inputs after the computer's turn and agin ask for no. of values.<br/>
 <p>
 <img width=500 height=400 src="https://github.com/rahulsrivastava1/Hacking-Scripts/blob/main/Python/21 Number Game/photos/three.png">
 </p>
+4. Now i take 1 input value and give the values in consecutive manner and then it will show order of inputs after the computer's turn and agin ask for no. of values.<br/>
 <p>
-<img width=500 height=1200 src="https://github.com/rahulsrivastava1/Hacking-Scripts/blob/main/Python/21 Number Game/photos/four.png">
+<img width=500 height=200 src="https://github.com/rahulsrivastava1/Hacking-Scripts/blob/main/Python/21 Number Game/photos/four.png">
 </p>
-
-Hurray! you won the game shows in above snapshot that means you won.
-### Contributor
+5. Now i take 1 input value and give the values in consecutive manner and then it will show order of inputs after the computer's turn and agin ask for no. of values.<br/>
+<p>
+<img width=500 height=200 src="https://github.com/rahulsrivastava1/Hacking-Scripts/blob/main/Python/21 Number Game/photos/five.png">
+</p>
+6. Now i take 1 input value and give the values in consecutive manner and then it will show order of inputs after the computer's turn and agin ask for no. of values.<br/>
+<p>
+<img width=500 height=200 src="https://github.com/rahulsrivastava1/Hacking-Scripts/blob/main/Python/21 Number Game/photos/six.png">
+</p>
+7. Now final turn! i take 1 input value and give the values in consecutive manner and then it will show Hurray! you won the game shows in above snapshot that means you won.
+<p>
+<img width=500 height=150 src="https://github.com/rahulsrivastava1/Hacking-Scripts/blob/main/Python/21 Number Game/photos/seven.png">
+</p>
+<br/>
+Contributor <br/>
 <a href="https://github.com/rahulsrivastava1">Rahul Srivastava</a>
