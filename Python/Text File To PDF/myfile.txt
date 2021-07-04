@@ -1,0 +1,26 @@
+Hello how are you?
+Topics :
+C++ Projects
+Java Projects
+Python Projects
+Project Ideas
+Misc
+C++ Projects :
+OpenCV C++ Program for Face Detection
+OpenCV C++ Program for coin detection
+OpenCV C++ Program to blur an image
+OpenCV C++ Program to create a single colored blank image
+OpenCV C++ Program to blur a Video
+OpenCV C++ Program to play a video
+Creating a PortScanner in C
+Student Data Management in C++
+OpenGL program for Simple Ball Game
+Implementation of Minesweeper Game
+Finding cabs nearby using Great Circle Distance formula
+Program to remotely Power On a PC over the internet using the Wake-on-LAN protocol.
+Java Projects :
+
+A Group chat application in Java
+Generating Password and OTP in Java
+Creative Programming In Processing | Set 1 (Random Walker)
+Creative Programming In Processing | Set 2 (Lorenz Attractor)
