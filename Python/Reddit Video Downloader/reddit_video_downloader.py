@@ -32,7 +32,7 @@ def get_video(url):
 
     try: # checks if post contains video
         video_url = json_data['secure_media']['reddit_video']['fallback_url']
-        print(f'Video URL: {video_url}')
+        print('Video is successfully downloaded')
         r = get(video_url).content
         with open('download.mp4', 'wb') as file:
             file.write(r)
