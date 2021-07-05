@@ -38,7 +38,9 @@ pip install -r requirements.txt
 3. Run the program using command
 ```
 python piano_application.py
-```****
+```
+
+****
 
 # SCREENSHOTS :
 
