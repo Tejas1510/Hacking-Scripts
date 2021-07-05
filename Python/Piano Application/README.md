@@ -60,7 +60,3 @@ https://user-images.githubusercontent.com/57003737/124353083-e6414200-dc21-11eb-
 
 ****
 
-# Name :
-- ### Akash Ramanand Rajak
-
-
