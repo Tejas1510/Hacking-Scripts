@@ -10,14 +10,16 @@ The user can keep playing till he gets a 2048 tile or all the grids are full and
 - The user will win if he gets a 2048 tile
 - The user looses when there are no merges left and all tiles are full
 ## Third-Party Libraries Required :
-All library required before running the script->tkinter and random
+- tkinter 
+- random
 
 ## How to install the above Library
 pip install random
 pip install tkinter
 
 ## How to use it :
-To use this script user needs to install libraries first and then run the script to play the game.
+To use this script user needs to install libraries first and then run the script to play the game.Here th blocks with random color and number will pop up and as you add them left/right/up/bottom then they add up and make a sum so this way the game goes on.
+
 ## Output
 ![output_1(2048)](https://user-images.githubusercontent.com/71593494/124394134-a52d5880-dd1b-11eb-9c00-c9df68704fe6.png)
 ![output_2(2048)](https://user-images.githubusercontent.com/71593494/124394136-a6f71c00-dd1b-11eb-91fd-1b4d75eb635e.png)
