@@ -5,7 +5,7 @@
 This python script will help users to download video from a reddit post along with display information about Post Title,sub-reddit and its author<br>
 You just need to have the page url of the post and you are good to go!
 
-##Libraries Used
+## Libraries Used
 
 requests==2.25.1
 
