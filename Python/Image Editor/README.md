@@ -1,7 +1,7 @@
 # ✔ IMAGE EDITOR
 - ### An Image Editor is an image processing application created in python with tkinter gui and OpenCv library.
 - ### In this application user can select an image and convert it to either Sketch, cartoon, make image more sharpen, convert to kelvin.
-- ### Also after editing user can also save the edited image anywhere in the loal system.
+- ### Also after editing user can also save the edited image anywhere in the local system.
 - ### Also there is option to reset to the original image.
 
 ****
