@@ -24,7 +24,8 @@
     <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 
-<body>
+<body id="stop-scrolling">
+  <div class="preloader"></div>
     <section id="hero">
         <div class="hero-container">
             <h1 data-aos="zoom-in">Welcome To Hacking Scripts</h1>
@@ -210,6 +211,20 @@
 
                         chk.addEventListener('change', () => {
                             document.body.classList.toggle('dark');
+                        });
+                    </script>
+
+                    
+                    <script>
+                      function preloaderFadeOutInit(){
+                        $('.preloader').fadeOut('slow');
+                        $('body').attr('id','');
+                        }
+                        // Window load function
+                        jQuery(window).on('load', function () {
+                        (function ($) {
+                        preloaderFadeOutInit();
+                        })(jQuery);
                         });
                     </script>
 
