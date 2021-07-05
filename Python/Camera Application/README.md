@@ -66,8 +66,3 @@ python camera_application.py
 </p>
 
 ****
-
-# Author : 
-- ### Akash Ramanand Rajak
-
-****
