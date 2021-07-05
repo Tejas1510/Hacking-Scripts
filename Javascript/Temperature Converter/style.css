@@ -4,7 +4,6 @@
     font-family:'Courier New';
     box-sizing:border-box;
     user-select:none;
-    
     font-weight:700;
   }
   
@@ -12,22 +11,18 @@
     padding-bottom:20px;
   }
   
-  
-  
   html,body{
     text-align:center;
     display:flex;
     height:100%;
     align-items:center;
     justify-content:space-between;
-    
     background:#001f64;
   }
   
   .inputBox{
     position: relative;
-   
-     background: #BA55D3;
+    background: #BA55D3;
     width:500px;
     padding:20px 30px;
     border-radius:5px;
@@ -41,24 +36,18 @@
   }
   
   .inputBox input{
-    
     position:relative;
     width:30%;
     height:50px;
     border:none;
     margin:15px 0 20px;
-    
     background:#fff;
-    
-    
     border:2px solid lightgrey;
     padding-left:15px;
     border-radius:5px;
     font-size:15px;
     outline:none;
-     transition:all 0.2s;
-     
-    
+    transition:all 0.2s;
   }
   
   .inputBox input:focus{
@@ -80,24 +69,16 @@
     margin-left:1%;
   }
   
-  
-  
   .container{
     position:absolute;
     padding-left:80px;
     
   }
   
-  
-  
-  
-  
-  
-  
   label{
     padding-left:20px;
     padding-top:20px;
-   float:left;
+    float:left;
     font-size:20px;
     font-weight:700;
   }
@@ -106,12 +87,9 @@
     margin-left:-25px;
   }
   
-  
-  
   .container2{
     margin-left:700px;
   }
-  
   
   #text{
     padding-top:10px;
