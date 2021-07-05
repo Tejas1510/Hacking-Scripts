@@ -7,7 +7,7 @@ You just need to have the page url of the post and you are good to go!
 
 ## Libraries Used
 
-requests==2.25.1
+requests
 
 ## How to use it
 
