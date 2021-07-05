@@ -1,23 +1,27 @@
-<h1 align="center"> Apple Store </h1>
+<h1 align="center"> University Website </h1>
 <hr>
 
 <h2>Introduction:</h2>
 
 - The script is divided into many parts
-- First is the market package
-	- It contains the python files __init__, forms, models and routes
-		- The __init__ file initializes the databse, the login users and password bcrypt 
-		- The forms is used for creating the user login, registration, buying and selling forms
-		- The models is used for creating the classes of tables present in the databse, password and email verification and the budget
-		- The routes is used for routing the user to different pages
-	- It also contains various html files like base, home, login, market, register and a directory containing the html files items_modals and owned_items_modals
+- First is the market application
+	- It contains the database tables and renders the html templates
+- Second is the routes
+	- It contains the routes to the different webpages and creates teh different users
+- Third is the forms
+	- It contains registration and login forms  
+- Fourth are the various html files like base, home page, login, details, register, attendance, courses, time table and fees 
 		- The base file contains the base proforma of the website, which the rest of the webpages extends
 		- The home file is used for designing the home page
 		- The login file is used for designing the login page
-		- The register fiAle is used for designing the register page
-		- The market file is used for designing the market page
-		- The item_modals and owned_items_modals contains the design of the buying and selling part
-	- The run file is used to run the entire program 
+		- The register file is used for designing the register page
+		- The details file is used for showing the details of the student
+		- The attendance file is used for showing the attendance of the student
+		- The course file is used for showing the courses of the student
+		- The time table is used for showing the courses of the student
+		- The fees is used for showing the fees of the student
+		
+- The application file is used to run the entire program 
 <hr>
 <h2>Third-Party Libraries Required:</h2>
 
@@ -38,15 +42,18 @@
 - flask run
 
 ## Output
-![Image](Images/front_page.jpg)
-![Image](Images/register_page.jpg)
-![Image](Images/market_page.jpg)
-![Image](Images/transaction.jpg)
+![Image](Images/details.jpg)
+![Image](Images/fees.jpg)
+![Image](Images/tt.jpg)
+![Image](Images/course.jpg)
+![Image](Images/attend.jpg)
 
 <hr>
 
 <h2>Input</h2>
 
-![Image](Images/login_page.jpg)
-![Image](Images/purchase_item.jpg)
+![Image](Images/login.jpg)
+![Image](Images/home_page.jpg)
+![Image](Images/register.jpg)
+
 
