@@ -1,5 +1,5 @@
 # ✔ CAMERA APPLICATION
-- ### An Camera Application is a simple camera created in python with tkinter gui and OpenCv library.
+- ### A Camera Application is a simple camera created in python with tkinter gui and OpenCv library.
 - ### Using this user can take any no. of pics/shots and also will be able to save the image to any location in the local system.
 - ### In this application also put the button which shows how the this camera application works.
 
