@@ -18,12 +18,14 @@
 ## 📢 Join Official Slack channel for Discussion about the project : [Hacking-Scripts](https://swoc-workspace.slack.com/archives/C01HV9LADSQ)
 
 <p align = "center">
-  <img height="500" width ="600" src = "https://github.com/Komal-99/Hacking-Scripts/blob/main/assets/Logos/logohackingscript.png"></img>
+  <img height="500" width ="600" src = "https://github.com/Komal-99/Hacking-Scripts/blob/main/assets/Logos/logohackingscript%20(1).png"></img>
 </p>  
 
 
-<center><h1 align="center">Inttroduction📌</h1></center>
-<b>Hacking Scripts</b> contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs and many more. The main aim of this repository is to provide utility scripts that could make everyday life easy. Get started with coding exhilarating scripts that can be useful to download PDFs from an Online Source or just to randomly accept bulk linkedin request.
+<center><h1 align="center">Introduction📌</h1></center>
+<h3>Hacking Scripts</h3>
+
+It Contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs and many more. The main aim of this repository is to provide utility scripts that could make everyday life easy. Get started with coding exhilarating scripts that can be useful to download PDFs from an Online Source or just to randomly accept bulk linkedin request.
 
 <center><h1 align="center">Technologies Used</h1></center>
 <p align="center"><a href="https://www.javascript.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="JS" width="40" height="40"/> </a><a href="https://www.w3schools.com/python/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="Python" width="70" height="60"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a><a href="https://html.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="Html" width="40" height="40"/> </a><a href="https://www.w3schools.com/java/java_intro.asp" target="_blank"> <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt="Java" width="70" height="50"/> </a>
