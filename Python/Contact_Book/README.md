@@ -4,7 +4,7 @@
 
 ## Introduction
 
-It asks the user to enter the number of contacts he wants in his diary.It will then search the given contact .
+It asks the user to enter the number of contacts he wants in his diary. It will then search the given contact.
 
 ***
 
