@@ -3,11 +3,11 @@
 Here we will convert png to jpg image using image module of pil library here for making the gui we had used tkinter . Here in the gui screen there will be 2 buttons one for selecting the pg image and other for converting image.
 ## Third-Party Libraries Required :
 -> tkinter
--> pillow(PIL)
+-> PIL(pillow)
 
 ## How to install the above Library
-pip install tkinter
-pip install pillow
+- pip install tkinter
+- pip install pillow
 
 
 ## How to use it :
