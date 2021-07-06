@@ -1,6 +1,6 @@
 # PNG To JPG Converter
 ## Introduction
-Here we will convert png to jpg image using image module of pil library here for making the gui we had used tkinter . Here in the gui screen there will be 2 buttons one for selecting the pg image and other for converting image.
+Here we will convert png to jpg image using image module of pil library here for making the gui we had used tkinter . Here in the gui screen there will be 2 buttons one for selecting the png image and other for converting image.
 ## Third-Party Libraries Required :
 -> tkinter
 -> PIL(pillow)
