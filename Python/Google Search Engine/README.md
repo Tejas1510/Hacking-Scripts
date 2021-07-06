@@ -54,7 +54,6 @@ python google_search_engine.py
   <img width = 1000 src="Images/4.jpg" /><br>
   <img width = 1000 src="Images/5.jpg" /><br>
   <img width = 1000 src="Images/6.jpg" /><br>
-  <img width = 1000 src="Images/7.jpg" /><br>
 </p>
 
 ****
