@@ -6,4 +6,4 @@ This is a food recipe web application made with vanilla JavaScript which lets th
 Tech Stack:
 HTML CSS JAVASCRIPT
 
-![Screenshot](Screenshot(326).png)
+![Screenshot](https://www.linkpicture.com/q/Screenshot-326.png)
