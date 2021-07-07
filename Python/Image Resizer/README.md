@@ -35,10 +35,18 @@
 - ### This scripts helps us to easily resize the selected image to any width and height.
 
 # Compilation Steps :
-- ### Install python3, tkinter, pandas, os, cv2, PIL, resizeimage
-- ### After that download the code file, and run image_resizer.py.py on local system.
-- ### Then the script will start running and user can explore more by selecting image and resizing it to any width and height.
-
+1. Clone/Download this repository
+```
+git clone clone_path
+```
+2. Install the requirements using the command
+```
+pip install -r requirements.txt
+```
+3. Run the program using command
+```
+python image_resizer.py
+```
 ****
 
 # SCREENSHOTS :
@@ -58,6 +66,3 @@
 </p>
 
 ****
-
-# Author : 
-- ### Akash Ramanand Rajak
