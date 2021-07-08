@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Logo{
+  width: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.brand{
+  justify-content: center;
+  color: darkorange;
+  display: flex;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+html {
+  font-family: "Nunito";
+  font-size: 12px;
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  background-color: rgb(214, 214, 226);
+}
+.container {
+  width: 100%;
+  height: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.brand {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+form {
+  display: flex;
+  width: 90%;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: rgb(223, 223, 223);
+}
+.search {
+  width:75%;
+  border: 1px;
+  border-color: darkorange;
+  border-style: solid;
+  padding: 3px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px; 
+  font-size: 2rem;
+  outline: darkorange;
+  display: inline-block;
+}
+button {
+  width: 13%;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius:  12px;
+  border-bottom-right-radius: 12px;
+  background-color: darkorange;
+  color: white;
+}
+.search-result {
+  margin-top: 50px;
+  width: 100%;
+  display: grid;
+  grid-gap: 25px;
+  grid-template: auto / repeat(auto-fit, minmax(300px, 1fr));
+}
+.item {
+  width: 100%;
+  border-radius: 8px;
+  background-color: rgb(37, 37, 37);
+  padding: 15px;
+  overflow: hidden;
+}
+.item img {
+  width: 100%;
+  height: 300px;
+  border-radius: 4px;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-result .title {
+  color: whitesmoke;
+  margin: 20px 10px 0 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.view-btn {
+  text-decoration: none;
+  text-align: center;
+  width: 130px;
+  padding: 10px 0;
+  background-color: #404041;
+  color: whitesmoke;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 20px;
+  border-radius: 4px;
+  align-self: flex-start;
+}
+.item-data {
+  color: whitesmoke;
+  display: block;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
+  line-height: 2rem;
+}
+.container.initial .brand {
+  font-size: 7rem;
+}
+.container.initial form {
+  max-width: 800px;
+}
+.container.initial form input {
+  padding: 20px;
+  font-size: 3rem;
+}
+@media screen and (max-width: 650px) {
+  .search-result {
+    grid-gap: 10px;
+  }
+  .container.initial .brand {
+    font-size: 4rem;
+  }
+  .container.initial form {
+    max-width: 500px;
+  }
+  .container.initial form input {
+    padding: 10px;
+    font-size: 2rem;
+  }
+.container.initial .search{
+  width: auto;
+  font-size: 20px;
+
+}
+.container.initial button{
+  width: 40px;
+}
+}
+/*@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Train+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:cadetblue;
+}
+
+.search-box
+{
+    justify-content: center;
+    text-align: center;
+    height: 35px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+.container{
+        width:90%;
+        height:auto;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+.section{
+    display: flex;
+    justify-content: center;
+    padding:100px 0;
+    align-items: center;
+    min-height: 100vh;
+}
+.search_result{
+    margin-top: 50px;
+    width: 100%;
+    display:grid;
+    grid-gap:75px;
+    grid-template: auto /repeat(auto-fit,minmax(300px,1fr));
+}
+.item{
+    width:105%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 15px;
+    overflow:hidden;
+}
+.item img{
+    width: 100%;
+    height: 480px;
+    border-radius: 4px;
+}
+.item.desc-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.view-link{
+    float:right;
+    margin-top: -08px;
+    align-self:flex-start
+}
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 30px;
+}
+.item .title{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    color:black;
+}
+.item .view-link{
+    text-decoration: none;
+    padding: 7px;
+    background-color: darkorange;
+}
+.Recipe{
+    color: darkorange;
+}
+.Mania{
+    color: white;
+}
+.search{
+    font-size: larger;
+    border: 1px;
+    border-color: darkorange;
+    border-style: solid;
+    padding: 3px;
+    width: 30%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px; 
+}
+button {
+    width: 5%;
+    height: 35px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius:  5px;
+    border-bottom-right-radius: 5px;
+    background-color: darkorange;
+    color: white;
+  }
+  button:hover{
+      background-color: rgb(245, 170, 78);
+      
+  }
+  p{
+    font-family: 'Baloo Thambi 2', cursive;
+  }
+
+ 
