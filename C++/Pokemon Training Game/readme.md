@@ -37,4 +37,6 @@ Now we got the desired output , first it will provide the minimum value and seco
 <img width=428 height=271 src="https://github.com/rahulsrivastava1/Hacking-Scripts/blob/main/C%2B%2B/Pokemon Training Game/pictures/three.png">
 </p>
 
+Contributor <br/>
+<a href="https://github.com/rahulsrivastava1">Rahul Srivastava</a>
 
