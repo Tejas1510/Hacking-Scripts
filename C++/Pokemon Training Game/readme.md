@@ -16,7 +16,7 @@ Click on the <a href="https://github.com/Tejas1510/Hacking-Scripts/"><img src="h
 ```bash
 git clone https://github.com/<your-github-username>/Hacking-Scripts
 ```
-**3.** Download the desired file and open it in any c++ ide (such as , CodeBlocks,DevC++,Visual Studio) etc.
+**3.** Download the ```pokemon_training.cpp``` file and open it in any c++ ide (such as , CodeBlocks,DevC++,Visual Studio) etc.
 
 ## Lets Run now
 ### Input
