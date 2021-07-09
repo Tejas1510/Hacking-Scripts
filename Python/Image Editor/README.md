@@ -62,8 +62,10 @@ python image_editor.py
   <img width = 1000 src="Images/10.jpg" /><br>
   <img width = 1000 src="Images/11.jpg" /><br>
 </p>
- **For Image Cartoonifier:
+ **For Image Cartoonifier**:
+
 - real image
+
 ![image](https://user-images.githubusercontent.com/71593494/125034894-c9d45800-e0ae-11eb-9000-d6a3c919723e.jpg)
 
 - Cartoonified image
