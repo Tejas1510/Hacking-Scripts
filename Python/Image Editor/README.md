@@ -46,6 +46,11 @@ python image_editor.py
 ```
 ****
 
+# Image Cartoonifier
+ - Here we convert the simple image into cartoonified using cv library , here we first get the image then we change the grey scales and image shades so then the output carttonified image will be shown.
+ - **Requirements** -> cv2 module
+ - **How To Use It** ->Here we need an image for converting so get the image in to the script folder then run the script so the cartoonified image will be obtained ,here we can change the gray scale of the image as per our requirement.
+
 # SCREENSHOTS :
 ****
 
