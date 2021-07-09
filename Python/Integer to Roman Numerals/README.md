@@ -10,4 +10,4 @@ No libraries required.
 <br>
 <h4>output</h4>
 <hr>
-Hacking-Scripts/Python/Integer to Roman Numerals/Images/Screenshot of the output.png
+![Screenshot of the output](https://user-images.githubusercontent.com/81240664/125092712-3a02ce00-e0ef-11eb-8ce9-b91bd0e8a52a.png)
