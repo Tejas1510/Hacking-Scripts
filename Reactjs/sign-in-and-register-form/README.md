@@ -73,7 +73,7 @@ use your username and password and database name here you created in MongoDB atl
 ### Output:
 
 - First you have to register if you are not already registered:-
-- ![image](https://user-images.githubusercontent.com/64858573/125296469-f359e180-e343-11eb-9080-3e976f8540c7.png)
+ ![image](https://user-images.githubusercontent.com/64858573/125296469-f359e180-e343-11eb-9080-3e976f8540c7.png)
 - Then you have to login using your registered username and password:- \*![image](https://user-images.githubusercontent.com/64858573/125297489-e689bd80-e344-11eb-9e80-c8432888b1ef.png)
 - Then if you want then logout press the logout button:-
-- ![image](https://user-images.githubusercontent.com/64858573/125298640-f524a480-e345-11eb-8d6e-e8335df52d09.png)
+ ![image](https://user-images.githubusercontent.com/64858573/125298640-f524a480-e345-11eb-8d6e-e8335df52d09.png)
