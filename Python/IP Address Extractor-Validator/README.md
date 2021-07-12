@@ -29,9 +29,18 @@
 - #### This scripts helps us to easily extract all IP addresses from text or paragraph and can also easily check for the validity of any IP address.
 
 # Compilation Steps :
-- #### Install tkinter, PIL, re, sys
-- #### After that download the code file, and run IP_address_extractor-validator.py on local system.
-- #### Then the script will start running and user can explore it by extracting the IP addresses and checking the validity of IP addresses.
+1. Clone/Download this repository
+```
+git clone clone_path
+```
+2. Install the requirements using the command
+```
+pip install -r requirements.txt
+```
+3. Run the program using command
+```
+python IP_address_extractor-validator.py
+```
 
 ****
 
@@ -56,6 +65,3 @@
 </p>
 
 ****
-
-# Author :
-- ### Akash Ramanand Rajak
