@@ -1,0 +1,83 @@
+{
+  "name": "assemble-fs",
+  "description": "Assemble plugin to add methods to assemble for working with the file system, like src, dest, copy and symlink.",
+  "version": "0.6.0",
+  "homepage": "https://github.com/assemble/assemble-fs",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "assemble/assemble-fs",
+  "bugs": {
+    "url": "https://github.com/assemble/assemble-fs/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md",
+    "utils.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "assemble-handle": "^0.1.2",
+    "extend-shallow": "^2.0.1",
+    "is-valid-app": "^0.2.0",
+    "lazy-cache": "^2.0.1",
+    "stream-combiner": "^0.2.2",
+    "through2": "^2.0.1",
+    "vinyl-fs": "^2.4.3"
+  },
+  "devDependencies": {
+    "buffer-equal": "^1.0.0",
+    "expect": "^1.20.2",
+    "graceful-fs": "^4.1.4",
+    "gulp-format-md": "^0.1.9",
+    "mocha": "^2.5.3",
+    "rimraf": "^2.5.3",
+    "should": "^9.0.2",
+    "sinon": "^1.17.4",
+    "templates": "^0.24.0",
+    "vinyl": "^1.1.1"
+  },
+  "keywords": [
+    "assemble",
+    "assembleplugin",
+    "file",
+    "fs",
+    "plugin",
+    "system",
+    "vinyl"
+  ],
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "assemble",
+        "assemble-loader",
+        "assemble-render-file",
+        "assemble-streams",
+        "generate",
+        "verb"
+      ]
+    },
+    "reflinks": [
+      "verb",
+      "verb-readme-generator"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "vinyl-item",
+  "description": "Extends vinyl files with properties used in vinyl-collections.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/vinyl-item",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/vinyl-item",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/vinyl-item/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "utils.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "base": "^0.8.1",
+    "base-option": "^0.8.2",
+    "base-plugins": "^0.4.12",
+    "clone": "^1.0.2",
+    "clone-stats": "^1.0.0",
+    "define-property": "^0.2.5",
+    "extend-shallow": "^2.0.1",
+    "isobject": "^2.1.0",
+    "lazy-cache": "^2.0.1",
+    "vinyl": "^1.1.1"
+  },
+  "devDependencies": {
+    "event-stream": "^3.3.2",
+    "gulp-format-md": "^0.1.9",
+    "mocha": "^2.5.3"
+  },
+  "keywords": [
+    "assemble",
+    "collection",
+    "compile",
+    "context",
+    "engine",
+    "handlebars",
+    "render",
+    "template",
+    "templates",
+    "view",
+    "views",
+    "vinyl"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "templates",
+        "vinyl",
+        "assemble",
+        "verb"
+      ]
+    },
+    "reflinks": [
+      "verb",
+      "vinyl"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}

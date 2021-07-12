@@ -1,0 +1,73 @@
+{
+  "name": "base-helpers",
+  "description": "Adds support for managing template helpers to your base application.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/node-base/base-helpers",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "node-base/base-helpers",
+  "bugs": {
+    "url": "https://github.com/node-base/base-helpers/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "utils.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "define-property": "^0.2.5",
+    "is-valid-app": "^0.1.0",
+    "lazy-cache": "^2.0.1",
+    "load-helpers": "^0.2.11"
+  },
+  "devDependencies": {
+    "base": "^0.11.0",
+    "gulp-format-md": "^0.1.9",
+    "mocha": "^2.5.3"
+  },
+  "keywords": [
+    "app",
+    "async",
+    "base",
+    "baseplugin",
+    "engine",
+    "helper",
+    "helpers",
+    "render",
+    "template",
+    "templates"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "base",
+        "base-engines",
+        "base-option",
+        "base-task"
+      ]
+    },
+    "reflinks": [
+      "base",
+      "verb",
+      "verb-readme-generator"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loo{
+    padding: 4px;
+    margin-bottom: 5px;
+}

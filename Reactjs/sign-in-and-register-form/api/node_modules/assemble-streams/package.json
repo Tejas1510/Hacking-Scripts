@@ -1,0 +1,76 @@
+{
+  "name": "assemble-streams",
+  "description": "Assemble pipeline plugin for pushing a view collection into a vinyl stream.",
+  "version": "0.6.0",
+  "homepage": "https://github.com/assemble/assemble-streams",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "assemble/assemble-streams",
+  "bugs": {
+    "url": "https://github.com/assemble/assemble-streams/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "utils.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "assemble-handle": "^0.1.2",
+    "is-registered": "^0.1.4",
+    "is-valid-instance": "^0.1.0",
+    "lazy-cache": "^2.0.1",
+    "match-file": "^0.2.0",
+    "src-stream": "^0.1.1",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "assemble-fs": "^0.4.7",
+    "gulp-format-md": "^0.1.9",
+    "mocha": "^2.5.1",
+    "templates": "^0.18.3"
+  },
+  "keywords": [
+    "assemble",
+    "assembleplugin",
+    "collection",
+    "source",
+    "src",
+    "stream",
+    "vinyl"
+  ],
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "assemble",
+        "assemble-loader",
+        "assemble-render-file"
+      ]
+    },
+    "reflinks": [
+      "assemble",
+      "base",
+      "generate",
+      "templates",
+      "update",
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}

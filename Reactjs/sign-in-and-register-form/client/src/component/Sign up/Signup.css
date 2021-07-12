@@ -1,0 +1,15 @@
+.registerLoginButton{
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        cursor: pointer;
+        border: none;
+        padding: 10px;
+        color: white;
+        border-radius: 10px;
+}
+.form-text{
+        color:rgb(38, 114, 8) !important;
+        text-shadow: gray;
+        font-weight: 500;
+}
