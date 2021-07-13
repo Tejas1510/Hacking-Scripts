@@ -8,6 +8,7 @@ import tkinter as tk
 import tkinter.messagebox as mbox
 import pandas as pd
 import re
+from math import radians, cos, sin, asin, sqrt
 
 
 # created main window
@@ -42,11 +43,6 @@ country = data["country"].tolist()
 latitude = data["latitude"].tolist()
 longitude = data["longitude"].tolist()
 
-# print(country_code)
-# print(country)
-# print(latitude)
-# print(longitude)
-
 # regex created for checking validity of pair of latitude and longitude
 match_regex = re.compile(
     r"""
@@ -63,9 +59,10 @@ match_regex = re.compile(
 def closest(lst, K):
     return lst[min(range(len(lst)), key=lambda i: abs(lst[i] - K))]
 
+valid = True
 # defined to verify the entry
 def verify_entry():
-    global s, lat1_country, lat1_country_code, long1_country, long1_country_code
+    global s, lat1_country, lat1_country_code, long1_country, long1_country_code, valid
     lat_entered = str(lat_entry.get())
     long_entered = str(long_entry.get())
 
@@ -100,11 +97,30 @@ def verify_entry():
                 long1_country = country[i]
                 long1_country_code = country_code[i]
                 break
-
+        valid = True
         mbox.showinfo("Verify Status", "Verify Status :\n\nThe pair of Latitude and Longitude\n" + s + " is VALID.")
     else:
-        mbox.showerror("Verify Error", "Verify Status :\n\nThe pair of Latitude and Longitude\n" + s + " is INVALID" )
+        valid = False
+        mbox.showerror("Verify Error", "Verify Status :\n\nThe pair of Latitude and Longitude\n" + s + " is INVALID")
 
+# function for distance feature
+def distance_feature():
+    if(valid):
+        ours_latitude = radians(20.593684)
+        ours_longitude = radians(78.96288)
+        co_latitude = radians(float(lat_entry.get()))
+        co_longitude = radians(float(long_entry.get()))
+
+        delta_long = co_longitude - ours_longitude
+        delta_lat = co_latitude - ours_latitude
+        a = sin(delta_lat / 2) ** 2 + cos(ours_latitude) * cos(co_latitude) * sin(delta_long / 2) ** 2
+        c = 2 * asin(sqrt(a))
+        r = 6371
+        mbox.showinfo("Distance Info", "Distance between Member Location and Co-ordinate Location:\n\n" + str(c*r) + "  Kms")
+    else:
+        mbox.showerror("Distance Error","Distance between Member Location and Co-ordinate Location:\n\nNot Defined as pair INVALID.")        
+       
+# function for locating 
 def locate_entry():
     if(lat1_country == "" or lat1_country_code == "" or long1_country ==""  or long1_country_code == ""):
         mbox.showerror("Locate Error", "The latitude and Longitude pair is not verified.")
@@ -130,9 +146,13 @@ lat_entry.place(x=370, y=470)
 long_entry = Entry(window, font=("Arial", 25), fg='brown', bg="light yellow", borderwidth=3, width=12)
 long_entry.place(x=370, y=540)
 
+# created distance button
+distanceb = Button(window, text="DISTANCE",command=distance_feature,font=("Arial", 20), bg = "light green", fg = "blue", borderwidth=3, relief="raised")
+distanceb.place(x =700 , y =465 )
+
 # created verify button
 verifyb = Button(window, text="VERIFY",command=verify_entry,font=("Arial", 25), bg = "light green", fg = "blue", borderwidth=3, relief="raised")
-verifyb.place(x =700 , y =490 )
+verifyb.place(x =720 , y =530 )
 
 # created locate button
 locateb = Button(window, text="LOCATE",command=locate_entry,font=("Arial", 25), bg = "light green", fg = "blue", borderwidth=3, relief="raised")
