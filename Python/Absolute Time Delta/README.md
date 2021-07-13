@@ -27,9 +27,18 @@
 - #### This scripts helps us to easily get the absolute difference between any two times very precisely.
 
 # Compilation Steps :
-- #### Install tkinter, datetime
-- #### After that download the code file, and run absolute_time_delta.py on local system.
-- #### Then the script will start running and user can explore it by entering valid times and finding absolute delta for same.
+1. Clone/Download this repository
+```
+git clone clone_path
+```
+2. Install the requirements using the command
+```
+pip install -r requirements.txt
+```
+3. Run the program using command
+```
+python absolute_time_delta.py
+```
 
 ****
 
@@ -49,7 +58,3 @@
 </p>
 
 ****
-
-# Name :
-- ### Akash Ramanand Rajak
-
