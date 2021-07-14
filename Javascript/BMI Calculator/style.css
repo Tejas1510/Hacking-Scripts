@@ -72,4 +72,20 @@ transition:0.5s;
 transform:scale(1.1);
 transition:0.5s;
 }
-			
+#table{
+    height:100px;
+    width:800px;
+    margin:0 auto;
+    border:5px solid ;
+    text-align:right;
+    font-size:30px;
+    background-color:bisque;
+    margin-top:300px;
+    margin-left:10px;
+}
+th,td,table{
+    text-align:center;
+    border:3px solid;
+    margin:auto;
+    font-size:30px;
+}		
