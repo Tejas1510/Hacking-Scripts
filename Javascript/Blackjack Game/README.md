@@ -27,4 +27,5 @@ git clone https://github.com/Tejas1510/Hacking-Scripts.git
 #### Output
 
 ![image](https://github.com/TheArushiSingh/Hacking-Scripts/blob/main/Javascript/Blackjack%20Game/readme%20images/img1.PNG)
+
 ![image](https://github.com/TheArushiSingh/Hacking-Scripts/blob/main/Javascript/Blackjack%20Game/readme%20images/img2.PNG)
