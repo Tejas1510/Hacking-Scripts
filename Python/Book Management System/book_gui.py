@@ -1,26 +1,70 @@
 from tkinter import * 
+from database import BookData
+
 main_window=Tk()
 main_window.geometry('520x470')
 main_window.title('Book Management System')
+
+mydata=BookData()
 
 def view():
     view_window=Toplevel()
     view_window.title('View all Books')
     view_window.geometry('520x470')
     heading=Label(view_window,text='Viewing All Books',justify='center',font='helvetica 24 bold underline',pady=20)
+    view_table=Listbox(view_window,height=15,width=75)
+    view_table.delete(0,END)
+    for data in mydata.view_data():
+        view_table.insert(END,data)
     close_btn=Button(view_window,text='Close',relief='groove',bd=3,width=10,height=1,font='helvetica 9',activeforeground='red',command=view_window.destroy)
     heading.place(x=125,y=0)
     close_btn.place(x=420,y=430)
-
+    view_table.place(x=27,y=125)
 
 def add():
+    def add_cmd(): 
+        mydata.insert_in_database(title_val.get(),author_val.get(),year_val.get(),isbn_val.get())
+        view_table.delete(0,END)
+        view_table.insert(END,(title_val.get(),author_val.get(),year_val.get(),isbn_val.get())) 
+
     add_window=Toplevel()
     add_window.geometry('520x470')
     add_window.title('Add new Book')
+    view_table=Listbox(add_window,height=4,width=75)
     heading=Label(add_window,text='Add Book',justify='center',font='helvetica 24 bold underline',pady=20)
+
+    title_val=StringVar()
+    label1=Label(add_window,text='Title : ')
+    label2=Label(add_window,text='Author : ')
+    label3=Label(add_window,text='Year : ')
+    label4=Label(add_window,text='ISBN : ')
+    entry1=Entry(add_window,textvariable=title_val)
+    author_val=StringVar()
+    entry2=Entry(add_window,textvariable=author_val)
+    year_val=StringVar()
+    entry3=Entry(add_window,textvariable=year_val)
+    isbn_val=StringVar()
+    entry4=Entry(add_window,textvariable=isbn_val)
+
     close_btn=Button(add_window,text='Close',relief='groove',bd=3,width=10,height=1,font='helvetica 9',activeforeground='red',command=add_window.destroy)
+    add_btn=Button(add_window,text='Add',relief='groove',bd=3,width=10,height=1,font='helvetica 9',command=add_cmd)
     heading.place(x=190,y=0)
     close_btn.place(x=420,y=430)
+
+    label1.place(x=60,y=125)
+    entry1.place(x=100,y=125)
+    
+    label2.place(x=275,y=125)
+    entry2.place(x=325,y=125)
+
+    label3.place(x=60,y=210)
+    entry3.place(x=100,y=210)
+
+    label4.place(x=285,y=210)
+    entry4.place(x=325,y=210)
+    view_table.place(x=27,y=280)
+    add_btn.place(x=215,y=380)
+
 
 def update():
     update_window=Toplevel()
