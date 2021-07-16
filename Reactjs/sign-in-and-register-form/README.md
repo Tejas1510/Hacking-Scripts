@@ -6,15 +6,6 @@
 A sign in and register form made using React.js as frontend
 Express.js as the backend and MongoDb as the database.
 ```
-
-### Use
-
-```
-As every website needs a sign in and register form with
-authentication to register their user this script will help them
-as they can use it as a component using React
-```
-
 ### Third-Party Libraries Required :
 
 ```
@@ -39,14 +30,20 @@ For Front-End:
   "web-vitals": "^1.1.2"
 ```
 
-### How to install the above dependencies :
+### How to install the above Library :
 
 - Change to the directory using -
   ```
   cd sign-in-and-register-form
   ```
-- Install the dependencies using -
+- For the front-end:-
   ```
+  cd client
+  npm install
+  ```
+- For the back-end:-
+  ```
+  cd api
   npm install
   ```
 
@@ -72,8 +69,11 @@ use your username and password and database name here you created in MongoDB atl
 
 ### Output:
 
+#### Input Image
 - First you have to register if you are not already registered:-
  ![image](https://user-images.githubusercontent.com/64858573/125296469-f359e180-e343-11eb-9080-3e976f8540c7.png)
+#### Input Image
 - Then you have to login using your registered username and password:- \*![image](https://user-images.githubusercontent.com/64858573/125297489-e689bd80-e344-11eb-9e80-c8432888b1ef.png)
+#### Output Image
 - Then if you want then logout press the logout button:-
  ![image](https://user-images.githubusercontent.com/64858573/125298640-f524a480-e345-11eb-8d6e-e8335df52d09.png)
