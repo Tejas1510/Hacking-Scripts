@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>BMI Caculator</title>
+    <meta name="description" content="">
+    <meta name="author" content="Supritha">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div>
+        <h2>Body Mass Index Calculator</h2>
+        <p class="text">Height in cm</p>
+        <input type="text" id="h">
+        <p class="text">Weight in kg</p>
+        <input type="text" id="w">
+        <p id="result"></p>
+        <button id="btn" onClick="BMI()">Calculate</button>
+    </div>
+    <div id="table">
+        <table>
+            <tr>
+                <th>Underweight</th> 
+                <th>Healthy</th>
+                <th>Overweight</th>
+                <th>Obese</th>
+            </tr>
+           <tr>
+               <td> Below 18.5</td>
+               <td>18.5-24.9</td>
+               <td>25.0-29.9</td>
+               <td> 30.0 and above</td>
+           </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

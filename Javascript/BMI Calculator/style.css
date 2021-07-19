@@ -1,0 +1,91 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"); 
+
+
+
+body{
+margin: 0;
+padding: 0;
+text-align: center;
+font-family: "Montserrat";
+background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,68,45,1) 100%);
+min-height: 100vh;
+}
+
+div{
+width: 350px;
+position: absolute;
+top: 50%;
+left: 50%;
+background-color: #fff;
+transform: translate(-50%, -50%);
+padding: 20px;
+border-radius: 10px;
+}
+		
+h2{
+font-size: 30px;
+font-weight: 600;
+}
+
+.text{
+text-align: center;
+}
+		
+#w, #h{
+color: #222f3e;
+text-align: left;
+font-size: 20px;
+font-weight: 200;
+outline: none;
+border:1px solid black;
+border-radius:7px;
+width: 200px;
+height:35px;
+}
+
+#w:focus, #h:focus{
+width: 250px;
+transition: 0.5s;
+}
+			
+#result{
+color: #341f97;
+}
+			
+#btn{
+font-family: inherit;
+margin-top: 10px;
+border: none;
+color: #000;
+background:lightblue;
+width: 150px;
+padding: 10px;
+border-radius: 30px;
+outline: none;
+cursor: pointer;
+transition:0.5s;
+}
+
+#btn:hover{
+transform:scale(1.1);
+transition:0.5s;
+}
+#table{
+    height:100px;
+    width:800px;
+    margin:0 auto;
+    border:5px solid ;
+    text-align:right;
+    font-size:30px;
+    background-color:bisque;
+    margin-top:300px;
+    margin-left:10px;
+}
+th,td,table{
+    text-align:center;
+    border:3px solid;
+    margin:auto;
+    font-size:30px;
+}		

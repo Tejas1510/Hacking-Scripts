@@ -11,35 +11,28 @@
   <a href = "https://www.javascript.com/"><img src="https://img.shields.io/badge/language-Javascript-blue?style=for-the-badge"></a>
   <a href = "https://www.java.com/en/"><img src="https://img.shields.io/badge/language-Java-blue?style=for-the-badge"></a>
   <a href = "https://nodejs.org/en/"><img src="https://img.shields.io/badge/language-Nodejs-blue?style=for-the-badge"></a>
+  <a href="https://github.com/Tejas1510/Hacking-Scripts/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Tejas1510/Hacking-Scripts?style=for-the-badge"></a>
  </p>
 
- <p align="center">
-<a href="https://github.com/Tejas1510/Hacking-Scripts/stargazers"><img src="https://img.shields.io/github/stars/Tejas1510/Hacking-Scripts?style=for-the-badge"></a>
-<a href="https://github.com/Tejas1510/Hacking-Scripts/network/members"><img src="https://img.shields.io/github/forks/Tejas1510/Hacking-Scripts?style=for-the-badge"> </a>
-<a href="https://github.com/Tejas1510/Hacking-Scripts/issues"><img src="https://img.shields.io/github/issues-raw/Tejas1510/Hacking-Scripts?style=for-the-badge"></a>
-<a href="https://github.com/Tejas1510/Hacking-Scripts/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/Tejas1510/Hacking-Scripts?style=for-the-badge"></a>
-<a href="https://github.com/Tejas1510/Hacking-Scripts/pulls"><img src="https://img.shields.io/github/issues-pr-raw/Tejas1510/Hacking-Scripts?style=for-the-badge"></a>
-</p>
 
 ## 📢 Join Official Slack channel for Discussion about the project : [Hacking-Scripts](https://swoc-workspace.slack.com/archives/C01HV9LADSQ)
 
 <p align = "center">
-  <img height="700" width ="700" src = "https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/Logos/logohackingscript.png"></img>
+  <img height="500" width ="600" src = "https://github.com/Komal-99/Hacking-Scripts/blob/main/assets/Logos/logohackingscript%20(1).png"></img>
 </p>  
 
-## 📌 Introduction
 
-<b>Hacking Scripts</b> contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs and many more. The main aim of this repository is to provide utility scripts that could make everyday life easy. Get started with coding exhilarating scripts that can be useful to download PDFs from an Online Source or just to randomly accept bulk linkedin request.
+<center><h1 align="center">Introduction📌</h1></center>
+<h3>Hacking Scripts</h3>
+
+This Project contains amazing and awesome scripts written in Python, JavaScript, Java, Nodejs and many more. The main aim of this repository is to provide utility scripts that could make everyday life easy. Get started with coding exhilarating scripts that can be useful to download PDFs from an Online Source or just to randomly accept bulk linkedin request.
 
 <center><h1 align="center">Technologies Used</h1></center>
-<p align="center">
-<img height="200" width ="200" src = "https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/pythonlogo.jfif"></img>
-<img height="200" width ="300" src = "https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/javascriptlogo.png"></img>
-<img height="200" width ="200" src = "https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/javalogo.png"></img>
-<img height="200" width ="400" src = "https://github.com/Tejas1510/Hacking-Scripts/blob/main/assets/htmllogo.jfif"></img>
-</p>
+<p align="center"><a href="https://www.javascript.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="JS" width="40" height="40"/> </a><a href="https://www.w3schools.com/python/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="Python" width="70" height="60"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a><a href="https://html.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="Html" width="40" height="40"/> </a><a href="https://www.w3schools.com/java/java_intro.asp" target="_blank"> <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt="Java" width="70" height="50"/> </a>
+<a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://user-images.githubusercontent.com/74819092/124508757-1b9a8b00-ddee-11eb-8151-e8e81f6b1e49.png" alt="CSS" width="70" height="50"/> </a></p>
 
-## ⭐ Getting Started
+<center><h1 align="center">Getting Started ⭐ </h1></center>
+
 
 Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
 
@@ -48,40 +41,37 @@ Refer to the following articles on the basics of Git and Github and can also con
 - [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+<center><h1 align="center">💥 Contribution </h1></center>
 
-## 💥 Contribution
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 - Take a look at the Existing [Issues](https://github.com/Tejas1510/Hacking-Scripts/issues) or create your own Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
-- Fork the Repo and create a Branch for any Issue that you are working upon.
 - Read the [Code of Conduct](https://github.com/Tejas1510/Hacking-Scripts/blob/main/CODE_OF_CONDUCT.md)
-- Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
-- Add Screenshots to help us know what this Script is all about.
-- Take a look at Contribution guide for Detail : [Contribution Guide](https://github.com/Tejas1510/Hacking-Scripts/blob/main/CONTRIBUTION.md)
-
-
-## ⭐ Contribution:
-**1.** Fork [this](https://github.com/Tejas1510/Hacking-Scripts/) repository.
+- Fork [this](https://github.com/Tejas1510/Hacking-Scripts/) repository.
 Click on the <a href="https://github.com/Tejas1510/Hacking-Scripts/"><img src="assets/forkIcon.JPG" width="50"></a> symbol at the top right corner.
-
-**2.** Clone the forked repository.
+- Clone the forked repository.
 
 ```bash
 git clone https://github.com/<your-github-username>/Hacking-Scripts
 ```
-
-**3.** Navigate to the project directory.
+- Navigate to the project directory.
 
 ```bash
 cd Hacking-Scripts
 ```
+<p>
+  
+* Create new branch for your feature.
 
-**4.** Make changes in source code.
-
-**5.** Stage your changes and commit
+* Make all changes of source code in new branch.
+  
+<img src="https://user-images.githubusercontent.com/74819092/124509254-3faa9c00-ddef-11eb-9fd5-4e2ca9ee64cb.png">
+ </p>
+ 
+* Stage your changes and commit
 
 ```bash
 #Add changes to Index
@@ -90,19 +80,16 @@ git add .
 #Commit to the local repo
 git commit -m "<your_commit_message>"
 ```
-
-**6.** Push your local commits to the remote repo.
+- Push your local commits to the remote repo.
 
 ```bash
 git push
 ```
-
-**7.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
-
-**8.** **Congratulations!** Sit and relax, you've made your contribution to [Hacking-Scripts](https://github.com/Tejas1510/Hacking-Scripts) project.
-
-
-## 📢  Open Source Program
+- Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)  which will be promptly reviewed and suggestions would be added to improve it.
+- Add Screenshots to help us know what this Script is all about.
+- Congratulations! 🎉 Sit and relax, you've made your contribution to [Hacking-Scripts](https://github.com/Tejas1510/Hacking-Scripts) project.
+- Take a look at Contribution guide for Detail : [Contribution Guide](https://github.com/Tejas1510/Hacking-Scripts/blob/main/CONTRIBUTION.md)
+<center><h1 align="center">📢  Open Source Program </h1></center>
 
 ### This Project is a part of the following Open Source Program
 
