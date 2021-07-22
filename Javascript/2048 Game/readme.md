@@ -21,7 +21,7 @@ Inside the 2048 Game folder run the index.html file.<br>
 * CSS
 * JavaScript
 <br>
-## Output
+## OUTPUT
 <img src="initial.png" alt="Screen 1" width="300" height="200"/>
 <img src="play.png" alt="play screen" width="300" height="200"/>
 <img src="gameover.png" alt="over screen" width="300" height="200"/>
