@@ -24,9 +24,18 @@
 - #### This scripts helps us to easily check the correctness of any regex expression.
 
 # Compilation Steps :
-- #### Install tkinter, re
-- #### After that download the code file, and run regex_checker.py on local system.
-- #### Then the script will start running and user can explore entering any valid or invalid regex and checking its correctness.
+1. Clone/Download this repository
+```
+git clone clone_path
+```
+2. Install the requirements using the command
+```
+pip install -r requirements.txt
+```
+3. Run the program using command
+```
+python regex_checker.py
+```
 
 ****
 
@@ -45,6 +54,3 @@
 </p>
 
 ****
-
-# Author :
-- ### Akash Ramanand Rajak
