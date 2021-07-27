@@ -7,6 +7,7 @@ from tkinter import *
 import tkinter as tk
 import tkinter.messagebox as mbox
 import re
+import cv2
 
 
 # created main window
@@ -36,6 +37,12 @@ window.after(0, update, 0)
 # --------------------------------------------------------------------
 
 def start_fun():
+    # function defined to show cheatsheet when clicking on button
+    def cheat_fun():
+        img = cv2.imread("Images/cheat_sheet.jpg", 1)
+        cv2.imshow("Regex Cheatsheet", img)
+
+    # function defined to check the regex
     def regex_check():
         try:
             s = str(regex_enter.get("1.0", END))
@@ -68,11 +75,15 @@ def start_fun():
 
     # created check button
     checkb = Button(f1, text="REGEX - CHECK",command=regex_check,font=("Arial", 25), bg = "light green", fg = "blue", borderwidth=3, relief="raised")
-    checkb.place(x =150 , y =600 )
+    checkb.place(x =100 , y =600 )
+    
+    # created check button
+    cheatb = Button(f1, text="REGEX CHEATSHEET", command=cheat_fun, font=("Arial", 20), bg="orange", fg="blue",borderwidth=3, relief="raised")
+    cheatb.place(x=400, y=600)
 
     # created clear button
-    clearb = Button(f1, text="CLEAR", command=clear_entry, font=("Arial", 25), bg="orange", fg="blue",borderwidth=3, relief="raised")
-    clearb.place(x=670, y=600)
+    clearb = Button(f1, text="CLEAR", command=clear_entry, font=("Arial", 25), bg="yellow", fg="blue",borderwidth=3, relief="raised")
+    clearb.place(x=765, y=600)
 
 
 # top label
