@@ -1,0 +1,10 @@
+E:\C#\Project in c#\Text to Speech\bin\Debug\Text to Speech.exe.config
+E:\C#\Project in c#\Text to Speech\bin\Debug\Text to Speech.exe
+E:\C#\Project in c#\Text to Speech\bin\Debug\Text to Speech.pdb
+E:\C#\Project in c#\Text to Speech\obj\Debug\Text to Speech.csproj.AssemblyReference.cache
+E:\C#\Project in c#\Text to Speech\obj\Debug\Text_to_Speech.Form1.resources
+E:\C#\Project in c#\Text to Speech\obj\Debug\Text_to_Speech.Properties.Resources.resources
+E:\C#\Project in c#\Text to Speech\obj\Debug\Text to Speech.csproj.GenerateResource.cache
+E:\C#\Project in c#\Text to Speech\obj\Debug\Text to Speech.csproj.CoreCompileInputs.cache
+E:\C#\Project in c#\Text to Speech\obj\Debug\Text to Speech.exe
+E:\C#\Project in c#\Text to Speech\obj\Debug\Text to Speech.pdb

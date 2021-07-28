@@ -28,16 +28,14 @@ Open your terminal and navigate to the directory where you downloaded this proje
 python certificate.py
 ```
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/certificate/Python/Certificate_Generator/images/input1.png)
-
+![endpoint](https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/Certificate_Generator/images/input1.png)
 
 ## Yaay! Now you've successfully generated all your certificates and you can find them in the *Generated_Certificate* directory. Happy Coding! 💘
 
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/certificate/Python/Certificate_Generator/images/image1.png)
+![endpoint](https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/Certificate_Generator/images/image1.png)
 
-![endpoint](https://github.com/Tejas1510/hacking-tools-scripts/blob/certificate/Python/Certificate_Generator/images/image2.png)
-
+![endpoint](https://raw.githubusercontent.com/Tejas1510/Hacking-Scripts/main/Python/Certificate_Generator/images/image1.png)
 
 ![built with love](https://forthebadge.com/images/badges/built-with-love.svg)
 

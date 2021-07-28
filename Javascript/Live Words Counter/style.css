@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+  }
+  
+  body{
+    background:
+  linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+  linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+  background-color:#708090;
+  background-size: 64px 128px; 
+  }
+  
+  
+  .ui-input-container {
+    background-color: #fff;
+    
+    padding: 3rem;
+    border-radius: 4px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top:100px;
+    
+    display:flex;
+    flex-direction:column;
+    
+  }
+  .ui-input-container h2 {
+    font-family: monospace;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size:25px;
+    text-align:center;
+  }
+  .ui-form-input-container {
+    position: relative;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    display: block;
+  }
+  .ui-form-input {
+    padding: 13px 15px;
+    border-radius: 8px;
+    border: 2px solid #1a73e8;
+    outline: 0;
+    width: 100%;
+  }
+  
+  .form-input-label {
+    position: absolute;
+    top: -7px;
+    left: 10px;
+    color: #1a73e8;
+    font-size: 0.95rem;
+    padding-right: 0.33rem;
+    padding-left: 0.33rem;
+    background: #fff;
+    transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: monospace;
+    text-transform: capitalize;
+  }
+  
+  
+  
+  textarea {
+    min-height: 6em;
+    max-height: 50vh;
+    width: 100%;
+  }
+  
+  p{
+    font-size:1.5rem;
+    text-align:center;
+  }
+  

@@ -1,0 +1,44 @@
+#box div {
+    display: inline-block;
+    height: 123px;
+    width: 24%;
+    background-color: rgb(187, 171, 171, 0.7);
+    margin: 1px 2.5px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4em;
+    border: 1px solid grey;
+}
+
+.game-ow p {
+    font-size: 150px;
+    font-weight: bold;
+}
+
+
+/* @keyframes slideIn {
+    99% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+
+.game-ow {
+    animation-name: slideIn;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+} */
+
+
+/*
+@keyframes sample {
+    from {
+        background-image: linear-gradient(red, yellow);
+    }
+    to {
+        background-image: linear-gradient(blue, purple);
+    }
+} */

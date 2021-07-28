@@ -10,6 +10,88 @@
 # General
 --------------------------------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+    box-sizing: border-box;
+}
+  .preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99999999;
+    background: url('../Loader.webp'); /* your icon gif file path */
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    background-position: center;
+    }
+
+    #stop-scrolling {
+        height: 100% !important;
+        overflow: hidden !important;
+        }
+
+
+body {
+    background-color: #fafafa;
+    margin: 0;
+    transition: background 0.2s linear;
+}
+
+body.dark {
+    background: #292C35;
+    color: white;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.label {
+    background-color: #111;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 26px;
+    width: 50px;
+    transform: scale(1.5);
+}
+
+.label .ball {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked+.label .ball {
+    transform: translateX(24px);
+}
+
+.fa-moon {
+    color: white;
+}
+
+.fa-sun {
+    color: #f39c12;
+    font-size: 12px;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #555555;
@@ -453,7 +535,7 @@ section {
     text-transform: uppercase;
     margin-bottom: 15px;
     padding-bottom: 0;
-    color: #151515;
+    color: #3a16da;
 }
 
 .section-title p {
@@ -1826,6 +1908,7 @@ section {
 
 .services1 .icon-box .icon img {
     max-width: 100%;
+    transition: 0.5s all ease-in-out;
 }
 
 .services1 .title {
@@ -1847,26 +1930,32 @@ section {
 
 .services1 .icon-box-javascript:hover {
     border-color: #f0db4f;
+    transform: scale(1.25);
 }
 
 .services1 .icon-box-python:hover {
     border-color: #4b8bbe;
+    transform: scale(1.25);
 }
 
 .services1 .icon-box-java:hover {
     border-color: #f89820;
+    transform: scale(1.25);
 }
 
 .services1 .icon-box-nodejs:hover {
     border-color: #68a063;
+    transform: scale(1.25);
 }
 
 .services1 .icon-box-c:hover {
     border-color: #273493;
+    transform: scale(1.25);
 }
 
 .services1 .icon-box-android:hover {
     border-color: #3ddc84;
+    transform: scale(1.25);
 }
 
 .btn-get-started-javascript {

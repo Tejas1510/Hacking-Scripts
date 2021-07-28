@@ -1,0 +1,233 @@
+<LoginScreen>:
+    GridLayout:
+        cols:1
+        GridLayout:
+            cols:1
+            padding:20,20
+            spacing:15,15      
+            Image:
+                source: 'logo.png'
+                allow_stretch: True    
+                size_hint_y:None 
+                height:'170dp'    
+            MDLabel:
+                text:"User Login"
+                halign:"center"
+                font_style: 'H6'
+            MDTextField:
+                id:username
+                hint_text:"Enter Username"
+                mode: "rectangle"
+            MDTextField:
+                id:password
+                hint_text:"Enter Password"
+                password:True
+                mode: "rectangle"
+            RelativeLayout:
+                MDRaisedButton:
+                    text:"Login"
+                    on_press:root.log_in(root.ids.username.text,root.ids.password.text)
+                    size_hint:0.2,0.8
+                    pos_hint:{'center_x':0.5,'center_y':0.5}
+
+            MDLabel:
+                id:log_err
+                halign:"center"
+                text:""
+                color:'#FF0000'
+        GridLayout:
+            cols:2
+            size_hint:0.2,0.2
+            padding:20,20
+            spacing:20,20
+            Button:
+                text:"Forgot Password ?"
+                on_press:root.forgot()
+                background_color:1,1,1,0
+                opacity:1 if self.state=='normal' else 0.5
+                color:0.1,0.7,1,1
+            Button:
+                text:"Sign Up"
+                on_press:root.sign_up()
+                background_color:1,1,1,0
+                opacity:1 if self.state=='normal' else 0.5
+                color:0.1,0.7,1,1
+
+<SignUpScreen>:
+    GridLayout:
+        cols:1
+        GridLayout:
+            cols:1
+            spacing:20,20
+            padding:20,20
+            MDLabel:
+                text:"Sign Up"
+                halign:"center"
+                font_style:'H4'
+                color:0.1,0.7,1,1
+            MDTextField:
+                id: fname
+                hint_text:"Enter First Name"
+            MDTextField:
+                id: lname
+                hint_text:"Enter Last Name"
+            MDTextField:
+                id: username
+                hint_text:"Enter Username"
+            MDTextField:
+                id: password
+                hint_text:"Enter Password"
+
+        GridLayout:
+            cols:2
+            size_hint:0.3,0.3
+            padding:20,20
+            spacing:20,20  
+
+            RelativeLayout:
+                MDFillRoundFlatButton:
+                    markup:True
+                    text:"[b]<-- Back[/b]"
+                    on_press:root.back()
+                    opacity:1 if self.state=='normal' else 0.5
+                    size_hint:0.3,0.5
+                    pos_hint:{'center_x':0.3,'center_y':0.5}
+
+            RelativeLayout:
+                MDFillRoundFlatButton:
+                    markup:True
+                    text:"[b]Submit -->[/b]"
+                    on_press:root.add_user(root.ids.fname.text,root.ids.lname.text,root.ids.username.text,root.ids.password.text)
+                    opacity:1 if self.state=='normal' else 0.5
+                    size_hint:0.3,0.5
+                    pos_hint:{'center_x':0.7,'center_y':0.5}
+
+<SignUpSuccessful>:
+    GridLayout:
+        cols:1
+        GridLayout:
+            cols:1
+            padding:20,20
+            spacing:20,20
+            MDLabel:
+                text:"Sign Up Successfull"
+                halign:"center"
+                font_style:'H1'
+                color:0.1,0.7,1,1
+            RelativeLayout:
+                MDFillRoundFlatButton:
+                    markup:True
+                    text:"[b]<-- Back To Login page[/b]"
+                    on_press:root.back_to_login()
+                    size_hint:0.5,0.2
+                    font_size:'20sp'
+                    pos_hint:{'center_x':0.5,'center_y':0.5}
+
+<LoginSuccessful>:
+    GridLayout:
+        cols:1
+        padding:20,20
+        spacing:25,25
+        GridLayout:
+            cols:1
+            RelativeLayout:
+                Button:
+                    text:'Logout'
+                    on_press:root.log_out()
+                    size_hint: 0.2,0.5
+                    pos_hint:{'center_x':0.95,'center_y':0.75}
+                    background_color:1,1,1,0
+                    opacity:1 if self.state=='normal' else 0.5
+                    color:0.1,0.7,1,1
+            MDLabel:
+                text:'Convert Currency'
+                halign:"center"
+                font_style:'H3'
+                color:0.1,0.7,1,1
+        GridLayout:
+            cols:2
+            RelativeLayout:
+                MDTextField:
+                    id:amount
+                    hint_text:"Amount"
+                    font_size:'21sp'
+                    size_hint:0.6,0.4
+                    pos_hint:{'center_x':0.4,'center_y':0.6}
+            RelativeLayout:
+                Spinner:
+                    id:spinner
+                    text:'Select The Currency'
+                    font_size:'16sp'
+                    values:['U.S. Dollar (USD)','European Euro (EUR)','British Pound (GBP)','Canadian Dollar (CAD)','Japanese Yen (JPY)','Swiss Franc (CHF)','Australian/New Zealand Dollar']
+                    size_hint:0.6,0.3
+                    pos_hint:{'center_x':0.6,'center_y':0.6}
+                    #on_text:root.selected(spinner.text)
+
+        GridLayout:
+            cols:1
+            RelativeLayout:
+                MDFillRoundFlatButton:
+                    text:'Convert To INR'
+                    font_size:'15sp'
+                    size_hint:0.2,0.5
+                    pos_hint:{'center_x':0.5,'center_y':0.85}
+                    on_press:root.convert(root.ids.amount.text,root.ids.spinner.text)
+            MDLabel:
+                markup:True
+                id:currency
+                text:''
+                color:'#9370DB'
+                halign:"center"
+                font_style:'H4'
+
+
+<ForgotPassword>:
+    GridLayout:
+        cols:1
+        padding:20,20
+        spacing:20,20
+        MDLabel:
+            text:'Forgot Your Password ? '
+            halign:"center"
+            font_style:'H4'
+            color:0.1,0.7,1,1
+        MDTextField:
+            id:get_uname
+            hint_text:"Enter Username"
+            font_size:'24sp'
+        MDLabel:
+            id:findpassword
+            halign:"center"
+            font_style: 'H5'
+            text:""
+            color:'#FF9E08'
+        RelativeLayout:
+            MDFillRoundFlatButton:
+                markup:True
+                size_hint:0.3,0.4
+                text:'[b]Find password[/b]'
+                on_press:root.find_password(root.ids.get_uname.text)
+                pos_hint:{'center_x':0.5,'center_y':0.5}
+        RelativeLayout:
+            MDFillRoundFlatButton:
+                markup:True
+                size_hint:0.3,0.4
+                text:"[b]Back -->[/b]"
+                on_press:root.back_to_login()
+                pos_hint:{'center_x':0.8,'center_y':0.5}
+
+<RootWidget>:
+    LoginScreen:
+        name:"login_screen"
+
+    SignUpScreen:
+        name:"signup_screen"    
+
+    SignUpSuccessful:
+        name:'sign_up_success'            
+
+    LoginSuccessful:
+        name:'log_in_success'
+
+    ForgotPassword:
+        name:'forgot_password'

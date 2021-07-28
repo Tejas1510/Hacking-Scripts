@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Words Counter</title>
+    <meta name="description" content="Words and characters Live Counter">
+    <meta name="author" content="Supritha">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div class="ui-input-container">
+        <h2>Word Counter</h2>
+        <label class="ui-form-input-container">
+            <textarea class="ui-form-input" id="word-count-input"></textarea>
+            <span class="form-input-label">Text</span>
+        </label>
+        <p aria-live="polite">
+            <strong>
+                <span id="word-count">0</span> words</strong> , <strong>
+                <span id="character-count">0</span> characters</strong>
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

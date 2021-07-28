@@ -1,7 +1,7 @@
 ## ATM Machine System
 
 ## Description
-Here it will firstly print to insert your card then after 5 seconds you need to type password if it is wrong then it will say to write the correct pin again and if pin is write than we can check balance ,withdraw money and deposit money.
+Here it will firstly print to insert your card then after 5 seconds you need to type password if it is wrong then it will say to write the correct pin again and if pin is correct then we can check balance ,withdraw money and deposit money.
 
 Third-Party Libraries Required :
 Time
@@ -10,7 +10,7 @@ How to install the above Library
 pip install time(it is inbuilt in most versions)
 
 ## How to use it :
-Here it will firstly print to insert your card then after 5 seconds you need to type password if it is wrong then it will say to write the coorect pin again and if pin is write than 
+Here it will firstly print to insert your card then after 5 seconds you need to type password if it is wrong then it will say to write the coorect pin again and if pin is correct then 
 we can check balance ,withdraw money and deposit money.
 
 ## Output
