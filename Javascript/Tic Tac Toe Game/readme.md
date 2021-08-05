@@ -1,18 +1,35 @@
-# Tic tac toe Game 
-This is a Java Script, which helps to play Tic Tac Toe Game.
+<h1>Tic-Tac-Toe Game</h1>
 
-## Steps to make it run
+<p>Simple Tic-Tac-Toe Game written in HTML, CSS, and JavaScript with No Third Party Libraries Used.</p>
 
-1. Clone/Download this repository
+### Use of the Project:
+
+<p>The Tic-Tac-Toe Game is to be played between two people (in this program between HUMAN and COMPUTER)</p>
+<h3>Used Technologies</h3>
+<ul>
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>JavaScript</li>
+</ul>
+
+## Steps to Use:
+
+- Download or clone the repository
+
 ```
-git clone clone_path
+git clone https://github.com/Tejas1510/Hacking-Scripts.git
 ```
-2. Run the HTML file in liver server extension
 
-3. After that you can select either dark mode feature of the game or normal feature 
+- Go to the directory
+- Run the index.html file
+- Start Playing!! 
 
-Dark feature for playing game:
-![Screenshot (581)](https://user-images.githubusercontent.com/61947484/103622319-8d3b6e80-4f5c-11eb-9b22-4d91d81933c1.png)
+Dark Mode:
 
-Normal feature:
-![Screenshot (582)](https://user-images.githubusercontent.com/61947484/103622391-aa703d00-4f5c-11eb-807d-8a50ed2e792a.png)
+<img width="878" alt="tictactoe-dark" src="https://user-images.githubusercontent.com/64218887/124980723-61f02400-e052-11eb-9c8d-1b05b72b28c4.png">
+
+
+Light Mode:
+
+<img width="889" alt="tictactoe-light" src="https://user-images.githubusercontent.com/64218887/124980753-69afc880-e052-11eb-8ce9-0e2bb2db1ecf.png">
+
