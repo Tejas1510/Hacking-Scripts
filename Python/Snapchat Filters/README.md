@@ -21,9 +21,34 @@ And then using the for loop we are superimposing the image with the help of 3 ch
 
 We are not using any traditional model for performing this task.
 
-LIBRARIES NEEDED
+**LIBRARIES NEEDED:**
 - MTCNN
 - Numpy
 - OpenCV
 - Matplotlib
 
+**WORKING:**
+
+To start using this project, follow the below guidelines: 
+
+**1.**  Fork this project/repository. 🍴
+
+**2.**  Clone your forked copy of the project/repository.
+
+```
+git clone https://github.com/<your-github-username>/Hacking-Scripts.git
+```
+
+**3.** Navigate to the project directory :file_folder: 
+
+```
+cd Hacking-Scripts/Python/Snapchat Filters/
+```
+
+**4.** Install the `requirements.txt` using command 🔧
+
+```
+pip install -r requirements.txt
+```
+
+**5.** Run `snapchat_filters.ipynb` file in Google Colab or Jupyter Notebook or any other platform 💻
