@@ -1,9 +1,11 @@
 # Snapchat Filters
 
 **GOAL:**
+
 We will build our own Snapchat Filters with the help of some libraries using Python programming language.
 
 **DATASET:**
+
 No dataset available. Instead we will be using images of our choice.
 
 **WHAT I HAD DONE:**
@@ -52,3 +54,37 @@ pip install -r requirements.txt
 ```
 
 **5.** Run `snapchat_filters.ipynb` file in Google Colab or Jupyter Notebook or any other platform 💻
+
+**CONCLUSION:**
+
+Finally, we have created a project for snapchat filters with the help of this project we can apply any kind of filters on different images. And we have also learnt how to make such type of snapchat filters, the output we got with this project is also attached here.
+
+**SCREENSHOTS:**
+
+**1. Sample image of Human**
+<div align="center">
+
+<img width="500" height="550" src="../Snapchat%20Filters/Images/chris%20hems%20img.jpg">
+</div>
+
+**2. Sample image of Goggles**
+<div align="center">
+
+<img width="500" height="300" src="../Snapchat%20Filters/Images/sunglasses.png">
+</div>
+
+**3. Output**
+<div align="center">
+
+<img width="500" height="550" src="../Snapchat%20Filters/Images/ImageWithGoggles.png">
+</div>
+
+**4. Comparison**
+<div align="center">
+
+<img width="700" height="400" src="../Snapchat%20Filters/Images/Snapchat_Filtered.png">
+</div>
+
+
+### Contributor
+<a href="https://github.com/Umesh-01">Umesh Singh</a>
