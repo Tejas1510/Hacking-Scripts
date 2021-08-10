@@ -61,3 +61,27 @@ pip install -r requirements.txt
 ```
 
 **5.** Run `change_image_background.ipynb` file in Google Colab or Jupyter Notebook or any other platform.
+
+#### SCREENSHOTS:
+
+**1. Sample image for any Object**
+<div align="center">
+
+<img width="700" height="450" src="../Change%20Image%20Background/Images/Asus%20rog%20logo.jpg">
+</div>
+
+**2. Image for Background**
+<div align="center">
+
+<img width="700" height="450" src="../Change%20Image%20Background/Images/black wood Background.jpg">
+</div>
+
+**3. Final Output**
+<div align="center">
+
+<img width="700" height="450" src="../Change%20Image%20Background/Images/Final_image.png">
+</div>
+
+
+### Contributor
+<a href="https://github.com/Umesh-01">Umesh Singh</a>
