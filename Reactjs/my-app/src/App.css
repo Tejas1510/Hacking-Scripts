@@ -1,0 +1,34 @@
+.App{
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+h1{
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+  padding: 10px;
+}
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+.search-button{
+  background:lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+.recipe{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
