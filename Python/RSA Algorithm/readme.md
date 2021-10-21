@@ -8,6 +8,8 @@ A client (for example browser) sends its public key to the server and requests f
 The server encrypts the data using client’s public key and sends the encrypted data.
 Client receives this data and decrypts it.
 
+To know more about the logic of RSA Algorithm. Kindly visit https://www.geeksforgeeks.org/rsa-algorithm-cryptography/
+
 ## Libraries required for the game
 - Socket
 - Before working with the project, you need to keep ready ip address of your system. You can retrieve ip address by :
