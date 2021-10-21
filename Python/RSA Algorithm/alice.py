@@ -1,7 +1,7 @@
 #ALICE
 import socket
 s = socket.socket()
-s.bind(("192.168.56.1",9999))
+s.bind((" ",9999))
 s.listen(3)
 while True:
     c,addr = s.accept()
