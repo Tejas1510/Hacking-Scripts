@@ -3,7 +3,7 @@ import math
 import socket
 
 c = socket.socket()
-c.connect(("192.168.56.1",9999))
+c.connect(("",9999))
 p = int(input("Enter prime no. (p): "))
 q = int(input("Enter prime no. (q): "))
 n = p*q;
