@@ -44,7 +44,7 @@ $ git clone https://github.com/<your-username>/Hacking-Scripts
 $ cd Hacking-Scripts
 $ git remote add upstream https://github.com/Tejas1510/Hacking-Scripts
 ```
-![fork](https://github.com/adviksinghania/Hacking-Scripts/blob/patch-contrib/assets/fork.jpg)
+![fork](https://github.com/Tejas1510/Hacking-Scripts/blob/patch-contrib/assets/fork.jpg)
 - If you have already forked the project, update your copy before working.
 ```
 $ git remote update
