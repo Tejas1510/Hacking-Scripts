@@ -1,0 +1,12 @@
+{
+  "name": "realtime-subscriber-count",
+  "version": "1.0.0",
+  "description": "Express Server -> GET youtube analytics every x seconds   * Server stores last known value   * Emit socket message with last known value Client -> listens on socket for subscriber count change   * Displays latest subscriber count",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
+  "license": "MIT"
+}
