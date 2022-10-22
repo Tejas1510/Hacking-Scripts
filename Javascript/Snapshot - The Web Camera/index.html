@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snapshot</title>
+    <link rel="stylesheet" href="design.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Please Allow Camera Access</h1>
+      <video class="videoStream" playsinline autoplay src></video>
+      <canvas class="shot"></canvas>
+      <div class="instruct-container">
+        <div class="change-camera">
+          <img
+            src="./62da532313d78f789be64c06811f39f0-reset-icon-svg-by-vexels.png"
+          />
+        </div>
+        <div class="capture-shot">Capture Image</div>
+        <div class="capture-video">
+          <img src="./139_Camera_Image_Basic_Ui-512.webp" />
+        </div>
+      </div>
+      <div class="quick-image-editor">
+        <div class="save-retake">
+          <div class="save-btn">Save</div>
+          <div class="retake-btn">
+            <img
+              src="./62da532313d78f789be64c06811f39f0-reset-icon-svg-by-vexels.png"
+            />
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="brightness-slider">
+          <div class="progress"></div>
+          <div class="type">Brightness</div>
+          <input type="range" min="0" max="1" step="0.1" value="0.5" />
+        </div>
+        <div class="contrast-slider">
+          <div class="progress"></div>
+          <div class="type">Contrast</div>
+          <input type="range" min="0" max="1" step="0.1" value="0.0" />
+        </div>
+        <div class="saturation-slider">
+          <div class="progress"></div>
+          <div class="type">Saturation</div>
+          <input type="range" min="0" max="1" step="0.1" value="0.5" />
+        </div>
+        <div class="sepia-slider">
+          <div class="progress"></div>
+          <div class="type">Sepia</div>
+          <input type="range" min="0" max="1" step="0.1" value="0" />
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./editor.js"></script>
+    <script src="./download.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
