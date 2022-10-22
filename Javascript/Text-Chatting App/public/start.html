@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Texting App</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            font-family: Helvetica, sans-serif;
+        }
+
+        .err{
+            background: rgba(231,93,93,0.5);
+            padding: 5px;
+            margin-top: 5px;
+        }
+        .container{
+            background-color: #141414;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 50%;
+            height: 100%;
+            color: white;
+        }
+
+        #create{
+            background-size: cover; 
+            background-image: url(https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section" id="create">
+        <h2>Create Room:</h2>
+        <input id="crid" type="text" placeholder="room id"/><br/>
+        <input id="uid1" type="text" placeholder="user id" /><br/>
+        <button id="cr">Create Room</button>
+        </div>
+        <div class="section" id="join">
+        <h2>Join Room:</h2>    
+        <input id="rid" type="text" placeholder="room id" /><br/>
+        <input id="uid2" type="text" placeholder="user id" /><br/>
+        <button id="er">Enter Room</button>
+        </div>
+    </div>
+</body>
+<script>
+    const origin = window.location.origin   
+    document.getElementById("cr").addEventListener('click',()=>{
+        const rid=document.getElementById("crid").value
+        const uid=document.getElementById("uid1").value
+        if(rid && uid){
+            fetch(origin+"/create-room"+`?roomId=${rid}&userId=${uid}`).then(res=>res.json()).then(data=>{
+                if(data.status==="success"){
+                    window.location.href=origin+"/room/"+rid+"/"+uid
+                }
+                else flashError({err:"Room-Id already exist"},"create")
+            })
+        }
+        else flashError({err:"Fill all fields"},"create")
+    })
+
+    document.getElementById("er").addEventListener("click",()=>{
+        const rid=document.getElementById("rid").value
+        const uid=document.getElementById("uid2").value
+        if(rid && uid){
+            fetch(origin+"/enter-room"+`?roomId=${rid}&userId=${uid}`).then(res=>res.json()).then(data=>{
+                if(data.status==="success"){
+                    window.location.href=origin+"/room/"+rid+"/"+uid
+                }
+                else flashError({err:"Room-Id does not exist"},"join")
+            })
+        }
+        else flashError({err:"Fill all fields"},"join")                
+        })
+
+        function flashError({err},ele){
+            const error = document.createElement('span')
+            error.className="err"
+            error.innerHTML = err
+            document.getElementById(ele).appendChild(error)
+            setTimeout(()=>{
+                document.getElementById(ele).removeChild(error)
+            },3000)
+        }
+    
+</script>
+</html>
