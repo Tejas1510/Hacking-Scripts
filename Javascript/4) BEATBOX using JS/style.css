@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("background.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.beatbox {
+  width: 600px;
+  height: 600px;
+  background-color: #333333;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.beat {
+  color: white;
+  border: 1px solid #333333;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  border-radius: 5px;
+  transition: 0.3s all;
+}
+.aqua {
+  border: 5px solid aqua;
+}
+.purple {
+  border: 5px solid #ff00ff;
+}
+.white {
+  border: 5px solid white;
+}
