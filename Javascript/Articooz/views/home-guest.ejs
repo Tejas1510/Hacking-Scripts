@@ -1,0 +1,47 @@
+<%- include('includes/header') %>
+
+<div class="container py-md-5">
+  <%- include('includes/flash') %>
+
+  <div class="row align-items-center">
+    <div class="col-lg-7 py-3 py-md-5">
+      <h1 class="display-3">The ultimate bloghub.</h1>
+      <p class="lead text-muted">
+        A platform where you can post articles and blogs, and search your interests. Follow people that match with your
+        vibe, and chat with them!
+      </p>
+    </div>
+    <div class="col-lg-5 pl-lg-5 pb-3 py-lg-5">
+      <form action="/register" method="POST" id="registration-form">
+        <% regErrors.forEach(function(message) { %>
+        <div class="alert alert-danger small"><%= message %></div>
+        <% }) %>
+
+        <div class="form-group">
+          <label for="username-register" class="text-muted mb-1"><small>Username</small></label>
+          <input name="username" id="username-register" class="form-control" type="text" placeholder="Pick a username"
+            autocomplete="off" />
+        </div>
+
+        <div class="form-group">
+          <label for="email-register" class="text-muted mb-1"><small>Email</small></label>
+          <input name="email" id="email-register" class="form-control" type="text" placeholder="you@example.com"
+            autocomplete="off" />
+        </div>
+
+        <div class="form-group">
+          <label for="password-register" class="text-muted mb-1"><small>Password</small></label>
+          <input name="password" id="password-register" class="form-control" type="password"
+            placeholder="Create a password" />
+        </div>
+
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+        <button type="submit" class="py-3 mt-4 btn btn-lg btn-success btn-block">
+          Sign up for Articooz
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<%- include('includes/footer') %>

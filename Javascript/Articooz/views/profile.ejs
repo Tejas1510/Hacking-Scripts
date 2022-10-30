@@ -1,0 +1,20 @@
+<%- include('includes/header') %>
+
+<div class="container py-md-5 container--narrow">
+  <%- include('includes/flash') %> <%- include('includes/profileShared') %>
+
+  <div class="list-group">
+    <% posts.forEach(function(post) { %>
+    <a
+      href="/post/<%= post._id %>"
+      class="list-group-item list-group-item-action"
+    >
+      <img class="avatar-tiny" src="<%= post.author.avatar %>" />
+      <strong><%= post.title %></strong> on <%= post.createdDate.getMonth() + 1
+      %>/<%= post.createdDate.getDate() %>/<%= post.createdDate.getFullYear() %>
+    </a>
+    <% }) %>
+  </div>
+</div>
+
+<%- include('includes/footer') %>

@@ -1,0 +1,36 @@
+<%- include('includes/header') %>
+
+<div class="container py-md-5 container--narrow">
+  <%- include('includes/flash') %> <% if (posts.length) { %>
+  <h2 class="text-center mb-4">Latest posts from people you follow</h2>
+  <div class="list-group">
+    <% posts.forEach(function(post) { %>
+    <a href="/post/<%= post._id %>" class="list-group-item list-group-item-action">
+      <img class="avatar-tiny" src="<%= post.author.avatar %>" />
+      <strong><%= post.title %></strong>
+      <span class="text-muted small">by <%= post.author.username %> on <%= post.createdDate.getMonth() + 1
+        %>/<%= post.createdDate.getDate() %>/<%= post.createdDate.getFullYear()
+        %></span>
+    </a>
+    <% }) %>
+  </div>
+  <% } else { %>
+  <div class="text-center">
+    <h2>Hey <strong><%= user.username %></strong>, your feed looks empty.
+      <p> Go and post something! </p>
+    </h2>
+    <br>
+
+    <h4> Create your Gravatar profile picture <a style="text-decoration: none;" href="https://en.gravatar.com/">
+        HERE!</a></h4>
+    <p class="lead text-muted">
+      Your feed displays the latest posts from the people you follow. If you
+      don&rsquo;t have any friends to follow that&rsquo;s okay; you can use the
+      &ldquo;Search&rdquo; feature in the top menu bar to find content written
+      by people with similar interests and then follow them.
+    </p>
+  </div>
+  <% } %>
+</div>
+
+<%- include('includes/footer') %>
