@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+</head>
+<body bgcolor="skyblue" style="overflow-x: hidden; 	">
+	<header class="nav">
+		<ul class="nav-ele">
+			<li><a href="#home"  style="font-family: 'Dancing Script', cursive;font-size: 40px;padding-bottom: 10px;">Safeheaven</a></li>
+			<li class="ele" style="padding-left: 25%;" ><a onmouseover="style.color='skyblue'" onmouseout="style.color='black'" href="#home">Home</a></li>
+			<li class="ele"><a href="#book" onmouseover="style.color='skyblue'" onmouseout="style.color='black'">Book Now</a></li>
+			<li class="ele"><a href="#about" onmouseover="style.color='skyblue'" onmouseout="style.color='black'">About Us</a></li>
+			<li class="ele"><a href="#contact" onmouseover="style.color='skyblue'" onmouseout="style.color='black'">Contact Us</a></li>
+			<li class="ele" style="padding-left: 5%; "><a  href="login.html" onmouseover="style.color='skyblue'" onmouseout="style.color='black'">Login Or </a><a href="signup.html" onmouseover="style.color='skyblue'" onmouseout="style.color='black'">Sign Up</a></li>&nbsp;&nbsp;<img src="user.png" width="30px" height="30px">
+			
+		</ul>
+		
+	</header>
+
+<br><br>
+<h1 align="center" style="color: skyblue;font-family: 'Tajawal', sans-serif;background-color: white; padding-left: 10px;  border-radius: 5px; margin-top: 5%;">  Special Offers</h1>
+
+
+	<section id="home" class="back" style="padding-left: 20px;" >
+	<div class="flip" style="padding-left: 13%;" >
+		<div class="scene">
+        <div class="card">
+   		 <div class="card__face card__face--front">
+   		 	<img src="offer.jpeg" width="250px" height="150px" style="padding-top: 20px;">
+   		 </div>
+   		 <div class="card__face card__face--back">Now find amazing offers this diwali</div>
+		 </div>	
+		</div>
+	</div>
+	<div class="flip" >
+		<div class="scene">
+        <div class="card">
+   		 <div class="card__face card__face--front">
+   		 <img src="offer1.jpeg" width="250px" height="150px" style="padding-top: 20px;">
+   		</div>
+   		 <div class="card__face card__face--back">20% discount on domestic flights</div>
+		 </div>
+		</div>
+	</div>
+		<div class="flip" >
+		<div class="scene ">
+        <div class="card">
+   		 <div class="card__face card__face--front">
+   		 	<img src="offer2.jpeg" width="250px" height="150px" style="padding-top: 20px;">
+   		 </div>
+   		 <div class="card__face card__face--back">Apply promocode for amazing deals</div>
+		 </div>
+		</div>
+	</div>
+
+
+
+
+	</section>
+
+	<br><br>
+
+	<section id="book" style="padding-left: 20px">
+		
+		<div class="book" >
+			<div style="display: flex;">
+			<div style="width: 50%;"><p style="font-family: 'Alata', sans-serif; font-size: 24px; color: black; font-weight: 900;">Book domestic and International flights.</p></div>
+			<div style="font-family: 'Alata', sans-serif; width: 50%;padding-left: 30%;">
+			<input type="radio" name="type">&nbsp;<label name="type">One-way</label>&nbsp;&nbsp;
+			<input type="radio" name="type">&nbsp;<label name="type">Two-way</label>&nbsp;&nbsp;
+			<input type="radio" name="type">&nbsp;<label name="type">Multicity</label>&nbsp;&nbsp;
+			</div>
+			</div>
+			<div style="padding-top: 40px;">
+				<table style="font-family: 'Alata', sans-serif; border: 1px solid #686D6F; border-radius: 10px; padding: 5px; border-collapse: collapse;">
+					<tr>
+						<td colspan="4">
+							<p style="font-size: 20px;" >From</p>
+							<select name="city" id="from" style="font-size: 16px;text-align: center;" onmouseover="style.color='skyblue'" onmouseout="style.color='black'">
+								<option value="mumbai"> Mumbai,India</option>
+								<option value="delhi" selected="Delhi">Delhi, India</option>
+								<option value="bangkok">Bangkok, Thailand</option>
+								<option value="bangalore">Bangalore, India</option>
+								<option value="pune">Pune, India</option>
+								<option value="hyderabad">Hyderabad, India</option>
+								<option value="kolkata">Kolkata, India</option>
+								<option value="chennai">Chennai, India</option>
+								<option value="goa">Goa, India</option>
+								<option value="dubai">Dubai, United Arab Emirates</option>
+								<option value="singapore">Singapore, Singapore</option>
+								<option value="kathmandu">Kathmandu, Nepal</option>
+								<option value="abu dhabi">Abu Dhabi, United Arab Emirates</option>
+								<option value="newyork">Newyork, US</option>
+								<option value="london">London, United Kingdom</option>
+								<option value="paris">Paris, France</option>
+							</select>
+						</td>
+						<td colspan="4">
+							<p style="font-size: 20px;" >To</p>
+							<select name="city" id="from" style="font-size: 16px;text-align: center;" onmouseover="style.color='skyblue'" onmouseout="style.color='black'">
+								<option value="mumbai"> Mumbai,India</option>
+								<option value="delhi">Delhi, India</option>
+								<option value="bangkok">Bangkok, Thailand</option>
+								<option value="bangalore"  selected="Bangalore">Bangalore, India</option>
+								<option value="pune">Pune, India</option>
+								<option value="hyderabad">Hyderabad, India</option>
+								<option value="kolkata">Kolkata, India</option>
+								<option value="chennai">Chennai, India</option>
+								<option value="goa">Goa, India</option>
+								<option value="dubai">Dubai, United Arab Emirates</option>
+								<option value="singapore">Singapore, Singapore</option>
+								<option value="kathmandu">Kathmandu, Nepal</option>
+								<option value="abu dhabi">Abu Dhabi, United Arab Emirates</option>
+								<option value="newyork">Newyork, US</option>
+								<option value="london">London, United Kingdom</option>
+								<option value="paris">Paris, France</option>
+							</select>
+						</td>
+						<td colspan="2"> 
+							<p style="font-size: 20px;" >Departure</p>
+							<input type="date" onmouseover="style.color='skyblue'" onmouseout="style.color='black'">
+						</td>
+						<td colspan="2"> 
+							<p style="font-size: 20px;" >Return</p>
+							<input type="date" onmouseover="style.color='skyblue'" onmouseout="style.color='black'">
+						</td>
+						<td colspan="4"> 
+							<p style="font-size: 20px;"  onmouseover="style.color='white'" onmouseout="style.color='black'" id="txt" >Travellers & Class</p>
+							<div id="myModal" class="modal">
+							  <div class="modal-content">
+							    <span class="close">&times;</span>
+							    <div>
+							    	<table align="center">
+							    		<tr>
+							    			<td style="color: black;">
+							    				<h3 style="color: black;">Passengers</h3>
+							    			</td>
+							    			<td><input type="number"  id="passenger" value="1"></td>
+							    		</tr>
+						
+							    		<tr>
+							    			<td colspan="2" align="center" style="color: black" id="flight">
+							    				<input type="radio" name = "flight" value="5000" id="f1"> Domestic Flight
+							    				<input type="radio"  name = "flight" value="70000" id="f2">International Flight
+							    			</td>
+							    		</tr>
+							    		<tr>
+							    			<td colspan="2" align="center">
+							    				<select style="color: black; font-size: 16px; padding: 10px;" id="classes">
+							    					<option>Select Class</option>
+							    					<option value="10000">Economy/Premium Economy Class</option>
+							    					<option value="8000">Economy Class</option>
+							    					<option value="15000">Business Class</option>
+							    				</select>
+							    			</td>
+							    		</tr>
+							    		<tr>
+							    			<td colspan="2" align="center"><button id="btn" onclick ="payNow()">Book Now</button></td>
+							    		</tr>
+
+							    		<tr>
+							    			<td colspan="2" align="center">
+							    				<p id="amount">Your Amount to be paid is : </p>
+							    			</td>
+							    		</tr>
+							    		<tr>
+							    			<td colspan="2" align="center">
+							    				<button><a href="bookpay.html">PAY NOW</a></button>
+							    			</td> 
+							    		</tr>
+							    	</table>
+
+							    </div>
+						  </div>
+
+						</div>
+
+							
+						</td>
+					</tr>
+				</table>
+				
+			</div>
+		</div>
+
+
+	</section>
+
+	<section style="padding-left: 10px;">
+		<div class="blog">
+		<h1 align="center" style="color: skyblue;font-family: 'Tajawal', sans-serif;background-color: white; padding: 2%; border-radius: 5px;">Travel Blog</h1>
+
+		<div >
+		<div class="row">
+  <div class="column">
+    <div class="box">
+      <img src="https://seoimgak.mmtcdn.com/blog/sites/default/files/HI-2_115_1.jpg?RdfBDg_qXFx7DgHVdv0gU37qbAnzxQEz" width="200px;">
+      <p>#FlighLikeAstar with Safeheaven Air Services...</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="box">
+     <img src="https://seoimgak.mmtcdn.com/blog/sites/default/files/hero2_28charter_1.jpg?6Aw5c27vU4CZHFxUGqPGmRfFhJZWkXek" width="200px;">
+      <p>Your One-stop Resource For Country Wise Travel Guidlines..</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="box">
+      <img src="https://seoimgak.mmtcdn.com/blog/sites/default/files/book-an-international-flights_0.jpg?ZXnoPWso01qBtd7QnC7zWWUQ6DEulQjg" width="200px;">
+      <p>Waiting to Travel back to ypur Country, Now you can!</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="box">
+     <img src="blog.jpeg" width="200px;">
+      <p>Plan your Dream Vacation now with SafeHeaven</p>
+    </div>
+  </div>
+</div>
+</div>
+
+		</div>
+	</section>
+
+
+<section id="about" style="padding-left: 10px;">
+	<h1 align="center" style="padding: 2%; background-color: white;color: skyblue">About Us</h1>
+	<div id="wrapper">
+
+    <div id="c1" style="background-color: #A6D0FF;padding: 5% "><h2 align="center" style=" color: white; font-family: 'Tajawal', sans-serif;">Why Safeheaven?</h2>
+    	<p>The leading player in online flight bookings in India, Safeheaven offers great offers, some of the lowest airfares, exclusive discounts and a seamless online booking experience. Flight, hotel and holiday bookings through the desktop or mobile site is a delightfully customer friendly experience, and with just a few clicks you can complete your booking. With features like Instant Discounts, Fare Calendar, MyRewards Program, MyWallet and many more, the overall booking experience with Safeheaven constantly adds value to its product and continues to offer the best to its customers.</p>
+    </div>
+     <div id="c2" style="background-color: white;padding: 5% "><h2 align="center" style=" color: skyblue; font-family: 'Tajawal', sans-serif;">Booking Flights with Safeheaven</h2>
+    	<p>Book your flights tickets with India's leading flight booking company since the year 2000. While booking flights with Safeheaven, you can expect the ultimate online booking experience. With premium customer service, 24/7 dedicated helpline for support, and over 5 million delighted customers, Safeheaven takes great pride in enabling customer satisfaction. With a cheapest flight guarantee, book your tickets at the lowest airfares. Avail great offers, exclusive deals for loyal customers and get instant updates for your flight status and fare drops.</p>
+    </div>
+    <div id="c3" style="background-color: #A6D0FF;padding: 5% "><h2 align="center" style=" color: white; font-family: 'Tajawal', sans-serif;">Domestic Flights with Safeheaven</h2>
+    	<p>Safeheaven is India's leading player for flight bookings, and have a dominant position in the domestic flights sector. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure current flight status, instant fare drops, amazing discounts, instant refunds and rebook options, price comparisons and many more interesting features.</p>
+    </div>
+</div>
+
+</section>
+
+<section id="contact" style="padding-left: 10px;">
+	<div  id="wrapper" style="color: white; background-color: #2A2C2F; width: 100%; padding: 2%; overflow: hidden;">
+	<div id="c1" style="padding-left: 20px;">
+		<img src="safeheaven.png" width="300px;">
+		<h4>Copyright © 2020 All Rights Reserved by Safeheaven.</h4>
+	</div>
+	<div id="c2"></div>
+	<div id="c3" >
+		
+		<h4 style="margin-top: 10px; ">Contact Us at: +91 xxxxxxxxxx</h4>
+		<h4 >Email us at:<a href="mailto:safe_heaven.com" style="color: white">  safe_heaven.com</a> </h4>
+		<h4 >Connect With Us On&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="https://in.linkedin.com/"><img src="linkedin.png" width="40px"></a>
+			<a href="https://twitter.com/login?lang=en"><img src="twitter.png" width="40px"></a>
+			<a href="https://www.instagram.com/delta/"><img src="instagram.png" width="40px"></a>
+			<a href="https://www.facebook.com/AirlinesFlightsReservation"><img src="facebook.png" width="40px"></a>
+		</h4>
+	</div>
+</div>
+</section>
+
+
+
+<script>
+
+var modal = document.getElementById("myModal");
+var txt = document.getElementById("txt");
+var span = document.getElementsByClassName("close")[0];
+txt.onclick = function() {
+  modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+var class_price;
+	classes.onchange = function(){
+		var classes = document.getElementById("classes");
+		class_price = classes.options[classes.selectedIndex].value;
+	}
+var flight_price;
+	f1.onclick = function(){
+		
+		flight_price = document.getElementById("f1").value;
+	}
+	f2.onclick = function(){
+		flight_price = document.getElementById("f2").value;
+	}
+function payNow(){
+	var pass = document.getElementById("passenger").value;
+	var amount = pass*flight_price;
+	amount = amount + parseInt(class_price)*pass;
+	document.getElementById("amount").innerHTML =  amount + " Rs." ; 
+}
+
+</script>
+	
+</body>
+</html>

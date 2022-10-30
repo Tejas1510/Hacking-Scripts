@@ -1,0 +1,126 @@
+<html>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<style type="text/css">
+body{
+background-image:url("https://image.shutterstock.com/image-photo/credit-card-close-shot-selective-260nw-567634105.jpg");
+background-size: cover;
+
+}
+.form-style-8{
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 500px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+
+
+}
+.form-style-8 h2{
+	background: #4D4D4D;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #797979;
+	font-size: 28px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+
+
+.form-style-8 input[type="number"],
+
+
+.form-style-8 input[type="password"],
+.form-style-8 input[type="tel"],
+.form-style-8 textarea,
+.form-style-8 select 
+{
+	box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+
+.form-style-8 input[type="submit"], 
+.form-style-8 input[type="submit"]{
+	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.form-style-8 input[type="button"]:hover, 
+.form-style-8 input[type="submit"]:hover {
+	background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background-color:#34CACA;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+</head>
+<body>
+    <div class="form-style-8">
+  <h2>Fill the given information</h2>
+  <img src="credit.jpg" class="center">
+  <form onsubmit="generateOTP()";>
+  <table>
+    <tr>Card Number:<input type="tel" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" name="field1" required placeholder="xxxx xxxx xxxx xxxx" label="name"></tr>
+   <tr> <td>Card holder name:<input type="text" name="field2" required placeholder="enter name" /></td>
+     <td>Expiry date:<input type="date" required placeholder="enter expiry date" ></td>
+	</tr>
+<tr>
+	<td>Enter CVV:<input type="password" name="password" required placeholder="***"></td>
+	</tr>
+	</table>
+	
+    <br>
+    <input type="submit" value="Generate OTP"/>
+	<input type="submit" value="Cancel" /><br><br>
+	<input type="submit" value="Go back to home page" />
+	
+  </form>
+</div>
+<script>
+function generateOTP() { 
+          
+    // Declare a digits variable  
+    // which stores all digits 
+    var digits = '0123456789'; 
+    let OTP = ''; 
+    for (let i = 0; i < 4; i++ ) { 
+        OTP += digits[Math.floor(Math.random() * 10)]; 
+    } 
+    alert("your otp of 4 digit is-"+OTP); 
+	var y = prompt("Please enter otp");
+	if(y==OTP)
+	{alert("you have entered correct otp");
+	alert("Congratulations!! your transaction is succesfull.");}
+	else{alert("you have entered incorrect otp.Try again!!")};
+	
+} 
+</script>
+</body>
+</html>
