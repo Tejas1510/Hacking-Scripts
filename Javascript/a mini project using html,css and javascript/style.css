@@ -1,0 +1,205 @@
+.nav{
+	width: 98%;
+	overflow: hidden;
+	height: 13%;
+	background-color: white;
+	opacity: 90%;
+	position: fixed;
+	z-index: 1;
+}
+ul{
+	list-style-type: none;
+	display: flex;	
+}
+.ele{
+	padding-left: 5%;
+}
+
+.ele:hover{
+	font-size: 30px;
+	}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: 900;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 20px;
+
+}
+.back{
+	background-image: url("https://www.gstatic.com/flights/app/illustration-flights-desktop.svg");
+	height: 30%;
+	width:100%;
+	background-size: contain;
+
+}
+
+#home{
+	display: flex;
+	padding-left: 20px;
+}
+.flip{
+	
+	padding: 2%;
+}
+.scene {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #CCC;
+  margin: auto;
+  perspective: 600px;
+  border-radius: 10px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 200px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-backface-visibility: hidden;
+ border-radius: 10px;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  background: skyblue;
+ 
+}
+
+.card__face--back {
+  background: skyblue;
+  opacity: 70%;
+  transform: rotateY(180deg);
+}
+
+
+.book{
+	
+	height: 30%;
+	width: 95%;
+	padding: 2%;
+	border-radius: 10px;
+	background-image: url("book.jpg");
+	background-size: cover;
+
+}
+
+#from{
+
+	width: 300px;
+	height: 70px;
+
+}
+
+td{
+		border: 1px solid #B3ADAD;
+		padding: 10px;
+		border-radius: 10px;
+}
+
+.blog{
+	background-color: skyblue;
+	width: 100%;
+	height: 30%;
+	border-radius: 10px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 20px 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+	display: flex;
+}
+
+
+  .column {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+
+/* Style the counter cards */
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+#wrapper{
+   
+    
+    display:flex;
+    
+
+}
+
+#c1, #c2, #c3 {
+    width: 33%;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;  
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button{
+	padding: 10px;
+	color: white;
+	background-color: skyblue;
+}
