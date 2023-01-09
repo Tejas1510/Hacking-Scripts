@@ -5,7 +5,7 @@ import {IncomeExpenses} from './components/IncomeExpenses';
 import {TransactionList} from './components/TransactionList';
 import {AddTransaction} from './components/AddTransaction';
 import {GlobalProvider} from './context/GlobalState';
-
+import Charts from "../src/components/Chart";
 
 function App() {
   return (
@@ -16,6 +16,8 @@ function App() {
         <IncomeExpenses/>
         <TransactionList/>
         <AddTransaction/>
+        <Charts type='p' />
+        <Charts type='n'/>
       </div>
     </GlobalProvider>
   );
