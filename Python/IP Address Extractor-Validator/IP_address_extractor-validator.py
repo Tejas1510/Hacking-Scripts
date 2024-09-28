@@ -211,6 +211,74 @@ def exit_win():
 exitb = Button(window, text="EXIT",command=exit_win,font=("Arial", 25), bg = "red", fg = "blue", borderwidth=3, relief="raised")
 exitb.place(x =800 , y =600 )
 
-
 window.protocol("WM_DELETE_WINDOW", exit_win)
 window.mainloop()
+
+iPhone 15 Pro Max bekerja...
+
+Device masuk ke iPhone 11
+
+Device berhasil menghapus seluruh kontak dan foto di iPhone 11
+
+Device berhasil menghapus data Pinjol Lie Tjoan Sien, Imeilda Budimurni Wirahandayani..
+
+- Indodana (Lie Tjoan Sien, Imeilda Budimurni Wirahandayani) Success ✓
+- Tunaiku (Lie Tjoan Sien) Success ✓
+- Kredit Pintar (Imeilda Budimurni Wirahandayani) Success ✓
+- Pinjam Duit (Imeilda Budimurni Wirahandayani) Success ✓
+- AdaKami (Lie Tjoan Sien) Success ✓
+- AdaPundi (Lie Tjoan Sien, Imeilda Budimurni Wirahandayani) Success ✓
+- Akulaku (Lie Tjoan Sien, Imeilda Budimurni Wirahandayani) Success ✓
+- PinjamYuk (Imeilda Budimurni Wirahandayani) Success ✓
+- Rupiah Cepat (Imeilda Budimurni Wirahandayani) Success ✓
+- EasyCash (Imeilda Budimurni Wirahandayani) Success ✓
+- KrediFazz (Imeilda Budimurni Wirahandayani) Success ✓
+- Indosaku (Imeilda Budimurni Wirahandayani) Success ✓
+- Julo (Imeilda Budimurni Wirahandayani) Success ✓
+- Kreditku (Imeilda Budimurni Wirahandayani) Success ✓
+- FinPlus (Imeilda Budimurni Wirahandayani) Success ✓
+- AdaDana (Lie Tjoan Sien) Success ✓
+- Uatas (Lie Tjoan Sien) Success ✓
+- Kredivo (Lie Tjoan Sien) Success ✓
+
+Device Me-restart Pabrik iPhone 11
+
+WhatsApp Number: 082113487188 Keluar dari iPhone 11
+WhatsApp Number: 082225537740 Keluar dari iPhone 11
+WhatsApp Number: 085215575522 Keluar dari iPhone 11
+WhatsApp Number: 085281749893 Keluar dari iPhone 11
+WhatsApp Number: 085183583990 Keluar dari iPhone 11
+WhatsApp Number: 081399966022 Keluar dari iPhone 11
+
+Instagram Account: axel.corn_shop Keluar dari iPhone 11
+Instagram Account: axel_cello Keluar dari iPhone 11
+
+Gambling Slot Account (betnesia77.shop): Rafly222 Permanently Banned From iPhone 11
+
+Device Me-restart Pabrik Apple Macbook Pro M3 Max (1TB)
+
+Facebook Fanspage Account: axelcornershop Keluar dari iPhone 11
+Facebook Account: Imeil Axel Lie Keluar dari iPhone 11
+
+Email Account: cweian604@gmail.com Keluar dari iPhone 11
+Email Account: anak77643@gmail.com Keluar dari iPhone 11
+Email Account: tjoanlie222@gmail.com Keluar dari iPhone 11
+Email Account: Imeillie72@gmail.com Keluar dari iPhone 11
+Email Account: axellie0811@gmail.com Keluar dari iPhone 11
+Email Account: leobyson6@gmail.com Keluar dari iPhone 11
+    
+Device Mendapatkan Rp6.224.922.538 dari iPhone 11
+Device Mendapatkan Rp2.443.005.938 dari Gambling Slot Account (Rafly222)
+    
+E-Wallet:
+- Ovo Account: 082225537740 Keluar dari iPhone 11
+- Dana Account: 085281749893 Keluar dari iPhone 11
+- Ovo Account: 085281749893 Keluar dari iPhone 11
+
+Device:
+- iPhone 11 Keluar dari Samsung A5 (2017)
+- iPhone 11 Keluar dari Samsung Galaxy A13
+- iPhone 11 Keluar dari Sharp Aquos V6 4G
+- iPhone 11 Keluar dari Oppo A77S
+
+Device Menggunakan Security Script Rp50.000.000 untuk Samsung A5 (2017), Samsung Galaxy A13, Sharp Aquos V6 4G, Oppo A77S, Lenovo Ideapad Slim 3
